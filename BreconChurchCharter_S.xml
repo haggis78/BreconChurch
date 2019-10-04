@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lettersPatent>
+
+    <!-- WHC 2019-10-01: This is the rough xml document I have generated from the printed text in Willis, History of Abbies, vol. II (1719) pp. 304-309 (https://play.google.com/books/reader?id=o25bAAAAQAAJ&hl=en&pg=GBS.PA303). It was keyed in by Jonah Elizabeth Jankovik and proofread and put into oXygen by WHC. It will stay rough and ready for the immediate moment as we start comparing this witness, the earliest printed one, with the other printed versions. I am thinking that we would be best off using TEI, but I would value your input.  
+    
+    Each witness, whether printed or in MS, gets a "siglum", a single letter that represents it. The text below, from Willis, History of Abbies, is signified by W. We will look at two other printed versions before we look at manuscripts. The first of these is John Stevens, The History of the antient abbeys, monasteries, hospitals, cathedral and collegiate churches. Being two additional volumes to Sir William… (London, 1722-23), vol. II, Appendix doc. 464 (https://archive.org/details/b30454529_0003/page/372). This will have the siglum S. The second of these is Theophilus Jones’ A History of the County of Brecknock Vol. II (Brecknock, 1809; 2nd edn., 1898), Appendix doc. IX (at  https://babel.hathitrust.org/cgi/pt?id=coo.31924096162064&view=1up&seq=724). This will have the siglum J. Our first task is to compare these three printings. We know that they borrow from each other: S actually says his source is W, and J says that his source is S, which is very convenient for us. What we do not know yet is how accurately the later printings copied the earlier ones. Connor and Amber, while you are comparing the text below to J and S, I will continue working on a rough translation so everyone knows what the heck we're actually looking at here. In comparisons, ignore any differences in capital letters; also ignore any accent marks you may come across. You may find that the printer uses "et" (and) instead of an ampersand; if so, maybe we don't need to mark that up 150 times below; we could just make a note of it.
+     
+     We can work out proper XML formatting later. For now we could start with using comment notes, like this one, to insert any findings, be they page numbers in the printings, notes, questions, textual differences, and so forth. 
+     
+     To prevent merge conflicts and the like, Dr. B suggested that each of you work on a separate section. Amber, would you start at the beginning and collate this text with S; and Connor, would you collate this text with J, starting halfway through, at the first of the two paragraphs beginning "Et ulterius"? Also, Amber, since you seemed to have a solid handle on the markup for variant readings, you could either go directly into that as you enter any variant readings you find, or you could just set up one as a model and use comments for other variant readings.-->
+
+    <div>
+        <!-- W: p. 304 -->Rex omnibus ad quos præsentes literæ pervenerint salutem. Cum Collegium de
+        Abergwilly<!-- 10/2 amp: did we want to include some markup about stylistic choices like italicizing that is done with "Abergwilly" or should we leave it as is?-->
+        in loco inidoneo existit, ubi nulla occasio hospitalitatis aliis per viros dicti Collegii
+        administrandæ datur ad commodum &amp; utilitatem subditorum <app><rdg wit="W"
+                >nostorrum</rdg>
+            <rdg wit="S">nostrorum</rdg></app>, in locis dicto Collegio adjacentibus ad grave
+        dampnum dictorum ligiorum
+        nostrorum.<!-- 10/2 amp: S extends this sentence with a comma after "nostrorum" rather than separating the two sentences.-->
+        Cumque etiam domus sive Prioratus Fratrum prædicatorum in oppido nostro de Brecknock in
+        australibus partibus Walliæ, cum omnibus et omnimodis messuagiis terris &amp; tenementis
+        <!-- 10/2 amp: commas before and after "bonis" -->bonis rebus necessariis &amp; implementis
+        ad dictum nuper Prioratum spectantibus, in manibus &amp; possessione
+                <!-- 10/2 amp: S has "nostra" here, and they don't use a comma after --><app><rdg
+                wit="W">nostris</rdg>
+            <rdg wit="S">nostra</rdg></app>, jam existent, <app><rdg wit="W">vel</rdg>
+            <rdg wit="S">&amp;</rdg></app>existere deberent, prætextu doni concessionis ac sursum
+        redditionis Ricardi David nuper Prioris &amp; Conventus ejusdem nuper Prioratus nobus inde
+        factæ; Virtute cujus nos in jure coronæ nostræ Angliæ de dicto nuper Prioriatu messuagiis
+        terris &amp; tenementis ac cæteris omnibus &amp; singulis præmissis seisiti sumus in
+        Dominico ut <app><rdg wit="W">de feodo.</rdg><rdg wit="S">in feodo.</rdg></app></div>
+
+    <div>Cumque etiam subditi et ligei nostri in dictis partibus australibus Walliæ commorantes,
+        summa egestate oppressi<!--10/2 amp: comma --> filios suos in bonis literis educare non
+        possunt: Et in dictis partibus australibus Walliæ nullus ludus literarius habetur, per quod
+        non solum &amp; clerici &amp; laici omnis ætatis &amp; conditionis rudes &amp; ignari
+                <app><rdg wit="W">redduntur,</rdg><rdg wit="S">reddenter</rdg></app>
+        <app><rdg wit="W">tam</rdg><rdg wit="S">tem</rdg></app> sui officii
+        <!-- W: a small dot at the lower right of the initial o of officii in the Google Books image makes it look like an a. -->
+        erga Deum, quam debitæ suæ obedientiæ erga nos; sed etiam linguæ vulgaris Angliæ minime
+        periti, sic quod statuta nostra in <app><rdg wit="W">hujusmondi</rdg><rdg wit="S"
+                >hujusmodi</rdg></app> casu edita &amp; provisa observare nequeunt; &amp; quod
+        debuerunt &amp; tenentur facere <app><rdg wit="W">secundam</rdg><rdg wit="S"
+            >secundum</rdg></app> formam &amp; effectum dictorum statutorum, intelligere non possunt
+        propter ignorantiam dictæ linguæ Anglicanæ.</div>
+
+    <div>Cumque etiam in dicto Collegio de <app><rdg wit="W">Abergwilly</rdg><rdg wit="S"
+                >Abergwilli</rdg></app> pro Cantatoribus in eodem Collegio stipendia atque sallaria
+        ad summam quinquaginta trium librarum
+        <!-- W gives a footnote here: “So in the copy.” This likely indicates that he was indeed working from someone else’s transcript and not the original Letters Patent; else he probably would have used some term other than “copy”. -->
+        stirlingorum <app><rdg wit="W">annuarum</rdg><rdg wit="S">annuatim</rdg></app>
+        <!-- 10/4 amp: This was the first instance of a significantly different spelling between W and S -->
+        attingentia providentur. Quæ quidem summa quinquaginta trium librarum in meliores usus
+        potest disponi, utpote in adolescentibus &amp; aliis juvenibus in bonis literis instruendis
+        &amp; quotidiana lectura per aliquem virum pium &amp; eruditum dictanda, unde possint
+        veritatem callere &amp; quid Deo &amp; Regi faciendum foret satius possint intelligere, in
+        maximum commodum totius populi nostri ibidem commoraturi, sicut per relationem dilecti nobis
+        in Christo Willielmi Episcopi Menevensis plenius <app><rdg wit="W">ac</rdg><rdg wit="S"
+                >&amp;</rdg></app> planius accepimus.</div>
+
+    <div>Nos igitur volentes ex intima charitate nostra qua erga Deum &amp; <app><rdg wit="W"
+                >cunctum</rdg><rdg wit="S">totum</rdg></app> populum nostrum gerimus, congruum
+        remedium in hac parte providere, &amp; in multo meliores usus quam nunc disponuntur
+        convertere, clare percipientes quod præmissa omnia &amp; singula melius disponi possunt:
+        Volentesque multum statum <!-- W: p. 305 --> subditorum nostrorum melius consulere, de
+        gratia nostra speciali ac ex certa scientia &amp; mero motu nostris dedimus concessimus
+        &amp; confirmavimus, ac per præsentes damus concedimus &amp; confirmamus præfato Willielmo
+        nunc Episcopo totam illam domum sive Prioratum fratrum prædicatorum, ac totum solum &amp;
+        fundum, præcinctum, &amp; ambitum, dicti nuper Prioratus, ac omnia ædificia, terras et
+        tenementa, redditus reversiones &amp; servitia, messuagia, sola, funda, proficua
+        commoditates advantagia et hæreditamenta <app><rdg wit="W">quæcunque</rdg><rdg wit="S"
+                >quæcumque</rdg></app>, dicto nuper Prioratui quoquo modo spectantia sive
+        pertinentia, ac etiam omnia catalla res <app><rdg wit="W">hustilmenta</rdg>
+            <rdg wit="S">Hostilmenta</rdg></app> necessaria &amp; implementa in dicto nuper Prioratu
+        tempore dissolutionis ejusdem, vel unquam postea existentia, vel <app><rdg wit="W">ad</rdg>
+            <rdg wit="S">ab</rdg></app> eundem nuper Prioratum aliqualiter spectantia vel
+        pertinentia, cujuscunque generis vel speciei fuerint, ac in tam amplis modo &amp; forma
+        prout dictus <app><rdg wit="W">Richardus</rdg><rdg wit="S">Ricardus</rdg></app> David
+        ultimus Prior dictæ nuper domus fratrum prædicatorum, vel aliquis prædecessorum prædicti
+        Ricardi David nuper Prioris ejusdem nuper domus sive Prioratus, terras &amp; tenementa,
+        solum, fundum ædificia ac cætera hæreditamenta <app><rdg wit="W">quæcunque</rdg><rdg wit="S"
+                >quæcumque</rdg></app>, bona catalla res hustilmenta implementa necessaria, dicto
+        nuper Prioratui spectantia vel aliquo modo pertinentia, <app><rdg wit="W">ac</rdg><rdg
+                wit="S">ad</rdg></app> reversionem dicti nuper Prioratus &amp; cæterorum præmissorum
+        quorumcunque.</div>
+
+    <div>Ac etiam dedimus &amp; concessimus &amp; de <app><rdg wit="W">gratita</rdg>
+            <rdg wit="S">gratia</rdg></app> nostra speciali certa scientia &amp; mero motu nostris,
+        damus &amp; concedimus eidem nunc Episcopo &amp; successoribus suis, totum jus nostrum,
+        statum, titulum clameum, possessionem interesse et demandum quæ nos in prædicto nuper
+        Prioratu sive domo fratrum prædicatorum ac cæteris præmissis cum pertinentiis, ac in
+        reversione dicti nuper Prioratus sive domus fratrum prædicatorum ac cæterorum præmissorum
+        cum omnibus &amp; singulis suis pertinentiis universis, ac in manibus &amp; possessione
+        nostris jam existentibus habemus, seu quovismodo in futurum habere poterimus, aut hæredes
+        vel successores nostri habere seu clamare debent aut poterunt <app><rdg wit="W"
+                >quovismodo</rdg>
+            <rdg wit="S">quovis modo</rdg></app> in futurum, jure titulo materia vel causa
+        quibuscunque juxta omnem juris effectum, ac omnia &amp; omnimodas libertates &amp;
+        franchesias jura &amp; jurisdictiones quæcunque dicto nuper ¬Prioratui terris vel
+        tenementis, vel cæteris hæreditamentis quibuscunque, sive alicui inde parcellæ quoquo modo
+        spectantia vel pertinentia, adeo plene &amp; integre prout antedictus <app><rdg wit="W"
+                >Richardus</rdg>
+            <rdg wit="S">Ricardus</rdg></app> David nuper Prior Prioratus prædicti aut aliquis
+        prædecessorum suorum nuper Priorum dicti nuper Prioratus sive domus prædicatorum in jure
+        illius Prioratus dictam nuper domum sive Prioratum fratrum prædictatorum, ac
+        <!-- 10/4 amp: This "vel" isn't included in S, but I wasn't sure how to code that with the critical apparatus tag!-->vel
+        prædicta bona et catalla,
+        <!-- 10/4 amp: this sits on its own line, at the very end of this page and is included at the beginning of the next page as well -->res,
+        <!-- S: p.373 -->necessaria vel implementa prædicta, vel aliquam partem inde unquam
+        habuerunt tenuerunt vel gavisi fuerunt, habuit tenuit <app><rdg wit="W">aut</rdg><rdg
+                wit="S">vel</rdg></app> gavisus fuit, aut habere tenere seu gaudere debuerunt vel
+        deberent, debuit <!-- W: p. 306 --> sive deberet, aut adeo plene &amp; integre prout ea
+        omnia &amp; singula ad manus nostras ratione et prætextu dissolutionis dicti nuper Prioratus
+        sive domus devenerunt, seu devenire debuerunt, vel deberent, aut alio modo quocunque in
+        manibus nostris jam existunt vel existere <app><rdg wit="W">debens</rdg><rdg wit="S"
+                >debent</rdg></app> seu deberent.</div>
+
+    <div>Habendum, tenendum &amp; gaudendum prædictam domum sive prædictum nuper Prioratum, solum,
+        fundum, &amp; præcinctum ejusdem, ac omnia et singula ædificia dicti nuper Prioratus, ac
+        omnia messuagia terras et tenementa; redditus reversiones &amp; servitia, commoditates &amp;
+        proficua, ac cætera hæreditamenta quæcunque, bona catalla res hustilmenta implementa &amp;
+        necessaria, quæcunque, ac cætera omnia &amp; singula præmissa superius expressa &amp;
+        specificata, cum suis juribus &amp; pertinentiis universis, una cum omnibus &amp; omnimodis
+        proficuis emolumentis et commoditatibus quibuscunque, ad dictum nuper Prioratum spectantibus
+        vel pertinentibus præfato Willielmo nunc Episcopo Menevensi &amp; successoribus suis in
+        perpetuum tenendum de nobis hæredibus &amp; successoribus nostris per fidelitatem tantium
+        pro omni servitio &amp; exactione quacunque.</div>
+
+    <div>Et ulterius ex speciali gratia nostra, certa scientia &amp; mero motu nostris, damus &amp;
+        per præsentes concedimus præfato nunc Episcopo Menevensi et successoribus suis omnes &amp;
+        omnimodos, exitus reventiones &amp; proficua prædicti nuper Prioratus sive domus fratrum
+        prædicatorum, ac cæterorum omnium &amp; singulorum præmissorum a tempore dissolutionis dicti
+        nuper Prioratus sive domus hucusque, &amp; semper postea emergentia et provenientia.
+        Habendum &amp; percipiendum dictum nuper Prioratum terras &amp; tenementa ac cætera
+        hæreditamenta, redditus reversiones &amp; servitia reventiones &amp; proficua, ac omnia
+        &amp; singula præmissa cum pertinentiis, eidem nunc Episcopo &amp; successoribus suis ex
+        dono nostro absque compoto seu aliquo alio proinde nobis hæredibus vel successoribus nostris
+        quoque modo reddendo solvendo vel faciendo.</div>
+
+    <div>Et ulterius ex speciali gratia nostra, certa scientia &amp; mero motu nostris, volumus
+        &amp; concedimus ac per præsentes damus et concedimus, pro nobis hæredibus &amp;
+        successoribus nostris, præfata Willo
+        <!-- W gives Willo here, a standard abbreviation for Willelmo; do other printings expand the abbreviation or also give Willo? -->
+        nunc Episcopo Menevensi et successoribus suis dictum Collegium de Abergwilly, ac dictum
+        nuper Prioratum ac unam clausuram terræ quæ dicitur le close Ymaendny, ac omnia terras &amp;
+        tenementa redditus reversiones &amp; servitia, messuagia sola funda commoditates advantagia
+        &amp; hæreditamenta quæcunque, dicto Collegio ac dicto nuper Prioratui, &amp; eorum cuilibet
+        aliquo tempore quoquo modo spectantia sive pertinentia; ac etiam volumus &amp; per præsentes
+        concedimus præfato nunc Episcopo quod habeat has literas nostras patentes, sub magno Sigillo
+        nostro Angliæ debito modo factas et sigillatas, absque fine vel feodo magno vel parvo
+        <!-- W: p. 307 --> in Hanaperio nostro, seu alibi ad usum nostrum quoquo modo reddendo
+        solvendo vel faciendo, eo quod expressa mentio de certitudine aut valore præmissorum, aut de
+        aliis donis sive concessionibus, per nos vel aliquem progenitorum nostrorum præfato nunc
+        Episcopo ante hæc tempora factis in præsentibus minime factis existit, aut aliquibus
+        statutis actu ordinatione provisione sive restrictione in contrarium factis editis ordinatis
+        sive provisis, aut alia aliqua re causa vel materia quacunque in aliquo non obstante.</div>
+
+    <div>Insuper noveritis quod nos de gratia nostra speciali certa scientia &amp; mero motu
+        nostris, volumus &amp; concedimus ac per præsentes licentiam facultatem potestatem et
+        authoritatem, ordinario ac loci illius Diocesano &amp; Patrono fundatori ac Decano dicti
+        Collegii de Abergwilly, damus quod ipsi possunt absque aliquibus impetitione vel
+        perturbatione nostri hæredum aut successorum nostrorum vice comitum justiciariorum
+        escaetorum officiariorum aut ministrorum nostrorum quorumcunque libere &amp; impune dictas
+        annuas quinquaginta tres libras pro stipendiis dictorum cantatorum, ut præmittitur,
+        assignatus expendendas in meliorem usum secundum eorum sanas discretiones convertendas,
+        &amp; quod ipsi libere &amp; impune valeant quendam ludum literarium erigere &amp; fundare
+        apud Brecknock prædictum, ac ipsas quinquaginta tres libras annuas ad sustentationem
+        quorundam proborum hominum viz. Eruditi ludimagistri &amp; pædagogi, lectoris theologiæ
+        concionatoris, qui apud Brecknock prædictum omnibus personis doceri volentibus in bonis
+        literis erudient, ac sanctum evangelium cunctis ligeis &amp; fidelibus nostris ibidem pure
+        &amp; sincere gratis et libere elucidabunt, secundum ordinationes &amp; statuta in ea parte
+        per dictum diocesanum &amp; loci illius ordinarium &amp; fundatorem Collegii prædicti de
+        tempore in tempus edenda &amp; constituenda, libere et impune absque impetitione nostri
+        hæredum aut successorum nostrorum justiciariorum ministrorum aut officiariorum quorumcunque,
+        aliquibus statutis actibus ordinationibus vel provisionibus in contrarium factis editis aut
+        provisis, non obstantibus, &amp; absque aliquo ab ipsis Pueris vel eorum parentibus pro
+        educatione prædictorum adolescentium capiendo vel clamando.</div>
+
+    <div>Ac etiam de gratia nostra speciali certa scinetia mero motu nostris, &amp; volumus &amp;
+        concedimus per præsentes, quod dictus nuper Prioratus fratrum prædicatorum Collegium Christi
+        de Brecknock de cætero nuncupetur, &amp; ab omnibus appelletur; ac pro tali Collegio
+        acceptamus &amp; reputamus per præsentes, &amp; non alio modo neque aliter in posterum
+        vocari appellari vel nuncupari volumus. Et quod antedictus nunc Episcopus Menevensis ac
+        omnes &amp; singuli præbendarii canonici choristæ vicarii, aliive ministri dicti Collegii de
+        Abergwilly, ac omnes ludi magistri pædagogi lectores <!-- W: p. 308 --> concionatores ac
+        aliæ personæ quæcunque; illic pro tempore existentes &amp; successores sui libere &amp;
+        impune apud prædictum oppidum de Brecknock &amp; in Ecclesia prædicta nuper Prioratus ac
+        aliis possessionibus terris &amp; tenementis, ac aliis hæreditamentis quibuscunque dicto
+        nuper Prioratui spectantibus, &amp; infra ambitum &amp; præcinctum ejusdem nuper Prioratus
+        cohabitare residere possunt et manere. Et quod idem nunc Episcopus Menevensis &amp;
+        successores sui ad ejus et eorum cujuslibet beneplacitum libere transferre possunt dictos
+        residentiarios præbendarios canonicos choristas aliosque ministros dicti Collegii de
+        Abergwilly, ad dictum Collegium Christi de Brecknock prædictum, atque eos &amp; eorum
+        quemlibet sub pœnis statutorum dicti Collegii de Agerwilly, aliquo tempore ante hac usitatis
+        consuetis specificatis &amp; declaratis, absque impetitione molestatione vel turbatione
+        nostri hæredum vel successorum nostrorum, justiciarorum escaetorum vicecomitum ballivorum
+        servientium officiariorum vel ministrorum nostrorum, hæredum aut successorum nostrorum
+        quorumcunque, vel eorum alicujus cohabitare faciat
+        <!-- WHC note: W lacks a period that clearly belongs at the end of this; presumably a printing error. -->
+    </div>
+
+    <div>Et ulterius volumus &amp; concedimus per præsentes de speciali gratia nostra certa scientia
+        &amp; mero motu nostris, quod idem nunc Episcopus Menevensis &amp; successores sui, ac omnes
+        alii residentiarii præbendarii canonici vicarii choristæ, aliique ministri dicti Collegii de
+        Abergwilly &amp; successores sui, pure libere quiete et hæreditarie habeant &amp; teneant
+        sibi &amp; successoribus suis in perpetuum, omnia &amp; omnimoda maneria messuagia terras
+        &amp; tenementa, redditus reversiones &amp; servitia, advocationes ecclesiarum vicariarum
+        &amp; capellarum, proficua emolumenta commoditates &amp; hæreditamenta, libertates
+        franchesias præheminentias &amp; jura quæcunque aliquo modo antehac data concessa debita vel
+        spectantia dicto Collegio de Abergwilly, vel fabricæ dicti Collegii. Et quod ipse nunc
+        Episcopus Menevensis canonici residentiarii præbendarii vicarii choristæ, vel collegiati
+        aliive ministri quicunque dicti Collegii de Abergwilly, &amp; successores sui, habeant
+        gaudeant &amp; utantur omnibus &amp; omnimodis privilegiis libertatibus franchesiis
+        præheminentiis &amp; juribus quibuscunque, adeo plene &amp; integre ac in tam amplis modo
+        &amp; forma, prout ipsi prædecessores sui in Collegio de Abergwilly antea habuerunt
+        tenuerunt vel gavisi fuerunt, aut habere tenere gaudere vel uti solebant vel debuerunt, vel
+        eorum aliquis in dicto Collegio de Abergwilly aliquo tempore præ antea habuit tenuit vel
+        gavisus fuit, aut habere tenere gaudere vel uti solebat vel debuit, ad opus &amp; usum
+        sustentationis &amp; manutentionis prædicti Collegii Christi de Brecknock, ac ea omnia &amp;
+        singula præmissa Prioratum Collegium maneria messuagia terras &amp; tenementa ac omnia alia
+        jura commoditates proficua &amp; hæreditamenta quæcunque, quæ aliquo tempore habita cognita
+        accepta reputata vel <!-- W: p. 309 --> capta fuerunt; ut partes parcellæ sive membra dicta
+        dicti nuper Prioratus Collegii maneriorum messuagiorum terrarum &amp; tenementorum reddituum
+        reversionum, vel servitiorum aut cæterorum præmissorum, sive alicujus inde parcellæ vel
+        præmissorum, vel alicui præmissorum aliquo modo appendentia pertinentia sive spectantia. Ex
+        speciali gratia nostra certa scientia &amp; mero motu nostris, damus concedimus &amp;
+        confirmamus per præsentes dicto nunc Episcopo Menevensi, &amp; successoribus suis tam libere
+        &amp; effectualiter bene sufficienter integraliter, ac si omnia &amp; singula præmissa cum
+        suis pertinentiis universis realiter distincte nominatim specialiter ac certitudinaliter
+        melioribus modis viis &amp; mediis ac clarioribus &amp; efficacioribus terminis verbis atque
+        sententiis, juxta omnem juris effectum, &amp; juxta omnes meliores &amp; maxime sufficientes
+        intelligentias, in lege dictum nuper Prioratum Collegium maneria, messuagia terras tenementa
+        redditus reversiones &amp; servitia ac cætera hæreditamenta quæcunque, cum omnibus &amp;
+        singulis suis pertinentiis &amp; commoditatibus universis declarat. dat. explanat.
+        pronunciat. &amp; publicat. fuissent &amp; essent aptissimis verbis utque sententiis in lege
+        ad præmiss. &amp; quamlibet inde parcellam clariss. accommodatiss. &amp; specialiss. quæ
+        possunt excogitari.</div>
+    <!-- WHC 2019-10-01: W abbreviates these words in the last two lines. I will be curious to find out whether the other witnesses do as well. -->
+
+    <div> Eo quod expressa mentio &amp;c. In cujus rei Testimonium has literas nostras fieri fecimus
+        Patentes. Teste meipso apud Westm’ decimo nono die Januarii, Anno Regni Regis Henrici octavi
+        tricesimo terio.</div>
+    <div>Per breve de privato Sigillo &amp; de dat’ &amp;c. Convenit cum Recordo &amp; Examinat. Per
+        me Humfredum Harris.</div>
+    <div.>Thomas Bevens.</div.>
+
+
+
+
+
+</lettersPatent>
