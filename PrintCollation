@@ -1,0 +1,14 @@
+I have uploaded a rough xml file generated from the printed text in Willis, History of Abbies, vol. II (1719) pp. 304-309 (https://play.google.com/books/reader?id=o25bAAAAQAAJ&hl=en&pg=GBS.PA304). It was keyed in by Jonah Elizabeth Jankovik and proofread and put into oXygen by WHC. It will stay rough and ready for the immediate moment as we start comparing this witness, the earliest printed one, with the other printed versions. I am thinking that we would be best off using TEI, but I would value your input.  
+    
+    Each witness, whether printed or in MS, gets a "siglum", a single letter that represents it. The text below, from Willis, History of Abbies, is signified by W. We will look at two other printed versions before we look at manuscripts. 
+    
+    The first of these is John Stevens, The History of the antient abbeys, monasteries, hospitals, cathedral and collegiate churches. Being two additional volumes to Sir William… (London, 1722-23), vol. II, Appendix doc. 464 (https://archive.org/details/b30454529_0003/page/372). This will have the siglum S. 
+    
+    The second of these is Theophilus Jones’ A History of the County of Brecknock Vol. II (Brecknock, 1809; 2nd edn., 1898), Appendix doc. IX (at  https://babel.hathitrust.org/cgi/pt?id=coo.31924096162064&view=1up&seq=724). This will have the siglum J. 
+    
+    Our first task is to compare these three printings. We know that they borrow from each other: S actually says his source is W, and J says that his source is S, which is very convenient for us. What we do not know yet is how accurately the later printings copied the earlier ones. Connor and Amber, while you are comparing the text below to J and S, I will continue working on a rough translation so everyone knows what the heck we're actually looking at here. In comparisons, ignore any differences in capital letters; also ignore any accent marks you may come across. You may find that the printer uses "et" (and) instead of an ampersand; if so, maybe we don't need to mark that up 150 times below; we could just make a note of it.
+     
+     We can work out proper XML formatting later. For now we could start with using comment notes to insert any findings, be they page numbers in the printings, notes, questions, textual differences, and so forth. 
+     
+     To prevent merge conflicts and the like, Dr. B suggested that each of you work on a separate section. Amber, would you start at the beginning and collate this text with S; and Connor, would you collate this text with J, starting halfway through, at the first of the two paragraphs beginning "Et ulterius"? Also, Amber, since you seemed to have a solid handle on the markup for variant readings, you could either go directly into that as you enter any variant readings you find, or you could just set up one as a model and use comments for other variant readings.
+     -Dr. Campbell
