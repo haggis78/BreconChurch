@@ -41,12 +41,6 @@
         <!-- required -->
         <moduleRef key="core"/>
         <!-- required -->
-
-
-
-
-
-
         <moduleRef key="gaiji"/>
         <moduleRef key="header" except="conversion unitDecl unitDef"/>
         <!-- required -->
@@ -60,17 +54,20 @@
           <attList>
             <attDef ident="wit" mode="change">
               <valList type="closed" mode="change">
-                <valItem mode="add" ident="#A">
-                  <desc versionDate="2019-09-07" xml:lang="en">points to witness A</desc>
+                <valItem mode="add" ident="#W">
+                  <desc versionDate="2019-09-07" xml:lang="en">points to OUR BASE TEXT: Browne Willis, An History of the Mitred Parliamentary Abbies... vol. II (1719)</desc>
                 </valItem>
-                <valItem mode="add" ident="#B">
-                  <desc versionDate="2019-09-07" xml:lang="en">points to witness B</desc>
+                <valItem mode="add" ident="#S">
+                  <desc versionDate="2019-09-07" xml:lang="en">points to John Stevens, The History of the antient abbeys, monasteries, hospitals, cathedral and collegiate churches. Being two additional volumes to Sir William Dugdale... (London, 1722-23), vol. II, Appendix doc. 464.</desc>
+                </valItem>
+                <valItem mode="add" ident="#J">
+                  <desc versionDate="2019-09-07" xml:lang="en">points to Theophilus Jones, A History of the County of Brecknock Vol. II (Brecknock, 1809; 2nd edn., 1898), Appendix doc. IX </desc>
+                </valItem>
+                <valItem mode="add" ident="#R">
+                  <desc versionDate="2019-09-07" xml:lang="en">points to National Archives, Chancery Patent Rolls, C66/709</desc>
                 </valItem>
                 <valItem mode="add" ident="#C">
-                  <desc versionDate="2019-09-07" xml:lang="en">points to witness C</desc>
-                </valItem>
-                <valItem mode="add" ident="#D">
-                  <desc versionDate="2019-09-07" xml:lang="en">points to witness D</desc>
+                  <desc versionDate="2019-09-07" xml:lang="en">points to St. John’s College, Cambridge MS H.12</desc>
                 </valItem>
               </valList>
             </attDef>
@@ -80,14 +77,44 @@
           <attList>
             <attDef ident="xml:id" mode="change" usage="req">
               <valList type="closed" mode="change">
-                <valItem mode="add" ident="A">
-                  <desc versionDate="2019-09-07" xml:lang="en">for witness A</desc>
+                <valItem mode="add" ident="W">
+                  <desc versionDate="2019-09-07" xml:lang="en">OUR BASE TEXT: Browne Willis, An History of the Mitred Parliamentary Abbies... vol. II (1719)</desc>
                 </valItem>
-                <valItem mode="add" ident="B">
-                  <desc versionDate="2019-09-07" xml:lang="en">for witness B</desc>
+                <valItem mode="add" ident="S">
+                  <desc versionDate="2019-09-07" xml:lang="en">John Stevens, The History of the antient abbeys, monasteries, hospitals, cathedral and collegiate churches. Being two additional volumes to Sir William Dugdale... (London, 1722-23), vol. II, Appendix doc. 464.</desc>
+                </valItem>
+                <valItem mode="add" ident="J">
+                  <desc versionDate="2019-09-07" xml:lang="en">Theophilus Jones, A History of the County of Brecknock Vol. II (Brecknock, 1809; 2nd edn., 1898), Appendix doc. IX </desc>
+                </valItem>
+                <valItem mode="add" ident="R">
+                  <desc versionDate="2019-09-07" xml:lang="en">National Archives, Chancery Patent Rolls, C66/709</desc>
                 </valItem>
                 <valItem mode="add" ident="C">
-                  <desc versionDate="2019-09-07" xml:lang="en">for witness C</desc>
+                  <desc versionDate="2019-09-07" xml:lang="en">St. John’s College, Cambridge MS H.12</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="pb" mode="change">
+          <attList>
+            <attDef ident="ed" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="#W">
+                  <desc versionDate="2019-09-07" xml:lang="en">points to OUR BASE TEXT: Browne Willis, An History of the Mitred Parliamentary Abbies... vol. II (1719)</desc>
+                </valItem>
+                <valItem mode="add" ident="#S">
+                  <desc versionDate="2019-09-07" xml:lang="en">points to John Stevens, The History of the antient abbeys, monasteries, hospitals, cathedral and collegiate churches. Being two additional volumes to Sir William Dugdale... (London, 1722-23), vol. II, Appendix doc. 464.</desc>
+                </valItem>
+                <valItem mode="add" ident="#J">
+                  <desc versionDate="2019-09-07" xml:lang="en">points to Theophilus Jones, A History of the County of Brecknock Vol. II (Brecknock, 1809; 2nd edn., 1898), Appendix doc. IX </desc>
+                </valItem>
+                <valItem mode="add" ident="#R">
+                  <desc versionDate="2019-09-07" xml:lang="en">points to National Archives, Chancery Patent Rolls, C66/709</desc>
+                </valItem>
+                <valItem mode="add" ident="#C">
+                  <desc versionDate="2019-09-07" xml:lang="en">points to St. John’s College, Cambridge MS H.12</desc>
                 </valItem>
               </valList>
             </attDef>
