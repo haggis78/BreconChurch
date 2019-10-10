@@ -18,12 +18,10 @@
    <text>
       <body>
          <ab>
-            <!-- W: p. 304 -->Rex omnibus ad quos præsentes literæ pervenerint salutem. Cum
+            <pb ed="#W" n="304"/> Rex omnibus ad quos præsentes literæ pervenerint salutem. Cum
             Collegium de Abergwilly in loco inidoneo existit, ubi nulla occasio hospitalitatis aliis
-            per viros dicti Collegii administrandæ datur ad commodum &amp; utilitatem subditorum <app>
-               <rdg wit="#W">nostorrum</rdg>
-               <rdg wit="#S">nostrorum</rdg>
-            </app>, in locis dicto Collegio adjacentibus ad grave dampnum dictorum ligiorum
+            per viros dicti Collegii administrandæ datur ad commodum &amp; utilitatem subditorum
+            nostrorum, in locis dicto Collegio adjacentibus ad grave dampnum dictorum ligiorum
             nostrorum.<!-- 10/2 amp: S extends this sentence with a comma after "nostrorum" rather than separating the two sentences.-->
             Cumque etiam domus sive Prioratus Fratrum prædicatorum in oppido nostro de Brecknock in
             australibus partibus Walliæ, cum omnibus et omnimodis messuagiis terris &amp; tenementis
@@ -31,7 +29,7 @@
             manibus &amp; possessione <app>
                <rdg wit="#W">nostris</rdg>
                <rdg wit="#S">nostra</rdg>
-            </app>, jam existent, <app>
+            </app>, jam existunt, <!--WHC @ amp: Can you double check S on existunt? I had existent there but it was a typo.--> <app>
                <rdg wit="#W">vel</rdg>
                <rdg wit="#S">&amp;</rdg>
             </app>existere deberent, prætextu doni concessionis ac sursum redditionis Ricardi David
@@ -43,7 +41,10 @@
             </app></ab>
 
          <ab>Cumque etiam subditi et ligei nostri in dictis partibus australibus Walliæ commorantes,
-            summa egestate oppressi filios suos in bonis literis educare non possunt: Et in dictis
+            summa egestate oppressi filios suos in bonis literis educare non <app>
+               <rdg wit="#W">possunt</rdg>
+               <rdg wit="#S">possint</rdg>
+            </app>: Et in dictis
             partibus australibus Walliæ nullus ludus literarius habetur, per quod non solum &amp;
             clerici &amp; laici omnis ætatis &amp; conditionis rudes &amp; ignari <app>
                <rdg wit="#W">redduntur,</rdg>
@@ -55,14 +56,11 @@
             </app> sui officii
             <!-- W: a small dot at the lower right of the initial o of officii in the Google Books image makes it look like an a. -->
             erga Deum, quam debitæ suæ obedientiæ erga nos; sed etiam linguæ vulgaris Angliæ minime
-            periti, sic quod statuta nostra in <app>
-               <rdg wit="#W">hujusmondi</rdg>
-               <rdg wit="#S">hujusmodi</rdg>
-            </app> casu edita &amp; provisa observare nequeunt; &amp; quod debuerunt &amp; tenentur
-            facere <app>
-               <rdg wit="#W">secundam</rdg>
-               <rdg wit="#S">secundum</rdg>
-            </app> formam &amp; effectum dictorum statutorum, intelligere non possunt propter
+            periti, sic quod statuta nostra in hujusmodi casu edita &amp; provisa observare nequeunt; &amp; quod debuerunt &amp; tenentur
+            facere secundum formam &amp; effectum dictorum statutorum, intelligere non <app>
+               <rdg wit="#W">possunt</rdg>
+               <rdg wit="#S">possint</rdg>
+            </app> propter
             ignorantiam dictæ linguæ Anglicanæ.</ab>
 
          <ab>Cumque etiam in dicto Collegio de <app>
@@ -89,7 +87,10 @@
                <rdg wit="#S">totum</rdg>
             </app> populum nostrum gerimus, congruum remedium in hac parte providere, &amp; in multo
             meliores usus quam nunc disponuntur convertere, clare percipientes quod præmissa omnia
-            &amp; singula melius disponi possunt: Volentesque multum statum <!-- W: p. 305 -->
+            &amp; singula melius disponi <app>
+               <rdg wit="#W">possunt</rdg>
+               <rdg wit="#S">possint</rdg>
+            </app>: Volentesque multum statum <pb ed="#W" n="305"/> 
             subditorum nostrorum melius consulere, de gratia nostra speciali ac ex certa scientia
             &amp; mero motu nostris dedimus concessimus &amp; confirmavimus, ac per præsentes damus
             concedimus &amp; confirmamus præfato Willielmo nunc Episcopo totam illam domum sive
@@ -122,10 +123,8 @@
                <rdg wit="#S">ad</rdg>
             </app> reversionem dicti nuper Prioratus &amp; cæterorum præmissorum quorumcunque.</ab>
 
-         <ab>Ac etiam dedimus &amp; concessimus &amp; de <app>
-               <rdg wit="#W">gratita</rdg>
-               <rdg wit="#S">gratia</rdg>
-            </app> nostra speciali certa scientia &amp; mero motu nostris, damus &amp; concedimus
+         <ab>Ac etiam dedimus &amp; concessimus &amp; de gratia
+ nostra speciali certa scientia &amp; mero motu nostris, damus &amp; concedimus
             eidem nunc Episcopo &amp; successoribus suis, totum jus nostrum, statum, titulum
             clameum, possessionem interesse et demandum quæ nos in prædicto nuper Prioratu sive domo
             fratrum prædicatorum ac cæteris præmissis cum pertinentiis, ac in reversione dicti nuper
@@ -151,13 +150,10 @@
                <rdg wit="#W">aut</rdg>
                <rdg wit="#S">vel</rdg>
             </app> gavisus fuit, aut habere tenere seu gaudere debuerunt vel deberent, debuit
-            <!-- W: p. 306 --> sive deberet, aut adeo plene &amp; integre prout ea omnia &amp;
+            <pb ed="#W" n="306"/>  sive deberet, aut adeo plene &amp; integre prout ea omnia &amp;
             singula ad manus nostras ratione et prætextu dissolutionis dicti nuper Prioratus sive
             domus devenerunt, seu devenire debuerunt, vel deberent, aut alio modo quocunque in
-            manibus nostris jam existunt vel existere <app>
-               <rdg wit="#W">debens</rdg>
-               <rdg wit="#S">debent</rdg>
-            </app> seu deberent.</ab>
+            manibus nostris jam existunt vel existere debent seu deberent.</ab>
 
          <ab>Habendum, tenendum &amp; gaudendum prædictam domum sive prædictum nuper Prioratum,
             solum, fundum, &amp; præcinctum ejusdem, ac omnia et singula ædificia dicti nuper
@@ -168,10 +164,8 @@
             universis, una cum omnibus &amp; omnimodis proficuis emolumentis et commoditatibus
             quibuscunque, ad dictum nuper Prioratum spectantibus vel pertinentibus præfato Willielmo
             nunc Episcopo Menevensi &amp; successoribus suis in perpetuum tenendum de nobis
-            hæredibus &amp; successoribus nostris per fidelitatem <app>
-               <rdg wit="#W">tantium</rdg>
-               <rdg wit="#S">tantum</rdg>
-            </app> pro omni servitio &amp; exactione quacunque.</ab>
+            hæredibus &amp; successoribus nostris per fidelitatem tantum 
+            pro omni servitio &amp; exactione quacunque.</ab>
 
          <ab>Et ulterius ex speciali gratia nostra, certa scientia &amp; mero motu nostris, damus
             &amp; per præsentes concedimus præfato nunc Episcopo Menevensi et successoribus suis
@@ -184,19 +178,15 @@
             dictum nuper Prioratum terras &amp; tenementa ac cætera hæreditamenta, redditus
             reversiones &amp; servitia reventiones &amp; proficua, ac omnia &amp; singula præmissa
             cum pertinentiis, eidem nunc Episcopo &amp; successoribus suis ex dono nostro absque
-            compoto seu aliquo alio proinde nobis hæredibus vel successoribus nostris <app>
-               <rdg wit="#W">quoque</rdg>
-               <rdg wit="#S">quoquo</rdg>
-            </app> modo reddendo solvendo vel faciendo.</ab>
+            compoto seu aliquo alio proinde nobis hæredibus vel successoribus nostris quoquo modo reddendo solvendo vel faciendo.</ab>
 
          <ab>Et ulterius ex speciali gratia nostra, certa scientia &amp; mero motu nostris, volumus
             &amp; concedimus ac per præsentes damus et concedimus, pro nobis hæredibus &amp;
-            successoribus nostris, <app>
-               <rdg wit="#W">præfata Willo</rdg>
-               <rdg wit="#S">præfato Willielmo</rdg>
+            successoribus nostris, præfato<app>
+               <rdg wit="#W"> Willo</rdg>
+               <rdg wit="#S"> Willielmo</rdg>
             </app>
-            <!-- W gives Willo here, a standard abbreviation for Willelmo; do other printings expand the abbreviation or also give Willo? -->
-            nunc Episcopo Menevensi et successoribus suis dictum Collegium de Abergwilly, ac dictum
+                        nunc Episcopo Menevensi et successoribus suis dictum Collegium de Abergwilly, ac dictum
             nuper Prioratum ac unam clausuram terræ quæ dicitur le close <app>
                <rdg wit="#W">Ymaendny</rdg>
                <rdg wit="#S">Imaendly</rdg>
@@ -205,7 +195,7 @@
             dicto nuper Prioratui, &amp; eorum cuilibet aliquo tempore quoquo modo spectantia sive
             pertinentia; ac etiam volumus &amp; per præsentes concedimus præfato nunc Episcopo quod
             habeat has literas nostras patentes, sub magno Sigillo nostro Angliæ debito modo factas
-            et sigillatas, absque fine vel feodo magno vel parvo <!-- W: p. 307 --> in Hanaperio
+            et sigillatas, absque fine vel feodo magno vel parvo <pb ed="#W" n="307"/>  in Hanaperio
             nostro, seu alibi ad usum nostrum quoquo modo reddendo solvendo vel faciendo, eo quod
             expressa mentio de certitudine aut valore præmissorum, aut de aliis donis sive
             concessionibus, per nos vel aliquem progenitorum nostrorum præfato nunc Episcopo ante
@@ -228,10 +218,8 @@
                <rdg wit="#S">vice-comitum</rdg>
             </app> justiciariorum escaetorum officiariorum aut ministrorum nostrorum quorumcunque
             libere &amp; impune dictas annuas quinquaginta tres libras pro stipendiis dictorum
-            cantatorum, ut præmittitur, <app>
-               <rdg wit="#W">assignatus</rdg>
-               <rdg wit="#S">assignatas</rdg>
-            </app> expendendas in meliorem usum secundum eorum sanas discretiones convertendas,
+            cantatorum, ut præmittitur, assignatas
+            expendendas in meliorem usum secundum eorum sanas discretiones convertendas,
             &amp; quod ipsi libere &amp; impune valeant quendam ludum literarium erigere &amp;
             fundare apud Brecknock prædictum, ac ipsas quinquaginta tres libras annuas ad
             sustentationem quorundam proborum hominum viz. Eruditi ludimagistri &amp; pædagogi,
@@ -260,7 +248,7 @@
             </app> ministri dicti Collegii de Abergwilly, ac omnes <app>
                <rdg wit="#W">ludi magistri</rdg>
                <rdg wit="#S">Ludimagistri</rdg>
-            </app> pædagogi lectores <!-- W: p. 308 --> concionatores ac aliæ personæ quæcunque;
+            </app> pædagogi lectores <pb ed="#W" n="308"/>  concionatores ac aliæ personæ quæcunque;
             illic pro tempore existentes &amp; successores sui libere &amp; impune apud prædictum
             oppidum de Brecknock &amp; in Ecclesia prædicta nuper Prioratus ac aliis possessionibus
             terris &amp; tenementis, ac aliis hæreditamentis quibuscunque dicto nuper Prioratui
@@ -270,7 +258,12 @@
                <rdg wit="#S">possint</rdg>
             </app> et manere. Et quod idem nunc Episcopus Menevensis &amp; successores sui ad ejus
             et eorum cujuslibet beneplacitum libere transferre
-            <!-- 10/7 amp: I believe that all spellings of this word are "possint" in S, so I'm going to leave the rest of them (since I've already coded this distinction before!) -->possunt
+            <!-- 10/7 amp: I believe that all spellings of this word are "possint" in S, so I'm going to leave the rest of them (since I've already coded this distinction before!) -->
+            <!--10/9 WHC @amp: I took you at your word and used Find/Replace to enter the possunt/possint distinction for W and S throughout the document. It's a small but perhaps meaningful grammatical distinction, as between shall and should.-->
+            <app>
+               <rdg wit="#W">possunt</rdg>
+               <rdg wit="#S">possint</rdg>
+            </app>
             dictos residentiarios præbendarios canonicos choristas aliosque ministros dicti Collegii
             de Abergwilly, ad dictum Collegium Christi de Brecknock prædictum, atque eos &amp; eorum
             quemlibet sub pœnis statutorum dicti Collegii de Agerwilly, aliquo tempore <app>
@@ -305,7 +298,7 @@
             &amp; manutentionis prædicti Collegii Christi de Brecknock, ac ea omnia &amp; singula
             præmissa Prioratum Collegium maneria messuagia terras &amp; tenementa ac omnia alia jura
             commoditates proficua &amp; hæreditamenta quæcunque, quæ aliquo tempore habita cognita
-            accepta reputata vel <!-- W: p. 309 --> capta fuerunt; ut partes parcellæ sive membra
+            accepta reputata vel <pb ed="#W" n="309"/>  capta fuerunt; ut partes parcellæ sive membra
             dicta dicti nuper Prioratus Collegii maneriorum messuagiorum terrarum &amp; tenementorum
             reddituum reversionum, vel servitiorum aut cæterorum præmissorum, sive alicujus inde
             parcellæ vel præmissorum, vel alicui præmissorum aliquo modo appendentia pertinentia
@@ -321,7 +314,10 @@
             suis pertinentiis &amp; commoditatibus universis declarat. dat. explanat. pronunciat.
             &amp; publicat. fuissent &amp; essent aptissimis verbis utque sententiis in lege ad
             præmiss. &amp; quamlibet inde parcellam clariss. accommodatiss. &amp; specialiss. quæ
-            possunt excogitari.</ab>
+            <app>
+               <rdg wit="#W">possunt</rdg>
+               <rdg wit="#S">possint</rdg>
+            </app> excogitari.</ab>
          <!-- WHC 2019-10-01: W abbreviates these words in the last two lines. I will be curious to find out whether the other witnesses do as well. -->
 
          <ab> Eo quod expressa mentio &amp;c. In cujus rei Testimonium has literas nostras fieri
