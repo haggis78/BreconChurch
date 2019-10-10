@@ -18,36 +18,71 @@
    <text>
       <body>
          <ab>
-            <pb ed="#W" n="304"/> Rex omnibus ad quos præsentes literæ pervenerint salutem. Cum
-            Collegium de Abergwilly in loco inidoneo existit, ubi nulla occasio hospitalitatis aliis
+            
+            <pb ed="#W" n="304"/><pb ed="#R" n="31"/> Rex omnibus ad quos 
+            <app>
+               <rdg wit="#W #S">præsentes literæ pervenerint </rdg>
+               <rdg wit="#R">&amp; c'</rdg>
+            </app>
+            salutem. </ab>
+         <ab>Cum Collegium de <app>
+               <rdg wit="#W #S">Abergwilly</rdg>
+               <rdg wit="#R">Aberguylly</rdg>
+            </app> in loco inidoneo existit, ubi nulla occasio hospitalitatis aliis
             per viros dicti Collegii administrandæ datur ad commodum &amp; utilitatem subditorum
-            nostrorum, in locis dicto Collegio adjacentibus ad grave dampnum dictorum ligiorum
-            nostrorum.<!-- 10/2 amp: S extends this sentence with a comma after "nostrorum" rather than separating the two sentences.-->
-            Cumque etiam domus sive Prioratus Fratrum prædicatorum in oppido nostro de Brecknock in
-            australibus partibus Walliæ, cum omnibus et omnimodis messuagiis terris &amp; tenementis
+            nostrorum, in locis dicto Collegio adjacentibus ad grave dampnum dictorum 
+            <app>
+               <rdg wit="#W #S">ligiorum</rdg>
+               <rdg wit="#R">ligeorum</rdg>
+            </app>
+            nostrorum.<!-- 10/2 amp: S extends this sentence with a comma after "nostrorum" rather than separating the two sentences.--></ab>
+            <ab>Cumque etiam domus sive Prioratus Fratrum prædicatorum in oppido nostro de 
+               <app>
+                  <rdg wit="#W #S">Brecknock</rdg>
+                  <rdg wit="#R">Brechnok</rdg>
+               </app>  in australibus partibus Walliæ, cum omnibus et omnimodis <app>
+                  <rdg wit="#W #S">messuagiis</rdg>
+                  <rdg wit="#R">mesuagiis</rdg>
+               </app>  terris &amp; tenementis
             bonis rebus necessariis &amp; implementis ad dictum nuper Prioratum spectantibus, in
             manibus &amp; possessione <app>
-               <rdg wit="#W">nostris</rdg>
+               <rdg wit="#W #R">nostris</rdg>
                <rdg wit="#S">nostra</rdg>
             </app>, jam existunt, <!--WHC @ amp: Can you double check S on existunt? I had existent there but it was a typo.--> <app>
-               <rdg wit="#W">vel</rdg>
+               <rdg wit="#W #R">vel</rdg>
                <rdg wit="#S">&amp;</rdg>
-            </app>existere deberent, prætextu doni concessionis ac sursum redditionis Ricardi David
-            nuper Prioris &amp; Conventus ejusdem nuper Prioratus nobus inde factæ; Virtute cujus
-            nos in jure coronæ nostræ Angliæ de dicto nuper Prioriatu messuagiis terris &amp;
-            tenementis ac cæteris omnibus &amp; singulis præmissis seisiti sumus in Dominico ut <app>
-               <rdg wit="#W">de feodo.</rdg>
+            </app>existere deberent, prætextu doni concessionis ac sursum redditionis Ricardi  <app>
+               <rdg wit="#W #S">David</rdg>
+               <rdg wit="#R">Davidi</rdg>
+            </app>
+            nuper Prioris &amp; Conventus ejusdem nuper Prioratus nobis inde factæ; Virtute cujus
+            nos in jure coronæ nostræ Angliæ de dicto nuper Prioriatu <app>
+               <rdg wit="#W #S">messuagiis</rdg>
+               <rdg wit="#R">mesuagiis</rdg>
+            </app>  terris &amp;
+               tenementis ac cæteris omnibus &amp; singulis præmissis seisiti sumus in Dominico <app>
+                  <rdg wit="#W #S"/>
+                  <rdg wit="#R">nostro</rdg>
+               </app> ut <app>
+               <rdg wit="#W #R">de feodo.</rdg>
                <rdg wit="#S">in feodo.</rdg>
             </app></ab>
 
-         <ab>Cumque etiam subditi et ligei nostri in dictis partibus australibus Walliæ commorantes,
-            summa egestate oppressi filios suos in bonis literis educare non <app>
+         <ab>Cumque etiam subditi et ligei nostri in dictis partibus australibus Walliæ <app>
+            <rdg wit="#W #S">commorantes</rdg>
+            <rdg wit="#R">conmorantes</rdg>
+         </app>,
+            summa 
+            <app>
+               <rdg wit="#W #S">egestate</rdg>
+               <rdg wit="#R">egestata</rdg>
+            </app>oppressi filios suos in bonis literis educare non <app>
                <rdg wit="#W">possunt</rdg>
                <rdg wit="#S">possint</rdg>
             </app>: Et in dictis
             partibus australibus Walliæ nullus ludus literarius habetur, per quod non solum &amp;
             clerici &amp; laici omnis ætatis &amp; conditionis rudes &amp; ignari <app>
-               <rdg wit="#W">redduntur,</rdg>
+               <rdg wit="#W #R">redduntur,</rdg>
                <rdg wit="#S">reddenter</rdg>
             </app>
             <app>
@@ -66,29 +101,52 @@
          <ab>Cumque etiam in dicto Collegio de <app>
                <rdg wit="#W">Abergwilly</rdg>
                <rdg wit="#S">Abergwilli</rdg>
-            </app> pro Cantatoribus in eodem Collegio stipendia atque sallaria ad summam
+               <rdg wit="#R">Aberguylly</rdg>
+                        </app> pro Cantatoribus in eodem Collegio stipendia atque 
+            <app>
+               <rdg wit="#W #S">sallaria</rdg>
+               <rdg wit="#R">salaria</rdg>
+            </app>  ad summam
             quinquaginta trium librarum
             <!-- W gives a footnote here: “So in the copy.” This likely indicates that he was indeed working from someone else’s transcript and not the original Letters Patent; else he probably would have used some term other than “copy”. -->
-            stirlingorum <app>
-               <rdg wit="#W">annuarum</rdg>
+             <app>
+               <rdg wit="#W #S">stirlingorum</rdg>
+               <rdg wit="#R">sterlingorum</rdg>
+            </app>
+            <app>
+               <rdg wit="#W #R">annuarum</rdg>
                <rdg wit="#S">annuatim</rdg>
             </app> attingentia providentur. Quæ quidem summa quinquaginta trium librarum in meliores
             usus potest disponi, utpote in adolescentibus &amp; aliis juvenibus in bonis literis
-            instruendis &amp; quotidiana lectura per aliquem virum pium &amp; eruditum dictanda,
-            unde possint veritatem callere &amp; quid Deo &amp; Regi faciendum foret satius possint
+            instruendis &amp; 
+            <app>
+               <rdg wit="#W #S">quotidiana</rdg>
+               <rdg wit="#R">cotidiana</rdg>
+            </app> lectura per aliquem virum pium &amp; eruditum dictanda,
+            unde <app>
+               <rdg wit="#W #S">possint</rdg>
+               <rdg wit="#R">possunt</rdg>
+            </app>  veritatem callere &amp; quid Deo &amp; Regi faciendum foret satius <app>
+               <rdg wit="#W #S">possint</rdg>
+               <rdg wit="#R">possunt</rdg>
+            </app>
             intelligere, in maximum commodum totius populi nostri ibidem commoraturi, sicut per
             relationem dilecti nobis in Christo Willielmi Episcopi Menevensis plenius <app>
-               <rdg wit="#W">ac</rdg>
+               <rdg wit="#W #R">ac</rdg>
                <rdg wit="#S">&amp;</rdg>
             </app> planius accepimus.</ab>
 
          <ab>Nos igitur volentes ex intima charitate nostra qua erga Deum &amp; <app>
-               <rdg wit="#W">cunctum</rdg>
+               <rdg wit="#W #R">cunctum</rdg>
                <rdg wit="#S">totum</rdg>
             </app> populum nostrum gerimus, congruum remedium in hac parte providere, &amp; in multo
-            meliores usus quam nunc disponuntur convertere, clare percipientes quod præmissa omnia
+            meliores usus quam nunc disponuntur convertere <app>
+               <rdg wit="#W #S"/>
+               <rdg wit="#R">et transmutare</rdg>
+            </app>
+            , clare percipientes quod præmissa omnia
             &amp; singula melius disponi <app>
-               <rdg wit="#W">possunt</rdg>
+               <rdg wit="#W #R">possunt</rdg>
                <rdg wit="#S">possint</rdg>
             </app>: Volentesque multum statum <pb ed="#W" n="305"/> 
             subditorum nostrorum melius consulere, de gratia nostra speciali ac ex certa scientia
@@ -96,48 +154,101 @@
             concedimus &amp; confirmamus præfato Willielmo nunc Episcopo totam illam domum sive
             Prioratum fratrum prædicatorum, ac totum solum &amp; fundum, præcinctum, &amp; ambitum,
             dicti nuper Prioratus, ac omnia ædificia, terras et tenementa, redditus reversiones
-            &amp; servitia, messuagia, sola, funda, proficua commoditates advantagia et
+            &amp; servitia, <app>
+               <rdg wit="#W #S">messuagia</rdg>
+               <rdg wit="#R">mesuagia</rdg>
+            </app> 
+            , sola, funda, proficua commoditates advantagia et
             hæreditamenta <app>
                <rdg wit="#W">quæcunque</rdg>
-               <rdg wit="#S">quæcumque</rdg>
-            </app>, dicto nuper Prioratui quoquo modo spectantia sive pertinentia, ac etiam omnia
+               <rdg wit="#S #R">quæcumque</rdg>
+            </app>, dicto nuper Prioratui quoquo modo spectantia sive pertinentia, <app>
+               <rdg wit="#W #S">ac etiam</rdg>
+               <rdg wit="#R">acetiam</rdg>
+            </app>
+             omnia
             catalla res <app>
-               <rdg wit="#W">hustilmenta</rdg>
+               <rdg wit="#W #R">hustilmenta</rdg>
                <rdg wit="#S">Hostilmenta</rdg>
             </app> necessaria &amp; implementa in dicto nuper Prioratu tempore dissolutionis
             ejusdem, vel unquam postea existentia, vel <app>
-               <rdg wit="#W">ad</rdg>
+               <rdg wit="#W #R">ad</rdg>
                <rdg wit="#S">ab</rdg>
-            </app> eundem nuper Prioratum aliqualiter spectantia vel pertinentia, cujuscunque
+            </app> eundem nuper Prioratum aliqualiter spectantia vel pertinentia, <app>
+               <rdg wit="#W #S">cujuscunque</rdg>
+               <rdg wit="#R">cuiuscumque</rdg>
+            </app> 
             generis vel speciei fuerint, ac in tam amplis modo &amp; forma prout dictus <app>
                <rdg wit="#W">Richardus</rdg>
-               <rdg wit="#S">Ricardus</rdg>
+               <rdg wit="#S #R">Ricardus</rdg>
             </app> David ultimus Prior dictæ nuper domus fratrum prædicatorum, vel aliquis
-            prædecessorum prædicti Ricardi David nuper Prioris ejusdem nuper domus sive Prioratus,
+            prædecessorum prædicti Ricardi David nuper Prioris ejusdem nuper domus sive Prioratus <app>
+               <rdg wit="#W #S"/>
+               <rdg wit="#R">dicti nuper Priorat'</rdg> <!-- WHC 10/9: these words left out of W and S, incl in R and C, though in C it's prior~ ac, nor priorat; suggest original reading was prior[is] ac, R miscopied, and transcript "tau" used by W had omitted the words. Maybe.-->
+            </app>,
             terras &amp; tenementa, solum, fundum ædificia ac cætera hæreditamenta <app>
                <rdg wit="#W">quæcunque</rdg>
-               <rdg wit="#S">quæcumque</rdg>
-            </app>, bona catalla res hustilmenta implementa necessaria, dicto nuper Prioratui
+               <rdg wit="#S #R">quæcumque</rdg>
+            </app>, bona<app>
+               <rdg wit="#W #S"/>
+               <rdg wit="#R">et</rdg>
+            </app>
+            catalla res hustilmenta implementa <app>
+               <rdg wit="#W #S"/>
+               <rdg wit="#R">et</rdg>
+            </app> 
+            necessaria, dicto nuper Prioratui
             spectantia vel aliquo modo pertinentia, <app>
-               <rdg wit="#W">ac</rdg>
+               <rdg wit="#W #R">ac</rdg>
                <rdg wit="#S">ad</rdg>
-            </app> reversionem dicti nuper Prioratus &amp; cæterorum præmissorum quorumcunque.</ab>
+            </app> reversionem dicti nuper Prioratus &amp; cæterorum præmissorum  <app>
+               <rdg wit="#W #S">quorumcunque</rdg>
+               <rdg wit="#R">quorumcunque</rdg>
+            </app>.</ab>
 
-         <ab>Ac etiam dedimus &amp; concessimus &amp; de gratia
+         <ab><app>
+            <rdg wit="#W #S">Ac etiam</rdg>
+            <rdg wit="#R">Acetiam</rdg>
+         </app> dedimus &amp; concessimus &amp; de gratia
  nostra speciali certa scientia &amp; mero motu nostris, damus &amp; concedimus
             eidem nunc Episcopo &amp; successoribus suis, totum jus nostrum, statum, titulum
-            clameum, possessionem interesse et demandum quæ nos in prædicto nuper Prioratu sive domo
+            clameum, possessionem interesse et <app>
+               <rdg wit="#W #S">demandum</rdg>
+               <rdg wit="#R #C">demand'</rdg>
+            </app> quæ nos in prædicto nuper Prioratu sive domo
             fratrum prædicatorum ac cæteris præmissis cum pertinentiis, ac in reversione dicti nuper
             Prioratus sive domus fratrum prædicatorum ac cæterorum præmissorum cum omnibus &amp;
             singulis suis pertinentiis universis, ac in manibus &amp; possessione nostris jam
-            existentibus habemus, seu quovismodo in futurum habere poterimus, aut hæredes vel
-            successores nostri habere seu clamare debent aut poterunt <app>
+            existentibus habemus, seu quovismodo <app>
+               <rdg wit="#W #S #C">in futurum </rdg>
+               <rdg wit="#R">infuturum</rdg>
+            </app> habere poterimus, aut hæredes vel
+            successores nostri habere <app>
+               <rdg wit="#W #S">seu</rdg>
+               <rdg wit="#R">aut</rdg>
+            </app> clamare debent aut poterunt <app>
                <rdg wit="#W">quovismodo</rdg>
                <rdg wit="#S">quovis modo</rdg>
-            </app> in futurum, jure titulo materia vel causa quibuscunque juxta omnem juris
+            </app> <app>
+               <rdg wit="#W #S #C">in futurum</rdg>
+               <rdg wit="#R">infuturum</rdg>
+            </app>, jure titulo materia vel causa <app>
+               <rdg wit="#W #S">quibuscunque</rdg>
+               <rdg wit="#R">quibuscunque</rdg>
+            </app> juxta omnem juris
             effectum, ac omnia &amp; omnimodas libertates &amp; franchesias jura &amp;
-            jurisdictiones quæcunque dicto nuper ¬Prioratui terris vel tenementis, vel cæteris
-            hæreditamentis quibuscunque, sive alicui inde parcellæ quoquo modo spectantia vel
+            jurisdictiones <app>
+               <rdg wit="#W #S">quæcunque</rdg>
+               <rdg wit="#R">quecumque</rdg>
+            </app> dicto nuper ¬Prioratui terris <app>
+               <rdg wit="#W #S">vel</rdg>
+               <rdg wit="#R">et</rdg>
+            </app> tenementis, vel cæteris
+            hæreditamentis <app>
+               <rdg wit="#W #S">quibuscunque</rdg>
+               <rdg wit="#R">quibuscumque</rdg> </app>
+               <pb ed="#R" n="32"/> <!-- WHC 10/9/2019: Note to self: got through R transcript to here - pick up at line 39 of my Word transcript, at membrane break. -->
+            , sive alicui inde parcellæ quoquo modo spectantia vel
             pertinentia, adeo plene &amp; integre prout antedictus <app>
                <rdg wit="#W">Richardus</rdg>
                <rdg wit="#S">Ricardus</rdg>
