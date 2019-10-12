@@ -4614,7 +4614,7 @@ Elements]</a:documentation>
                   <oneOrMore>
                      <choice>
                         <value>#W</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to OUR BASE TEXT: Browne Willis, An History of the Mitred Parliamentary Abbies... vol. II (1719)</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to Browne Willis, An History of the Mitred Parliamentary Abbies... vol. II (1719)</a:documentation>
                         <value>#S</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to John Stevens, The History of the antient abbeys, monasteries, hospitals, cathedral and collegiate churches. Being two additional volumes to Sir William Dugdale... (London, 1722-23), vol. II, Appendix doc. 464.</a:documentation>
                         <value>#J</value>
@@ -4623,6 +4623,34 @@ Elements]</a:documentation>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to National Archives, Chancery Patent Rolls, C66/709</a:documentation>
                         <value>#C</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to St. John’s College, Cambridge MS H.12</a:documentation>
+                        <value>#O</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to British Library, Harley MS 1249</a:documentation>
+                        <value>#D</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to National Library of Wales, MS SDCh/B/23</a:documentation>
+                        <value>#H</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to National Library of Wales, MS SDCh/B/24</a:documentation>
+                        <value>#I</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to National Library of Wales, MS SDCh/B/25</a:documentation>
+                        <value>#M</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to National Library of Wales, MS SDCh/B/29 (published as Yardley, Menevia Sacra)</a:documentation>
+                        <value>#Y</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to National Library of Wales, MS SDCh/B/30 (further notes for Yardley, Menevia Sacra)</a:documentation>
+                        <value>#P</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to National Library of Wales, MS SDCh/B/27 (Paine, Collectanea Menevensis)</a:documentation>
+                        <value>#B37</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to Bodleian Library, Willis MS 37</a:documentation>
+                        <value>#B38</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to Bodleian Library, Willis MS 38</a:documentation>
+                        <value>#B66</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to Bodleian Library, Willis MS 66</a:documentation>
+                        <value>#A</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to British Library, Harley MS 6280</a:documentation>
+                        <value>#E</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to National Library of Wales, MS SDCh/B/21 (damaged copy, 1685)</a:documentation>
+                        <value>#G</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to National Library of Wales, MS SDCh/B/22</a:documentation>
+                        <value>#Z</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to National Library of Wales, MS SDCh/B/31 (Yardley's digest of the Statutes)</a:documentation>
                      </choice>
                   </oneOrMore>
                </list>
@@ -10895,7 +10923,7 @@ Sample values include: 1] homeoteleuton; 2] homeoarchy; 3] paleographicConfusion
                   <oneOrMore>
                      <choice>
                         <value>#W</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to OUR BASE TEXT: Browne Willis, An History of the Mitred Parliamentary Abbies... vol. II (1719)</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to Browne Willis, An History of the Mitred Parliamentary Abbies... vol. II (1719)</a:documentation>
                         <value>#S</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to John Stevens, The History of the antient abbeys, monasteries, hospitals, cathedral and collegiate churches. Being two additional volumes to Sir William Dugdale... (London, 1722-23), vol. II, Appendix doc. 464.</a:documentation>
                         <value>#J</value>
@@ -10904,6 +10932,34 @@ Sample values include: 1] homeoteleuton; 2] homeoarchy; 3] paleographicConfusion
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to National Archives, Chancery Patent Rolls, C66/709</a:documentation>
                         <value>#C</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to St. John’s College, Cambridge MS H.12</a:documentation>
+                        <value>#O</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to British Library, Harley MS 1249</a:documentation>
+                        <value>#D</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to National Library of Wales, MS SDCh/B/23</a:documentation>
+                        <value>#H</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to National Library of Wales, MS SDCh/B/24</a:documentation>
+                        <value>#I</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to National Library of Wales, MS SDCh/B/25</a:documentation>
+                        <value>#M</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to National Library of Wales, MS SDCh/B/29 (published as Yardley, Menevia Sacra)</a:documentation>
+                        <value>#Y</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to National Library of Wales, MS SDCh/B/30 (further notes for Yardley, Menevia Sacra)</a:documentation>
+                        <value>#P</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to National Library of Wales, MS SDCh/B/27 (Paine, Collectanea Menevensis)</a:documentation>
+                        <value>#B37</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to Bodleian Library, Willis MS 37</a:documentation>
+                        <value>#B38</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to Bodleian Library, Willis MS 37</a:documentation>
+                        <value>#B66</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to Bodleian Library, Willis MS 66</a:documentation>
+                        <value>#A</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to British Library, Harley MS 6280</a:documentation>
+                        <value>#E</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to National Library of Wales, MS SDCh/B/21 (damaged copy, 1685)</a:documentation>
+                        <value>#G</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to National Library of Wales, MS SDCh/B/22</a:documentation>
+                        <value>#Z</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to National Library of Wales, MS SDCh/B/31 (Yardley's digest of the Statutes)</a:documentation>
                      </choice>
                   </oneOrMore>
                </list>

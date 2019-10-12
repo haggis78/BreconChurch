@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title>Letters Patent of Henry VIII Establishing Christ College and Church, Brecon,
+                Wales</title>
+        </titleStmt>
+        <publicationStmt>
+            <p>Publication Information</p>
+        </publicationStmt>
+        <sourceDesc>
+            <p>Information about the source</p>
+            <!-- Trying this out with multiple witnesses to see how it works -->
+            <msDesc>
+                <!-- This is witness C: where to indicate that? -->
+                <msIdentifier>
+                    <settlement>Cambridge</settlement>
+                    <repository>St John's College</repository>
+                    <idno>MS. H.12</idno>
+                    <altIdentifier type="SC">
+                        <!-- what does this type SC mean? -->
+                        <idno>279</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <msContents>
+                    <msItem>
+                        <title>Statutes of St Davids</title>
+                        <title>Brecon Charter</title>
+                    </msItem>
+                    <textLang mainLang="lat">Latin</textLang>
+                </msContents>
+                <physDesc>
+                    <p>
+                        <material>Paper</material>: ff iii + 265 pp + ff xi. Cover 25 cm x 37.7 cm;
+                        pages 23.5 cm x 36.5 cm; ruled area 17.2 cm x 31.7 cm. Brown soft leather
+                        cover, but red soft leather spine; pencil note inside back cover reads
+                        “Re-backed &amp; repaired by J. P. Gray May 1972 for £7.50.” Written in one
+                        clear hand throughout, similar but not identical to main hand of D, with
+                        annotations in the hand of Thomas Baker and one or more others.</p>
+                </physDesc>
+                <provenance>
+                    <p>Given to College by Bishop Thomas Watson of St Davids (bishop 1687-1699), a
+                        benefactor of the College (Yardley, _Menevia Sacra_ pp. 118-19, 384).
+                        Written <origDate>before 1717, when Watson died, and possibly before 1699,
+                            when he was deprived of his bishopric.</origDate> Remains in Old Library
+                        at St Johns College. Consulted by Yardley in compiling _Menevia Sacra_
+                        (1739-1770); page numbers align with those given in his digest of the
+                        statutes (National Library of Wales, SDCh/B/31).</p>
+                </provenance>
+            </msDesc>
+
+            <msDesc>
+                <!-- This is witness D: where to indicate that? -->
+                <msIdentifier>
+                    <settlement>Aberystwyth</settlement>
+                    <repository>National Library of Wales</repository>
+                    <idno>SDCh/B/23</idno>
+                </msIdentifier>
+                <msContents>
+                    <msItem>
+                        <title>Statutes of St Davids</title>
+                        <title>Brecon Charter</title>
+                    </msItem>
+                    <textLang mainLang="lat">Latin</textLang>
+                </msContents>
+                <physDesc>
+                    <p>
+                        <material>Paper</material>: ff. ii + 181 pp + ff?. Pages 26.5 cm x 41 cm;
+                        writing area 18.4 cm x 36.5 cm. Brown leather cover. Written in one clear
+                        hand throughout, similar but not identical to main hand of C, with
+                        annotations in one or more other hands.</p>
+                </physDesc>
+                <provenance>
+                    <p>Note in pen on f. ii r: "It appearing by an Attestation wrote over against
+                        the first Page of the Statute-Book of this Cathedral Church [now N.L.W.,
+                        SDCh/B/22] that in the year 1719 the said Statute-Book was collated by the
+                        late Bishop Ottley &amp; the late Mr. Chantor Davies with a much more
+                        ancient manuscript of the said Statutes [now British Library, Harley MS
+                        6280], which was attested A[nn]o 1588 by Bishop Middleton, Chantor Huett
+                        &amp; c., &amp; which said ancient Copy has ever since been unfortunately
+                        missing (which is greatly lamented) or at least was never seen by any of the
+                        present members of the Chapter; -Richard Davies Archdeacon of St. Davids
+                        &amp; one of the Canons Residentiary of this Church made many Enquiries with
+                        various Persons and in various places, in order to the recovering, if
+                        possible, the said ancient manuscript: and particularly haveing procured
+                        diligent search to be made for that purpose among the Books and Papers of
+                        the said late Mr. Chantor Davies, altho' the Book in question could not,
+                        upon such serch, be found, yet the present manuscript (containing not only
+                        the St. Davids Statutes, but also the Patent of King Henry the Eighth for
+                        founding Christ's College in Brecon) being met with among the said Books,
+                        was, at the Request of the said Archdeacon, generously made a Present of to
+                        the Chantor and Chapter of St. Davids by the Reverend Mr. Richard Davies
+                        Master of Arts, Golden Prebendary of this Church [NB he held the preb. of
+                        Mathrey, alias the Golden Prebend, form 1723 to his d. in May 1746], on
+                        order to be laid up in the Chapter-Chest of this Cathedral, where it is
+                        accordingly deposited this 25th day of July in the Year one thousand seven
+                        hundred and forty eight by me Richard Davies Archdeacon of St. Davids."
+                        [pencil note below:] "Qu. whether this is in the British Museum."
+                            <origDate>Before 14 Dec. 1732</origDate>, when Precentor (Chantor) John
+                        Davies died. Remains in the legal ownership of the Dean and Chapter of St
+                        Davids; placed on deposit at National Library of Wales.</p>
+                </provenance>
+            </msDesc>
+
+            <msDesc>
+                <!-- This is witness O: where to indicate that? -->
+                <msIdentifier>
+                    <settlement>London</settlement>
+                    <repository>British Library</repository>
+                    <idno>Harley MS 1249</idno>
+                </msIdentifier>
+                <msContents>
+                    <msItem>
+                        <title>Statutes of St Davids</title>
+                        <title>Brecon Charter</title>
+                    </msItem>
+                    <textLang mainLang="lat">Latin</textLang>
+                </msContents>
+                <physDesc>
+                    <p>
+                        <material>Paper</material>: pp/ff??. Cover 25cm x 38 cm; pages about 23.5 x
+                        36.5; writing frame 16.5 x 33. Not ruled. Red cover, buckram with leather
+                        spine and corners. Written in one clear hand throughout.</p>
+                </physDesc>
+                <provenance>
+                    <p>Origin unknown. Two letters are pasted in among foreleaves. One from Bishop
+                        Adam Ottley (bishop of St Davids 1713-23) mentions borrowing a copy of the
+                        Statutes from Robert Harley, 1st Earl of Oxford, though this may in fact
+                        refer to the MS that is now Harley 6280, which Ottley used to check National
+                        Library of Wales, MS SDCh/B/22 in 1719. The other is from his successor,
+                        Richard Smallbrook (bishop of St Davids 1724-1731) in 1729, promising to
+                        return to Edward Harley, 2nd Earl of Oxford, a copy of the statutes (either
+                        Harley 6280 or this present volume) which he had borrowed to use in a suit
+                        in the Court of Arches to oblige canons of St Davids to residence. Harley
+                        6280 was in the hands of Thomas Baker at Cambridge at some unknown date
+                        between 1719 and his death in 1740 (Bodleian Library, Willis MS. 38 f.
+                        531r-v), and it may be that Harley 1249 was thus the only copy Harley had to
+                        lend to Smallbrook at this time. <origDate>Probably before 1729.</origDate>,
+                    </p>
+                </provenance>
+            </msDesc>
+
+        </sourceDesc>
+    </fileDesc>
+</teiHeader>
