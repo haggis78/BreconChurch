@@ -69,29 +69,96 @@
                 <valItem mode="add" ident="#C">
                   <desc versionDate="2019-09-07" xml:lang="en">points to St. John’s College, Cambridge MS H.12</desc>
                 </valItem>
+                <valItem mode="add" ident="#O"><desc versionDate="2019-10-14" xml:lang="en">points to British Library, Harley MS 1249</desc></valItem>
+                <valItem mode="add" ident="#D"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/23</desc></valItem>
+                <valItem mode="add" ident="#H"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/24</desc></valItem>
+                <valItem mode="add" ident="#I"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/25</desc></valItem>
+                <valItem mode="add" ident="#M"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/29 (published as Yardley, Menevia Sacra)</desc></valItem>
+                <valItem mode="add" ident="#Y"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/30 (further notes for Yardley, Menevia Sacra)</desc></valItem>
+                <valItem mode="add" ident="#P"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/27 (Paine, Collectanea Menevensis)</desc></valItem>
+                <valItem mode="add" ident="#B37"><desc versionDate="2019-10-14" xml:lang="en">points to Bodleian Library, Willis MS 37</desc></valItem>
+                <valItem mode="add" ident="#B38"><desc versionDate="2019-10-14" xml:lang="en">points to Bodleian Library, Willis MS 38</desc></valItem>
+                <valItem mode="add" ident="#B66"><desc versionDate="2019-10-14" xml:lang="en">points to Bodleian Library, Willis MS 66</desc></valItem>
+                <valItem mode="add" ident="#A"><desc versionDate="2019-10-14" xml:lang="en">points to British Library, Harley MS 6280</desc></valItem>
+                <valItem mode="add" ident="#E"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/21 (damaged copy, 1685)</desc></valItem>
+                <valItem mode="add" ident="#G"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/22</desc></valItem>
+                <valItem mode="add" ident="#Z"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/31 (Yardley's digest of the Statutes)</desc></valItem>
               </valList>
             </attDef>
           </attList>
         </elementSpec>
-        <elementSpec ident="witness" mode="change">
+        
+        <elementSpec ident="msDesc" mode="change">
           <attList>
             <attDef ident="xml:id" mode="change" usage="req">
               <valList type="closed" mode="change">
                 <valItem mode="add" ident="W">
-                  <desc versionDate="2019-09-07" xml:lang="en">OUR BASE TEXT: Browne Willis, An History of the Mitred Parliamentary Abbies... vol. II (1719)</desc>
+                  <desc versionDate="2019-09-07" xml:lang="en">points to OUR BASE TEXT: Browne Willis, An History of the Mitred Parliamentary Abbies... vol. II (1719)</desc>
                 </valItem>
                 <valItem mode="add" ident="S">
-                  <desc versionDate="2019-09-07" xml:lang="en">John Stevens, The History of the antient abbeys, monasteries, hospitals, cathedral and collegiate churches. Being two additional volumes to Sir William Dugdale... (London, 1722-23), vol. II, Appendix doc. 464.</desc>
+                  <desc versionDate="2019-09-07" xml:lang="en">points to John Stevens, The History of the antient abbeys, monasteries, hospitals, cathedral and collegiate churches. Being two additional volumes to Sir William Dugdale... (London, 1722-23), vol. II, Appendix doc. 464.</desc>
                 </valItem>
                 <valItem mode="add" ident="J">
-                  <desc versionDate="2019-09-07" xml:lang="en">Theophilus Jones, A History of the County of Brecknock Vol. II (Brecknock, 1809; 2nd edn., 1898), Appendix doc. IX </desc>
+                  <desc versionDate="2019-09-07" xml:lang="en">points to Theophilus Jones, A History of the County of Brecknock Vol. II (Brecknock, 1809; 2nd edn., 1898), Appendix doc. IX </desc>
                 </valItem>
                 <valItem mode="add" ident="R">
-                  <desc versionDate="2019-09-07" xml:lang="en">National Archives, Chancery Patent Rolls, C66/709</desc>
+                  <desc versionDate="2019-09-07" xml:lang="en">points to National Archives, Chancery Patent Rolls, C66/709</desc>
                 </valItem>
                 <valItem mode="add" ident="C">
-                  <desc versionDate="2019-09-07" xml:lang="en">St. John’s College, Cambridge MS H.12</desc>
+                  <desc versionDate="2019-09-07" xml:lang="en">points to St. John’s College, Cambridge MS H.12</desc>
                 </valItem>
+                <valItem mode="add" ident="O"><desc versionDate="2019-10-14" xml:lang="en">points to British Library, Harley MS 1249</desc></valItem>
+                <valItem mode="add" ident="D"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/23</desc></valItem>
+                <valItem mode="add" ident="H"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/24</desc></valItem>
+                <valItem mode="add" ident="I"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/25</desc></valItem>
+                <valItem mode="add" ident="M"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/29 (published as Yardley, Menevia Sacra)</desc></valItem>
+                <valItem mode="add" ident="Y"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/30 (further notes for Yardley, Menevia Sacra)</desc></valItem>
+                <valItem mode="add" ident="P"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/27 (Paine, Collectanea Menevensis)</desc></valItem>
+                <valItem mode="add" ident="B37"><desc versionDate="2019-10-14" xml:lang="en">points to Bodleian Library, Willis MS 37</desc></valItem>
+                <valItem mode="add" ident="B38"><desc versionDate="2019-10-14" xml:lang="en">points to Bodleian Library, Willis MS 38</desc></valItem>
+                <valItem mode="add" ident="B66"><desc versionDate="2019-10-14" xml:lang="en">points to Bodleian Library, Willis MS 66</desc></valItem>
+                <valItem mode="add" ident="A"><desc versionDate="2019-10-14" xml:lang="en">points to British Library, Harley MS 6280</desc></valItem>
+                <valItem mode="add" ident="E"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/21 (damaged copy, 1685)</desc></valItem>
+                <valItem mode="add" ident="G"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/22</desc></valItem>
+                <valItem mode="add" ident="Z"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/31 (Yardley's digest of the Statutes)</desc></valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="witness" mode="change">
+          <attList>
+            <attDef ident="n" mode="change" usage="req">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="W">
+                  <desc versionDate="2019-09-07" xml:lang="en">points to OUR BASE TEXT: Browne Willis, An History of the Mitred Parliamentary Abbies... vol. II (1719)</desc>
+                </valItem>
+                <valItem mode="add" ident="S">
+                  <desc versionDate="2019-09-07" xml:lang="en">points to John Stevens, The History of the antient abbeys, monasteries, hospitals, cathedral and collegiate churches. Being two additional volumes to Sir William Dugdale... (London, 1722-23), vol. II, Appendix doc. 464.</desc>
+                </valItem>
+                <valItem mode="add" ident="J">
+                  <desc versionDate="2019-09-07" xml:lang="en">points to Theophilus Jones, A History of the County of Brecknock Vol. II (Brecknock, 1809; 2nd edn., 1898), Appendix doc. IX </desc>
+                </valItem>
+                <valItem mode="add" ident="R">
+                  <desc versionDate="2019-09-07" xml:lang="en">points to National Archives, Chancery Patent Rolls, C66/709</desc>
+                </valItem>
+                <valItem mode="add" ident="C">
+                  <desc versionDate="2019-09-07" xml:lang="en">points to St. John’s College, Cambridge MS H.12</desc>
+                </valItem>
+                <valItem mode="add" ident="O"><desc versionDate="2019-10-14" xml:lang="en">points to British Library, Harley MS 1249</desc></valItem>
+                <valItem mode="add" ident="D"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/23</desc></valItem>
+                <valItem mode="add" ident="H"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/24</desc></valItem>
+                <valItem mode="add" ident="I"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/25</desc></valItem>
+                <valItem mode="add" ident="M"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/29 (published as Yardley, Menevia Sacra)</desc></valItem>
+                <valItem mode="add" ident="Y"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/30 (further notes for Yardley, Menevia Sacra)</desc></valItem>
+                <valItem mode="add" ident="P"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/27 (Paine, Collectanea Menevensis)</desc></valItem>
+                <valItem mode="add" ident="B37"><desc versionDate="2019-10-14" xml:lang="en">points to Bodleian Library, Willis MS 37</desc></valItem>
+                <valItem mode="add" ident="B38"><desc versionDate="2019-10-14" xml:lang="en">points to Bodleian Library, Willis MS 38</desc></valItem>
+                <valItem mode="add" ident="B66"><desc versionDate="2019-10-14" xml:lang="en">points to Bodleian Library, Willis MS 66</desc></valItem>
+                <valItem mode="add" ident="A"><desc versionDate="2019-10-14" xml:lang="en">points to British Library, Harley MS 6280</desc></valItem>
+                <valItem mode="add" ident="E"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/21 (damaged copy, 1685)</desc></valItem>
+                <valItem mode="add" ident="G"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/22</desc></valItem>
+                <valItem mode="add" ident="Z"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/31 (Yardley's digest of the Statutes)</desc></valItem>
               </valList>
             </attDef>
           </attList>
@@ -116,6 +183,20 @@
                 <valItem mode="add" ident="#C">
                   <desc versionDate="2019-09-07" xml:lang="en">points to St. John’s College, Cambridge MS H.12</desc>
                 </valItem>
+                <valItem mode="add" ident="#O"><desc versionDate="2019-10-14" xml:lang="en">points to British Library, Harley MS 1249</desc></valItem>
+                <valItem mode="add" ident="#D"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/23</desc></valItem>
+                <valItem mode="add" ident="#H"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/24</desc></valItem>
+                <valItem mode="add" ident="#I"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/25</desc></valItem>
+                <valItem mode="add" ident="#M"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/29 (published as Yardley, Menevia Sacra)</desc></valItem>
+                <valItem mode="add" ident="#Y"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/30 (further notes for Yardley, Menevia Sacra)</desc></valItem>
+                <valItem mode="add" ident="#P"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/27 (Paine, Collectanea Menevensis)</desc></valItem>
+                <valItem mode="add" ident="#B37"><desc versionDate="2019-10-14" xml:lang="en">points to Bodleian Library, Willis MS 37</desc></valItem>
+                <valItem mode="add" ident="#B38"><desc versionDate="2019-10-14" xml:lang="en">points to Bodleian Library, Willis MS 38</desc></valItem>
+                <valItem mode="add" ident="#B66"><desc versionDate="2019-10-14" xml:lang="en">points to Bodleian Library, Willis MS 66</desc></valItem>
+                <valItem mode="add" ident="#A"><desc versionDate="2019-10-14" xml:lang="en">points to British Library, Harley MS 6280</desc></valItem>
+                <valItem mode="add" ident="#E"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/21 (damaged copy, 1685)</desc></valItem>
+                <valItem mode="add" ident="#G"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/22</desc></valItem>
+                <valItem mode="add" ident="#Z"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/31 (Yardley's digest of the Statutes)</desc></valItem>
               </valList>
             </attDef>
           </attList>

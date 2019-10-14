@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ODD/out/tei_brecon.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI>
 <teiHeader>
     <fileDesc>
         <titleStmt>
@@ -11,7 +13,7 @@
         <sourceDesc>
             <p>Information about the source</p>
             <!-- Trying this out with multiple witnesses to see how it works -->
-            <msDesc>
+            <msDesc wit="C">
                 <!-- This is witness C: where to indicate that? -->
                 <msIdentifier>
                     <settlement>Cambridge</settlement>
