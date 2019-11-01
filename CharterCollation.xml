@@ -51,72 +51,73 @@
                </app>  terris &amp; tenementis
             bonis rebus necessariis &amp; implementis ad dictum nuper Prioratum spectantibus, in
             manibus &amp; possessione <app>
-               <rdg wit="#W #R">nostris</rdg>
+               <rdg wit="#W #R #I">nostris</rdg>
                <rdg wit="#S">nostra</rdg>
-            </app>, jam existunt, <!--WHC @ amp: Can you double check S on existunt? I had existent there but it was a typo.--> <app>
-               <rdg wit="#W #R">vel</rdg>
+            </app>, jam existunt,  <app>
+               <rdg wit="#W #R #I">vel</rdg>
                <rdg wit="#S">&amp;</rdg>
-            </app>existere deberent, prætextu doni concessionis ac sursum redditionis Ricardi  <app>
-               <rdg wit="#W #S">David</rdg>
+            </app>existere deberent, <pb ed="#I" n="270"/><app><rdg wit="#W #S #R">prætextu</rdg><rdg wit="#I">pretextu</rdg></app> doni concessionis ac sursum <app><rdg wit="#W #R #S">redditionis</rdg><rdg wit="#I">reddiconis</rdg></app> <app><rdg wit="#W #S #R">Ricardi</rdg><rdg wit="#I">Rici</rdg></app>  <app>
+               <rdg wit="#W #S #I">David</rdg>
                <rdg wit="#R">Davidi</rdg>
             </app>
             nuper Prioris &amp; Conventus ejusdem nuper Prioratus nobis inde factæ; Virtute cujus
-            nos in jure coronæ nostræ Angliæ de dicto nuper Prioriatu <app>
-               <rdg wit="#W #S">messuagiis</rdg>
+            nos in <app><rdg wit="#W #S #R">jure</rdg><rdg wit="#I">jurae</rdg></app> coronæ nostræ Angliæ de dicto nuper Prioriatu <app>
+               <rdg wit="#W #S #I">messuagiis</rdg>
                <rdg wit="#R">mesuagiis</rdg>
             </app>  terris &amp;
-               tenementis ac cæteris omnibus &amp; singulis præmissis seisiti sumus in Dominico <app>
+               tenementis ac <app><rdg wit="#W #S #R">cæteris</rdg><rdg wit="#I">ceteris</rdg></app> omnibus &amp; singulis præmissis seisiti sumus in Dominico <app>
                   <rdg wit="#W #S"/>
-                  <rdg wit="#R">nostro</rdg>
+                  <rdg wit="#R #I">nostro</rdg>
                </app> ut <app>
-               <rdg wit="#W #R">de feodo.</rdg>
+               <rdg wit="#W #R #I">de feodo.</rdg>
                <rdg wit="#S">in feodo.</rdg>
             </app></ab>
 
          <ab>Cumque etiam subditi et ligei nostri in dictis partibus australibus Walliæ <app>
             <rdg wit="#W #S">commorantes</rdg>
             <rdg wit="#R">conmorantes</rdg>
+            <rdg wit="#I">comorantes</rdg>
          </app>,
-            summa 
+            <app><rdg wit="#W #S #R">summa</rdg><rdg wit="#I">suma</rdg></app> 
             <app>
                <rdg wit="#W #S">egestate</rdg>
                <rdg wit="#R">egestata</rdg>
             </app>oppressi filios suos in bonis literis educare non <app>
-               <rdg wit="#W">possunt</rdg>
+               <rdg wit="#W #I">possunt</rdg>
                <rdg wit="#S">possint</rdg>
             </app>: Et in dictis
             partibus australibus Walliæ nullus ludus literarius habetur, per quod non solum &amp;
             clerici &amp; laici omnis ætatis &amp; conditionis rudes &amp; ignari <app>
-               <rdg wit="#W #R">redduntur,</rdg>
+               <rdg wit="#W #R #I">redduntur,</rdg>
                <rdg wit="#S">reddenter</rdg>
             </app>
             <app>
-               <rdg wit="#W">tam</rdg>
+               <rdg wit="#W #I">tam</rdg>
                <rdg wit="#S">tem</rdg>
             </app> sui officii
             <!-- W: a small dot at the lower right of the initial o of officii in the Google Books image makes it look like an a. -->
-            erga Deum, quam debitæ suæ obedientiæ erga nos; sed etiam linguæ vulgaris Angliæ minime
-            periti, sic quod statuta nostra in hujusmodi casu edita &amp; provisa observare nequeunt; &amp; quod debuerunt &amp; tenentur
-            facere secundum formam &amp; effectum dictorum statutorum, intelligere non <app>
-               <rdg wit="#W">possunt</rdg>
+            erga Deum, quam debitæ suæ obedientiæ erga nos; sed etiam linguæ vulgaris <app><rdg wit="#W #S #R">Angliæ</rdg><rdg wit="#I"/></app> minime
+            periti, sic quod statuta nostra in <!-- AMP: In "I" this word is different, but I can't read exactly what it says in the manuscript. -->hujusmodi casu edita &amp; provisa observare nequeunt; &amp; quod debuerunt &amp; tenentur
+            facere <app><rdg wit="#W #R #S">secundum</rdg><rdg wit="#I">secundu</rdg></app> formam &amp; effectum dictorum statutorum, intelligere non <app>
+               <rdg wit="#W #I">possunt</rdg>
                <rdg wit="#S">possint</rdg>
             </app> propter
             ignorantiam dictæ linguæ Anglicanæ.</ab>
 
          <ab>Cumque etiam in dicto Collegio de <app>
-               <rdg wit="#W">Abergwilly</rdg>
+               <rdg wit="#W #I">Abergwilly</rdg>
                <rdg wit="#S">Abergwilli</rdg>
                <rdg wit="#R">Aberguylly</rdg>
                         </app> pro Cantatoribus in eodem Collegio stipendia atque 
             <app>
                <rdg wit="#W #S">sallaria</rdg>
-               <rdg wit="#R">salaria</rdg>
-            </app>  ad summam
+               <rdg wit="#R #I">salaria</rdg>
+            </app>  ad <app><rdg wit="#W #R #S">summam</rdg><rdg wit="#I">sumam</rdg></app>
             quinquaginta trium librarum
             <!-- W gives a footnote here: “So in the copy.” This likely indicates that he was indeed working from someone else’s transcript and not the original Letters Patent; else he probably would have used some term other than “copy”. -->
              <app>
                <rdg wit="#W #S">stirlingorum</rdg>
-               <rdg wit="#R">sterlingorum</rdg>
+               <rdg wit="#R #I">sterlingorum</rdg>
             </app>
             <app>
                <rdg wit="#W #R">annuarum</rdg>
