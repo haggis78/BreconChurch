@@ -18,15 +18,18 @@
    <text>
       <body>
          <ab>
-            
-            <pb ed="#W" n="304"/><pb ed="#R" n="31"/> Rex omnibus ad quos 
+            <pb ed="#I" n="269"/>
             <app>
-               <rdg wit="#W #S">præsentes literæ pervenerint </rdg>
+               <rdg wit="#I">Henricus Octavus Dei gratia, Angliae et Francia Rex fidei Defensor Dominus Hiberniae Et in terra Supremu Eccliae Anglicanae</rdg><rdg wit="#W #S #R"/>
+            </app>
+            <pb ed="#W" n="304"/><pb ed="#R" n="31"/> <app><rdg wit="#W #R #S">Rex</rdg><rdg wit="#I">Caput</rdg></app> omnibus ad quos 
+            <app>
+               <rdg wit="#W #S #I">præsentes literæ pervenerint </rdg>
                <rdg wit="#R">&amp; c'</rdg>
             </app>
             salutem. </ab>
          <ab>Cum Collegium de <app>
-               <rdg wit="#W #S">Abergwilly</rdg>
+               <rdg wit="#W #S #I">Abergwilly</rdg>
                <rdg wit="#R">Aberguylly</rdg>
             </app> in loco inidoneo existit, ubi nulla occasio hospitalitatis aliis
             per viros dicti Collegii administrandæ datur ad commodum &amp; utilitatem subditorum
@@ -34,14 +37,16 @@
             <app>
                <rdg wit="#W #S">ligiorum</rdg>
                <rdg wit="#R">ligeorum</rdg>
+               <rdg wit="#I">Legiorum</rdg>
             </app>
-            nostrorum.<!-- 10/2 amp: S extends this sentence with a comma after "nostrorum" rather than separating the two sentences.--></ab>
+            nostrorum.</ab>
             <ab>Cumque etiam domus sive Prioratus Fratrum prædicatorum in oppido nostro de 
                <app>
                   <rdg wit="#W #S">Brecknock</rdg>
                   <rdg wit="#R">Brechnok</rdg>
+                  <rdg wit="#I">Brechnock</rdg>
                </app>  in australibus partibus Walliæ, cum omnibus et omnimodis <app>
-                  <rdg wit="#W #S">messuagiis</rdg>
+                  <rdg wit="#W #S #I">messuagiis</rdg>
                   <rdg wit="#R">mesuagiis</rdg>
                </app>  terris &amp; tenementis
             bonis rebus necessariis &amp; implementis ad dictum nuper Prioratum spectantibus, in
