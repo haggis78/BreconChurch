@@ -74,11 +74,10 @@
             </app></ab>
 
          <ab>Cumque etiam subditi et ligei nostri in dictis partibus australibus Walliæ <app>
-            <rdg wit="#W #S">commorantes</rdg>
+            <rdg wit="#W #S #I">commorantes</rdg>
             <rdg wit="#R">conmorantes</rdg>
-            <rdg wit="#I">comorantes</rdg>
          </app>,
-            <app><rdg wit="#W #S #R">summa</rdg><rdg wit="#I">suma</rdg></app> 
+           summa 
             <app>
                <rdg wit="#W #S">egestate</rdg>
                <rdg wit="#R">egestata</rdg>
@@ -97,8 +96,8 @@
             </app> sui officii
             <!-- W: a small dot at the lower right of the initial o of officii in the Google Books image makes it look like an a. -->
             erga Deum, quam debitæ suæ obedientiæ erga nos; sed etiam linguæ vulgaris <app><rdg wit="#W #S #R">Angliæ</rdg><rdg wit="#I"/></app> minime
-            periti, sic quod statuta nostra in <!-- AMP: In "I" this word is different, but I can't read exactly what it says in the manuscript. -->hujusmodi casu edita &amp; provisa observare nequeunt; &amp; quod debuerunt &amp; tenentur
-            facere <app><rdg wit="#W #R #S">secundum</rdg><rdg wit="#I">secundu</rdg></app> formam &amp; effectum dictorum statutorum, intelligere non <app>
+            periti, sic quod statuta nostra in hujusmodi casu edita &amp; provisa observare nequeunt; &amp; quod debuerunt &amp; tenentur
+            facere secundum formam &amp; effectum dictorum statutorum, intelligere non <app>
                <rdg wit="#W #I">possunt</rdg>
                <rdg wit="#S">possint</rdg>
             </app> propter
@@ -112,47 +111,47 @@
             <app>
                <rdg wit="#W #S">sallaria</rdg>
                <rdg wit="#R #I">salaria</rdg>
-            </app>  ad <app><rdg wit="#W #R #S">summam</rdg><rdg wit="#I">sumam</rdg></app>
-            quinquaginta trium librarum
+            </app>  ad summam quinquaginta trium librarum
             <!-- W gives a footnote here: “So in the copy.” This likely indicates that he was indeed working from someone else’s transcript and not the original Letters Patent; else he probably would have used some term other than “copy”. -->
              <app>
                <rdg wit="#W #S">stirlingorum</rdg>
                <rdg wit="#R #I">sterlingorum</rdg>
             </app>
             <app>
-               <rdg wit="#W #R">annuarum</rdg>
+               <rdg wit="#W #R #I">annuarum</rdg>
                <rdg wit="#S">annuatim</rdg>
             </app> attingentia providentur. Quæ quidem summa quinquaginta trium librarum in meliores
             usus potest disponi, utpote in adolescentibus &amp; aliis juvenibus in bonis literis
-            instruendis &amp; 
+            <app><rdg wit="#W #S #R">instruendis</rdg><rdg wit="#I">instruend</rdg></app> &amp; 
             <app>
-               <rdg wit="#W #S">quotidiana</rdg>
+               <rdg wit="#W #S #I">quotidiana</rdg>
                <rdg wit="#R">cotidiana</rdg>
             </app> lectura per aliquem virum pium &amp; eruditum dictanda,
             unde <app>
-               <rdg wit="#W #S">possint</rdg>
+               <rdg wit="#W #S #I">possint</rdg>
                <rdg wit="#R">possunt</rdg>
             </app>  veritatem callere &amp; quid Deo &amp; Regi faciendum foret satius <app>
-               <rdg wit="#W #S">possint</rdg>
+               <rdg wit="#W #S #I">possint</rdg>
                <rdg wit="#R">possunt</rdg>
             </app>
             intelligere, in maximum commodum totius populi nostri ibidem commoraturi, sicut per
-            relationem dilecti nobis in Christo Willielmi Episcopi Menevensis plenius <app>
-               <rdg wit="#W #R">ac</rdg>
+            relationem dilecti nobis in Christo Willielmi<!-- AMP: "Willielmi" looks different in I, but I'm not sure if this is just me being unable to read the writing! "Episcopi" and "Menevenis" look different as well. Could we double check this? --> Episcopi Menevensis plenius <app>
+               <rdg wit="#W #R #I">ac</rdg>
                <rdg wit="#S">&amp;</rdg>
             </app> planius accepimus.</ab>
 
          <ab>Nos igitur volentes ex intima charitate nostra qua erga Deum &amp; <app>
-               <rdg wit="#W #R">cunctum</rdg>
+               <rdg wit="#W #R #I">cunctum</rdg>
                <rdg wit="#S">totum</rdg>
-            </app> populum nostrum gerimus, congruum remedium in hac parte providere, &amp; in multo
+            </app> populum nostrum gerimus, congruum remedium in hac parte providere, &amp; in <app><rdg wit="#W #S #R">multo</rdg><rdg wit="#I">multos</rdg></app>
             meliores usus quam nunc disponuntur convertere <app>
                <rdg wit="#W #S"/>
                <rdg wit="#R">et transmutare</rdg>
+               <!-- AMP: "et transmutare" was included in a marginal note by another hand in I. I wasn't sure how to go about coding this -->
             </app>
-            , clare percipientes quod præmissa omnia
+            , clare percipientes <pb ed="#I" n="271"/>quod præmissa omnia
             &amp; singula melius disponi <app>
-               <rdg wit="#W #R">possunt</rdg>
+               <rdg wit="#W #R #I">possunt</rdg>
                <rdg wit="#S">possint</rdg>
             </app>: Volentesque multum statum <pb ed="#W" n="305"/> 
             subditorum nostrorum melius consulere, de gratia nostra speciali ac ex certa scientia
@@ -161,69 +160,71 @@
             Prioratum fratrum prædicatorum, ac totum solum &amp; fundum, præcinctum, &amp; ambitum,
             dicti nuper Prioratus, ac omnia ædificia, terras et tenementa, redditus reversiones
             &amp; servitia, <app>
-               <rdg wit="#W #S">messuagia</rdg>
+               <rdg wit="#W #S #I">messuagia</rdg>
                <rdg wit="#R">mesuagia</rdg>
             </app> 
             , sola, funda, proficua commoditates advantagia et
             hæreditamenta <app>
-               <rdg wit="#W">quæcunque</rdg>
+               <rdg wit="#W #I">quæcunque</rdg>
                <rdg wit="#S #R">quæcumque</rdg>
-            </app>, dicto nuper Prioratui quoquo modo spectantia sive pertinentia, <app>
-               <rdg wit="#W #S">ac etiam</rdg>
+            </app>, dicto nuper Prioratui <app><rdg wit="#W #S #R">quoquo modo</rdg><rdg wit="#I">quoquomodo</rdg></app> spectantia sive pertinentia, <app>
+               <rdg wit="#W #S #I">ac etiam</rdg>
                <rdg wit="#R">acetiam</rdg>
             </app>
              omnia
             catalla res <app>
-               <rdg wit="#W #R">hustilmenta</rdg>
+               <rdg wit="#W #R #I">hustilmenta</rdg>
                <rdg wit="#S">Hostilmenta</rdg>
-            </app> necessaria &amp; implementa in dicto nuper Prioratu tempore dissolutionis
+            </app> necessaria &amp; implementa in dicto nuper Prioratu tempore <app><rdg wit="#W #S #R">dissolutionis</rdg><rdg wit="#I">dissoluconis</rdg></app>
             ejusdem, vel unquam postea existentia, vel <app>
-               <rdg wit="#W #R">ad</rdg>
+               <rdg wit="#W #R #I">ad</rdg>
                <rdg wit="#S">ab</rdg>
             </app> eundem nuper Prioratum aliqualiter spectantia vel pertinentia, <app>
-               <rdg wit="#W #S">cujuscunque</rdg>
+               <rdg wit="#W #S #I">cujuscunque</rdg>
                <rdg wit="#R">cuiuscumque</rdg>
             </app> 
             generis vel speciei fuerint, ac in tam amplis modo &amp; forma prout dictus <app>
                <rdg wit="#W">Richardus</rdg>
-               <rdg wit="#S #R">Ricardus</rdg>
-            </app> David ultimus Prior dictæ nuper domus fratrum prædicatorum, vel aliquis
+               <rdg wit="#S #R">Ricardus</rdg> <!-- AMP: I'm not sure which one I uses, it seems to be another instance of shorthand that I'm having trouble deciphering! -->
+            </app> David ultimus Prior dictæ nuper domus fratrum <app><rdg wit="#W #S #R">prædicatorum</rdg><rdg wit="#I">predictorum</rdg></app>, vel aliquis
             prædecessorum prædicti Ricardi David nuper Prioris ejusdem nuper domus sive Prioratus <app>
                <rdg wit="#W #S"/>
-               <rdg wit="#R">dicti nuper Priorat'</rdg> <!-- WHC 10/9: these words left out of W and S, incl in R and C, though in C it's prior~ ac, nor priorat; suggest original reading was prior[is] ac, R miscopied, and transcript "tau" used by W had omitted the words. Maybe.-->
+               <rdg wit="#R">dicti nuper Priorat'</rdg>
+               <rdg wit="#I">dicti nuper Prioris ac</rdg><!-- WHC 10/9: these words left out of W and S, incl in R and C, though in C it's prior~ ac, nor priorat; suggest original reading was prior[is] ac, R miscopied, and transcript "tau" used by W had omitted the words. Maybe.-->
             </app>,
             terras &amp; tenementa, solum, fundum ædificia ac cætera hæreditamenta <app>
-               <rdg wit="#W">quæcunque</rdg>
+               <rdg wit="#W #I">quæcunque</rdg>
                <rdg wit="#S #R">quæcumque</rdg>
             </app>, bona<app>
-               <rdg wit="#W #S"/>
+               <rdg wit="#W #S #I"/>
                <rdg wit="#R">et</rdg>
             </app>
             catalla res hustilmenta implementa <app>
-               <rdg wit="#W #S"/>
+               <rdg wit="#W #S #I"/>
                <rdg wit="#R">et</rdg>
             </app> 
             necessaria, dicto nuper Prioratui
             spectantia vel aliquo modo pertinentia, <app>
-               <rdg wit="#W #R">ac</rdg>
+               <rdg wit="#W #R #I">ac</rdg>
                <rdg wit="#S">ad</rdg>
-            </app> reversionem dicti nuper Prioratus &amp; cæterorum præmissorum  <app>
+            </app> <app><rdg wit="#W #S #R">reversionem</rdg><rdg wit="#I">reverconem</rdg></app> dicti nuper Prioratus &amp; cæterorum præmissorum  <app>
                <rdg wit="#W #S">quorumcunque</rdg>
                <rdg wit="#R">quorumcunque</rdg>
+               <!-- AMP: These are both the same! Is there a different spelling in R that was mistyped here, or is this an accidental app? -->
             </app>.</ab>
 
          <ab><app>
-            <rdg wit="#W #S">Ac etiam</rdg>
+            <rdg wit="#W #S #I">Ac etiam</rdg>
             <rdg wit="#R">Acetiam</rdg>
-         </app> dedimus &amp; concessimus &amp; de gratia
- nostra speciali certa scientia &amp; mero motu nostris, damus &amp; concedimus
+         </app> dedimus &amp; concessimus &amp; <app><rdg wit="#W #R #S">de gratia
+ nostra</rdg><rdg wit="#I">de nostra gratia</rdg></app> speciali certa scientia &amp; mero motu nostris, damus &amp; concedimus
             eidem nunc Episcopo &amp; successoribus suis, totum jus nostrum, statum, titulum
             clameum, possessionem interesse et <app>
-               <rdg wit="#W #S">demandum</rdg>
+               <rdg wit="#W #S #I">demandum</rdg>
                <rdg wit="#R #C">demand'</rdg>
             </app> quæ nos in prædicto nuper Prioratu sive domo
-            fratrum prædicatorum ac cæteris præmissis cum pertinentiis, ac in reversione dicti nuper
-            Prioratus sive domus fratrum prædicatorum ac cæterorum præmissorum cum omnibus &amp;
+            fratrum <app><rdg wit="#W #R #S">prædicatorum</rdg><rdg wit="#I">predicatorum</rdg></app> <app><rdg wit="#W #S #R">ac cæteris</rdg><rdg wit="#I">acceteris</rdg></app> præmissis cum pertinentiis, ac in reversione dicti nuper
+            <pb ed="#I" n="272"/>Prioratus sive domus fratrum prædicatorum ac cæterorum præmissorum cum omnibus &amp;
             singulis suis pertinentiis universis, ac in manibus &amp; possessione nostris jam
             existentibus habemus, seu quovismodo <app>
                <rdg wit="#W #S #C">in futurum </rdg>
