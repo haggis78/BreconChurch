@@ -227,92 +227,94 @@
             <pb ed="#I" n="272"/>Prioratus sive domus fratrum prædicatorum ac cæterorum præmissorum cum omnibus &amp;
             singulis suis pertinentiis universis, ac in manibus &amp; possessione nostris jam
             existentibus habemus, seu quovismodo <app>
-               <rdg wit="#W #S #C">in futurum </rdg>
+               <rdg wit="#W #S #C #I">in futurum </rdg>
                <rdg wit="#R">infuturum</rdg>
             </app> habere poterimus, aut hæredes vel
             successores nostri habere <app>
-               <rdg wit="#W #S">seu</rdg>
+               <rdg wit="#W #S #I">seu</rdg>
                <rdg wit="#R">aut</rdg>
             </app> clamare debent aut poterunt <app>
-               <rdg wit="#W">quovismodo</rdg>
+               <rdg wit="#W #I">quovismodo</rdg>
                <rdg wit="#S">quovis modo</rdg>
             </app> <app>
-               <rdg wit="#W #S #C">in futurum</rdg>
+               <rdg wit="#W #S #C #I">in futurum</rdg>
                <rdg wit="#R">infuturum</rdg>
             </app>, jure titulo materia vel causa <app>
                <rdg wit="#W #S">quibuscunque</rdg>
                <rdg wit="#R">quibuscunque</rdg>
+               <!-- AMP: These are also the same!-->
             </app> juxta omnem juris
             effectum, ac omnia &amp; omnimodas libertates &amp; franchesias jura &amp;
             jurisdictiones <app>
-               <rdg wit="#W #S">quæcunque</rdg>
+               <rdg wit="#W #S #I">quæcunque</rdg>
                <rdg wit="#R">quecumque</rdg>
-            </app> dicto nuper ¬Prioratui terris <app>
+            </app> dicto nuper Prioratui terris <app>
                <rdg wit="#W #S">vel</rdg>
-               <rdg wit="#R">et</rdg>
+               <rdg wit="#R #I">et</rdg>
             </app> tenementis, vel cæteris
             hæreditamentis <app>
-               <rdg wit="#W #S">quibuscunque</rdg>
+               <rdg wit="#W #S #I">quibuscunque</rdg>
                <rdg wit="#R">quibuscumque</rdg> </app>
                <pb ed="#R" n="32"/>
-            , sive alicui inde parcellæ quoquo modo spectantia vel
-            pertinentia, adeo plene &amp; integre prout antedictus <app>
+            , sive alicui inde parcellæ <app><rdg wit="#W #R #S">quoquo modo</rdg><rdg wit="#I">quoquomodo</rdg></app> spectantia vel
+            pertinentia, adeo <app><rdg wit="#W #R #S">plene</rdg><rdg wit="#I">plane</rdg></app> &amp; integre prout antedictus <app>
                <rdg wit="#W">Richardus</rdg>
                <rdg wit="#S #R">Ricardus</rdg>
+               <rdg wit="#I">Ric'us</rdg>
             </app> David nuper Prior Prioratus prædicti aut aliquis prædecessorum suorum <app>
-               <rdg wit="#W #S">nuper</rdg>
+               <rdg wit="#W #S #I">nuper</rdg>
                <rdg wit="#R"/>
             </app>
-            Priorum dicti nuper Prioratus sive domus prædicatorum in jure illius Prioratus dictam <app>
+            Priorum dicti nuper Prioratus sive domus prædicatorum <app><rdg wit="#W #R #S">in jure</rdg><rdg wit="#I">injure</rdg></app> illius Prioratus dictam <app>
                <rdg wit="#W #S"/>
                <rdg wit="#R">nuper domum sive Prioratum fratrum predicatorum ea</rdg>
             </app><app>
-               <rdg wit="#W #R">vel</rdg>
+               <rdg wit="#W #R #I">vel</rdg>
                <rdg wit="#S"/>
             </app> prædicta bona et catalla, res, <pb xml:id="S"/> necessaria vel implementa prædicta, vel aliquam partem inde unquam
-            habuerunt tenuerunt vel gavisi fuerunt, habuit tenuit <app>
-               <rdg wit="#W #R">aut</rdg>
+            habuerunt tenuerunt vel gavisi <!-- AMP: In "I", there are marks over "gavisi" that make it look like they were correcting a mistake. There's a character between the g and the a that seems to be scratched out. Should we code this? --> fuerunt, habuit tenuit <app>
+               <rdg wit="#W #R #I">aut</rdg>
                <rdg wit="#S">vel</rdg>
             </app> gavisus fuit, aut habere tenere seu gaudere debuerunt vel deberent, debuit
-            <pb ed="#W" n="306"/>  sive deberet, aut adeo plene &amp; integre prout ea omnia &amp;
+            <pb ed="#W" n="306"/>  sive deberet, <app><rdg wit="#W #R #S">aut</rdg><rdg wit="#I">et</rdg></app> adeo plene &amp; integre prout ea omnia &amp;
             singula ad manus nostras ratione et prætextu dissolutionis dicti nuper Prioratus sive
             domus devenerunt, seu devenire debuerunt, vel deberent, <app>
                <rdg wit="#W #S">aut</rdg>
-               <rdg wit="#R">ac</rdg>
+               <rdg wit="#R #I">ac</rdg>
             </app> alio modo  <app>
-               <rdg wit="#W #S">quocunque</rdg>
+               <rdg wit="#W #S #I">quocunque</rdg>
                <rdg wit="#R">quocumque</rdg>
             </app>in
             manibus nostris jam existunt<app>
                <rdg wit="#W #S">vel</rdg>
-               <rdg wit="#R">seu</rdg>
+               <rdg wit="#R #I">seu</rdg>
             </app>  existere debent  <app>
                <rdg wit="#W #S">seu</rdg>
-               <rdg wit="#R">vel</rdg>
+               <rdg wit="#R #I">vel</rdg>
             </app>deberent.</ab>
 
-         <ab>Habendum, tenendum &amp; gaudendum prædictam domum sive prædictum nuper Prioratum,
+         <ab><app><rdg wit="#W #R #S">Habendum, </rdg><rdg wit="#I">Habendum et</rdg></app>tenendum &amp; gaudendum prædictam domum sive prædictum nuper Prioratum,
             solum, fundum, &amp; præcinctum ejusdem, ac omnia et singula ædificia dicti nuper
             Prioratus, ac omnia  <app>
-               <rdg wit="#W #S">messuagia</rdg>
+               <rdg wit="#W #S #I">messuagia</rdg>
                <rdg wit="#R">mesuagia</rdg>
-            </app>terras et tenementa; redditus reversiones &amp; servitia,
+            </app>terras et tenementa; redditus <app><rdg wit="#W #R #S">reversiones</rdg><rdg wit="#I">revertione</rdg></app> &amp; servitia,
             commoditates &amp; proficua, ac cætera hæreditamenta <app>
-               <rdg wit="#W #S">quæcunque</rdg>
+               <rdg wit="#W #S #I">quæcunque</rdg>
                <rdg wit="#R">quecumque</rdg>
             </app>, bona catalla res<app>
-               <rdg wit="#W #S">hustilmenta</rdg>
+               <rdg wit="#W #S #I">hustilmenta</rdg>
                <rdg wit="#R">hustillamenta</rdg>
             </app>
             implementa &amp; necessaria, <app>
-               <rdg wit="#W #S">quæcunque</rdg>
+               <rdg wit="#W #S #I">quæcunque</rdg>
                <rdg wit="#R">quecumque</rdg>
             </app>, ac cætera omnia &amp; singula
-            præmissa superius expressa &amp; specificata, cum suis juribus &amp; pertinentiis
+            præmissa superius expressa &amp; specificata, cum suis juribus &amp; <app><rdg wit="#W #S #R">pertinentiis</rdg><rdg wit="#I">pertinentum</rdg></app><!-- AMP: Can we double check that I read this right? -->
             universis, <app>
-               <rdg wit="#W #S">una cum</rdg>
+               <rdg wit="#W #S #I">una cum</rdg>
                <rdg wit="#R">unacum</rdg>
-            </app> omnibus &amp; omnimodis proficuis emolumentis et commoditatibus
+            </app> omnibus <pb ed="#I" n="273"/>&amp; omnimodis proficuis emolumentis et commoditatibus
             <app>
                <rdg wit="#W #S">quibuscunque</rdg>
                <rdg wit="#R">quibuscumque</rdg>
