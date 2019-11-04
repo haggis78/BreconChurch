@@ -393,22 +393,23 @@
                <rdg wit="#W #S #I">ac etiam</rdg>
                <rdg wit="#R">acetiam</rdg>
             </app> volumus <pb ed="#I" n="274"/> &amp; per præsentes concedimus præfato nunc Episcopo quod
-            habeat has literas nostras patentes, sub magno Sigillo nostro Angliæ debito modo factas
+            habeat has literas nostras patentes, sub magno Sigillo nostro <!-- AMP: nostro wasn't originally in I, but the word was added with a caret by what I think is the hand that did all of the marginal notes! -->Angliæ debito modo factas
             et sigillatas, absque fine vel feodo magno vel parvo <pb ed="#W" n="307"/>  in Hanaperio
             nostro, seu alibi ad usum nostrum quoquo modo <app>
                <rdg wit="#W #S">reddendo solvendo vel faciendo</rdg>
-               <rdg wit="#R">reddend' solvend' vel faciend'</rdg> <!-- WHC 10/10/19: do other witnesses have reddendum solvendum vel faciendum? R is abbreviated so I can't tell which is intended. -->
+               <rdg wit="#R">reddend' solvend' vel faciend'</rdg>
+               <rdg wit="#I">reddendum solvendum vel faciendum</rdg><!-- WHC 10/10/19: do other witnesses have reddendum solvendum vel faciendum? R is abbreviated so I can't tell which is intended. -->
             </app>, eo quod
-            expressa mentio de certitudine aut valore præmissorum, aut de aliis donis sive
+            expressa <app><rdg wit="#W #R #S">mentio</rdg><rdg wit="#I">meneo</rdg></app> <!-- AMP: Can we check this spelling in I? --> de certitudine aut valore præmissorum, aut de aliis donis sive
             concessionibus, per nos vel aliquem progenitorum nostrorum præfato nunc Episcopo ante
-            hæc tempora factis in præsentibus minime <app>
+            <app><rdg wit="#W #S #R">hæc</rdg><rdg wit="#I">hec</rdg></app> tempora factis in præsentibus minime <app>
                <rdg wit="#W">factis</rdg>
                <rdg wit="#S">facta</rdg>
-               <rdg wit="#R">fact'</rdg>
-            </app> existit, aut aliquibus statutis actu ordinatione provisione sive restrictione in
-            contrarium factis editis ordinatis sive provisis, aut alia aliqua re causa vel materia
+               <rdg wit="#R #I">fact'</rdg>
+            </app> existit, aut aliquibus statutis actu ordinatione provisione sive restrictione<!-- AMP: I have to go back and check out "restrictione" because it looked odd in I! --> in
+            contrarium factis editis ordinatis sive provisis, aut <app><rdg wit="#W #R #S">alia aliqua</rdg><rdg wit="#I">aliqua alia</rdg></app> re causa vel materia
             <app>
-               <rdg wit="#W #S">quacunque</rdg>
+               <rdg wit="#W #S #I">quacunque</rdg>
                <rdg wit="#R">quacumque</rdg>
             </app> in aliquo non obstante.</ab>
 
@@ -416,170 +417,175 @@
             nostris, volumus &amp; concedimus ac per præsentes licentiam facultatem potestatem et
             <app>
                <rdg wit="#W #S">authoritatem</rdg>
-               <rdg wit="#R">auctoritatem</rdg>
+               <rdg wit="#R #I">auctoritatem</rdg>
             </app>, ordinario ac loci illius Diocesano &amp; Patrono fundatori ac Decano dicti
             Collegii de <app>
-               <rdg wit="#W #S">Abergwilly</rdg>
+               <rdg wit="#W #S #I">Abergwilly</rdg>
                <rdg wit="#R">Alberguylly</rdg>
             </app>, damus quod ipsi <app>
-               <rdg wit="#W #R">possunt</rdg>
+               <rdg wit="#W #R #I">possunt</rdg>
                <rdg wit="#S">possint</rdg>
-            </app> absque aliquibus impetitione vel perturbatione nostri hæredum aut successorum
+            </app> absque aliquibus impetitione <!-- AMP: I've put comments for other instances of this, but in words like "impetitione" and "revertiones", the word looks like "impeticone" with a line above the last half of the word --> vel perturbatione nostri <app><rdg wit="#W #R #S">hæredum</rdg><rdg wit="#I">heredum</rdg></app> aut successorum
             nostrorum <app>
                <rdg wit="#W">vice comitum</rdg>
                <rdg wit="#S">vice-comitum</rdg>
-               <rdg wit="#R">vicecomitum</rdg>
-            </app> justiciariorum escaetorum officiariorum aut ministrorum nostrorum <app>
-               <rdg wit="#W #S">quorumcunque</rdg>
+               <rdg wit="#R #I">vicecomitum</rdg>
+            </app> <app><rdg wit="#W #S #R">justiciariorum escaetorum</rdg><rdg wit="#I">justitiariorum eschaetorum</rdg></app> officiariorum aut ministrorum nostrorum <app>
+               <rdg wit="#W #S #I">quorumcunque</rdg>
                <rdg wit="#R">quorumcumque</rdg>
             </app>
             libere &amp; impune dictas annuas quinquaginta tres libras pro <app>
                <rdg wit="#W #S">stipendiis</rdg>
-               <rdg wit="#R">stipendio</rdg>
+               <rdg wit="#R #I">stipendio</rdg>
             </app> dictorum
             cantatorum, ut præmittitur, assignatas
-            expendendas in meliorem usum secundum eorum sanas discretiones <app>
+            <app><rdg wit="#W #R #S">expendendas</rdg><rdg wit="#I">expendendum</rdg></app> in meliorem usum secundum eorum <app><rdg wit="#W #R #S">sanas</rdg><rdg wit="#I"/></app> discretiones <app>
                <rdg wit="#W #S">convertendas</rdg>
                <rdg wit="#R">commitendas</rdg>
+               <rdg wit="#I">commitendum</rdg>
             </app>,
-            &amp; quod ipsi libere &amp; impune valeant quendam ludum literarium erigere &amp;
+            &amp; quod ipsi libere &amp; impune valeant quendam ludum <app><rdg wit="#W #R #S">literarium</rdg><rdg wit="#I">literarum</rdg></app> erigere &amp;
             fundare apud <app>
                <rdg wit="#W #S">Brecknock</rdg>
                <rdg wit="#R">Brechnoke</rdg>
-            </app> prædictum, ac ipsas quinquaginta tres libras annuas ad
+               <rdg wit="#I">Brechnock</rdg>
+            </app> <app><rdg wit="#W #R #S">prædictum</rdg><rdg wit="#I">predict</rdg></app>, ac ipsas <!-- amp: double check "ipsas" in I --> quinquaginta tres libras annuas ad
             sustentationem <app>
-               <rdg wit="#W #S">quorundam</rdg>
+               <rdg wit="#W #S #I">quorundam</rdg>
                <rdg wit="#R">quorumdam</rdg>
-            </app> proborum hominum viz. <!-- WHC: viz., really more like vi3, is actually an abbreviation for videlicet, meaning "namely" or "to wit". You might find it written out in full in some witnesses.--> eruditi ludimagistri &amp; pædagogi,
-            lectoris theologiæ concionatoris, qui apud <app>
+            </app> proborum hominum <app><rdg wit="#W #R #S">viz</rdg><rdg wit="#I">videlt</rdg></app>. <!-- WHC: viz., really more like vi3, is actually an abbreviation for videlicet, meaning "namely" or "to wit". You might find it written out in full in some witnesses.--> eruditi <app><rdg wit="#W #R #S">ludimagistri</rdg><rdg wit="#I">Ludi Magistri</rdg></app> &amp; pædagogi,
+            lectoris theologiæ <pb ed="#I" n="275"/>concionatoris, qui apud <app>
                <rdg wit="#W #S">Brecknock</rdg>
                <rdg wit="#R">Breknok</rdg>
-            </app> prædictum omnibus personis doceri
+               <rdg wit="#I">Brechnock</rdg>
+            </app> <app><rdg wit="#W #R #S">prædictum</rdg><rdg wit="#I">praedict</rdg></app> omnibus personis doceri
             volentibus in bonis literis <app>
-               <rdg wit="#W #S">erudient</rdg>
+               <rdg wit="#W #S #I">erudient</rdg>
                <rdg wit="#R">erudiant</rdg>
             </app>, ac sanctum evangelium cunctis ligeis &amp;
-            fidelibus nostris ibidem pure &amp; sincere gratis et libere elucidabunt, secundum
+            fidelibus nostris ibidem <!-- amp: "ibidem" abbreviated in I; I wasn't sure if I should code for that --> pure &amp; sincere gratis et libere elucidabunt, secundum
             ordinationes &amp; statuta in ea parte per dictum diocesanum &amp; loci illius
             ordinarium<app>
                <rdg wit="#W #S">&amp; </rdg>
-               <rdg wit="#R">et</rdg>
-            </app> fundatorem Collegii prædicti de tempore in tempus edenda &amp;
+               <rdg wit="#R #I">et</rdg>
+            </app> fundatorem Collegii <app><rdg wit="#W #S #R">prædicti</rdg><rdg wit="#I">pred</rdg></app> de tempore in tempus edenda &amp;
             constituenda, libere et impune absque impetitione nostri hæredum aut successorum
             nostrorum justiciariorum ministrorum aut officiariorum <app>
-               <rdg wit="#W #S">quorumcunque</rdg>
-               <rdg wit="#R">quorumcunque</rdg>
-            </app>, aliquibus statutis<app>
+               <rdg wit="#W #S #I">quorumcunque</rdg>
+               <rdg wit="#R">quorumcunque</rdg><!-- amp: this is the same in both witnesses, should I remove this code? -->
+            </app>, aliquibus <app><rdg wit="#W #S #R">statutis</rdg><rdg wit="#I">statuto</rdg></app><app>
                <rdg wit="#W #S">actibus </rdg>
                <rdg wit="#R">actubus</rdg>
+               <rdg wit="#I">actu</rdg>
             </app>
-            ordinationibus vel provisionibus <app>
-               <rdg wit="#W #S">in contrarium</rdg>
+            <app><rdg wit="#W #R #S">ordinationibus</rdg><rdg wit="#I">ordinatione</rdg></app> vel <app><rdg wit="#W #R #S">provisionibus</rdg><rdg wit="#I">provisione</rdg></app> <app>
+               <rdg wit="#W #S #I">in contrarium</rdg>
                <rdg wit="#R">incontrarium</rdg>
             </app> factis editis aut provisis, non
-            obstantibus, &amp; absque aliquo ab ipsis Pueris vel eorum parentibus pro educatione
+            obstantibus, &amp; absque aliquo ab ipsis Pueris vel eorum parentibus pro <app><rdg wit="#W #S #R">educatione</rdg><rdg wit="#I">eruditione</rdg></app>
             prædictorum adolescentium capiendo vel clamando.</ab>
 
          <ab><app>
-            <rdg wit="#W #S">Ac etiam</rdg>
+            <rdg wit="#W #S #I">Ac etiam</rdg>
             <rdg wit="#R">Acetiam</rdg>
-         </app> de gratia nostra speciali certa scientia mero motu <app>
-               <rdg wit="#W #R">nostris</rdg>
+         </app> de <app><rdg wit="#W #S #R">gratia</rdg><rdg wit="#I">gra</rdg></app> nostra speciali certa scientia mero motu <app>
+               <rdg wit="#W #R #I">nostris</rdg>
                <rdg wit="#S">nostro</rdg>
-            </app>, &amp; volumus &amp; concedimus per præsentes, quod dictus nuper Prioratus
+            </app>,<app><rdg wit="#W #S #R"> &amp;</rdg><rdg wit="#I"/></app> volumus &amp; concedimus per præsentes, quod dictus nuper Prioratus
             fratrum prædicatorum Collegium Christi de <app>
                <rdg wit="#W #S">Brecknock</rdg>
                <rdg wit="#R">Brechnok</rdg>
+               <rdg wit="#I">Brechnock</rdg>
             </app> de cætero nuncupetur, &amp; ab
             omnibus appelletur; ac pro tali Collegio acceptamus &amp; reputamus per præsentes, &amp;
             non alio modo neque aliter <app>
                <rdg wit="#W #S">in posterum</rdg>
-               <rdg wit="#R">imposterum</rdg>
+               <rdg wit="#R #I">imposterum</rdg>
             </app> vocari appellari vel nuncupari volumus. Et quod
-            antedictus nunc Episcopus Menevensis ac omnes &amp; singuli præbendarii canonici
+            antedictus nunc Episcopus <!-- amp:Episcopo abbreviated in I --> <app><rdg wit="#W #S #R">Menevensis</rdg><rdg wit="#I">Meneven</rdg></app> ac omnes &amp; singuli præbendarii canonici
             choristæ vicarii, <app>
-               <rdg wit="#W #R">aliive</rdg>
+               <rdg wit="#W #R #I">aliive</rdg>
                <rdg wit="#S">aliique</rdg>
             </app> ministri dicti Collegii de <app>
-               <rdg wit="#W #S">Abergwilly</rdg>
+               <rdg wit="#W #S #I">Abergwilly</rdg>
                <rdg wit="#R">Albergully</rdg>
             </app>, ac omnes <app>
-               <rdg wit="#W #R">ludi magistri</rdg>
+               <rdg wit="#W #R #I">ludi magistri</rdg>
                <rdg wit="#S">Ludimagistri</rdg>
-            </app> pædagogi lectores <pb ed="#W" n="308"/>  concionatores ac aliæ personæ <app>
-               <rdg wit="#W #S">quæcunque</rdg>
+            </app> <app><rdg wit="#W #S #R">pædagogi</rdg><rdg wit="#I">pedagogi</rdg></app> lectores <pb ed="#W" n="308"/>  concionatores ac aliæ personæ <app>
+               <rdg wit="#W #S #I">quæcunque</rdg>
                <rdg wit="#R">quecumque</rdg>
             </app>;
-            illic pro tempore existentes &amp; successores sui libere &amp; impune apud prædictum
+            illic pro tempore existentes &amp; successores sui libere &amp; impune apud <app><rdg wit="#W #S #R">prædictum</rdg><rdg wit="#I">præd</rdg></app>
             oppidum de <app>
                <rdg wit="#W #S"> Brecknock</rdg>
                <rdg wit="#R">Breknok</rdg>
-            </app> &amp; in Ecclesia prædicta nuper Prioratus ac aliis possessionibus
+               <rdg wit="#I">Brechnock</rdg>
+            </app> &amp; in <pb ed="#I" n="276"/><app><rdg wit="#W #S #R">Ecclesia</rdg><rdg wit="#I">Ecclia</rdg></app> <app><rdg wit="#W #S #R">prædicta</rdg><rdg wit="#I">præd</rdg></app> nuper Prioratus ac aliis possessionibus
             terris &amp; tenementis, ac aliis hæreditamentis <app>
-               <rdg wit="#W #S">quibuscunque</rdg>
+               <rdg wit="#W #S #I">quibuscunque</rdg>
                <rdg wit="#R">quibuscumque</rdg>
             </app> dicto nuper Prioratui
-            spectantibus, &amp; infra ambitum &amp; præcinctum ejusdem nuper Prioratus cohabitare
+            <app><rdg wit="#W #S #R">spectantibus</rdg><rdg wit="#I">spectantia</rdg></app>, &amp; infra ambitum &amp; præcinctum ejusdem nuper Prioratus cohabitare
             <app>
-               <rdg wit="#W #S">residere</rdg>
+               <rdg wit="#W #S #I">residere</rdg>
                <rdg wit="#R">recedere</rdg>
             </app> <app>
                <rdg wit="#W #R">possunt</rdg>
-               <rdg wit="#S">possint</rdg>
-            </app> et manere. Et quod idem nunc Episcopus Menevensis &amp; successores sui ad ejus
+               <rdg wit="#S #I">possint</rdg>
+            </app> et manere. Et quod idem nunc Episcopus <app><rdg wit="#W #S #R">Menevensis</rdg><rdg wit="#I">Menev'</rdg></app> &amp; successores sui ad ejus
             et eorum cujuslibet beneplacitum libere transferre
-            <!-- 10/7 amp: I believe that all spellings of this word are "possint" in S, so I'm going to leave the rest of them (since I've already coded this distinction before!) -->
-            <!--10/9 WHC @amp: I took you at your word and used Find/Replace to enter the possunt/possint distinction for W and S throughout the document. It's a small but perhaps meaningful grammatical distinction, as between shall and should.-->
             <app>
-               <rdg wit="#W #R">possunt</rdg>
+               <rdg wit="#W #R #I">possunt</rdg>
                <rdg wit="#S">possint</rdg>
             </app>
-            dictos residentiarios præbendarios canonicos choristas aliosque ministros dicti Collegii
+            dictos residentiarios præbendarios <app><rdg wit="#W #S #R">canonicos</rdg><rdg wit="#I">cannonicos</rdg></app> choristas aliosque ministros dicti Collegii
             de <app>
-               <rdg wit="#W #S">Abergwilly</rdg>
+               <rdg wit="#W #S #I">Abergwilly</rdg>
                <rdg wit="#R">Alberguylly</rdg>
             </app>, ad dictum Collegium Christi de <app>
-               <rdg wit="#W #S">Brecknock</rdg>
+               <rdg wit="#W #S #I">Brecknock</rdg>
                <rdg wit="#R">Brechnok</rdg>
-            </app>  prædictum, atque eos &amp; eorum
-            quemlibet sub pœnis statutorum dicti Collegii de <app>
-               <rdg wit="#W #S">Abergwilly</rdg>
+            </app>  <app><rdg wit="#W #S #R">prædictum</rdg><rdg wit="#I">pred</rdg></app>, atque eos &amp; eorum
+            quemlibet sub <app><rdg wit="#W #S #R">pœnis</rdg><rdg wit="#I">pæna</rdg></app> statutorum dicti Collegii de <app>
+               <rdg wit="#W #S #I">Abergwilly</rdg>
                <rdg wit="#R">Alberguylly</rdg>
             </app>, aliquo tempore <app>
-               <rdg wit="#W #R">ante hac</rdg>
+               <rdg wit="#W #R #I">ante hac</rdg>
                <rdg wit="#S">antehac</rdg>
             </app> usitatis consuetis specificatis &amp; declaratis, absque impetitione molestatione
             vel  <app>
                <rdg wit="#W #S">turbatione</rdg>
-               <rdg wit="#R">perturbatione</rdg>
+               <rdg wit="#R #I">perturbatione</rdg>
             </app> nostri hæredum vel successorum nostrorum, justiciarorum escaetorum
             vicecomitum ballivorum <pb ed="#S"/> servientium officiariorum vel ministrorum
             nostrorum, hæredum aut successorum nostrorum <app>
                <rdg wit="#W #S">quorumcunque</rdg>
                <rdg wit="#R">quorumcumque</rdg>
+               <rdg wit="#I"><!-- amp: this is a marginal note in I --></rdg>
             </app>, vel eorum alicujus cohabitare
-            faciat <!-- WHC note: W lacks a period that clearly belongs at the end of this; presumably a printing error. -->
+            <app><rdg wit="#W #S #R">faciat</rdg><rdg wit="#I">facere</rdg></app> <!-- WHC note: W lacks a period that clearly belongs at the end of this; presumably a printing error. -->
             <!-- 10/7 amp: S includes the period! -->
          </ab>
 
-         <ab>Et ulterius volumus &amp; concedimus per præsentes de speciali gratia nostra certa
-            scientia &amp; mero motu nostris, quod idem nunc Episcopus Menevensis &amp; successores
+         <ab>Et ulterius volumus &amp; concedimus per præsentes de speciali <app><rdg wit="#W #S #R">gratia</rdg><rdg wit="#I">gra</rdg></app> nostra certa
+            scientia &amp; mero motu nostris, quod idem nunc Episcopus <app><rdg wit="#W #S #R">Menevensis</rdg><rdg wit="#I">Meneven</rdg></app> &amp; successores
             sui, ac omnes alii residentiarii præbendarii canonici vicarii choristæ, aliique ministri
             dicti Collegii de <app>
-               <rdg wit="#W #S">Abergwilly</rdg>
+               <rdg wit="#W #S #I">Abergwilly</rdg>
                <rdg wit="#R">Alberguylly</rdg>
             </app> &amp; successores sui, pure libere quiete et hæreditarie
             habeant &amp; teneant sibi &amp; successoribus suis <app>
                <rdg wit="#W #S">in perpetuum</rdg>
-               <rdg wit="#R">imperpetuum</rdg>
+               <rdg wit="#R #I">imperpetuum</rdg>
             </app>, omnia &amp; omnimoda
             maneria <app>
-               <rdg wit="#W #S">messuagia</rdg>
+               <rdg wit="#W #S #I">messuagia</rdg>
                <rdg wit="#R">mesuagia</rdg>
             </app> terras &amp; tenementa, redditus reversiones &amp; servitia,
             advocationes ecclesiarum vicariarum &amp; capellarum, proficua emolumenta commoditates
-            &amp; hæreditamenta, libertates franchesias præheminentias &amp; jura <app>
-               <rdg wit="#W #S">quæcunque</rdg>
+            &amp; hæreditamenta, libertates franchesias <app><rdg wit="#W #S #R">præheminentias</rdg><rdg wit="#I">præeminentias</rdg></app><!-- amp: this last one seems to be a miswrite on the scribe's part! The 'h' is missing in I --> &amp; jura <pb ed="#I" n="277"/><app>
+               <rdg wit="#W #S #I">quæcunque</rdg>
                <rdg wit="#R">quecumque</rdg>
             </app> aliquo
             modo <app>
