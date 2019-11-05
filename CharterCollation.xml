@@ -56,7 +56,7 @@
             </app>, jam existunt,  <app>
                <rdg wit="#W #R #I">vel</rdg>
                <rdg wit="#S">&amp;</rdg>
-            </app>existere deberent, <pb ed="#I" n="270"/><app><rdg wit="#W #S #R">prætextu</rdg><rdg wit="#I">pretextu</rdg></app> doni concessionis ac sursum <app><rdg wit="#W #R #S">redditionis</rdg><rdg wit="#I">reddiconis</rdg></app> <app><rdg wit="#W #S #R">Ricardi</rdg><rdg wit="#I">Rici</rdg></app>  <app>
+            </app>existere deberent, <pb ed="#I" n="270"/> prætextu doni concessionis ac sursum <app><rdg wit="#W #R #S">redditionis</rdg><rdg wit="#I">reddiconis</rdg></app> <app><rdg wit="#W #S #R">Ricardi</rdg><rdg wit="#I">Rici</rdg></app>  <app>
                <rdg wit="#W #S #I">David</rdg>
                <rdg wit="#R">Davidi</rdg>
             </app>
@@ -65,7 +65,7 @@
                <rdg wit="#W #S #I">messuagiis</rdg>
                <rdg wit="#R">mesuagiis</rdg>
             </app>  terris &amp;
-               tenementis ac <app><rdg wit="#W #S #R">cæteris</rdg><rdg wit="#I">ceteris</rdg></app> omnibus &amp; singulis præmissis seisiti sumus in Dominico <app>
+               tenementis ac ceteris omnibus &amp; singulis præmissis seisiti sumus in Dominico <app>
                   <rdg wit="#W #S"/>
                   <rdg wit="#R #I">nostro</rdg>
                </app> ut <app>
@@ -135,7 +135,7 @@
                <rdg wit="#R">possunt</rdg>
             </app>
             intelligere, in maximum commodum totius populi nostri ibidem commoraturi, sicut per
-            relationem dilecti nobis in Christo Willielmi<!-- AMP: "Willielmi" looks different in I, but I'm not sure if this is just me being unable to read the writing! "Episcopi" and "Menevenis" look different as well. Could we double check this? --> Episcopi Menevensis plenius <app>
+            relationem dilecti nobis in Christo Willielmi Episcopi Menevensis plenius <app>
                <rdg wit="#W #R #I">ac</rdg>
                <rdg wit="#S">&amp;</rdg>
             </app> planius accepimus.</ab>
@@ -147,7 +147,8 @@
             meliores usus quam nunc disponuntur convertere <app>
                <rdg wit="#W #S"/>
                <rdg wit="#R">et transmutare</rdg>
-               <!-- AMP: "et transmutare" was included in a marginal note by another hand in I. I wasn't sure how to go about coding this -->
+               <rdg wit="#I"><add place="leftMargin">et transmutare</add></rdg>
+               <!-- AMP: testing a system of adding footnotes in witnesses! -->
             </app>
             , clare percipientes <pb ed="#I" n="271"/>quod præmissa omnia
             &amp; singula melius disponi <app>
@@ -185,7 +186,8 @@
             </app> 
             generis vel speciei fuerint, ac in tam amplis modo &amp; forma prout dictus <app>
                <rdg wit="#W">Richardus</rdg>
-               <rdg wit="#S #R">Ricardus</rdg> <!-- AMP: I'm not sure which one I uses, it seems to be another instance of shorthand that I'm having trouble deciphering! -->
+               <rdg wit="#S #R">Ricardus</rdg>
+               <rdg wit="#I">Ric'i</rdg>
             </app> David ultimus Prior dictæ nuper domus fratrum <app><rdg wit="#W #S #R">prædicatorum</rdg><rdg wit="#I">predictorum</rdg></app>, vel aliquis
             prædecessorum prædicti Ricardi David nuper Prioris ejusdem nuper domus sive Prioratus <app>
                <rdg wit="#W #S"/>
@@ -223,7 +225,7 @@
                <rdg wit="#W #S #I">demandum</rdg>
                <rdg wit="#R #C">demand'</rdg>
             </app> quæ nos in prædicto nuper Prioratu sive domo
-            fratrum <app><rdg wit="#W #R #S">prædicatorum</rdg><rdg wit="#I">predicatorum</rdg></app> <app><rdg wit="#W #S #R">ac cæteris</rdg><rdg wit="#I">acceteris</rdg></app> præmissis cum pertinentiis, ac in reversione dicti nuper
+            fratrum prædicatorum <app><rdg wit="#W #S #R">ac cæteris</rdg><rdg wit="#I">acceteris</rdg></app> præmissis cum pertinentiis, ac in reversione dicti nuper
             <pb ed="#I" n="272"/>Prioratus sive domus fratrum prædicatorum ac cæterorum præmissorum cum omnibus &amp;
             singulis suis pertinentiis universis, ac in manibus &amp; possessione nostris jam
             existentibus habemus, seu quovismodo <app>
@@ -240,7 +242,7 @@
                <rdg wit="#W #S #C #I">in futurum</rdg>
                <rdg wit="#R">infuturum</rdg>
             </app>, jure titulo materia vel causa <app>
-               <rdg wit="#W #S">quibuscunque</rdg>
+               <rdg wit="#W #S #I">quibuscunque</rdg>
                <rdg wit="#R">quibuscunque</rdg>
                <!-- AMP: These are also the same!-->
             </app> juxta omnem juris
@@ -272,7 +274,7 @@
                <rdg wit="#W #R #I">vel</rdg>
                <rdg wit="#S"/>
             </app> prædicta bona et catalla, res, <pb xml:id="S"/> necessaria vel implementa prædicta, vel aliquam partem inde unquam
-            habuerunt tenuerunt vel gavisi <!-- AMP: In "I", there are marks over "gavisi" that make it look like they were correcting a mistake. There's a character between the g and the a that seems to be scratched out. Should we code this? --> fuerunt, habuit tenuit <app>
+            habuerunt tenuerunt vel gavisi fuerunt, habuit tenuit <app>
                <rdg wit="#W #R #I">aut</rdg>
                <rdg wit="#S">vel</rdg>
             </app> gavisus fuit, aut habere tenere seu gaudere debuerunt vel deberent, debuit
@@ -344,7 +346,7 @@
                <rdg wit="#W #S">omnimodos</rdg>
                <rdg wit="#R">in omnimod'</rdg>
             </app>, exitus reventiones &amp; proficua <app>
-               <rdg wit="#W #R">prædicti</rdg>
+               <rdg wit="#W #R #I">prædicti</rdg>
                <rdg wit="#S">dicti</rdg>
             </app> nuper Prioratus sive domus fratrum prædicatorum, ac cæterorum omnium &amp;
             singulorum præmissorum a tempore dissolutionis dicti nuper Prioratus sive domus
@@ -406,7 +408,7 @@
                <rdg wit="#W">factis</rdg>
                <rdg wit="#S">facta</rdg>
                <rdg wit="#R #I">fact'</rdg>
-            </app> existit, aut aliquibus statutis actu ordinatione provisione sive restrictione<!-- AMP: I have to go back and check out "restrictione" because it looked odd in I! --> in
+            </app> existit, aut aliquibus statutis actu ordinatione provisione sive restrictione in
             contrarium factis editis ordinatis sive provisis, aut <app><rdg wit="#W #R #S">alia aliqua</rdg><rdg wit="#I">aliqua alia</rdg></app> re causa vel materia
             <app>
                <rdg wit="#W #S #I">quacunque</rdg>
@@ -425,7 +427,7 @@
             </app>, damus quod ipsi <app>
                <rdg wit="#W #R #I">possunt</rdg>
                <rdg wit="#S">possint</rdg>
-            </app> absque aliquibus impetitione <!-- AMP: I've put comments for other instances of this, but in words like "impetitione" and "revertiones", the word looks like "impeticone" with a line above the last half of the word --> vel perturbatione nostri <app><rdg wit="#W #R #S">hæredum</rdg><rdg wit="#I">heredum</rdg></app> aut successorum
+            </app> absque aliquibus impetitione vel perturbatione nostri <app><rdg wit="#W #R #S">hæredum</rdg><rdg wit="#I">heredum</rdg></app> aut successorum
             nostrorum <app>
                <rdg wit="#W">vice comitum</rdg>
                <rdg wit="#S">vice-comitum</rdg>
@@ -449,7 +451,7 @@
                <rdg wit="#W #S">Brecknock</rdg>
                <rdg wit="#R">Brechnoke</rdg>
                <rdg wit="#I">Brechnock</rdg>
-            </app> <app><rdg wit="#W #R #S">prædictum</rdg><rdg wit="#I">predict</rdg></app>, ac ipsas <!-- amp: double check "ipsas" in I --> quinquaginta tres libras annuas ad
+            </app> <app><rdg wit="#W #R #S">prædictum</rdg><rdg wit="#I">predict</rdg></app>, ac ipsas quinquaginta tres libras annuas ad
             sustentationem <app>
                <rdg wit="#W #S #I">quorundam</rdg>
                <rdg wit="#R">quorumdam</rdg>
@@ -463,7 +465,7 @@
                <rdg wit="#W #S #I">erudient</rdg>
                <rdg wit="#R">erudiant</rdg>
             </app>, ac sanctum evangelium cunctis ligeis &amp;
-            fidelibus nostris ibidem <!-- amp: "ibidem" abbreviated in I; I wasn't sure if I should code for that --> pure &amp; sincere gratis et libere elucidabunt, secundum
+            fidelibus nostris ibidem pure &amp; sincere gratis et libere elucidabunt, secundum
             ordinationes &amp; statuta in ea parte per dictum diocesanum &amp; loci illius
             ordinarium<app>
                <rdg wit="#W #S">&amp; </rdg>
@@ -502,7 +504,7 @@
                <rdg wit="#W #S">in posterum</rdg>
                <rdg wit="#R #I">imposterum</rdg>
             </app> vocari appellari vel nuncupari volumus. Et quod
-            antedictus nunc Episcopus <!-- amp:Episcopo abbreviated in I --> <app><rdg wit="#W #S #R">Menevensis</rdg><rdg wit="#I">Meneven</rdg></app> ac omnes &amp; singuli præbendarii canonici
+            antedictus nunc Episcopus <app><rdg wit="#W #S #R">Menevensis</rdg><rdg wit="#I">Meneven</rdg></app> ac omnes &amp; singuli præbendarii canonici
             choristæ vicarii, <app>
                <rdg wit="#W #R #I">aliive</rdg>
                <rdg wit="#S">aliique</rdg>
@@ -512,7 +514,7 @@
             </app>, ac omnes <app>
                <rdg wit="#W #R #I">ludi magistri</rdg>
                <rdg wit="#S">Ludimagistri</rdg>
-            </app> <app><rdg wit="#W #S #R">pædagogi</rdg><rdg wit="#I">pedagogi</rdg></app> lectores <pb ed="#W" n="308"/>  concionatores ac aliæ personæ <app>
+            </app> pædagogi lectores <pb ed="#W" n="308"/>  concionatores ac aliæ personæ <app>
                <rdg wit="#W #S #I">quæcunque</rdg>
                <rdg wit="#R">quecumque</rdg>
             </app>;
@@ -584,7 +586,7 @@
                <rdg wit="#R">mesuagia</rdg>
             </app> terras &amp; tenementa, redditus reversiones &amp; servitia,
             advocationes ecclesiarum vicariarum &amp; capellarum, proficua emolumenta commoditates
-            &amp; hæreditamenta, libertates franchesias <app><rdg wit="#W #S #R">præheminentias</rdg><rdg wit="#I">præeminentias</rdg></app><!-- amp: this last one seems to be a miswrite on the scribe's part! The 'h' is missing in I --> &amp; jura <pb ed="#I" n="277"/><app>
+            &amp; hæreditamenta, libertates franchesias <app><rdg wit="#W #S #R">præheminentias</rdg><rdg wit="#I">præeminentias</rdg></app> &amp; jura <pb ed="#I" n="277"/><app>
                <rdg wit="#W #S #I">quæcunque</rdg>
                <rdg wit="#R">quecumque</rdg>
             </app> aliquo
@@ -652,7 +654,7 @@
             parcellæ vel præmissorum, <app>
                <rdg wit="#W #S">vel</rdg>
                <rdg wit="#R">aut</rdg>
-            </app> alicui præmissorum <!-- amp: I abbreviates "praemissorum" -->aliquo modo appendentia pertinentia
+            </app> alicui præmissorum aliquo modo appendentia pertinentia
             sive spectantia. Ex speciali gratia nostra certa scientia &amp; mero motu nostris, damus
             concedimus &amp; confirmamus per præsentes dicto nunc Episcopo <app>
                <rdg wit="#W #S">Menevensi</rdg> <!-- WHC 10/10/19 to self and @amp: confirm that W and S say Menevensi, as Menevensis would be correct. If so don't need R as different witness. -->
@@ -692,7 +694,7 @@
             </app> <app><rdg wit="#W #S #R">excogitari.</rdg><rdg wit="#I">excogitare</rdg></app></ab>
          <!-- WHC 2019-10-01: W abbreviates these words in the last two lines. I will be curious to find out whether the other witnesses do as well. -->
 
-         <ab> Eo quod expressa mentio <app><rdg wit="#W #S #R"/><rdg wit="#I">de Certitudine praemissorum aut de aliis donis sive Concessionibus per nos vel per aliquem progenitorum nostrorum praefato Episcopo Meneven aut alicui Predecessorum suorum ante hec tempora facta in praesentibus minime factae existit aut aliquo statuto actu Orgdinatione PRovisione sive restrictiones <!-- amp: can we double check this last word in I? --> in contrarium factis editis ordinatis sive provisis aut aiquae alia re causa vel materia quacunque in aliquo non obstante</rdg></app> &amp;c. In cujus rei <app>
+         <ab> Eo quod expressa mentio <app><rdg wit="#W #S #R"/><rdg wit="#I">de Certitudine praemissorum aut de aliis donis sive Concessionibus per nos vel per aliquem progenitorum nostrorum praefato Episcopo Meneven aut alicui Predecessorum suorum ante hec tempora facta in praesentibus minime factae existit aut aliquo statuto actu Ordinatione Provisione sive restrictiones in contrarium factis editis ordinatis sive provisis aut aliqua alia re causa vel materia quacunque in aliquo non obstante</rdg></app> &amp;c. In cujus rei <app>
             <rdg wit="#W #S #I">Testimonium has literas nostras fieri
             fecimus Patentes.</rdg>
             <rdg wit="#R">&amp; c'. </rdg>
