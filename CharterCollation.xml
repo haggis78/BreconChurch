@@ -20,22 +20,22 @@
          <ab>
             <pb ed="#I" n="269"/>
             <app>
-               <rdg wit="#I">Henricus Octavus Dei gratia, Angliae et Francia Rex fidei Defensor Dominus Hiberniae Et in terra Supremu Eccliae Anglicanae</rdg><rdg wit="#W #S #R"/>
+               <rdg wit="#I #C">Henricus Octavus Dei gratia, Angliae et Francia Rex fidei Defensor Dominus Hiberniae Et in terra <app><rdg wit="#W #S #R #I">Supremu</rdg><rdg wit="#C">Supremum</rdg></app> <app><rdg wit="#W #R #S #I">Eccliae</rdg><rdg wit="#C">Ecclesiae</rdg></app> Anglicanae</rdg><rdg wit="#W #S #R"/>
             </app>
-            <pb ed="#W" n="304"/><pb ed="#R" n="31"/> <app><rdg wit="#W #R #S">Rex</rdg><rdg wit="#I">Caput</rdg></app> omnibus ad quos 
+            <pb ed="#W" n="304"/><pb ed="#R" n="31"/> <app><rdg wit="#W #R #S">Rex</rdg><rdg wit="#I #C">Caput</rdg></app> omnibus ad quos 
             <app>
-               <rdg wit="#W #S #I">præsentes literæ pervenerint </rdg>
+               <rdg wit="#W #S #I #C">præsentes literæ pervenerint </rdg>
                <rdg wit="#R">&amp; c'</rdg>
             </app>
             salutem. </ab>
          <ab>Cum Collegium de <app>
-               <rdg wit="#W #S #I">Abergwilly</rdg>
+               <rdg wit="#W #S #I #C">Abergwilly</rdg>
                <rdg wit="#R">Aberguylly</rdg>
             </app> in loco inidoneo existit, ubi nulla occasio hospitalitatis aliis
             per viros dicti Collegii administrandæ datur ad commodum &amp; utilitatem subditorum
             nostrorum, in locis dicto Collegio adjacentibus ad grave dampnum dictorum 
             <app>
-               <rdg wit="#W #S">ligiorum</rdg>
+               <rdg wit="#W #S #C">ligiorum</rdg>
                <rdg wit="#R">ligeorum</rdg>
                <rdg wit="#I">Legiorum</rdg>
             </app>
