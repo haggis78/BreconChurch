@@ -1,0 +1,63 @@
+html {
+    background-color: #ffe6b3;
+    
+}
+.menuBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: black;
+    color: white;
+    padding: 15px 15px 15px 15px;
+}
+img.header {
+display: inline;
+    float: left;
+    height: 100px;
+    padding-right: 10px;
+    opacity: 0.75;
+}
+a {
+    text-decoration: none;
+}
+a.menu {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+h1 {
+    color: black;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 10px;
+    font-size: 50px; 
+}
+h2 {
+    color: black;
+    text-align: center;
+}
+h3 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+div.index {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+p {
+    font-size: 20px;
+}
+p.index {
+    font-size: 20px;
+    text-align: center;
+}
+    
+
+img.github {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}

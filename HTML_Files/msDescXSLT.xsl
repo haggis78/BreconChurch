@@ -12,7 +12,9 @@
     
     <xsl:template match="/">
         <html>
-            <head><title>Brecon Project: Texts</title></head>
+            <head>
+                <link rel="stylesheet" type="text/css" href="brecon.css"/>
+                <title>Brecon Project: Texts</title></head>
             <body>
                 <h2>Sources:</h2>
                 <xsl:apply-templates select="descendant::msDesc"/>
@@ -20,7 +22,10 @@
         </html>
     </xsl:template>
     <xsl:template match="msDesc">
-        <h3><xsl:value-of select="@wit"/>:<xsl:value-of select="descendant::idno"/></h3>
+        <h3><xsl:value-of select="@xml:id"/> : <xsl:value-of select="descendant::idno"/></h3>
         <h4><xsl:apply-templates select="descendant::repository"/>, <xsl:apply-templates select="descendant::settlement"/></h4>
+        <p><b>Physical Description:</b></p><p><xsl:apply-templates select="descendant::physDesc"/></p>
+        <p><b>Original Date of Manuscripts:</b></p> <p><xsl:apply-templates select="descendant::origDate"/></p>
+        <p><b>Source Description:</b></p><p><xsl:apply-templates select="descendant::provenance"/></p>
     </xsl:template>
 </xsl:stylesheet>
