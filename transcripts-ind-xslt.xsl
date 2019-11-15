@@ -102,6 +102,7 @@ function myFunction() {
                 <span class="variance">
                     <xsl:value-of select="child::rdg[@wit[contains(., '#I')]]"/>
                 </span>
+                <br/>
             </xsl:when>
             <xsl:otherwise>
                 
@@ -109,9 +110,6 @@ function myFunction() {
         </xsl:choose>
     </xsl:template>
     <xsl:template match="descendant::ab/text()">
-        <xsl:value-of select="."/><br/>
-    </xsl:template>
-    <xsl:template match="descendant::rdg/@wit[contains(., '#W')]">
         <xsl:value-of select="."/><br/>
     </xsl:template>
 
