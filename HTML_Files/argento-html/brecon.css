@@ -73,6 +73,10 @@ body{
 .sticky + .content {
   padding-top: 60px;
 }
+.content{
+    display: flex;
+    width: 96vw;
+}
 .license{
     display: flex;
     width: 60vw;
