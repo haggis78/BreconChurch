@@ -15,49 +15,11 @@
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
                 <link rel="stylesheet" type="text/css" href="../brecon.css" />
                 <link rel="icon" href="../brecon-favicon.png"/>
+                <script src="sticky.js" type="text/javascript"></script>
                 <title>Brecon | Transcript W</title>
             </head>
             <body>
                 <!-- SSI line below-->
-                <div class="header">
-                    <img src="../brecon.svg" />
-                </div>
-                <div id="navbar">
-                    <div class="navbar">
-                        <a href="index.html">Home</a>
-                        <div class="dropdown">
-                            <button class="dropbtn">About <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="#">History</a>
-                                <a href="#">Glossary</a>
-                                <a href="#">People</a>
-                                <a href="#">About Team</a>
-                            </div>
-                        </div>
-                        <div class="dropdown">
-                            <button class="dropbtn">Analysis <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="#">Timeline</a>
-                                <a href="#">Maps</a>
-                                <a href="#">Stemma</a>
-                            </div>
-                        </div>
-                        <div class="dropdown">
-                            <button class="dropbtn">Manuscripts<i class="fa fa-caret-down"></i></button>
-                            <div class="dropdown-content">
-                                <a href="../../texts.html">Manuscript Descriptions</a>
-                                <a href="transcript-c.html">Manuscript C</a>
-                                <a href="transcript-i.html">Manuscript I</a>
-                                <a href="transcript-j.html">Manuscript J</a>
-                                <a href="transcript-r.html">Manuscript R</a>
-                                <a href="transcript-s.html">Manuscript S</a>
-                                <a href="transcript-w.html">Manuscript W</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <!--#include virtual="main-ssi.html" -->
                 <div class="content">
                     <h1><xsl:comment>Title of Transcript goes here</xsl:comment></h1>
