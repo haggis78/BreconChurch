@@ -73,9 +73,12 @@ body{
 .sticky + .content {
   padding-top: 60px;
 }
-.content{
+.manuscript{
     display: flex;
     width: 96vw;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 .license{
     display: flex;

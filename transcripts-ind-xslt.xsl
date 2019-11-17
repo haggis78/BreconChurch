@@ -100,7 +100,7 @@ function myFunction() {
         <xsl:choose>
             <xsl:when test="child::rdg/@wit[contains(., '#W')]">
                 <span class="variance">
-                    <xsl:value-of select="child::rdg[@wit[contains(., '#I')]]"/>
+                    <xsl:value-of select="child::rdg[@wit[contains(., '#W')]]"/>
                 </span>
                 <br/>
             </xsl:when>
