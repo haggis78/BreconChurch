@@ -30,24 +30,6 @@
                         <xsl:apply-templates select="descendant::ab"/>
                     </div>
                 </div>
-                <script>
-                    <xsl:text>
-            window.onscroll = function () {
-    myFunction()
-};
-
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-    if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-    } else {
-        navbar.classList.remove("sticky");
-    }
-}
-                    </xsl:text>
-                </script>
             </body>
         </html>
     </xsl:template>

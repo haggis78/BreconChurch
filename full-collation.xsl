@@ -12,14 +12,13 @@
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat" omit-xml-declaration="yes"/>
     <xsl:mode on-no-match="shallow-copy"/>
     <xsl:template match="/">
-        <xsl:for-each select="descendant::pb/@ed => distinct-values()">
             <html>
                 <head>
                     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
                     <link rel="stylesheet" type="text/css" href="../brecon.css" />
                     <link rel="icon" href="../brecon-favicon.png"/>
                     <script src="sticky.js" type="text/javascript"></script>
-                    <title>Brecon | Transcript</title>
+                    <title>Brecon | Transcript <xsl:value-of select="descendant::pb/@ed/translate(., '#', '')"/></title>
                 </head>
                 <body>
                     <!-- SSI line below-->
@@ -30,10 +29,34 @@
                             <p><xsl:comment>Publication info and Source info goes here</xsl:comment></p>
                         </div>
                         <div class="transcript-body">
+                            <xsl:apply-templates select="descendant::ab"/>
                         </div>
                     </div>
                 </body>
             </html>
+    </xsl:template>
+    <xsl:template match="descendant::ab">
+        <xsl:for-each select=".">
+            <p>
+                <xsl:apply-templates/>
+            </p>
         </xsl:for-each>
+    </xsl:template>
+    <xsl:template match="child::app">
+        <xsl:choose>
+            <xsl:when test="child::rdg[@wit = current()/string()]/@wit">
+                <span class="variance">
+                    <xsl:value-of select="child::rdg"/>
+                </span>
+                <br/>
+            </xsl:when>
+            <xsl:otherwise>
+                
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template match="descendant::ab/text()">
+        <xsl:value-of select="."/>
+        <br/>
     </xsl:template>
 </xsl:stylesheet>
