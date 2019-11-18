@@ -18,7 +18,28 @@
                     <link rel="stylesheet" type="text/css" href="../brecon.css" />
                     <link rel="icon" href="../brecon-favicon.png"/>
                     <script src="sticky.js" type="text/javascript"></script>
-                    <title>Brecon | Transcript <xsl:value-of select="descendant::pb/@ed/translate(., '#', '')"/></title>
+                    <title>Brecon | Transcript 
+                        <xsl:choose>
+                            <xsl:when test="child::rdg/@wit[contains(., '#C')]">
+                                <xsl:text>C</xsl:text>
+                            </xsl:when>
+                            <xsl:when test="child::rdg/@wit[contains(., '#I')]">
+                                <xsl:text>I</xsl:text>
+                            </xsl:when>
+                            <xsl:when test="child::rdg/@wit[contains(., '#J')]">
+                                <xsl:text>J</xsl:text>
+                            </xsl:when>
+                            <xsl:when test="child::rdg/@wit[contains(., '#R')]">
+                                <xsl:text>R</xsl:text>
+                            </xsl:when>
+                            <xsl:when test="child::rdg/@wit[contains(., '#S')]">
+                                <xsl:text>S</xsl:text>
+                            </xsl:when>
+                            <xsl:when test="child::rdg/@wit[contains(., '#W')]">
+                                <xsl:text>W</xsl:text>
+                            </xsl:when>
+                        </xsl:choose>
+                    </title>
                 </head>
                 <body>
                     <!-- SSI line below-->
@@ -29,7 +50,26 @@
                             <p><xsl:comment>Publication info and Source info goes here</xsl:comment></p>
                         </div>
                         <div class="transcript-body">
-                            <xsl:apply-templates select="descendant::ab"/>
+                            <xsl:choose>
+                                <xsl:when test="child::rdg/@wit[contains(., '#C')]">
+                                    <xsl:apply-templates select="descendant::ab" mode="disp-transcript-c"/>
+                                </xsl:when>
+                                <xsl:when test="child::rdg/@wit[contains(., '#I')]">
+                                    <xsl:apply-templates select="descendant::ab" mode="disp-transcript-i"/>
+                                </xsl:when>
+                                <xsl:when test="child::rdg/@wit[contains(., '#J')]">
+                                    <xsl:apply-templates select="descendant::ab" mode="disp-transcript-j"/>
+                                </xsl:when>
+                                <xsl:when test="child::rdg/@wit[contains(., '#R')]">
+                                    <xsl:apply-templates select="descendant::ab" mode="disp-transcript-r"/>
+                                </xsl:when>
+                                <xsl:when test="child::rdg/@wit[contains(., '#S')]">
+                                    <xsl:apply-templates select="descendant::ab" mode="disp-transcript-s"/>
+                                </xsl:when>
+                                <xsl:when test="child::rdg/@wit[contains(., '#W')]">
+                                    <xsl:apply-templates select="descendant::ab" mode="disp-transcript-w"/>
+                                </xsl:when>
+                            </xsl:choose>
                         </div>
                     </div>
                 </body>
@@ -42,13 +82,72 @@
             </p>
         </xsl:for-each>
     </xsl:template>
-    <xsl:template match="child::app">
+    <xsl:template match="child::app" mode="disp-transcript-c">
         <xsl:choose>
-            <xsl:when test="child::rdg[@wit = current()/string()]/@wit">
+            <xsl:when test="child::rdg/@wit[contains(., '#C')]">
                 <span class="variance">
-                    <xsl:value-of select="child::rdg"/>
+                    <xsl:value-of select="child::rdg[@wit[contains(., '#C')]]"/>
                 </span>
-                <br/>
+            </xsl:when>
+            <xsl:otherwise>
+                
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template match="child::app" mode="disp-transcript-i">
+        <xsl:choose>
+            <xsl:when test="child::rdg/@wit[contains(., '#I')]">
+                <span class="variance">
+                    <xsl:value-of select="child::rdg[@wit[contains(., '#I')]]"/>
+                </span>
+            </xsl:when>
+            <xsl:otherwise>
+                
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template match="child::app" mode="disp-transcript-j">
+        <xsl:choose>
+            <xsl:when test="child::rdg/@wit[contains(., '#J')]">
+                <span class="variance">
+                    <xsl:value-of select="child::rdg[@wit[contains(., '#J')]]"/>
+                </span>
+            </xsl:when>
+            <xsl:otherwise>
+                
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template match="child::app" mode="disp-transcript-r">
+        <xsl:choose>
+            <xsl:when test="child::rdg/@wit[contains(., '#R')]">
+                <span class="variance">
+                    <xsl:value-of select="child::rdg[@wit[contains(., '#R')]]"/>
+                </span>
+            </xsl:when>
+            <xsl:otherwise>
+                
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template match="child::app" mode="disp-transcript-s">
+        <xsl:choose>
+            <xsl:when test="child::rdg/@wit[contains(., '#S')]">
+                <span class="variance">
+                    <xsl:value-of select="child::rdg[@wit[contains(., '#S')]]"/>
+                </span>
+            </xsl:when>
+            <xsl:otherwise>
+                
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template match="child::app" mode="disp-transcript-w">
+        <xsl:choose>
+            <xsl:when test="child::rdg/@wit[contains(., '#W')]">
+                <span class="variance">
+                    <xsl:value-of select="child::rdg[@wit[contains(., '#W')]]"/>
+                </span>
             </xsl:when>
             <xsl:otherwise>
                 
