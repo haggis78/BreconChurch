@@ -21,7 +21,7 @@
                         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
                         <link rel="stylesheet" type="text/css" href="../../../css/brecon.css" />
                         <link rel="icon" href="../../../img/background/brecon-favicon.png"/>
-                        <script src="sticky.js" type="text/javascript"></script>
+                        <script src="../site/javascript/sticky.js" type="text/javascript"></script>
                         <title>Brecon | Transcript <xsl:value-of select="current()"/></title>
                     </head>
                     <body>
