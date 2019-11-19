@@ -65,6 +65,15 @@ body{
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.comp-checkbox{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 60vw;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
 .sticky {
   position: fixed;
   top: 0;
@@ -92,6 +101,18 @@ body{
 .license a{
     text-decoration: none;
     color: black;
+}
+.comparison{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.leftContainer, .centerContainer, .rightContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30vw;
 }
 h1 {
     color: black;

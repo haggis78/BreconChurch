@@ -29,11 +29,13 @@
                         <!--#include virtual="../../main-ssi.html" -->
                         <div class="content">
                             <h1><xsl:value-of select="(descendant::title)[1]"/></h1>
+                            <h2>Manuscript Edition <xsl:value-of select="current()"/>></h2>
                             <div class="transcript-about">
                                 <xsl:if test="current()/ancestor::bibl">
                                     <xsl:value-of select="current()/ancestor::bibl/text()"/>
                                 </xsl:if>
                             </div>
+                            <h2>Manuscript Edition <xsl:value-of select="current()"/>></h2>
                             <div class="transcript-body">
                                 <xsl:apply-templates select="root()/descendant::ab" mode="display">
                                     <xsl:with-param name="currentEd" as="node()" select="current()"/>
