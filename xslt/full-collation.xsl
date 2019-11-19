@@ -9,12 +9,14 @@
     
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat"
         omit-xml-declaration="yes"/>
-    <xsl:variable name="editionColl" as="node()+" select="descendant::altIdentifier/note"/>
+    <xsl:variable name="editionColl" as="node()+" select="//altIdentifier/note"/>
+    <!--ebb: I changed this to start from `//` because it's a global variable and really does start its XPath from the document node. -->
     <xsl:template match="/">
         <xsl:for-each select="$editionColl">
-            <xsl:variable name="filename">
-                <xsl:value-of select="current()"/>
+            <xsl:variable name="filename" as="xs:string">
+                <xsl:value-of select="current() ! string()"/>
             </xsl:variable>
+            <!--ebb: Since we just want to use this as a text string to construct the filename, I wanted to drop its XML node properties and just type this variable as a string (datatype xs:string).  -->
             <xsl:result-document method="xhtml" indent="yes" href="../site/html/transcripts/display/display-{$filename}.html">
                 <html>
                     <head>
@@ -35,7 +37,9 @@
                                 </xsl:if>
                             </div>
                             <div class="transcript-body">
-                                <xsl:apply-templates select="root()/descendant::ab"/>
+                                <xsl:apply-templates select="root()/descendant::ab">
+                                    <xsl:with-param name="currentEd" as="node()" select="current()"/>
+                                </xsl:apply-templates>
                             </div>
                         </div>
                     </body>
@@ -43,23 +47,22 @@
             </xsl:result-document>
         </xsl:for-each>
     </xsl:template>
-    <xsl:template match="root()/descendant::ab">
+    <xsl:template match="ab">
+        <xsl:param name="currentEd"/>
         <xsl:for-each select=".">
             <p>
-                <xsl:apply-templates/>
+                <xsl:apply-templates>
+                    <xsl:with-param name="currentEd" select="$currentEd" as="node()"/>
+                </xsl:apply-templates>
             </p>
         </xsl:for-each>
     </xsl:template>
-    <xsl:template match="root()/descendant::app">
-        <xsl:choose>
-            <xsl:when test="child::rdg/@wit[contains(., current())]">
+    <xsl:template match="app">
+        <xsl:param name="currentEd"/>
+            <xsl:if test="rdg[contains(@wit, $currentEd ! string())]">
                 <span class="variance">
-                    <xsl:value-of select="child::rdg[@wit[contains(., current())]]"/>
+                    <xsl:value-of select="rdg[@wit[contains(., $currentEd ! string())]]"/>
                 </span>
-            </xsl:when>
-            <xsl:otherwise>
-                
-            </xsl:otherwise>
-        </xsl:choose>
+            </xsl:if>
     </xsl:template>
 </xsl:stylesheet>
