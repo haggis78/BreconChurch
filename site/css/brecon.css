@@ -123,6 +123,9 @@ body{
     align-items: flex-start;
     width: 30vw;
 }
+.variance{
+    color: red;
+}
 h1 {
     color: black;
     text-align: right;
