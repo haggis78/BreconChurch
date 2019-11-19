@@ -65,11 +65,20 @@ body{
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.checkbox-nav{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100vw;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+}
 .comp-checkbox{
     display: flex;
     flex-direction: row;
     height: auto;
-    width: 60vw;
+    width: 30vw;
     justify-content: space-around;
     align-items: center;
     color: white;
