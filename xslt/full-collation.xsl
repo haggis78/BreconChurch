@@ -27,7 +27,7 @@
                     </head>
                     <body>
                         <xsl:comment> SSI line below </xsl:comment>
-                        <xsl:comment>#include virtual="../../ssi/comparison-navbar-ssi.html" </xsl:comment>
+                        <xsl:comment>#include virtual="../../ssi/collation-ssi.html" </xsl:comment>
                         <div class="content">
                             <h1><xsl:value-of select="(root()/descendant::title)[1]"/></h1>
                             <h2>Manuscript Edition <xsl:value-of select="current()"/></h2>
@@ -61,7 +61,7 @@
                     </head>
                     <body>
                         <xsl:comment> SSI line below </xsl:comment>
-                        <xsl:comment>#include virtual="../../ssi/comparison-navbar-ssi.html" </xsl:comment>
+                        <xsl:comment>#include virtual="../../ssi/collation-ssi.html" </xsl:comment>
                         <div class="content">
                             <h1><xsl:value-of select="(root()/descendant::title)[1]"/></h1>
                             <div class="transcript-about">
