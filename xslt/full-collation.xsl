@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- AMA: The purpose for this XSLT is to create a comparison and display version of each edition as an html file. -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0"
@@ -25,17 +26,16 @@
                         <title>Brecon | Transcript <xsl:value-of select="current()"/></title>
                     </head>
                     <body>
-                        <!-- SSI line below-->
-                        <!--#include virtual="../../main-ssi.html" -->
+                        <xsl:comment> SSI line below </xsl:comment>
+                        <xsl:comment>#include virtual="../../comparison-navbar-ssi.html" </xsl:comment>
                         <div class="content">
-                            <h1><xsl:value-of select="(descendant::title)[1]"/></h1>
-                            <h2>Manuscript Edition <xsl:value-of select="current()"/>></h2>
+                            <h1><xsl:value-of select="(root()/descendant::title)[1]"/></h1>
+                            <h2>Manuscript Edition <xsl:value-of select="current()"/></h2>
                             <div class="transcript-about">
                                 <xsl:if test="current()/ancestor::bibl">
                                     <xsl:value-of select="current()/ancestor::bibl/text()"/>
                                 </xsl:if>
                             </div>
-                            <h2>Manuscript Edition <xsl:value-of select="current()"/>></h2>
                             <div class="transcript-body">
                                 <xsl:apply-templates select="root()/descendant::ab" mode="display">
                                     <xsl:with-param name="currentEd" as="node()" select="current()"/>
@@ -60,8 +60,8 @@
                         <title>Brecon | Transcript <xsl:value-of select="current()"/></title>
                     </head>
                     <body>
-                        <!-- SSI line below-->
-                        <!--#include virtual="../../main-ssi.html" -->
+                        <xsl:comment> SSI line below </xsl:comment>
+                        <xsl:comment>#include virtual="../../comparison-navbar-ssi.html" </xsl:comment>
                         <div class="content">
                             <h1><xsl:value-of select="(root()/descendant::title)[1]"/></h1>
                             <div class="transcript-about">
@@ -80,7 +80,7 @@
             </xsl:result-document>
         </xsl:for-each>
     </xsl:template>
-    <xsl:template match="ab">
+    <xsl:template match="root()/descendant::ab">
         <xsl:param name="currentEd"/>
         <xsl:for-each select=".">
             <p>
@@ -90,15 +90,15 @@
             </p>
         </xsl:for-each>
     </xsl:template>
-    <xsl:template match="app" mode="display">
+    <xsl:template match="root()/descendant::app" mode="display">
         <xsl:param name="currentEd"/>
-            <xsl:if test="rdg[contains(@wit, $currentEd ! string())]">
-                <span class="variance">
-                    <xsl:value-of select="rdg[@wit[contains(., $currentEd ! string())]]"/>
-                </span>
-            </xsl:if>
+        <xsl:if test="rdg[contains(@wit, $currentEd ! string())]">
+            <span class="variance">
+                <xsl:value-of select="rdg[@wit[contains(., $currentEd ! string())]]"/>
+            </span>
+        </xsl:if>
     </xsl:template>
-    <xsl:template match="app" mode="comparison">
+    <xsl:template match="root()/descendant::app" mode="comparison">
         <xsl:param name="currentEd"/>
         <xsl:if test="rdg[contains(@wit, $currentEd ! string())]">
             <span class="variance">

@@ -311,16 +311,16 @@
             <pb ed="#I" n="269"/>
             <app>
                <rdg wit="#I #C #O">Henricus Octavus Dei gratia, Angliae et Francia Rex fidei Defensor
-                  Dominus Hiberniae Et in terra <app>
-                     <rdg wit="#W #S #R #I #O">Supremu</rdg>
-                     <rdg wit="#C">Supremum</rdg>
-                  </app>
-                  <app>
-                     <rdg wit="#W #R #S #I #O">Eccliae</rdg>
-                     <rdg wit="#C">Ecclesiae</rdg>
-                  </app> Anglicanae</rdg>
-               <rdg wit="#W #S #R #J"/>
+                  Dominus Hiberniae Et in terra</rdg>
             </app>
+            <app>
+               <rdg wit="#W #S #R #I #O">Supremu</rdg>
+               <rdg wit="#C">Supremum</rdg>
+            </app>
+            <app>
+               <rdg wit="#W #R #S #I #O">Eccliae</rdg>
+               <rdg wit="#C">Ecclesiae</rdg>
+            </app> Anglicanae
             <pb ed="#W" n="304"/><pb ed="#R" n="31"/>
             <app>
                <rdg wit="#I #C #O">Caput</rdg> <!-- WHC check these! Is caput really missing from other witnesses? Seems unlikely. -->
