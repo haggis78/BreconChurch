@@ -289,15 +289,13 @@
                   </physDesc>
                   <history>
                      <provenance>
-                        <p>Produced by Chancery at the same time as the original Letter
-                           Patent, against which it was checked (see note at end of text
-                           indicating this). Initially stored in the Rolls Chapel in the
-                           Tower of London; moved to the new Public Record Office building
+                        <p>Produced by Chancery, the office that issued and enrolled Letters Patent (for details of the process, see https://babel.hathitrust.org/cgi/pt?id=mdp.39015008927983&amp;view=1up&amp;seq=1). The 'original' from which it was copied, and against which it was checked (see note at end of text), was not the Letter Patent that had been issued, but rather the Warrant in Chancery, the authorised draft from which the Letter itself was prepared. This may survive in The National Archives in the file C 82/776, which contains the surviving Warrants in Chancery for January of 32 Henry VIII (1541), but we have not been able to examine it at this time.The Patent Rolls were initially stored in the Rolls Chapel in the
+                           Tower of London. The were then moved to the new Public Record Office building
                            in Chancery Lane in the 1850s and thence to the second Public
                            Record Office building in Kew in the 1990s. The Public Record
                            Office became The National Archives in 2003. <origDate>January,
                               33 Henry VIII: 1540 (Old Stye) / 1541 (New
-                              Style).</origDate></p>
+                              Style).</origDate></p> <!--WHC: See Cheney Handbook of Dates to confirm 33 Henry VIII!-->
                      </provenance>
                   </history>
                </msDesc>
@@ -308,22 +306,10 @@
    <text>
       <body>
          <ab>
-            <pb ed="#I" n="269"/>
+            <pb ed="#I" n="269"/><pb ed="#W" n="304"/><pb ed="#R" n="31"/><pb ed="#O" n="288"/><pb ed="#S" n="372"/><pb ed="#D" n="175"/><pb ed="#C" n="255"/> 
             <app>
-               <rdg wit="#I #C #O">Henricus Octavus Dei gratia, Angliae et Francia Rex fidei Defensor
-                  Dominus Hiberniae Et in terra</rdg>
-            </app>
-            <app>
-               <rdg wit="#W #S #R #I #O">Supremu</rdg>
-               <rdg wit="#C">Supremum</rdg>
-            </app>
-            <app>
-               <rdg wit="#W #R #S #I #O">Eccliae</rdg>
-               <rdg wit="#C">Ecclesiae</rdg>
-            </app> Anglicanae
-            <pb ed="#W" n="304"/><pb ed="#R" n="31"/>
-            <app>
-               <rdg wit="#I #C #O">Caput</rdg> <!-- WHC check these! Is caput really missing from other witnesses? Seems unlikely. -->
+               <rdg wit="#I #C #O">Henricus Octavus Dei gratia Angliae et Francia Rex fidei Defensor
+                  Dominus Hiberniae Et in terra Supremum Ecclesiæ Anglicanæ Caput</rdg> <!-- WHC: There were no real differences among I C O here: Supremu really was Supremum, and Eccliae was an abbreviation for Ecclesiae. -->
                <rdg wit="#W #R #S #J">Rex</rdg>
             </app> omnibus ad quos <app>
                <rdg wit="#W #S #I #C #J #O">præsentes literæ pervenerint </rdg>
@@ -1301,8 +1287,7 @@
             </app></ab>
          <!-- WHC 2019-10-01: W abbreviates these words in the last two lines. I will be curious to find out whether the other witnesses do as well. -->
 
-         <!-- CRC: #J breaks up the closing into multiple separated <ab>'s. Ignore this formatting difference?-->
-         <ab> Eo quod expressa mentio <app>
+          <ab> Eo quod expressa mentio <app>
             <rdg wit="#W #S #R #J"/>
             <rdg wit="#I #C #O">de Certitudine <pb ed="#C" n="265"/>
                præmissorum aut de aliis donis sive Concessionibus per
@@ -1316,8 +1301,9 @@
             <app>
                <rdg wit="#W #S #I #J #R">&amp;c.</rdg>
                <rdg wit="#C #O">.</rdg>
-            </app> <!-- WHC: C treats the following as a new <ab>. Do other witnesses? CRC: O does too.-->
-             In cujus rei <app>
+            </app>  </ab> 
+         
+             <ab>In cujus rei <app>
                <rdg wit="#W #S #I #J #C #O">Testimonium has literas nostras fieri fecimus Patentes.</rdg>
                <rdg wit="#R">&amp; c'. </rdg>
             </app>
@@ -1333,13 +1319,13 @@
                <rdg wit="#W #S #I #J #C #O">decimo nono</rdg>
                <rdg wit="#R">xix</rdg>
             </app> die Januarii<app>
-               <rdg wit="#W #S #J">, Anno Regni Regis Henrici octavi tricesimo tertio.</rdg>
+               <rdg wit="#W #S #J">, Anno Regni Regis Henrici octavi tricesimo tertio.</rdg> <!-- WHC: This is probably the theoretical reconstruction by Willis or his source. Since the king is issuing the Letters Patent, it makes sense that it should end as in I C O "in the year of our reign" rather than as in W S J "In the hear of the reign of King Henry...". Also we know that it was really issued in 32 Hen. VIII but enrolled in 33 Hen. VIII. Exactly how Willis got the wrong year, I don't know. -->
                <rdg wit="#I #C #O">Anno Regni nostri Tricesimo secundo</rdg>
                <rdg wit="#R"/>
             </app></ab>
          <app>
             <rdg wit="#W #S #R #J"/>
-            <rdg wit="#I #C #O">S: Petre</rdg> <!-- WHC: Need to add this name to the bureaucrats list in the People file. -->
+            <rdg wit="#I #C #O">S: Petre</rdg>
          </app>
          <ab>Per breve de privato Sigillo &amp; de dat’ <app>
             <rdg wit="#W #S #R #J"/>
