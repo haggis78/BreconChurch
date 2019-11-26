@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- AMA: The purpose for this XSLT is to create a comparison and display version of each edition as an html file. -->
+<!-- AMA: The purpose for this XSLT is to create a display version of each edition as an html file. -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0"
@@ -37,7 +37,7 @@
                                 </xsl:if>
                             </div>
                             <div class="transcript-body">
-                                <xsl:apply-templates select="root()/descendant::ab" mode="display">
+                                <xsl:apply-templates select="root()/descendant::ab">
                                     <xsl:with-param name="currentEd" as="node()" select="current()"/>
                                 </xsl:apply-templates>
                             </div>
@@ -57,7 +57,7 @@
             </p>
         </xsl:for-each>
     </xsl:template>
-    <xsl:template match="root()/descendant::app" mode="display">
+    <xsl:template match="root()/descendant::app">
         <xsl:param name="currentEd"/>
         <xsl:if test="rdg[contains(@wit, $currentEd ! string())]">
             <span class="variance">

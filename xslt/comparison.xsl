@@ -58,7 +58,17 @@
             </html>
         </xsl:result-document>
     </xsl:template>
-    <xsl:template match="app">
+    <xsl:template match="root()/descendant::ab">
+        <xsl:param name="currentEd"/>
+        <xsl:for-each select=".">
+            <p>
+                <xsl:apply-templates>
+                    <xsl:with-param name="currentEd" select="$currentEd" as="node()"/>
+                </xsl:apply-templates>
+            </p>
+        </xsl:for-each>
+    </xsl:template>
+    <xsl:template match="root()/descendant::app">
         <xsl:param name="currentEd"/>
         <xsl:if test="rdg[contains(@wit, $currentEd ! string())]">
             <span class="variance">
