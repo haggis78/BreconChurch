@@ -12,7 +12,7 @@
         omit-xml-declaration="yes"/>
     <xsl:variable name="editionColl" as="node()+" select="//altIdentifier/note"/>
     <xsl:template match="/">
-        <xsl:result-document method="xhtml" indent="yes" href="../site/html/comparison2.html">
+        <xsl:result-document method="xhtml" indent="yes" href="../site/html/comparison.html">
             <html xmlns="http://www.w3.org/1999/xhtml">
                 <head>
                     <link rel="stylesheet" type="text/css" href="../css/brecon.css" />
