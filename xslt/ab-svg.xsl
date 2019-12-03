@@ -10,7 +10,7 @@
     
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat"
         omit-xml-declaration="yes"/>
-    <xsl:variable name="editionColl" as="node()+" select="//altIdentifier/note"/>
+    <xsl:variable name="currentEdition" as="node()+" select="descendant::note"/>
     <xsl:template match="/">
         <xsl:result-document method="xhtml" indent="yes" href="../site/html/edition-svg.html">
             <html xmlns="http://www.w3.org/1999/xhtml">
@@ -21,30 +21,42 @@
                     <title>Brecon | Edition SVG</title>
                 </head>
                 <body>
-                    <xsl:for-each select="$editionColl">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="6000" viewBox="0 0 150 6000">
-                            <g transform="translate(0, 50)">
-                                <g id="edition{current()}" class="draggable" style="-webkit-user-select: none">
-                                    <xsl:for-each select="root()/descendant::ab">
-                                        <g>
-                                            <rect x="10" y="{(count(preceding::app) * 20) + ((position() - 1) * 50)}" width="130" height="{count(child::app) * 20 + 40}" stroke="black" stroke-width="2" fill="none"/>
-                                            <text x="75" y="{(count(preceding::app) * 20) + ((position() - 1) * 50) + 20}" stroke="black" stroke-width="1" text-anchor="middle">AB #<xsl:value-of select="position()"/></text>
-                                            <line x1="10" x2="140" y1="{(count(preceding::app) * 20) + ((position() - 1) * 50) + 30}" y2="{(count(preceding::app) * 20) + ((position() - 1) * 50) + 30}" stroke="black" stroke-width="2"/>
-                                            <g>
-                                                <xsl:for-each select="child::app">
-                                                    <text x="75" y="{((count(preceding::app) * 20) + 100) + ((count(preceding::ab) - 1) * 50)}" stroke="black" stroke-width="1" text-anchor="middle">
-                                                        <xsl:value-of select="child::rdg ! string-length()"/>
-                                                    </text>
+                    <xsl:comment> SSI line below </xsl:comment>
+                    <xsl:comment>#include virtual="ssi/ab-svg-ssi.html" </xsl:comment>
+                    <div class="content">
+                        <div class="ab-svg">
+                            <xsl:for-each select="$currentEdition">
+                                <xsl:sort order="ascending"/>
+                                <xsl:variable name="CE" as="node()" select="current()"/>
+                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="5850" viewBox="0 0 150 5850">
+                                        <g transform="translate(0, 40)">
+                                            <g id="edition{$CE}" class="draggable" style="-webkit-user-select: none">
+                                                <xsl:for-each select="//ab[descendant::rdg/@wit[contains(., current())]]">
+                                                    <g>
+                                                        <rect x="10" y="{(count(preceding::app) * 20) + ((position() - 1) * 50)}" width="130" height="{count(child::app) * 20 + 40}" fill="none"/>
+                                                        <text x="75" y="{(count(preceding::app) * 20) + ((position() - 1) * 50) + 20}">AB #<xsl:value-of select="position()"/></text>
+                                                        <line x1="10" x2="140" y1="{(count(preceding::app) * 20) + ((position() - 1) * 50) + 30}" y2="{(count(preceding::app) * 20) + ((position() - 1) * 50) + 30}"/>
+                                                        <g>
+                                                            <xsl:apply-templates select="child::app[child::rdg[@wit[contains(., $CE)]]]">
+                                                                <xsl:with-param name="CE" as="node()" select="$CE"/>
+                                                            </xsl:apply-templates>
+                                                        </g>
+                                                    </g>
                                                 </xsl:for-each>
                                             </g>
                                         </g>
-                                    </xsl:for-each>
-                                </g>
-                            </g>
-                        </svg>
-                    </xsl:for-each>
+                                    </svg>
+                            </xsl:for-each>
+                        </div>
+                    </div>
                 </body>
             </html>
         </xsl:result-document>
+    </xsl:template>
+    <xsl:template match="app">
+        <xsl:param name="CE"/>
+            <text x="75" y="{((count(preceding::app) * 20) + 100) + ((count(preceding::ab) - 1) * 50)}">
+                <xsl:value-of select="child::rdg[@wit[contains(., $CE)]] ! string-length()"/>
+            </text>
     </xsl:template>
 </xsl:stylesheet>
