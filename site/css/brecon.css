@@ -91,6 +91,13 @@ body{
 .sticky + .content {
     padding-top: 60px;
 }
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 97vw;
+    justify-content: center;
+    margin: auto;
+}
 .manuscript{
     display: flex;
     width: 96vw;
