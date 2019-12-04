@@ -167,7 +167,13 @@ svg.edition-svg rect, svg.edition-svg line{
     align-items: flex-start;
     width: 30vw;
 }
-.variance{
+#variance-checkbox{
+    color: red;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.variance.on{
     color: red;
 }
 h1 {
