@@ -406,11 +406,11 @@
                <!--#R missing: WHC check to confirm; if so, should use empty self-closing tag: <rdg wit="#R"/>-->
             </app> sui officii
             <!-- W: a small dot at the lower right of the initial o of officii in the Google Books image makes it look like an a. -->
-            erga Deum, quam debitæ suæ obedientiæ erga nos; sed etiam linguæ vulgaris <app>
+            erga Deum, quam debitæ suæ obedientiæ erga nos; sed etiam linguæ vulgaris
+            <app>
                <rdg wit="#W #S #R #J #D">Angliæ</rdg> 
                <rdg wit="#C">^<sup>Angliæ</sup></rdg><!-- WHC: In C this is an interlinear insertion in Thomas Baker's hand: figure out how to note that! -->
                <rdg wit="#I #O"/> <!-- WHC This is an important point of comparison. Since #D includes Angliæ from the start, it cannot have been copied from #I or #O, which lack it. #C thus has an affinity with #I and #O in that it originally lacked Angliæ, but an affinity with #D in that Baker compared it to some other text, possibly even #W, and corrected it.  -->
-               ></rdg>
             </app> minime periti, sic quod statuta nostra in hujusmodi casu edita et provisa
             observare nequeunt; et quod debuerunt <!-- WHC: #D originally had different letters in the middle and was overwritten to correct the word t debuerunt. However this made it impossible to see what those overwritten letters were. --> et tenentur facere secundum formam et
             <app>
@@ -490,7 +490,7 @@
                <rdg wit="#W #S #J #C #O #D">,</rdg>
                <rdg wit="#R">et transmutare,</rdg>
                <rdg wit="#I"><add place="leftMargin">et transmutare,</add></rdg>
-               <!-- AMP: testing a system of adding footnotes in witnesses! --> <!-- WHC: Great -- but how will it be distinguished on the website? -->
+               <!-- AMP: testing a system of adding footnotes in witnesses! --> <!-- WHC: Great, but how will it be distinguished on the website? -->
             </app> clare percipientes <pb ed="#I" n="271"/>quod præmissa omnia et singula
             melius disponi <app>
                <rdg wit="#W #R #I #J #C #O #D">possunt</rdg>
@@ -673,7 +673,7 @@
             tenuit <app>
                <rdg wit="#W #R #I #C #D">aut</rdg>
                <rdg wit="#S #J">vel</rdg>
-               <rdg wit=-"O"><del rend="strikethrough">vel</del><sup>aut</sup> </rdg> <!-- CRC: in O, "vel" is crossed out and "aut" is inserted above it.-->
+               <rdg wit="#O"><del rend="strikethrough">vel</del><sup>aut</sup> </rdg> <!-- CRC: in O, "vel" is crossed out and "aut" is inserted above it.-->
                </app> gavisus fuit, aut 
             <app>
                <rdg wit="#W #S #J #R #I #C #O">habere </rdg>
@@ -687,20 +687,20 @@
             
             <app>
                <rdg wit="#W #S #J #R #I #C #D">et</rdg>
-               <rdg wit=-"O"><del rend="strikethrough">vel</del><sup>et</sup></rdg> <!-- CRC: in O, "vel" is crossed out and "et" is inserted above it.--> 
+               <rdg wit="#O"><del rend="strikethrough">vel</del><sup>et</sup></rdg> <!-- CRC: in O, "vel" is crossed out and "et" is inserted above it.--> 
             </app>
             prætextu dissolutionis dicti nuper <pb ed="#C" n="259"/> Prioratus sive domus devenerunt, seu devenire
             debuerunt, vel deberent, <app>
                <rdg wit="#W #S #J">aut</rdg>
                <rdg wit="#R #I #C #O">ac</rdg>
-               <rdg wit="#D" <del rend="overwritten">aut</del> <add>ac</add></rdg> <!-- WHC: this should somehow show that 'aut' was overwritten with 'ac'. Not sure what that will look like on the website. If there's not a way to do it, make it show aut as struck through and ac as written after it. -->
+               <rdg wit="#D"><del rend="overwritten">aut</del> <add>ac</add></rdg> <!-- WHC: this should somehow show that 'aut' was overwritten with 'ac'. Not sure what that will look like on the website. If there's not a way to do it, make it show aut as struck through and ac as written after it. -->
             </app> alio modo <app>
                <rdg wit="#W #S #I #J #C #O #D">quocunque</rdg>
                <rdg wit="#R">quocumque</rdg>
             </app>in manibus nostris jam existunt<app>
                <rdg wit="#W #S #J">vel</rdg>
                <rdg wit="#R #I #C #O">seu</rdg>
-               <rdg wit=-"D"><del rend="strikethrough">vel</del><sup>seu</sup> </rdg>
+               <rdg wit="#D"><del rend="strikethrough">vel</del><sup>seu</sup> </rdg>
             </app> existere debent <app>
                <rdg wit="#W #S #J">seu</rdg>
                <rdg wit="#R #I #C #O #D">vel</rdg>
@@ -739,7 +739,8 @@
             </app> ac 
             <app>
             <rdg wit="#W #S #I #R #J #C #D">cætera</rdg>
-               <rdg wit="#O">^<sup><del rend="strikethrough">cætera</del></sup></rdg><!-- CRC: #O, "cetera" is omitted between "ac" and "omnia", then inserted above with a caret, then crossed out!-->
+               <rdg wit="#O">^<sup><del rend="strikethrough">cætera</del></sup></rdg>
+               <!-- CRC: #O, "cetera" is omitted between "ac" and "omnia", then inserted above with a caret, then crossed out!-->
             </app>
             omnia et singula præmissa superius expressa et specificata, cum
             suis juribus et <app>
@@ -856,14 +857,11 @@
             <app>
                <rdg wit="#W #S #J #R #I #C #O"/>
                <rdg wit="#D"><del rend="strikethrough">ac omnia</del></rdg>
-            </app>
-            
-            commoditates advantagia et  
+            </app>commoditates advantagia et  
             <app>
                <rdg wit="#W #S #J #R #I #C #O">hæreditamenta</rdg>
                <rdg wit="#D">hæredi<add>^<sup>ta</sup></add>menta</rdg>
             </app>
-            
             <app>
                <rdg wit="#W #S #I #J #C #D">quæcunque,</rdg>
                <rdg wit="#R #O">quecumque,</rdg>
@@ -984,7 +982,6 @@
                <rdg wit="#I #C #O">videlt'</rdg>
             </app>.
             <!-- WHC: viz., really more like vi3, is actually an abbreviation for videlicet, meaning "namely" or "to wit". You might find it written out in full in some witnesses.-->
-            <!-- CRC: so THAT'S where 'viz.' comes from. Interesting-->
             eruditi <app>
                <rdg wit="#W #R #S #J">ludimagistri</rdg>
                <rdg wit="#I #C #O">Ludi Magistri</rdg>
