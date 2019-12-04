@@ -114,12 +114,12 @@ body{
     background-color: black;
     color: white;
 }
-svg text{
+svg.edition-svg text{
     stroke: black;
     stroke-width: 1;
     text-anchor: middle;
 }
-svg rect, svg line{
+svg.edition-svg rect, svg.edition-svg line{
     stroke: black;
     stroke-width: 2;
 }
@@ -132,6 +132,15 @@ svg rect, svg line{
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
+}
+#stemma-svg{
+    overflow: auto;
+}
+.stemma-svg{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
 }
 .license{
     display: flex;
