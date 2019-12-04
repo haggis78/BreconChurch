@@ -796,40 +796,30 @@
             </app> spectantia sive pertinentia; <app>
                <rdg wit="#W #S #I #J #C #D">ac etiam</rdg>
                <rdg wit="#R #O">acetiam</rdg>
-            </app> volumus <pb ed="#I" n="274"/> et per præsentes concedimus præfato nunc
-            Episcopo quod habeat has literas nostras patentes, sub magno Sigillo 
-            <app>
+            </app> volumus <pb ed="#I" n="274"/>et per præsentes concedimus præfato nunc Episcopo quod habeat has literas nostras patentes, sub magno Sigillo <app>
                <rdg wit="#W #S #J #R #I #C #D">nostro</rdg>
-               <rdg wit="#O">^<add><sup>nostro</sup></add></rdg> <!-- AMP: nostro wasn't originally in I, but the word was added with a caret by what I think is the hand that did all of the marginal notes! -->
-            </app>
-            Angliæ debito modo factas et sigillatas, absque fine vel feodo magno vel parvo <pb ed="#W" n="307"/>
-            in Hanaperio nostro, seu alibi ad usum nostrum 
-            <app>
+               <rdg wit="#O">^<add><sup>nostro</sup></add></rdg>
+               <!-- AMP: nostro wasn't originally in I, but the word was added with a caret by what I think is the hand that did all of the marginal notes! -->
+            </app> Angliæ debito modo factas et sigillatas, absque fine vel feodo magno vel parvo <pb ed="#W" n="307"/>in Hanaperio nostro, seu alibi ad usum nostrum <app>
                <rdg wit="#W #S #J #R #I #D">quoquo modo</rdg>
                <rdg wit="#C #O">quoquomodo</rdg>
-            </app>
-            <app>
+            </app> <app>
                <rdg wit="#W #S #J">reddendo solvendo vel faciendo</rdg>
                <rdg wit="#R">reddend' solvend' vel faciend'</rdg>
                <rdg wit="#I #C #O #D">reddendum solvendum <pb ed="#O" n="294"/> vel faciendum</rdg>
             </app>, <!-- WHC: Eo quod begins a new <ab> in #C and #D. CRC: and in wit #O as well. WHC: check #I: if new section there, insert an <ab> break here.-->
-            Eo quod expressa
-            <app>
+            Eo quod expressa <app>
                <rdg wit="#W #R #S #J #C #O #D">mentio</rdg>
                <rdg wit="#I">meneo</rdg>
-            </app>
-            <!-- AMP: Can we check this spelling in I? WHC: check #I. CRC: O shows "mento" with an abbreviation mark above. suspect that I shows same.-->
-            de certitudine aut valore præmissorum, aut de aliis donis 
-            <app>
+               <!-- AMP: Can we check this spelling in I? WHC: check #I. CRC: O shows "mento" with an abbreviation mark above. suspect that I shows same.-->
+            </app> de certitudine aut valore præmissorum, aut de aliis donis <app>
                <rdg wit="#W #R #S #J #I #O">sive</rdg>
                <rdg wit="#C #D">seu</rdg>
-            </app>concessionibus, per nos vel aliquem progenitorum nostrorum
-            præfato nunc Episcopo ante hæc tempora factis in præsentibus minime <app>
+            </app> concessionibus, per nos vel aliquem progenitorum nostrorum præfato nunc Episcopo ante hæc tempora factis in præsentibus minime <app>
                <rdg wit="#W">factis</rdg>
                <rdg wit="#S #J #C #D">facta</rdg>
                <rdg wit="#R #I #O">fact'</rdg>
-            </app> existit, aut aliquibus statutis actu ordinatione provisione sive restrictione in
-            contrarium factis editis ordinatis sive provisis, aut <app>
+            </app> existit, aut aliquibus statutis actu ordinatione provisione sive restrictione in contrarium factis editis ordinatis sive provisis, aut <app>
                <rdg wit="#W #R #S #J">alia aliqua</rdg>
                <rdg wit="#I #C #O #D">aliqua alia</rdg>
             </app> re causa vel materia <app>
@@ -840,87 +830,103 @@
          </ab>
          <!-- WHC: Got this far on #D the night of December 3; pick up from here. -->
          <ab>Insuper noveritis quod nos de gratia nostra speciali certa scientia et mero motu <pb ed="#C" n="261"/> nostris, volumus et concedimus ac per præsentes licentiam <app>
-               <rdg wit="#W #S #I #R #C #O">facultatem </rdg>
+               <rdg wit="#W #S #I #R #C #D #O">facultatem </rdg>
                <rdg wit="#J"/>
             </app>potestatem <app>
                <rdg wit="#W #S #J">et authoritatem</rdg>
                <rdg wit="#R #I">et auctoritatem</rdg>
                <rdg wit="#C #O">auctoritatem</rdg>
-            </app>, ordinario ac loci illius Diocesano et Patrono fundatori <app>
-               <rdg wit="#W #S #I #R #C #O">ac</rdg>
+            </app>, ordinario <app>
+               <rdg wit="#W #S #I #R #C #O #J">ac</rdg>
+               <rdg wit="#D"><add>^<sup>ac</sup></add></rdg>
+               <!-- CRC: #D has ac inserted, but it is in the same hand as the text, not the other edits/marginalia. necessary to note, or collapse this?--> 
+            </app> loci illius Diocesano et Patrono fundatori <app>
+               <rdg wit="#W #S #I #R #C #D #O">ac</rdg>
                <rdg wit="#J">et</rdg>
             </app> Decano dicti Collegii de <app>
                <rdg wit="#W #S #I #J #O">Abergwilly</rdg>
-               <rdg wit="#R">Alberguylly</rdg>
+               <rdg wit="#R #D">Alberguylly</rdg>
                <rdg wit="#C">Abergwylly</rdg>
             </app>, damus quod ipsi <app>
-               <rdg wit="#W #R #I #C #O">possunt</rdg>
+               <rdg wit="#W #R #I #C #D #O">possunt</rdg>
                <rdg wit="#S #J">possint</rdg>
             </app> absque aliquibus impetitione vel perturbatione nostri hæredum aut successorum nostrorum <app>
                <rdg wit="#W">vice comitum</rdg>
                <rdg wit="#S">vice-comitum</rdg>
-               <rdg wit="#R #I #J #C #O">vicecomitum</rdg>
+               <rdg wit="#R #I #J #C #D #O">vicecomitum</rdg>
             </app> <app>
                <rdg wit="#W #S #R #J">justiciariorum escaetorum</rdg>
                <rdg wit="#I #C #O">justitiariorum eschaetorum</rdg>
+               <rdg wit="#D">justiciariorum eschaetorum</rdg>
+               <!-- CRC to WHC: please confirm in D. it really does appear to be a c, not a t-->
             </app> officiariorum aut ministrorum nostrorum <app>
                <rdg wit="#W #S #I #J #C #O">quorumcunque</rdg>
-               <rdg wit="#R">quorumcumque</rdg>
+               <rdg wit="#R #D">quorumcumque</rdg>
             </app> libere et impune dictas annuas quinquaginta tres libras pro <app>
                <rdg wit="#W #S #J">stipendiis</rdg>
-               <rdg wit="#R #I #C #O">stipendio</rdg>
+               <rdg wit="#R #I #C #D #O">stipendio</rdg>
             </app> dictorum cantatorum, ut præmittitur, assignatas <app>
                <rdg wit="#W #R #S #J">expendendas</rdg>
-               <rdg wit="#I #C #O">expendendum</rdg>
+               <rdg wit="#I #C #D #O">expendendum</rdg>
             </app> in meliorem usum secundum eorum<app>
                <rdg wit="#W #R #S #J"> sanas</rdg>
-               <rdg wit="#I #C #O"/>
+               <rdg wit="#I #C #D #O"/>
             </app> discretiones <app>
                <rdg wit="#W #S #J">convertendas</rdg>
                <rdg wit="#R">commitendas</rdg> <!-- WHC confirm this in R: is it abbreviated with uncertain ending? -->
-               <rdg wit="#I #C #O">commitendum</rdg>
-            </app><!--WHC C begins a new <ab> with Et quod, CRC: as does O-->, et quod ipsi libere et impune valeant quendam ludum <app>
-               <rdg wit="#W #R #S #J #C">literarium</rdg>
-               <rdg wit="#I">literarum</rdg> <!-- WHC check this -->
+               <rdg wit="#I #C #D #O">commitendum</rdg>
+            </app><!--WHC C begins a new <ab> with Et quod, CRC: as does O. I think D does as well, as it seems to signify <ab>'s merely with words written slightly larger. -->, 
+            Et quod ipsi <pb ed="#D" n="179"/>libere et impune valeant quendam ludum <app>
+               <rdg wit="#W #R #S #J #C #D">literarium</rdg>
+               <rdg wit="#I">literarum</rdg><!-- WHC check this -->
                <rdg wit="#O">literar^<add><sup>i</sup></add>um</rdg>
-               <!-- CRC: I probably does say "literarum". O does as well, with the i inserted above with a caret.-->
+               <!-- CRC: I probably does say "literarum". O does as well, with the i inserted above with a caret. -->
             </app> erigere et fundare apud <app>
                <rdg wit="#W #S #J #O">Brecknock</rdg>
-               <rdg wit="#R">Brechnoke</rdg>
+               <rdg wit="#R #D">Brechnoke</rdg>
                <rdg wit="#I">Brechnock</rdg>
                <rdg wit="#C">Brechnocke</rdg>
             </app> <app>
                <rdg wit="#W #R #S #J">prædictum</rdg>
-               <rdg wit="#I #C #O">predict'</rdg>
+               <rdg wit="#I #C #D #O">predict'</rdg>
+               <!-- CRC: collapsible? -->
             </app>, ac ipsas quinquaginta tres libras annuas ad sustentationem <app>
-               <rdg wit="#W #S #I #J #C #O">quorundam</rdg>
+               <rdg wit="#W #S #I #J #C #D #O">quorundam</rdg>
                <rdg wit="#R">quorumdam</rdg>
             </app> proborum hominum <app>
                <rdg wit="#W #R #S #J">viz.</rdg>
                <rdg wit="#I #C #O">videlt'</rdg>
+               <rdg wit="#D">videlicet</rdg>
                <!-- WHC: viz., really more like vi3, is actually an abbreviation for videlicet, meaning "namely" or "to wit". You might find it written out in full in some witnesses.-->
             </app> eruditi <app>
-               <rdg wit="#W #R #S #J">ludimagistri</rdg>
+               <rdg wit="#W #R #S #J #D">ludimagistri</rdg>
                <rdg wit="#I #C #O">Ludi Magistri</rdg>
             </app> et pædagogi, lectoris theologiæ <pb ed="#I" n="275"/>concionatoris, qui apud <app>
                <rdg wit="#W #S #J">Brecknock</rdg>
                <rdg wit="#R">Breknok</rdg>
                <rdg wit="#I #C #O">Brechnock</rdg>
-            </app> <app>
+               <rdg wit="#D">Brechnok</rdg>
+            </app> <app>   
                <rdg wit="#W #R #S #J">prædictum</rdg>
-               <rdg wit="#I #C #O">praedict'</rdg>
+               <rdg wit="#I #C #D #O">praedict'</rdg>
+               <!-- CRC: collapsible? -->
             </app> omnibus personis doceri <pb ed="#O" n="295"/>volentibus in bonis literis <app>
                <rdg wit="#W #S #I #J #C #O">erudient</rdg>
                <rdg wit="#R">erudiant</rdg>
-            </app>, ac sanctum evangelium cunctis ligeis et fidelibus nostris ibidem pure et sincere gratis et libere elucidabunt, secundum ordinationes et statuta in ea parte
-            per dictum diocesanum et loci illius ordinarium et fundatorem Collegii prædicti de tempore in tempus edenda et constituenda, libere et impune absque impetitione
-            nostri hæredum <app>
-               <rdg wit="#W #S #I #J #R">aut</rdg>
+               <rdg wit="#D">erud<del>e</del><add>i^<sup>a</sup></add>nt</rdg>
+               <!-- CRC #D: e overwritten with an i, and a inserted with caret. did I encode this right?-->
+            </app>, ac sanctum evangelium cunctis ligeis et fidelibus nostris ibidem pure et sincere gratis et libere elucidabunt,
+            <!-- CRC #D: original scribe wrote "Alucidabunt" and editing hand wrote a capital E onto it.-->
+            secundum ordinationes et statuta in ea parte per dictum diocesanum et loci illius ordinarium et fundatorem Collegii prædicti de tempore in tempus edenda et
+            constituenda, libere et impune absque impetitione nostri hæredum <app>
+               <rdg wit="#W #S #I #J #R #D">aut</rdg>
                <rdg wit="#C #O">et</rdg>
             </app> successorum nostrorum justiciariorum ministrorum <app>
-               <rdg wit="#W #S #I #J #R">aut</rdg>
+               <rdg wit="#W #S #I #J #R #D">aut</rdg>
                <rdg wit="#C #O">et</rdg>
-            </app> officiariorum <app>
+            </app> officiariorum 
+            <!-- CRC #D: "ari" inserted into "officiorum" by editing hand.-->
+            <app>
                <rdg wit="#W #S #I #J #C #O">quorumcunque</rdg>
                <rdg wit="#R">quorumcunque</rdg>
                <!-- amp: this is the same in both witnesses, should I remove this code? -->
