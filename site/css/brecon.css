@@ -173,6 +173,9 @@ svg.edition-svg rect, svg.edition-svg line{
     align-items: center;
     display: flex;
 }
+.variances{
+    color: red;
+}
 .variance.on{
     color: red;
 }
