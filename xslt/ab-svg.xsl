@@ -38,7 +38,9 @@
                                                     <line x1="10" x2="140" y1="{(count(preceding::app) * 20) + ((position() - 1) * 80) + 30}" y2="{(count(preceding::app) * 20) + ((position() - 1) * 80) + 30}" stroke-width="2" stroke="black"/>
                                                     <line x1="10" x2="140" y1="{(count(preceding::app) * 20) + ((position() - 1) * 80) + 60}" y2="{(count(preceding::app) * 20) + ((position() - 1) * 80) + 60}" stroke-width="2" stroke="black"/>
                                                     <g>
-                                                        <text x="75" y="{((count(preceding::app) * 20) + 130) + ((count(preceding::ab) - 1) * 80)}" text-anchor="middle">Word Count</text>
+                                                        <text x="75" y="{((count(preceding::app) * 20) + 130) + ((count(preceding::ab) - 1) * 80)}" text-anchor="middle">
+                                                            <xsl:value-of select="(current()/text() ! normalize-space() ! tokenize(., ' ') => count()) + (current()/descendant::rdg[contains(@wit, $CE)]/text() ! normalize-space() ! tokenize(., ' ') => count())"/>
+                                                        </text>
                                                         <xsl:apply-templates select="child::app[child::rdg[@wit[contains(., $CE)]]]">
                                                             <xsl:with-param name="CE" as="node()" select="$CE"/>
                                                         </xsl:apply-templates>
