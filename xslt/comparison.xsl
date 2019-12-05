@@ -71,7 +71,7 @@
     <xsl:template match="root()/descendant::app">
         <xsl:param name="currentEd"/>
         <xsl:if test="rdg[contains(@wit, $currentEd ! string())]">
-            <span class="variance">
+            <span class="variances">
                 <xsl:value-of select="rdg[@wit[contains(., $currentEd ! string())]]"/>
             </span>
             <br/>

@@ -28,7 +28,7 @@
                             <xsl:for-each select="$currentEdition">
                                 <xsl:sort order="ascending"/>
                                 <xsl:variable name="CE" as="node()" select="current()"/>
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="6700" viewBox="0 0 150 6700">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="6900" viewBox="0 0 150 6900">
                                     <g transform="translate(0, 40)">
                                         <g id="edition{$CE}" class="draggable" style="-webkit-user-select: none">
                                             <xsl:for-each select="//ab[descendant::rdg/@wit[contains(., current())]]">
