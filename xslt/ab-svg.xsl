@@ -28,24 +28,28 @@
                             <xsl:for-each select="$currentEdition">
                                 <xsl:sort order="ascending"/>
                                 <xsl:variable name="CE" as="node()" select="current()"/>
-                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="5850" viewBox="0 0 150 5850">
-                                        <g transform="translate(0, 40)">
-                                            <g id="edition{$CE}" class="draggable" style="-webkit-user-select: none">
-                                                <xsl:for-each select="//ab[descendant::rdg/@wit[contains(., current())]]">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="6900" viewBox="0 0 150 6900">
+                                    <g transform="translate(0, 40)">
+                                        <g id="edition{$CE}" class="draggable" style="-webkit-user-select: none">
+                                            <xsl:for-each select="//ab[descendant::rdg/@wit[contains(., current())]]">
+                                                <g>
+                                                    <rect x="10" y="{(count(preceding::app) * 20) + ((position() - 1) * 80)}" width="130" height="{count(child::app) * 20 + 70}" fill="none" stroke="black" stroke-width="2"/>
+                                                    <text x="75" y="{(count(preceding::app) * 20) + ((position() - 1) * 80) + 20}" text-anchor="middle">AB #<xsl:value-of select="position()"/></text>
+                                                    <line x1="10" x2="140" y1="{(count(preceding::app) * 20) + ((position() - 1) * 80) + 30}" y2="{(count(preceding::app) * 20) + ((position() - 1) * 80) + 30}" stroke-width="2" stroke="black"/>
+                                                    <line x1="10" x2="140" y1="{(count(preceding::app) * 20) + ((position() - 1) * 80) + 60}" y2="{(count(preceding::app) * 20) + ((position() - 1) * 80) + 60}" stroke-width="2" stroke="black"/>
                                                     <g>
-                                                        <rect x="10" y="{(count(preceding::app) * 20) + ((position() - 1) * 50)}" width="130" height="{count(child::app) * 20 + 40}" fill="none"/>
-                                                        <text x="75" y="{(count(preceding::app) * 20) + ((position() - 1) * 50) + 20}">AB #<xsl:value-of select="position()"/></text>
-                                                        <line x1="10" x2="140" y1="{(count(preceding::app) * 20) + ((position() - 1) * 50) + 30}" y2="{(count(preceding::app) * 20) + ((position() - 1) * 50) + 30}"/>
-                                                        <g>
-                                                            <xsl:apply-templates select="child::app[child::rdg[@wit[contains(., $CE)]]]">
-                                                                <xsl:with-param name="CE" as="node()" select="$CE"/>
-                                                            </xsl:apply-templates>
-                                                        </g>
+                                                        <text x="75" y="{((count(preceding::app) * 20) + 130) + ((count(preceding::ab) - 1) * 80)}" text-anchor="middle">
+                                                            <xsl:value-of select="(current()/text() ! normalize-space() ! tokenize(., ' ') => count()) + (current()/descendant::rdg[contains(@wit, $CE)]/text() ! normalize-space() ! tokenize(., ' ') => count())"/>
+                                                        </text>
+                                                        <xsl:apply-templates select="child::app[child::rdg[@wit[contains(., $CE)]]]">
+                                                            <xsl:with-param name="CE" as="node()" select="$CE"/>
+                                                        </xsl:apply-templates>
                                                     </g>
-                                                </xsl:for-each>
-                                            </g>
+                                                </g>
+                                            </xsl:for-each>
                                         </g>
-                                    </svg>
+                                    </g>
+                                </svg>
                             </xsl:for-each>
                         </div>
                     </div>
@@ -55,8 +59,8 @@
     </xsl:template>
     <xsl:template match="app">
         <xsl:param name="CE"/>
-            <text x="75" y="{((count(preceding::app) * 20) + 100) + ((count(preceding::ab) - 1) * 50)}">
-                <xsl:value-of select="child::rdg[@wit[contains(., $CE)]] ! string-length()"/>
-            </text>
+        <text x="75" y="{((count(preceding::app) * 20) + 160) + ((count(preceding::ab) - 1) * 80)}" text-anchor="middle">
+            <xsl:value-of select="child::rdg[@wit[contains(., $CE)]] ! string-length()"/>
+        </text>
     </xsl:template>
 </xsl:stylesheet>
