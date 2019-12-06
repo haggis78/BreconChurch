@@ -19,7 +19,7 @@
             <line x1="0" y1="0" x2="0" y2="{$timeLength * $stretcher}" stroke="ForestGreen" stroke-width="3"/>
                <xsl:comment>The number of years is this:<xsl:value-of select="$timeLength"/></xsl:comment>
                <xsl:for-each select="0 to $timeLength">
-                   <xsl:if test="current() mod 20 = 0"><text x="10" y="{current() * $stretcher}" text-align="center" stroke="black"><xsl:value-of select="$lowest + current()"/></text></xsl:if>
+                   <xsl:if test="current() mod 20 = 0"><text x="10" y="{current() * $stretcher}" text-anchor="middle" stroke="black"><xsl:value-of select="$lowest + current()"/></text></xsl:if>
                    
                </xsl:for-each>
                 <xsl:for-each select="descendant::entry">
