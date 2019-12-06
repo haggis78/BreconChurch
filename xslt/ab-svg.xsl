@@ -62,5 +62,10 @@
         <text x="75" y="{((count(preceding::app) * 20) + 160) + ((count(preceding::ab) - 1) * 80)}" text-anchor="middle">
             <xsl:value-of select="child::rdg[@wit[contains(., $CE)]] ! string-length()"/>
         </text>
+        <line class="edition-lines" x1="10" x2="140" y1="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" y2="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" stroke="lightGray" stroke-width="20" opacity="0">
+            <title>
+                <xsl:value-of select="child::rdg[@wit[contains(., $CE)]]"/>
+            </title>
+        </line>
     </xsl:template>
 </xsl:stylesheet>

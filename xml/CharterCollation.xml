@@ -847,7 +847,7 @@
                <rdg wit="#W #S #I #J #O">Abergwilly</rdg>
                <rdg wit="#R">Alberguylly</rdg>
                <rdg wit="#C">Abergwylly</rdg>
-               <rdg wit="D">Abe<add place="above">r</add>guylly</rdg>
+               <rdg wit="#D">Abe<add place="above">r</add>guylly</rdg>
             </app>, damus quod ipsi <app>
                <rdg wit="#W #R #I #C #D #O">possunt</rdg>
                <rdg wit="#S #J">possint</rdg>
@@ -937,7 +937,7 @@
             <app>
                <rdg wit="#W #S #I #J #C #O">quorumcunque,</rdg>
                <rdg wit="#R">quorumcunque,</rdg>
-               <rdg wit="D">quorumcumque,</rdg>
+               <rdg wit="#D">quorumcumque,</rdg>
                <!-- amp: this is the same in both witnesses, should I remove this code? -->
                <!-- CRC: it seems like #R habitually uses '-cumque' instead of '-cunque' and the spots where this problem appears might just be a typo that got copied and
                   pasted repeatedly. Someone please check to confim, there are lots of these.-->
@@ -1044,7 +1044,7 @@
                <rdg wit="#W #S #J">Brecknock</rdg>
                <rdg wit="#R">Breknok</rdg>
                <rdg wit="#I #C #O">Brechnock</rdg>
-               <rdg wit="D">Brechok</rdg>
+               <rdg wit="#D">Brechok</rdg>
             </app> et in <pb ed="#I" n="276"/>Ecclesia <app>
                <rdg wit="#W #S #R">prædicta</rdg>
                <rdg wit="#I #O">præd</rdg>
@@ -1102,7 +1102,7 @@
                <rdg wit="#W #S #I #J #O">Abergwilly,</rdg>
                <rdg wit="#C">Abergwylly,</rdg>
                <rdg wit="#R">Alberguylly,</rdg>
-               <rdg wit="D">Abergully</rdg>
+               <rdg wit="#D">Abergully</rdg>
             </app> aliquo tempore <app>
                <rdg wit="#W #R #I #C #O">ante hac</rdg>
                <rdg wit="#S #J #D">antehac</rdg>
