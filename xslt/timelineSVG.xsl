@@ -14,18 +14,18 @@
     <xsl:variable name="timeLength" as="xs:integer" select="$maxDate - $lowest"/>
     
     <xsl:template match="/">
-        <svg xmlns="http://www.w3.org/2000/svg" width="500" height="6000">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1500" height="6000">
             <g transform="translate(200, {$timeLength * $stretcher + 300})">
             <line x1="0" y1="0" x2="0" y2="-{$timeLength * $stretcher}" stroke="ForestGreen" stroke-width="3"/>
                <xsl:comment>The number of years is this:<xsl:value-of select="$timeLength"/></xsl:comment>
                <xsl:for-each select="0 to $timeLength">
-                   <xsl:if test="current() mod 20 = 0"><text x="0" y="-{current() * $stretcher}" text-align="center" stroke="black"><xsl:value-of select="$lowest + current()"/></text></xsl:if>
+                   <xsl:if test="current() mod 20 = 0"><text x="10" y="-{current() * $stretcher}" text-align="center" stroke="black"><xsl:value-of select="$lowest + current()"/></text></xsl:if>
                    
                </xsl:for-each>
                 <xsl:for-each select="descendant::entry">
                     <xsl:choose>
-                        <xsl:when test="@when"><circle r="5" cx="0" cy="-{(@when - $lowest) * $stretcher}" stroke="black" fill=""/><text></text></xsl:when>
-                        <xsl:when test="@from"><ellipse rx="8" ry="{(@to - @from) * $stretcher}" cx="0" cy="-{(@from - $lowest) * $stretcher}" stroke="black" fill="pink" fill-opacity="0.5"/></xsl:when>
+                        <xsl:when test="@when"><circle r="5" cx="0" cy="-{(@when - $lowest) * $stretcher}" stroke="black" fill=""/><text x="60" y="-{(@when - $lowest) * $stretcher + 10}" stroke="black"><xsl:value-of select="@when"/>:<xsl:apply-templates/></text></xsl:when>
+                        <xsl:when test="@from"><ellipse rx="8" ry="{(@to - @from) * $stretcher}" cx="0" cy="-{(@from - $lowest) * $stretcher}" stroke="black" fill="pink" fill-opacity="0.5"/><text x="60" y="-{(@from - $lowest) * $stretcher + 10}" stroke="black"><xsl:value-of select="@from"/> to <xsl:value-of select="@to"/>: <xsl:apply-templates/></text></xsl:when>
                     </xsl:choose>
                 </xsl:for-each>
         </g>
