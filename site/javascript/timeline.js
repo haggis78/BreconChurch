@@ -7,11 +7,11 @@ function initialize() {
     var ellipseSelect = document.querySelectorAll('ellipse[id]');
     for (var i = 0; i < circleSelect.length; i++)
     {
-        circleSelect[i].addEventListener('click', textShow, false);
+        circleSelect[i].addEventListener('mouseover', textShow, false);
     }
      for (var j = 0; j < ellipseSelect.length; j++)
     {
-        ellipseSelect[j].addEventListener('click', textShow, false);
+        ellipseSelect[j].addEventListener('mouseover', textShow, false);
     }
 }
 
