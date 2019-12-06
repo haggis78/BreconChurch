@@ -34,57 +34,61 @@
       <text x="10" y="-4600" text-align="center" stroke="black">1720</text>
       <text x="10" y="-4800" text-align="center" stroke="black">1740</text>
       <text x="10" y="-5000" text-align="center" stroke="black">1760</text>
-      <circle r="5" cx="0" cy="-90" stroke="black" fill=""/>
-      <text x="60" y="-100" stroke="black">1269: Dominican Friars establish a priory at Brecon, Breconshire. </text>
-      <circle r="5" cx="0" cy="-230" stroke="black" fill=""/>
-      <text x="60" y="-240" stroke="black">1283: Bishop Thomas Bek of St Davids establishes a collegiate church at Llangadog, Carmarthenshire.</text>
-      <circle r="5" cx="0" cy="-270" stroke="black" fill=""/>
-      <text x="60" y="-280" stroke="black">1287: Bek moves his new Llangadog foundation to Abergwili, Carmarthenshire, on the outskirts of the town of Carmarthen.</text>
-      <circle r="5" cx="0" cy="-2490" stroke="black" fill=""/>
-      <text x="60" y="-2500" stroke="black">1509: Henry VIII crowned King.</text>
-      <circle r="5" cx="0" cy="-2740" stroke="black" fill=""/>
-      <text x="60" y="-2750" stroke="black">1534: Henry VIII breaks with Rome; King declared 'Supreme head on earth of the Church of England'.</text>
-      <circle r="5" cx="0" cy="-2760" stroke="black" fill=""/>
-      <text x="60" y="-2770" stroke="black">1536: William Barlow made Bishop of St Davids; monasteries dissolved; first act incorporating Wales into the English state.</text>
-      <circle r="5" cx="0" cy="-2780" stroke="black" fill=""/>
-      <text x="60" y="-2790" stroke="black">1538: Houses of friars dissolved, including the Dominican house at Brecon.</text>
+      <circle r="5" cx="0" cy="-90" stroke="black" id="shape"/>
+      <text x="60" y="-100" stroke="black" id="shape">1269: Dominican Friars establish a priory at Brecon, Breconshire. </text>
+      <circle r="5" cx="0" cy="-230" stroke="black" id="shape"/>
+      <text x="60" y="-240" stroke="black" id="shape">1283: Bishop Thomas Bek of St Davids establishes a collegiate church at Llangadog, Carmarthenshire.</text>
+      <circle r="5" cx="0" cy="-270" stroke="black" id="shape"/>
+      <text x="60" y="-280" stroke="black" id="shape">1287: Bek moves his new Llangadog foundation to Abergwili, Carmarthenshire, on the outskirts of the town of Carmarthen.</text>
+      <circle r="5" cx="0" cy="-2490" stroke="black" id="shape"/>
+      <text x="60" y="-2500" stroke="black" id="shape">1509: Henry VIII crowned King.</text>
+      <circle r="5" cx="0" cy="-2740" stroke="black" id="shape"/>
+      <text x="60" y="-2750" stroke="black" id="shape">1534: Henry VIII breaks with Rome; King declared 'Supreme head on earth of the Church of England'.</text>
+      <circle r="5" cx="0" cy="-2760" stroke="black" id="shape"/>
+      <text x="60" y="-2770" stroke="black" id="shape">1536: William Barlow made Bishop of St Davids; monasteries dissolved; first act incorporating Wales into the English state.</text>
+      <circle r="5" cx="0" cy="-2780" stroke="black" id="shape"/>
+      <text x="60" y="-2790" stroke="black" id="shape">1538: Houses of friars dissolved, including the Dominican house at Brecon.</text>
       <ellipse rx="8"
                ry="10"
                cx="0"
                cy="-2790"
                stroke="black"
                fill="pink"
-               fill-opacity="0.5"/>
-      <text x="60" y="-2805" stroke="black">1539 to 1540: Barlow writes to Thomas Cromwell, proposing that Abergwili Collegiate Church be re-founded at Brecon and St Davids Cathedral be re-founded at Carmarthen.</text>
-      <circle r="5" cx="0" cy="-2810" stroke="black" fill=""/>
-      <text x="60" y="-2820" stroke="black">1541: Henry VIII issues Letters Patent moving Abergwili Collegiate Church to Brecon under the new name Christ College Brecon. Copy recorded in the Patent Rolls (Witness R).</text>
-      <circle r="5" cx="0" cy="-2830" stroke="black" fill=""/>
-      <text x="60" y="-2840" stroke="black">1543: Second act incorporating Wales into the English state.</text>
+               fill-opacity="0.5"
+               id="shape"/>
+      <text x="60" y="-2805" stroke="black" id="shape">1539 to 1540: Barlow writes to Thomas Cromwell, proposing that Abergwili Collegiate Church be re-founded at Brecon and St Davids Cathedral be re-founded at Carmarthen.</text>
+      <circle r="5" cx="0" cy="-2810" stroke="black" id="shape"/>
+      <text x="60" y="-2820" stroke="black" id="shape">1541: Henry VIII issues Letters Patent moving Abergwili Collegiate Church to Brecon under the new name Christ College Brecon. Copy recorded in the Patent Rolls (Witness R).</text>
+      <circle r="5" cx="0" cy="-2830" stroke="black" id="shape"/>
+      <text x="60" y="-2840" stroke="black" id="shape">1543: Second act incorporating Wales into the English state.</text>
       <ellipse rx="8"
                ry="60"
                cx="0"
                cy="-3010"
                stroke="black"
                fill="pink"
-               fill-opacity="0.5"/>
-      <text x="60" y="-3025" stroke="black">1561 to 1567:  Bishop Richard Davies of St Davids and William Salesbury collaborate at Abergwili to translate the Anglican Book of Common Prayer and New Testament into Welsh.</text>
+               fill-opacity="0.5"
+               id="shape"/>
+      <text x="60" y="-3025" stroke="black" id="shape">1561 to 1567:  Bishop Richard Davies of St Davids and William Salesbury collaborate at Abergwili to translate the Anglican Book of Common Prayer and New Testament into Welsh.</text>
       <ellipse rx="8"
                ry="600"
                cx="0"
                cy="-4200"
                stroke="black"
                fill="pink"
-               fill-opacity="0.5"/>
-      <text x="60" y="-4215" stroke="black">1680 to 1740:  Witnesses C, D, I, and O written: all are copies of the medieval Statutes of St Davids Cathedral, to which the Brecon charter appears as an appendix. Copies circulate, ending up at St Davids (D and I), St John's College Cambridge (C), and the Harley Collection (O).</text>
-      <circle r="5" cx="0" cy="-4590" stroke="black" fill=""/>
-      <text x="60" y="-4600" stroke="black">1719: Browne Willis publishes the Brecon charter in An History of the Mitred Parliamentary Abbies, and Conventual Cathedral Churches, vol. II (Witness W).</text>
+               fill-opacity="0.5"
+               id="shape"/>
+      <text x="60" y="-4215" stroke="black" id="shape">1680 to 1740:  Witnesses C, D, I, and O written: all are copies of the medieval Statutes of St Davids Cathedral, to which the Brecon charter appears as an appendix. Copies circulate, ending up at St Davids (D and I), St John's College Cambridge (C), and the Harley Collection (O).</text>
+      <circle r="5" cx="0" cy="-4590" stroke="black" id="shape"/>
+      <text x="60" y="-4600" stroke="black" id="shape">1719: Browne Willis publishes the Brecon charter in An History of the Mitred Parliamentary Abbies, and Conventual Cathedral Churches, vol. II (Witness W).</text>
       <ellipse rx="8"
                ry="220"
                cx="0"
                cy="-4790"
                stroke="black"
                fill="pink"
-               fill-opacity="0.5"/>
-      <text x="60" y="-4805" stroke="black">1739 to 1761:  Edward Yardley, Archdeacon of Carmarthen, compiles his history of St Davids Cathedral and Diocese, Menevia Sacra.</text>
+               fill-opacity="0.5"
+               id="shape"/>
+      <text x="60" y="-4805" stroke="black" id="shape">1739 to 1761:  Edward Yardley, Archdeacon of Carmarthen, compiles his history of St Davids Cathedral and Diocese, Menevia Sacra.</text>
    </g>
 </svg>

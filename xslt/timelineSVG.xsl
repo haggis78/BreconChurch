@@ -24,8 +24,8 @@
                </xsl:for-each>
                 <xsl:for-each select="descendant::entry">
                     <xsl:choose>
-                        <xsl:when test="@when"><circle r="5" cx="0" cy="-{(@when - $lowest) * $stretcher}" stroke="black" fill=""/><text x="60" y="-{(@when - $lowest) * $stretcher + 10}" stroke="black"><xsl:value-of select="@when"/>:<xsl:apply-templates/></text></xsl:when>
-                        <xsl:when test="@from"><ellipse rx="8" ry="{(@to - @from) * $stretcher}" cx="0" cy="-{(@from - $lowest) * $stretcher}" stroke="black" fill="pink" fill-opacity="0.5"/><text x="60" y="-{(@from - $lowest) * $stretcher + 15}" stroke="black"><xsl:value-of select="@from"/> to <xsl:value-of select="@to"/>: <xsl:apply-templates/></text></xsl:when>
+                        <xsl:when test="@when"><circle r="5" cx="0" cy="-{(@when - $lowest) * $stretcher}" stroke="black" id="shape"/><text x="60" y="-{(@when - $lowest) * $stretcher + 10}" stroke="black" id="shape"><xsl:value-of select="@when"/>:<xsl:apply-templates/></text></xsl:when>
+                        <xsl:when test="@from"><ellipse rx="8" ry="{(@to - @from) * $stretcher}" cx="0" cy="-{(@from - $lowest) * $stretcher}" stroke="black" fill="pink" fill-opacity="0.5" id="shape"/><text x="60" y="-{(@from - $lowest) * $stretcher + 15}" stroke="black" id="shape"><xsl:value-of select="@from"/> to <xsl:value-of select="@to"/>: <xsl:apply-templates/></text></xsl:when>
                     </xsl:choose>
                 </xsl:for-each>
         </g>
