@@ -224,7 +224,7 @@ svg.edition-svg rect, svg.edition-svg line{
 }
 h1 {
     color: black;
-    text-align: right;
+    text-align: center;
     padding-right: 20px;
     padding-left: 10px;
     font-size: 50px; 
