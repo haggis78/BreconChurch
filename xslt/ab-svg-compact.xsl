@@ -12,7 +12,7 @@
         omit-xml-declaration="yes"/>
     <xsl:variable name="currentEdition" as="node()+" select="descendant::note"/>
     <xsl:template match="/">
-        <xsl:result-document method="xhtml" indent="yes" href="../site/html/edition-svg-compact.html">
+        <xsl:result-document method="xhtml" indent="yes" href="../site/html/edition-svg.html">
             <html xmlns="http://www.w3.org/1999/xhtml">
                 <head>
                     <link rel="stylesheet" type="text/css" href="../css/brecon.css" />
@@ -28,7 +28,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="7300" viewBox="0 0 300 7300">
                                 <g transform="translate(0, 40)">
                                     <xsl:for-each select="descendant::ab">
-                                        <g id="edition{position()}" class="draggable" style="-webkit-user-select: none">
+                                        <g class="draggable" style="-webkit-user-select: none">
                                             <rect x="10" y="{(count(preceding::app) * 20) + ((position() - 1) * 80)}" width="264" height="{count(child::app) * 20 + 70}" fill="none" stroke="black" stroke-width="2"/>
                                             <text x="135" y="{(count(preceding::app) * 20) + ((position() - 1) * 80) + 20}" text-anchor="middle">AB #<xsl:value-of select="position()"/></text>
                                             <line x1="10" x2="274" y1="{(count(preceding::app) * 20) + ((position() - 1) * 80) + 30}" y2="{(count(preceding::app) * 20) + ((position() - 1) * 80) + 30}" stroke-width="2" stroke="black"/>
@@ -128,9 +128,18 @@
         <xsl:param name="CE"/>
         <xsl:choose>
             <xsl:when test="$CE = 'C'">
-                <text x="26" y="{((count(preceding::app) * 20) + 160) + ((count(preceding::ab) - 1) * 80)}" text-anchor="middle">
-                    <xsl:value-of select="child::rdg[@wit[contains(., $CE)]] ! string-length()"/>
-                </text>
+                <xsl:choose>
+                    <xsl:when test="position() = (count(parent::ab/app) - 2)">
+                        <text x="26" y="{((count(preceding::app) * 20) + 160) + ((count(preceding::ab) - 1) * 80)}" text-anchor="middle" id="ab{count(preceding::ab) + 2}">
+                            <xsl:value-of select="child::rdg[@wit[contains(., $CE)]] ! string-length()"/>
+                        </text>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <text x="26" y="{((count(preceding::app) * 20) + 160) + ((count(preceding::ab) - 1) * 80)}" text-anchor="middle">
+                            <xsl:value-of select="child::rdg[@wit[contains(., $CE)]] ! string-length()"/>
+                        </text>
+                    </xsl:otherwise>
+                </xsl:choose>
                 <line class="edition-lines" x1="10" x2="43" y1="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" y2="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" stroke="lightGray" stroke-width="20" opacity="0">
                     <title>
                         <xsl:value-of select="child::rdg[@wit[contains(., $CE)]]"/>
