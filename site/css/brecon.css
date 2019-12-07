@@ -242,6 +242,9 @@ div.index {
     padding-left: 20px;
     padding-right: 20px;
 }
+div.notes {
+    line-height: 90%;
+}
 p {
     font-size: 20px;
 }
@@ -252,6 +255,10 @@ p.index {
 p.msdesc {
     text-align: left;
     font-size: 20px;
+}
+p.notes {
+    font-size: 15px;
+    line-height: 90%;
 }
 img.github {
     display: block;
