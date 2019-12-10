@@ -127,11 +127,35 @@ svg.edition-svg rect, svg.edition-svg line{
     text-decoration: none;
     color: white;
 }
+.ab-checkbox{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
 .ab-svg{
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: space-around;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.ab-table{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30vw;
+    height: 100%;
+}
+.ab-graph{
+    display: flex;
+    width: 70vw;
+    flex-direction: column;
+    display: none;
+    align-items: center;
+    justify-content: center;
 }
 #stemma-svg{
     overflow: auto;

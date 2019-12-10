@@ -24,10 +24,10 @@
                     <xsl:comment> SSI line below </xsl:comment>
                     <xsl:comment>#include virtual="ssi/ab-svg-ssi.html" </xsl:comment>
                     <div class="content">
-                        <div>
+                        <div id="word-count" class="ab-graph" style="-webkit-user-select: none">
                             <xsl:for-each select="descendant::ab">
                                 <xsl:variable name="CAB" as="node()+" select="current()"/>
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1300" height="320" viewBox="0 0 1300 320">
+                                <svg class="word-count" style="-webkit-user-select: none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1300" height="320" viewBox="0 0 1300 320">
                                     <g transform="translate(20, 60)" id="ab{position()}-word">
                                         <text x="20" y="-30">Anonymous Block #<xsl:value-of select="position()"/>: Word Count</text>
                                         <g class="lines">

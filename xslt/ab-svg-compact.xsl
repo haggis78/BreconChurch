@@ -17,7 +17,7 @@
                 <head>
                     <link rel="stylesheet" type="text/css" href="../css/brecon.css" />
                     <link rel="icon" href="../img/background/brecon-favicon.png" />
-                    <script src="../javascript/comp-checkbox.js" type="text/javascript"></script>
+                    <script src="../javascript/ab-checkbox.js" type="text/javascript"></script>
                     <title>Brecon | Edition SVG</title>
                 </head>
                 <body>
@@ -25,7 +25,7 @@
                     <xsl:comment>#include virtual="ssi/ab-svg-ssi.html" </xsl:comment>
                     <div class="content">
                         <div class="ab-svg">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="7300" viewBox="0 0 300 7300">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="7500" viewBox="0 0 300 7500">
                                 <g transform="translate(0, 40)">
                                     <xsl:for-each select="descendant::ab">
                                         <g class="draggable" style="-webkit-user-select: none">

@@ -21,7 +21,7 @@ window.onload = function () {
 }
 
     function wordCountBG() {
-        var checkBox = document.getElementById("wordCountBGnav");
+        var checkBox = document.getElementById("wordCountNav");
         var text = document.getElementById("word-count");
         if (checkBox.checked == true){
             text.style.display = "block";
@@ -29,8 +29,8 @@ window.onload = function () {
             text.style.display = "none";
         }
     }
-        function leftCompD() {
-        var checkBox = document.getElementById("stringCountBGnav");
+        function stringCountBG() {
+        var checkBox = document.getElementById("stringCountNav");
         var text = document.getElementById("string-count");
         if (checkBox.checked == true){
             text.style.display = "block";
