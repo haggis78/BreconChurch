@@ -12,7 +12,7 @@
         omit-xml-declaration="yes"/>
     <xsl:variable name="currentEdition" as="node()+" select="descendant::note"/>
     <xsl:template match="/">
-        <xsl:result-document method="xhtml" indent="yes" href="../site/html/edition-svg-bar-graph.html">
+        <xsl:result-document method="xhtml" indent="yes" href="../site/html/edition-svg-word-count-bar-graph.html">
             <html xmlns="http://www.w3.org/1999/xhtml">
                 <head>
                     <link rel="stylesheet" type="text/css" href="../css/brecon.css" />
@@ -27,8 +27,9 @@
                         <div>
                             <xsl:for-each select="descendant::ab">
                                 <xsl:variable name="CAB" as="node()+" select="current()"/>
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1300" height="300" viewBox="0 0 1300 300">
-                                    <g transform="translate(20, 40)" id="ab{position()}">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1300" height="320" viewBox="0 0 1300 320">
+                                    <g transform="translate(20, 60)" id="ab{position()}-word">
+                                        <text x="20" y="-30">Anonymous Block #<xsl:value-of select="position()"/>: Word Count</text>
                                         <g class="lines">
                                             <g class="axis">
                                                 <line x1="10" x2="1190" y1="10" y2="10" stroke="black" stroke-width="2"/>
@@ -105,74 +106,158 @@
                                             <xsl:choose>
                                                 <xsl:when test="current() = 'C'">
                                                     <g class="c-markers">
-                                                        <line x1="11" x2="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'C')]/text() !normalize-space() ! tokenize(., ' ') => count())) * 4}" y1="{(position() * 30) + 5}" y2="{(position() * 30) + 5}" stroke="#ff3ad4" stroke-width="30"/>
-                                                        <text x="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'C')]/text() !normalize-space() ! tokenize(., ' ') => count())) * 4 + 5}" y="{(position() * 30) + 10}"><xsl:value-of select="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'C')]/text() !normalize-space() ! tokenize(., ' ') => count()))"/></text>
+                                                        <xsl:choose>
+                                                            <xsl:when test="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'C')]/text() ! normalize-space() ! tokenize(., ' ') => count())) = 0">
+                                                                <text x="20" y="{(position() * 30) + 10}">0</text>
+                                                            </xsl:when>
+                                                            <xsl:when test="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'C')]/text() ! normalize-space() ! tokenize(., ' ') => count())) > 290">
+                                                                <line x1="11" x2="1190" y1="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'C')]/text() ! normalize-space() ! tokenize(., ' ') => count())) + 5}" stroke="#ff3ad4" stroke-width="30" opacity=".75"/>
+                                                                <text x="1200" y="{(position() * 30) + 10}"><xsl:value-of select="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'C')]/text() ! normalize-space() ! tokenize(., ' ') => count()))"/></text>
+                                                            </xsl:when>
+                                                            <xsl:otherwise>
+                                                                <line x1="11" x2="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'C')]/text() ! normalize-space() ! tokenize(., ' ') => count())) * 4 + 11}" y1="{(position() * 30) + 5}" y2="{(position() * 30) + 5}" stroke="#ff3ad4" stroke-width="30" opacity=".75"/>
+                                                                <text x="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'C')]/text() ! normalize-space() ! tokenize(., ' ') => count())) * 4 + 15}" y="{(position() * 30) + 10}"><xsl:value-of select="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'C')]/text() ! normalize-space() ! tokenize(., ' ') => count()))"/></text>
+                                                            </xsl:otherwise>
+                                                        </xsl:choose>
                                                         <line x1="5" x2="15" y1="{(position() * 30) + 5}" y2="{(position() * 30) + 5}" stroke="black" stroke-width="2"/>
                                                         <text x="-15" y="{(position() * 30) + 10}"><xsl:value-of select="current()"/></text>
                                                     </g>
                                                 </xsl:when>
                                                 <xsl:when test="current() = 'D'">
                                                     <g class="d-markers">
-                                                        <line x1="11" x2="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'D')]/text() !normalize-space() ! tokenize(., ' ') => count())) * 4}" y1="{(position() * 30) + 5}" y2="{(position() * 30) + 5}" stroke="#ff3f3a" stroke-width="30"/>
-                                                        <text x="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'D')]/text() !normalize-space() ! tokenize(., ' ') => count())) * 4 + 5}" y="{(position() * 30) + 10}"><xsl:value-of select="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'D')]/text() !normalize-space() ! tokenize(., ' ') => count()))"/></text>
+                                                        <xsl:choose>
+                                                            <xsl:when test="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'D')]/text() ! normalize-space() ! tokenize(., ' ') => count())) = 0">
+                                                                <text x="20" y="{(position() * 30) + 10}">0</text>
+                                                            </xsl:when>
+                                                            <xsl:when test="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'D')]/text() ! normalize-space() ! tokenize(., ' ') => count())) > 290">
+                                                                <line x1="11" x2="1190" y1="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'D')]/text() ! normalize-space() ! tokenize(., ' ') => count())) + 5}" stroke="#ff3f3a" stroke-width="30" opacity=".75"/>
+                                                                <text x="1200" y="{(position() * 30) + 10}"><xsl:value-of select="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'D')]/text() ! normalize-space() ! tokenize(., ' ') => count()))"/></text>
+                                                            </xsl:when>
+                                                            <xsl:otherwise>
+                                                                <line x1="11" x2="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'D')]/text() ! normalize-space() ! tokenize(., ' ') => count())) * 4 + 11}" y1="{(position() * 30) + 5}" y2="{(position() * 30) + 5}" stroke="#ff3f3a" stroke-width="30" opacity=".75"/>
+                                                                <text x="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'D')]/text() ! normalize-space() ! tokenize(., ' ') => count())) * 4 + 15}" y="{(position() * 30) + 10}"><xsl:value-of select="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'D')]/text() ! normalize-space() ! tokenize(., ' ') => count()))"/></text>
+                                                            </xsl:otherwise>
+                                                        </xsl:choose>
                                                         <line x1="5" x2="15" y1="{(position() * 30) + 5}" y2="{(position() * 30) + 5}" stroke="black" stroke-width="2"/>
                                                         <text x="-15" y="{(position() * 30) + 10}"><xsl:value-of select="current()"/></text>
                                                     </g>
                                                 </xsl:when>
                                                 <xsl:when test="current() = 'I'">
                                                     <g class="i-markers">
-                                                        <line x1="11" x2="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'I')]/text() !normalize-space() ! tokenize(., ' ') => count())) * 4}" y1="{(position() * 30) + 5}" y2="{(position() * 30) + 5}" stroke="#ffac3a" stroke-width="30"/>
-                                                        <text x="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'I')]/text() !normalize-space() ! tokenize(., ' ') => count())) * 4 + 5}" y="{(position() * 30) + 10}"><xsl:value-of select="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'I')]/text() !normalize-space() ! tokenize(., ' ') => count()))"/></text>
+                                                        <xsl:choose>
+                                                            <xsl:when test="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'I')]/text() ! normalize-space() ! tokenize(., ' ') => count())) = 0">
+                                                                <text x="20" y="{(position() * 30) + 10}">0</text>
+                                                            </xsl:when>
+                                                            <xsl:when test="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'I')]/text() ! normalize-space() ! tokenize(., ' ') => count())) > 290">
+                                                                <line x1="11" x2="1190" y1="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'I')]/text() ! normalize-space() ! tokenize(., ' ') => count())) + 5}" stroke="#ffac3a" stroke-width="30" opacity=".75"/>
+                                                                <text x="1200" y="{(position() * 30) + 10}"><xsl:value-of select="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'I')]/text() ! normalize-space() ! tokenize(., ' ') => count()))"/></text>
+                                                            </xsl:when>
+                                                            <xsl:otherwise>
+                                                                <line x1="11" x2="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'I')]/text() ! normalize-space() ! tokenize(., ' ') => count())) * 4 + 11}" y1="{(position() * 30) + 5}" y2="{(position() * 30) + 5}" stroke="#ffac3a" stroke-width="30" opacity=".75"/>
+                                                            <text x="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'I')]/text() ! normalize-space() ! tokenize(., ' ') => count())) * 4 + 15}" y="{(position() * 30) + 10}"><xsl:value-of select="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'I')]/text() ! normalize-space() ! tokenize(., ' ') => count()))"/></text>
+                                                            </xsl:otherwise>
+                                                        </xsl:choose>
                                                         <line x1="5" x2="15" y1="{(position() * 30) + 5}" y2="{(position() * 30) + 5}" stroke="black" stroke-width="2"/>
                                                         <text x="-15" y="{(position() * 30) + 10}"><xsl:value-of select="current()"/></text>
                                                     </g>
                                                 </xsl:when>
                                                 <xsl:when test="current() = 'J'">
                                                     <g class="j-markers">
-                                                        <line x1="11" x2="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'J')]/text() !normalize-space() ! tokenize(., ' ') => count())) * 4}" y1="{(position() * 30) + 5}" y2="{(position() * 30) + 5}" stroke="#ffe83a" stroke-width="30"/>
-                                                        <text x="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'J')]/text() !normalize-space() ! tokenize(., ' ') => count())) * 4 + 5}" y="{(position() * 30) + 10}"><xsl:value-of select="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'J')]/text() !normalize-space() ! tokenize(., ' ') => count()))"/></text>
+                                                        <xsl:choose>
+                                                            <xsl:when test="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'J')]/text() ! normalize-space() ! tokenize(., ' ') => count())) = 0">
+                                                                <text x="20" y="{(position() * 30) + 10}">0</text>
+                                                            </xsl:when>
+                                                            <xsl:when test="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'J')]/text() ! normalize-space() ! tokenize(., ' ') => count())) > 290">
+                                                                <line x1="11" x2="1190" y1="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'J')]/text() ! normalize-space() ! tokenize(., ' ') => count())) + 5}" stroke="#ffe83a" stroke-width="30" opacity=".75"/>
+                                                                <text x="1200" y="{(position() * 30) + 10}"><xsl:value-of select="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'J')]/text() ! normalize-space() ! tokenize(., ' ') => count()))"/></text>
+                                                            </xsl:when>
+                                                            <xsl:otherwise>
+                                                                <line x1="11" x2="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'J')]/text() ! normalize-space() ! tokenize(., ' ') => count())) * 4 + 11}" y1="{(position() * 30) + 5}" y2="{(position() * 30) + 5}" stroke="#ffe83a" stroke-width="30" opacity=".75"/>
+                                                            <text x="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'J')]/text() ! normalize-space() ! tokenize(., ' ') => count())) * 4 + 15}" y="{(position() * 30) + 10}"><xsl:value-of select="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'J')]/text() ! normalize-space() ! tokenize(., ' ') => count()))"/></text>
+                                                            </xsl:otherwise>
+                                                        </xsl:choose>
                                                         <line x1="5" x2="15" y1="{(position() * 30) + 5}" y2="{(position() * 30) + 5}" stroke="black" stroke-width="2"/>
                                                         <text x="-15" y="{(position() * 30) + 10}"><xsl:value-of select="current()"/></text>
                                                     </g>
                                                 </xsl:when>
                                                 <xsl:when test="current() = 'O'">
                                                     <g class="o-markers">
-                                                        <line x1="11" x2="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'O')]/text() !normalize-space() ! tokenize(., ' ') => count())) * 4}" y1="{(position() * 30) + 5}" y2="{(position() * 30) + 5}" stroke="#3aff47" stroke-width="30"/>
-                                                        <text x="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'O')]/text() !normalize-space() ! tokenize(., ' ') => count())) * 4 + 5}" y="{(position() * 30) + 10}"><xsl:value-of select="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'O')]/text() !normalize-space() ! tokenize(., ' ') => count()))"/></text>
+                                                        <xsl:choose>
+                                                            <xsl:when test="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'O')]/text() ! normalize-space() ! tokenize(., ' ') => count())) = 0">
+                                                                <text x="20" y="{(position() * 30) + 10}">0</text>
+                                                            </xsl:when>
+                                                            <xsl:when test="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'O')]/text() ! normalize-space() ! tokenize(., ' ') => count())) > 290">
+                                                                <line x1="11" x2="1190" y1="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'O')]/text() ! normalize-space() ! tokenize(., ' ') => count())) + 5}" stroke="#3aff47" stroke-width="30" opacity=".75"/>
+                                                                <text x="1200" y="{(position() * 30) + 10}"><xsl:value-of select="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'O')]/text() ! normalize-space() ! tokenize(., ' ') => count()))"/></text>
+                                                            </xsl:when>
+                                                            <xsl:otherwise>
+                                                                <line x1="11" x2="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'O')]/text() ! normalize-space() ! tokenize(., ' ') => count())) * 4 + 11}" y1="{(position() * 30) + 5}" y2="{(position() * 30) + 5}" stroke="#3aff47" stroke-width="30" opacity=".75"/>
+                                                            <text x="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'O')]/text() ! normalize-space() ! tokenize(., ' ') => count())) * 4 + 15}" y="{(position() * 30) + 10}"><xsl:value-of select="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'O')]/text() ! normalize-space() ! tokenize(., ' ') => count()))"/></text>
+                                                            </xsl:otherwise>
+                                                        </xsl:choose>
                                                         <line x1="5" x2="15" y1="{(position() * 30) + 5}" y2="{(position() * 30) + 5}" stroke="black" stroke-width="2"/>
                                                         <text x="-15" y="{(position() * 30) + 10}"><xsl:value-of select="current()"/></text>
                                                     </g>
                                                 </xsl:when>
                                                 <xsl:when test="current() = 'R'">
                                                     <g class="r-markers">
-                                                        <line x1="11" x2="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'R')]/text() !normalize-space() ! tokenize(., ' ') => count())) * 4}" y1="{(position() * 30) + 5}" y2="{(position() * 30) + 5}" stroke="#48acff" stroke-width="30"/>
-                                                        <text x="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'R')]/text() !normalize-space() ! tokenize(., ' ') => count())) * 4 + 5}" y="{(position() * 30) + 10}"><xsl:value-of select="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'R')]/text() !normalize-space() ! tokenize(., ' ') => count()))"/></text>
+                                                        <xsl:choose>
+                                                            <xsl:when test="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'R')]/text() ! normalize-space() ! tokenize(., ' ') => count())) = 0">
+                                                                <text x="20" y="{(position() * 30) + 10}">0</text>
+                                                            </xsl:when>
+                                                            <xsl:when test="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'R')]/text() ! normalize-space() ! tokenize(., ' ') => count())) > 290">
+                                                                <line x1="11" x2="1190" y1="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'R')]/text() ! normalize-space() ! tokenize(., ' ') => count())) + 5}" stroke="#48acff" stroke-width="30" opacity=".75"/>
+                                                                <text x="1200" y="{(position() * 30) + 10}"><xsl:value-of select="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'R')]/text() ! normalize-space() ! tokenize(., ' ') => count()))"/></text>
+                                                            </xsl:when>
+                                                            <xsl:otherwise>
+                                                                <line x1="11" x2="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'R')]/text() ! normalize-space() ! tokenize(., ' ') => count())) * 4 + 11}" y1="{(position() * 30) + 5}" y2="{(position() * 30) + 5}" stroke="#48acff" stroke-width="30" opacity=".75"/>
+                                                            <text x="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'R')]/text() ! normalize-space() ! tokenize(., ' ') => count())) * 4 + 15}" y="{(position() * 30) + 10}"><xsl:value-of select="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'R')]/text() ! normalize-space() ! tokenize(., ' ') => count()))"/></text>
+                                                            </xsl:otherwise>
+                                                        </xsl:choose>
                                                         <line x1="5" x2="15" y1="{(position() * 30) + 5}" y2="{(position() * 30) + 5}" stroke="black" stroke-width="2"/>
                                                         <text x="-15" y="{(position() * 30) + 10}"><xsl:value-of select="current()"/></text>
                                                     </g>
                                                 </xsl:when>
                                                 <xsl:when test="current() = 'S'">
                                                     <g class="s-markers">
-                                                        <line x1="11" x2="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'S')]/text() !normalize-space() ! tokenize(., ' ') => count())) * 4}" y1="{(position() * 30) + 5}" y2="{(position() * 30) + 5}" stroke="#6636ff" stroke-width="30"/>
-                                                        <text x="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'S')]/text() !normalize-space() ! tokenize(., ' ') => count())) * 4 + 5}" y="{(position() * 30) + 10}"><xsl:value-of select="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'S')]/text() !normalize-space() ! tokenize(., ' ') => count()))"/></text>
+                                                        <xsl:choose>
+                                                            <xsl:when test="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'S')]/text() ! normalize-space() ! tokenize(., ' ') => count())) = 0">
+                                                                <text x="20" y="{(position() * 30) + 10}">0</text>
+                                                            </xsl:when>
+                                                            <xsl:when test="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'S')]/text() ! normalize-space() ! tokenize(., ' ') => count())) > 290">
+                                                                <line x1="11" x2="1190" y1="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'S')]/text() ! normalize-space() ! tokenize(., ' ') => count())) + 5}" stroke="#6636ff" stroke-width="30" opacity=".75"/>
+                                                                <text x="1200" y="{(position() * 30) + 10}"><xsl:value-of select="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'S')]/text() ! normalize-space() ! tokenize(., ' ') => count()))"/></text>
+                                                            </xsl:when>
+                                                            <xsl:otherwise>
+                                                                <line x1="11" x2="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'S')]/text() ! normalize-space() ! tokenize(., ' ') => count())) * 4 + 11}" y1="{(position() * 30) + 5}" y2="{(position() * 30) + 5}" stroke="#6636ff" stroke-width="30" opacity=".75"/>
+                                                            <text x="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'S')]/text() ! normalize-space() ! tokenize(., ' ') => count())) * 4 + 15}" y="{(position() * 30) + 10}"><xsl:value-of select="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'S')]/text() ! normalize-space() ! tokenize(., ' ') => count()))"/></text>
+                                                            </xsl:otherwise>
+                                                        </xsl:choose>
                                                         <line x1="5" x2="15" y1="{(position() * 30) + 5}" y2="{(position() * 30) + 5}" stroke="black" stroke-width="2"/>
                                                         <text x="-15" y="{(position() * 30) + 10}"><xsl:value-of select="current()"/></text>
                                                     </g>
                                                 </xsl:when>
                                                 <xsl:when test="current() = 'W'">
                                                     <g class="w-markers">
-                                                        <line x1="11" x2="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'W')]/text() !normalize-space() ! tokenize(., ' ') => count())) * 4}" y1="{(position() * 30) + 5}" y2="{(position() * 30) + 5}" stroke="#a848ff" stroke-width="30"/>
-                                                        <text x="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'W')]/text() !normalize-space() ! tokenize(., ' ') => count())) * 4 + 5}" y="{(position() * 30) + 10}"><xsl:value-of select="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'W')]/text() !normalize-space() ! tokenize(., ' ') => count()))"/></text>
+                                                        <xsl:choose>
+                                                            <xsl:when test="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'W')]/text() ! normalize-space() ! tokenize(., ' ') => count())) = 0">
+                                                                <text x="20" y="{(position() * 30) + 10}">0</text>
+                                                            </xsl:when>
+                                                            <xsl:when test="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'W')]/text() ! normalize-space() ! tokenize(., ' ') => count())) > 290">
+                                                                <line x1="11" x2="1190" y1="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'W')]/text() ! normalize-space() ! tokenize(., ' ') => count())) + 5}" stroke="#a848ff" stroke-width="30" opacity=".75"/>
+                                                                <text x="1200" y="{(position() * 30) + 10}"><xsl:value-of select="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'W')]/text() ! normalize-space() ! tokenize(., ' ') => count()))"/></text>
+                                                            </xsl:when> 
+                                                            <xsl:otherwise>
+                                                                <line x1="11" x2="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'W')]/text() ! normalize-space() ! tokenize(., ' ') => count())) * 4 + 11}" y1="{(position() * 30) + 5}" y2="{(position() * 30) + 5}" stroke="#a848ff" stroke-width="30" opacity=".75"/>
+                                                                <text x="{(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'W')]/text() ! normalize-space() ! tokenize(., ' ') => count())) * 4 + 15}" y="{(position() * 30) + 10}"><xsl:value-of select="(($CAB/text() ! normalize-space() ! tokenize(., ' ') => count()) + ($CAB//rdg[contains(@wit, 'W')]/text() ! normalize-space() ! tokenize(., ' ') => count()))"/></text>
+                                                            </xsl:otherwise>
+                                                        </xsl:choose>
                                                         <line x1="5" x2="15" y1="{(position() * 30) + 5}" y2="{(position() * 30) + 5}" stroke="black" stroke-width="2"/>
                                                         <text x="-15" y="{(position() * 30) + 10}"><xsl:value-of select="current()"/></text>
                                                     </g>
                                                 </xsl:when>
                                             </xsl:choose>
                                         </xsl:for-each>
-                                        <xsl:choose>
-                                            <xsl:when test="descendant::rdg/@wit[contains(., 'C')]">
-                                            </xsl:when>
-                                        </xsl:choose>
                                     </g>
                                 </svg>
                             </xsl:for-each>
