@@ -135,6 +135,19 @@ svg.edition-svg rect, svg.edition-svg line{
     align-items: center;
     color: white;
 }
+.ab-legend{
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
+#ab-legend-C{background-color: #ff3ad4; color: black;}
+#ab-legend-D{background-color: #ff3f3a; color: black;}
+#ab-legend-I{background-color: #ffac3a; color: black;}
+#ab-legend-J{background-color: #ffe83a; color: black;}
+#ab-legend-O{background-color: #3aff47; color: black;}
+#ab-legend-R{background-color: #48acff; color: black;}
+#ab-legend-S{background-color: #6636ff; color: black;}
+#ab-legend-W{background-color: #a848ff; color: black;}
 .ab-svg{
     display: flex;
     flex-direction: row;
