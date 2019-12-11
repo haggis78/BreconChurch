@@ -5,7 +5,7 @@
             y1="0"
             x2="0"
             y2="5010"
-            stroke="ForestGreen"
+            stroke="#009933"
             stroke-width="3"/>
       <!--The number of years is this:501-->
       <!--.c-t1269
@@ -50,20 +50,69 @@
       <text x="10" y="4800" text-anchor="middle" stroke="black">1740</text>
       <text x="10" y="5000" text-anchor="middle" stroke="black">1760</text>
       <circle r="10" cx="0" cy="90" stroke="black" id="c-t1269"/>
-      <text x="60" y="100" stroke="black" class="t1269">1269: Dominican Friars establish a priory at Brecon, Breconshire. </text>
+      <foreignObject x="60"
+                     y="100"
+                     stroke="black"
+                     class="t1269"
+                     width="auto"
+                     height="auto">
+         <div xmlns="http://www.w3.org/1999/xhtml">1269: Dominican Friars establish a priory at Brecon, Breconshire. </div>
+      </foreignObject>
       <circle r="10" cx="0" cy="230" stroke="black" id="c-t1283"/>
-      <text x="60" y="240" stroke="black" class="t1283">1283: Bishop Thomas Bek of St Davids establishes a collegiate church at Llangadog, Carmarthenshire.</text>
+      <foreignObject x="60"
+                     y="240"
+                     stroke="black"
+                     class="t1283"
+                     width="auto"
+                     height="auto">
+         <div xmlns="http://www.w3.org/1999/xhtml">1283: Bishop Thomas Bek of St Davids establishes a collegiate church at Llangadog, Carmarthenshire.</div>
+      </foreignObject>
       <circle r="10" cx="0" cy="270" stroke="black" id="c-t1287"/>
-      <text x="60" y="280" stroke="black" class="t1287">1287: Bek moves his new Llangadog foundation to Abergwili, Carmarthenshire, on the outskirts of the town of Carmarthen.</text>
+      <foreignObject x="60"
+                     y="280"
+                     stroke="black"
+                     class="t1287"
+                     width="auto"
+                     height="auto">
+         <div xmlns="http://www.w3.org/1999/xhtml">1287: Bek moves his new Llangadog foundation to Abergwili, Carmarthenshire, on the outskirts of the town of Carmarthen.</div>
+      </foreignObject>
       <circle r="10" cx="0" cy="2490" stroke="black" id="c-t1509"/>
-      <text x="60" y="2500" stroke="black" class="t1509">1509: Henry VIII crowned King.</text>
+      <foreignObject x="60"
+                     y="2500"
+                     stroke="black"
+                     class="t1509"
+                     width="auto"
+                     height="auto">
+         <div xmlns="http://www.w3.org/1999/xhtml">1509: Henry VIII crowned King.</div>
+      </foreignObject>
       <circle r="10" cx="0" cy="2740" stroke="black" id="c-t1534"/>
-      <text x="60" y="2750" stroke="black" class="t1534">1534: Henry VIII breaks with Rome; King declared 'Supreme head on earth of the Church of England'.</text>
+      <foreignObject x="60"
+                     y="2750"
+                     stroke="black"
+                     class="t1534"
+                     width="auto"
+                     height="auto">
+         <div xmlns="http://www.w3.org/1999/xhtml">1534: Henry VIII breaks with Rome; King declared 'Supreme head on earth of the Church of England'.</div>
+      </foreignObject>
       <circle r="10" cx="0" cy="2760" stroke="black" id="c-t1536"/>
-      <text x="60" y="2770" stroke="black" class="t1536">1536: William Barlow made Bishop of St Davids; monasteries dissolved; first act incorporating Wales into the English state.</text>
+      <foreignObject x="60"
+                     y="2770"
+                     stroke="black"
+                     class="t1536"
+                     width="auto"
+                     height="auto">
+         <div xmlns="http://www.w3.org/1999/xhtml">1536: William Barlow made Bishop of St Davids; monasteries dissolved; first act incorporating Wales into the English state.</div>
+      </foreignObject>
       <circle r="10" cx="0" cy="2780" stroke="black" id="c-t1538"/>
-      <text x="60" y="2790" stroke="black" class="t1538">1538: Houses of friars dissolved, including the Dominican house at Brecon.</text>
-      <ellipse rx="8"
+      <foreignObject x="60"
+                     y="2790"
+                     stroke="black"
+                     class="t1538"
+                     width="auto"
+                     height="auto">
+         <div xmlns="http://www.w3.org/1999/xhtml">1538: Houses of friars dissolved, including the Dominican house at Brecon.</div>
+      </foreignObject>
+      <ellipse rx="15"
                ry="10"
                cx="0"
                cy="2790"
@@ -73,10 +122,24 @@
                id="c-t1539"/>
       <text x="60" y="2805" stroke="black" class="t1539">1539 to 1540: Barlow writes to Thomas Cromwell, proposing that Abergwili Collegiate Church be re-founded at Brecon and St Davids Cathedral be re-founded at Carmarthen.</text>
       <circle r="10" cx="0" cy="2810" stroke="black" id="c-t1541"/>
-      <text x="60" y="2820" stroke="black" class="t1541">1541: Henry VIII issues Letters Patent moving Abergwili Collegiate Church to Brecon under the new name Christ College Brecon. Copy recorded in the Patent Rolls (Witness R).</text>
+      <foreignObject x="60"
+                     y="2820"
+                     stroke="black"
+                     class="t1541"
+                     width="auto"
+                     height="auto">
+         <div xmlns="http://www.w3.org/1999/xhtml">1541: Henry VIII issues Letters Patent moving Abergwili Collegiate Church to Brecon under the new name Christ College Brecon. Copy recorded in the Patent Rolls (Witness R).</div>
+      </foreignObject>
       <circle r="10" cx="0" cy="2830" stroke="black" id="c-t1543"/>
-      <text x="60" y="2840" stroke="black" class="t1543">1543: Second act incorporating Wales into the English state.</text>
-      <ellipse rx="8"
+      <foreignObject x="60"
+                     y="2840"
+                     stroke="black"
+                     class="t1543"
+                     width="auto"
+                     height="auto">
+         <div xmlns="http://www.w3.org/1999/xhtml">1543: Second act incorporating Wales into the English state.</div>
+      </foreignObject>
+      <ellipse rx="15"
                ry="60"
                cx="0"
                cy="3010"
@@ -85,7 +148,7 @@
                fill-opacity="0.5"
                id="c-t1561"/>
       <text x="60" y="3025" stroke="black" class="t1561">1561 to 1567:  Bishop Richard Davies of St Davids and William Salesbury collaborate at Abergwili to translate the Anglican Book of Common Prayer and New Testament into Welsh.</text>
-      <ellipse rx="8"
+      <ellipse rx="15"
                ry="600"
                cx="0"
                cy="4200"
@@ -95,8 +158,15 @@
                id="c-t1680"/>
       <text x="60" y="4215" stroke="black" class="t1680">1680 to 1740:  Witnesses C, D, I, and O written: all are copies of the medieval Statutes of St Davids Cathedral, to which the Brecon charter appears as an appendix. Copies circulate, ending up at St Davids (D and I), St John's College Cambridge (C), and the Harley Collection (O).</text>
       <circle r="10" cx="0" cy="4590" stroke="black" id="c-t1719"/>
-      <text x="60" y="4600" stroke="black" class="t1719">1719: Browne Willis publishes the Brecon charter in An History of the Mitred Parliamentary Abbies, and Conventual Cathedral Churches, vol. II (Witness W).</text>
-      <ellipse rx="8"
+      <foreignObject x="60"
+                     y="4600"
+                     stroke="black"
+                     class="t1719"
+                     width="auto"
+                     height="auto">
+         <div xmlns="http://www.w3.org/1999/xhtml">1719: Browne Willis publishes the Brecon charter in An History of the Mitred Parliamentary Abbies, and Conventual Cathedral Churches, vol. II (Witness W).</div>
+      </foreignObject>
+      <ellipse rx="15"
                ry="220"
                cx="0"
                cy="4790"
@@ -106,5 +176,4 @@
                id="c-t1739"/>
       <text x="60" y="4805" stroke="black" class="t1739">1739 to 1761:  Edward Yardley, Archdeacon of Carmarthen, compiles his history of St Davids Cathedral and Diocese, Menevia Sacra.</text>
    </g>
-
 </svg>
