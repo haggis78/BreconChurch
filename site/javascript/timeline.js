@@ -25,9 +25,9 @@ function textShow() {
 }
 
 function hide_last() {
-    var foreignObjects = document.querySelectorAll('foreignObject[class]');
-    for (var i = 0; i < texts.length; i++){
+    var divs = document.querySelectorAll('div[class]');
+    for (var i = 0; i < divs.length; i++){
     
-    foreignObjects[i].style.display = "none"
+    divss[i].style.display = "none"
     }
 }
