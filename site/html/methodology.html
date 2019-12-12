@@ -9,6 +9,15 @@
     <body>
         <!-- SSI line below-->
         <!--#include virtual="ssi/main-ssi.html" -->
-        
+        <div class="content">
+            <h2>Research Question:</h2>
+            <p>As discussed in our <a href="history.html">History</a> section, many copies of the Letter Patent were created, but no two manuscripts are ever quite the same. Our team's task was to create a line-by-line comparison of all of the surviving copies, called a "manuscript collation." (Click <a href="comparison.html">here</a> to see our interactive comparison tool!) This manuscript collation would allow the Brecon Team to encode similarities and differences between the manuscript copies. Together with other evidence, this information allows us to determine how these manuscripts circulated among scholars and clergy in the 1700s. Additionally, this information would allow us to further complete our stemma codicum, which is a family tree of the existing manuscript copies. Currently, our online visualization of the <a href="stemma.html">stemma</a> is available!</p>
+            
+            <h2>Methodology and Research Process:</h2>
+            <p>The beginning of our research was greatly sped up by Dr. Campbell's research assistant, Jonah Jankovich, who provided us with our original transcription that we have used as the base for our coding. With this transcription, we were able to begin the process of deciding on our encoding process.</p>
+            <p>One of the first decisions that our team came to was the decision to follow the <a href="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html">TEI guidelines</a> for our project. The TEI, or Text Encoding Initiative, is a set of rules that determine suitable ways to markup textual documents. These rules specify which tags are able to be used for which types of documents, as well as which attributes are able to go with those tags. Essentially, the TEI is a community-accepted language for text encoding that helps to streamline and standardized digital markup projects. This standard was crucial to our research.</p>
+            <p>Because our project involved manuscript comparisons, we decided to use the TEI critical apparatus tool for the bulk of our markup. This tool wraps any section of our document containing a textual variation between manuscripts in an <b>&lt;app&gt;</b> element. Inside of this element, it allows for <em>reading witnesses</em> to be coded for. These reading witnesses are indicated with <b>&lt;rdg&gt;</b> elements that have <b>wit</b> attributes to indicate which manuscript each variation follows.</p>
+            <p>At this point, we created an ODD for our markup. An ODD is a type of schema that customizes the TEI guidelines to fit each project. Within <a href="../../ODD/tei_brecon.html">our ODD document</a>, we made two notable customizations. First, we made changes that allowed for empty &lt;rdg&gt; tags when certain areas of text were missing from certain documents. Additionally, we specified which <b>wit</b> identifiers were allowed. These identifiers were single letters (or, sigla) that were specific to each manuscript, preceded by a pound symbol.</p>
+        </div>
     </body>
 </html>
