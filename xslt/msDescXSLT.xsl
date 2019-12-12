@@ -35,11 +35,13 @@
     <xsl:template match="bibl">
         <h3><xsl:value-of select="@xml:id"/> : <xsl:value-of select="descendant::idno"/></h3>
         <p><b>Bibliographic Information</b></p>
-        <p><b>Author:</b></p><p><xsl:apply-templates select="descendant::author"/></p>
-        <p><b>Title:</b></p><p><em><xsl:apply-templates select="descendant::title"/></em></p>
-        <p><b>Place of Publication:</b></p><p><xsl:apply-templates select="descendant::pubPlace"/></p>
-        <p><b>Date:</b></p><p><xsl:apply-templates select="descendant::date"/></p>
-        <p><b>Pages:</b></p><p><xsl:apply-templates select="descendant::biblScope"/></p>
+        <p><b>Author:</b> <xsl:apply-templates select="descendant::author"/></p>
+        <p><b>Title:</b> <em><xsl:apply-templates select="descendant::title"/></em></p>
+        <p><b>Place of Publication:</b> <xsl:apply-templates select="descendant::pubPlace"/></p>
+        <p><b>Date:</b> <xsl:apply-templates select="descendant::date"/></p>
+        <p><b>Pages:</b> <xsl:apply-templates select="descendant::biblScope"/></p>
+        <p><b>Note:</b> <xsl:apply-templates select="descendant::note"/></p>
+        <p><b>Available online at:</b> <xsl:apply-templates select="descendant::distributor"/></p>
             </xsl:template>
     
 </xsl:stylesheet>
