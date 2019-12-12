@@ -16,11 +16,12 @@
                <bibl xml:id="W"><author>Willis, Browne.</author> <title>An History of the Mitred Parliamentary Abbies,
                   and Conventual Cathedral Churches, vol. II</title> <pubPlace>London</pubPlace> <date>1719</date> <biblScope>pp.
                   303-309</biblScope> 
+                  <note>This is the earliest known printing. In a footnote Willis writes 'So in the transcript'. This indicates that he did not have the original Letters Patent in front of him but was working from a transcript supplied to him. His papers in the Bodleian Library in Oxtord (classmark MS Willis) contain thousands of items of drafts and correspondence bound into more than 100 volumes. The transcript from which he worked very likely survives there but has not been located for purposes of this project.</note>
+                  <distributor>https://play.google.com/books/reader?id=o25bAAAAQAAJ&amp;hl=en&amp;pg=GBS.PA303</distributor>
                   <msIdentifier>
                      <altIdentifier>
                         <idno></idno>
-                        <note>W</note>
-                     </altIdentifier>
+                                             </altIdentifier>
                   </msIdentifier>
                </bibl>
                
@@ -28,20 +29,24 @@
                   monasteries, hospitals, cathedral and collegiate churches. Being two
                   additional volumes to Sir William Dugdale's Monasticon Anglicanum, vol. II</title> <pubPlace>London</pubPlace> <date>1722-1723</date>
                   <biblScope>Appendix pp. 372-374 (doc. 464)</biblScope>
+                  <note>Stevens explicitly cites W as his source.</note>
+                  <distributor>https://archive.org/details/b30454529_0003/page/372</distributor>
                   <msIdentifier>
                      <altIdentifier>
                         <idno></idno>
-                        <note>S</note>
+                        
                      </altIdentifier>
                   </msIdentifier>
                </bibl>
                
                <bibl xml:id="J"> <author>Jones, Theophilus.</author> <title>A History of the County of Brecknock, vol. II</title> 
                   <pubPlace>Brecknock (Brecon)</pubPlace> <date>1809; 2nd edn., 1898</date> <biblScope>Appendix (unpaginated: doc. IX)</biblScope>
+                  <note>Jones explicitly cites S as his source. Note that J is the second edition; the first edition was not available to us at the time of this project.</note>
+                  <distributor>https://babel.hathitrust.org/cgi/pt?id=coo.31924096162064&amp;view=1up&amp;seq=724</distributor>
                   <msIdentifier>
                      <altIdentifier>
                         <idno></idno>
-                        <note>J</note>
+                        
                      </altIdentifier>
                   </msIdentifier>
                </bibl>
