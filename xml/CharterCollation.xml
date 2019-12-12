@@ -13,9 +13,9 @@
          
          <sourceDesc>
             <listBibl>
-               <bibl xml:id="W">Willis, Browne. _An History of the Mitred Parliamentary Abbies,
-                  and Conventual Cathedral Churches_, vol. II (London, 1719), pp.
-                  303-309. 
+               <bibl xml:id="W"><author>Willis, Browne.</author> <title>An History of the Mitred Parliamentary Abbies,
+                  and Conventual Cathedral Churches, vol. II</title> <pubPlace>London</pubPlace> <date>1719</date> <biblScope>pp.
+                  303-309</biblScope> 
                   <msIdentifier>
                      <altIdentifier>
                         <idno></idno>
@@ -24,10 +24,10 @@
                   </msIdentifier>
                </bibl>
                
-               <bibl xml:id="S"> Stevens, John. _The History of the antient abbeys,
+               <bibl xml:id="S"> <author>Stevens, John.</author> <title>The History of the antient abbeys,
                   monasteries, hospitals, cathedral and collegiate churches. Being two
-                  additional volumes to Sir William Dugdale's Monasticon Anglicanum_ (London,
-                  1722-1723), vol. II, Appendix pp. 372-374 (doc. 464).
+                  additional volumes to Sir William Dugdale's Monasticon Anglicanum, vol. II</title> <pubPlace>London</pubPlace> <date>1722-1723</date>
+                  <biblScope>Appendix pp. 372-374 (doc. 464)</biblScope>
                   <msIdentifier>
                      <altIdentifier>
                         <idno></idno>
@@ -36,8 +36,8 @@
                   </msIdentifier>
                </bibl>
                
-               <bibl xml:id="J"> Jones, Theophilus. _A History of the County of Brecknock_ 
-                  (Brecknock, 1809; 2nd edn., 1898), Vol. II, Appendix (unpaginated: doc. IX).
+               <bibl xml:id="J"> <author>Jones, Theophilus.</author> <title>A History of the County of Brecknock, vol. II</title> 
+                  <pubPlace>Brecknock (Brecon)</pubPlace> <date>1809; 2nd edn., 1898</date> <biblScope>Appendix (unpaginated: doc. IX)</biblScope>
                   <msIdentifier>
                      <altIdentifier>
                         <idno></idno>

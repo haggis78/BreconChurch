@@ -16,16 +16,30 @@
                 <link rel="stylesheet" type="text/css" href="brecon.css"/>
                 <title>Brecon Project: Texts</title></head>
             <body>
-                <h2>Sources:</h2>
+                <h2>Sources in Manuscript:</h2>
                 <xsl:apply-templates select="descendant::msDesc"/>
+                <h2>Sources in Print:</h2>
+                <xsl:apply-templates select="descendant::bibl"/>
             </body>
         </html>
     </xsl:template>
+    
     <xsl:template match="msDesc">
         <h3><xsl:value-of select="@xml:id"/> : <xsl:value-of select="descendant::idno"/></h3>
         <h4><xsl:apply-templates select="descendant::repository"/>, <xsl:apply-templates select="descendant::settlement"/></h4>
         <p><b>Physical Description:</b></p><p><xsl:apply-templates select="descendant::physDesc"/></p>
-        <p><b>Original Date of Manuscripts:</b></p> <p><xsl:apply-templates select="descendant::origDate"/></p>
+        <p><b>Original Date of Manuscript:</b></p> <p><xsl:apply-templates select="descendant::origDate"/></p>
         <p><b>Source Description:</b></p><p><xsl:apply-templates select="descendant::provenance"/></p>
     </xsl:template>
+    
+    <xsl:template match="bibl">
+        <h3><xsl:value-of select="@xml:id"/> : <xsl:value-of select="descendant::idno"/></h3>
+        <p><b>Bibliographic Information</b></p>
+        <p><b>Author:</b></p><p><xsl:apply-templates select="descendant::author"/></p>
+        <p><b>Title:</b></p><p><em><xsl:apply-templates select="descendant::title"/></em></p>
+        <p><b>Place of Publication:</b></p><p><xsl:apply-templates select="descendant::pubPlace"/></p>
+        <p><b>Date:</b></p><p><xsl:apply-templates select="descendant::date"/></p>
+        <p><b>Pages:</b></p><p><xsl:apply-templates select="descendant::biblScope"/></p>
+            </xsl:template>
+    
 </xsl:stylesheet>
