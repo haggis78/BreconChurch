@@ -179,10 +179,11 @@ svg.edition-svg rect, svg.edition-svg line{
     justify-content: center;
     align-items: flex-start;
 }
-.t1269{
-    display:none;
+foreignObject { overflow: visible; }
+/*.t1269{
+    display:none; 
 }
-.t1269.on{
+.t1269 on{
     font-size: 20px;
 }
 .t1283{
@@ -226,7 +227,7 @@ svg.edition-svg rect, svg.edition-svg line{
 }
 .t1739.on {
     font-size: 20px;
-}
+}*/
 
 .license{
     display: flex;
