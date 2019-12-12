@@ -1,4 +1,8 @@
-window.onload = function () {
+function start () {
+    scroll();
+}
+window.onload = start;
+function scroll() {
     window.onscroll = function () {
         myFunction()
     };
