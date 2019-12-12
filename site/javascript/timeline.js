@@ -24,11 +24,10 @@ function textShow() {
     }
 }
 
-/*function hide_last() {
+function hide_last() {
     var divs = document.querySelectorAll('foreignObject > div[class]');
     for (var i = 0; i < divs.length; i++){
     
     divs[i].style.display = "none"
     }
 }
-*/

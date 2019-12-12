@@ -180,7 +180,7 @@ svg.edition-svg rect, svg.edition-svg line{
     align-items: flex-start;
 }
 foreignObject { overflow: visible; }
-/*.t1269{
+.t1269{
     display:none; 
 }
 .t1269 on{
@@ -227,7 +227,7 @@ foreignObject { overflow: visible; }
 }
 .t1739.on {
     font-size: 20px;
-}*/
+}
 
 .license{
     display: flex;
