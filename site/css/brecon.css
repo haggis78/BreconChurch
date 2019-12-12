@@ -180,50 +180,11 @@ svg.edition-svg rect, svg.edition-svg line{
     align-items: flex-start;
 }
 foreignObject { overflow: visible; }
-.t1269{
+.t1269, .t1283, .t1287, .t1509, .t1534, .t1536, .t1538, .t1539, .t1541, .t1543, .t1561, .t1680, .t1719, .t1739{
     display:none; 
 }
 .t1269 on{
     font-size: 20px;
-}
-.t1283{
-    display:none;
-}
-.t1287{
-    display:none;
-}
-.t1509{
-    display:none;
-}
-.t1534{
-    display:none;
-}
-.t1536{
-    display:none;
-}
-.t1538{
-    display:none;
-}
-.t1539{
-    display:none;
-}
-.t1541{
-    display:none;
-}
-.t1543{
-    display:none;
-}
-.t1561{
-    display:none;
-}
-.t1680{
-    display:none;
-}
-.t1719{
-    display:none;
-}
-.t1739{
-    display:none;
 }
 .t1739.on {
     font-size: 20px;
