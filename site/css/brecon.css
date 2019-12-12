@@ -322,3 +322,6 @@ ul.timeline {
     text-align: center;
     font-size: 20px;
 }
+del[rend="strikethrough"] { text-decoration: line-through; }
+
+add[place="above"] { vertical-align: super; }
