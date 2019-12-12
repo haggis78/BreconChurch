@@ -187,11 +187,90 @@
                 <p>What can we conclude from this? As expressed above, CO are closer to R than DI, while CD and IO seem to be pairs. Our working hypothesis, then, is that D is a copy of C and O is a copy of I. Further analysis will be needed to determine whether either C or I might have copied the other, or whether C and I are both independent copies of some other exemplar, probably now lost. Whatever their exemplar, however, we can definitively say that it was not W - Browne Willis' <em>History of Abbies</em> vol. II, published 1719 - since CDIO include several passages at the beginning and end that are not printed by Willis.</p>
                 
                 <h2>Stemma codicum</h2>
-                <p>What follows is our hypothetical <em>stemma codicum</em>, or family tree, of the witnesses, both manuscript and in print.</p>
+                <p>What follows is our hypothetical <em>stemma codicum</em>, or family tree, of the witnesses, both manuscript and in print. Relationships among CDIO are a working hypothesis. Pink circles represent the sources collated in this project.</p>
                 
-                <!-- Insert Stemma image here! -->
+                <div class="content">
+                    <div class="stemma-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="stemma-svg" width="100%" viewBox="0 0 1100 550">
+                            <desc><!--Stemma for Brecon website.--></desc>
+                            <g transform="scale(.8) translate(0, 100)">
+                                <text x="1" y="1" font-family="sans-serif" font-size="50px" fill="black">Stemma Codicum</text>
+                                
+                                <g>
+                                    <line x1="500" y1="25" x2="1000" y2="525" stroke="black" stroke-width="2"/>
+                                    <line x1="500" y1="25" x2="400" y2="125" stroke="black" stroke-width="2"/>
+                                    <line x1="600" y1="125" x2="300" y2="425" stroke="black" stroke-width="2"/>
+                                    <line x1="500" y1="225" x2="800" y2="525" stroke="black" stroke-width="2"/>
+                                </g>
+                                <g>
+                                    <circle cx="500" cy="25" r="30" stroke="black" stroke-width="2" fill="white" />
+                                    <text x="488" y="37" font-family="sans-serif" font-size="40px" fill="black">X</text>
+                                    <text x="550" y="35" font-family="sans-serif" font-size="30px" fill="black">Warrant in Chancery: TNA C 82/776</text>
+                                    <text x="595" y="60" font-family="sans-serif" font-size="30px" fill="black">(presumed to survive; not yet examined)</text>
+                                </g>
+                                <g>
+                                    <circle cx="600" cy="125" r="30" stroke="black" stroke-width="2" fill="white" />
+                                    <text x="590" y="135" font-family="sans-serif" font-size="40px" fill="black">λ</text>
+                                    <text x="650" y="135" font-family="sans-serif" font-size="30px" fill="black">Letters Patent as issued (lost)</text>
+                                </g>
+                                <g>
+                                    <circle cx="700" cy="225" r="30" stroke="black" stroke-width="2" fill="white" />
+                                    <text x="692" y="235" font-family="sans-serif" font-size="40px" fill="black">τ</text>
+                                    <text x="740" y="235" font-family="sans-serif" font-size="30px" fill="black">Transcript used by Willis (may be in Bodleian)</text>
+                                </g>
+                                <g>
+                                    <circle cx="800" cy="325" r="30" stroke="black" stroke-width="2" fill="pink" />
+                                    <text x="782" y="340" font-family="sans-serif" font-size="40px" fill="black">W</text>
+                                    <text x="850" y="335" font-family="sans-serif" font-size="30px" fill="black">Willis, History of Abbies II</text>
+                                </g>
+                                <g>
+                                    <circle cx="900" cy="425" r="30" stroke="black" stroke-width="2" fill="pink" />
+                                    <text x="888" y="437" font-family="sans-serif" font-size="40px" fill="black">S</text>
+                                    <text x="950" y="435" font-family="sans-serif" font-size="30px" fill="black">Stevens, Addns. to Dugdale</text>
+                                </g>
+                                <g>
+                                    <circle cx="1000" cy="525" r="30" stroke="black" stroke-width="2" fill="pink" />
+                                    <text x="990" y="537" font-family="sans-serif" font-size="40px" fill="black">J</text>
+                                    <text x="1050" y="535" font-family="sans-serif" font-size="30px" fill="black">Jones, Hist. of Brecks.</text>
+                                </g>
+                                <g>
+                                    <circle cx="400" cy="125" r="30" stroke="black" stroke-width="2" fill="pink" />
+                                    <text x="387" y="137" font-family="sans-serif" font-size="40px" fill="black">R</text>
+                                    <text x="10" y="135" font-family="sans-serif" font-size="30px" fill="black">Patent Roll: TNA C 66/709</text>
+                                </g>
+                                
+                                <g>
+                                    <circle cx="500" cy="225" r="30" stroke="black" stroke-width="2" fill="white" />
+                                    <text x="490" y="237" font-family="sans-serif" font-size="40px" fill="black">?</text>
+                                    <text x="60" y="235" font-family="sans-serif" font-size="30px" fill="black">(Intermediate text uncertain)</text>
+                                </g>
+                                <g>
+                                    <circle cx="400" cy="325" r="30" stroke="black" stroke-width="2" fill="pink" />
+                                    <text x="386" y="337" font-family="sans-serif" font-size="40px" fill="black">C</text>
+                                    <text x="10" y="325" font-family="sans-serif" font-size="30px" fill="black">St John's Coll. Cambridge</text>
+                                    <text x="220" y="355" font-family="sans-serif" font-size="30px" fill="black">MS H.12</text>
+                                </g>
+                                <g>
+                                    <circle cx="300" cy="425" r="30" stroke="black" stroke-width="2" fill="pink" />
+                                    <text x="287" y="437" font-family="sans-serif" font-size="40px" fill="black">D</text>
+                                    <text x="40" y="435" font-family="sans-serif" font-size="30px" fill="black">NLW SDCh/B/23</text>
+                                </g>
+                                <g>
+                                    <circle cx="700" cy="425" r="30" stroke="black" stroke-width="2" fill="pink" />
+                                    <text x="695" y="437" font-family="sans-serif" font-size="40px" fill="black">I</text>
+                                    <text x="430" y="435" font-family="sans-serif" font-size="30px" fill="black">NLW SDCh/B/25</text>
+                                </g>
+                                <g>
+                                    <circle cx="800" cy="525" r="30" stroke="black" stroke-width="2" fill="pink" />
+                                    <text x="784" y="537" font-family="sans-serif" font-size="40px" fill="black">O</text>
+                                    <text x="465" y="535" font-family="sans-serif" font-size="30px" fill="black">Brit. Libr. Harley 1249</text>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
                     
-                    <em>-Dr. William H. Campbell</em>'
+                    <p><em>-Dr. William H. Campbell</em></p>
                 <p>Feast of St Nicholas, MMXIX</p>
                 
                 
