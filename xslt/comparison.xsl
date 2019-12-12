@@ -22,34 +22,35 @@
                 </head>
                 <body>
                     <xsl:comment> SSI line below </xsl:comment>
-                    <xsl:comment>#include virtual="ssi/comparison-ssi.html"</xsl:comment>
+                    <xsl:comment>#include virtual="ssi/comparison-page-ssi.html"</xsl:comment>
+           
                     <div class="content">
                         <div class="comparison">
                             <div class="container">
                                 <xsl:for-each select="$editionColl">
-                                    <span id="leftComp{current()}" style="display:none">
+                                    <div id="leftComp{current()}" style="display:none">
                                         <xsl:apply-templates select="root()/descendant::ab">
                                             <xsl:with-param name="currentEd" as="node()" select="current()"/>
                                         </xsl:apply-templates>
-                                    </span>
+                                    </div>
                                 </xsl:for-each>
                             </div>
                             <div class="container">
                                 <xsl:for-each select="$editionColl">
-                                    <span id="centerComp{current()}" style="display:none">
+                                    <div id="centerComp{current()}" style="display:none">
                                         <xsl:apply-templates select="root()/descendant::ab">
                                             <xsl:with-param name="currentEd" as="node()" select="current()"/>
                                         </xsl:apply-templates>
-                                    </span>
+                                    </div>
                                 </xsl:for-each>
                             </div>
                             <div class="container">
                                 <xsl:for-each select="$editionColl">
-                                    <span id="rightComp{current()}" style="display:none">
+                                    <div id="rightComp{current()}" style="display:none">
                                         <xsl:apply-templates select="root()/descendant::ab">
                                             <xsl:with-param name="currentEd" as="node()" select="current()"/>
                                         </xsl:apply-templates>
-                                    </span>
+                                    </div>
                                 </xsl:for-each>
                             </div>
                         </div>
