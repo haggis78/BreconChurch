@@ -17,14 +17,16 @@
             <xsl:comment>Example: Manuscript D's AB 7 string counts = ab7-d-markers</xsl:comment>
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="7500" viewBox="0 0 300 7500">
                 <g transform="translate(0, 40)">
-                    <xsl:for-each select="descendant::ab">
-                        <g class="draggable" style="-webkit-user-select: none">
-                            <rect x="10" y="{(count(preceding::app) * 20) + ((position() - 1) * 80)}" width="264" height="{count(child::app) * 20 + 70}" fill="none" stroke="black" stroke-width="2"/>
-                            <text x="135" y="{(count(preceding::app) * 20) + ((position() - 1) * 80) + 20}" text-anchor="middle">AB #<xsl:value-of select="position()"/></text>
-                            <line x1="10" x2="274" y1="{(count(preceding::app) * 20) + ((position() - 1) * 80) + 30}" y2="{(count(preceding::app) * 20) + ((position() - 1) * 80) + 30}" stroke-width="2" stroke="black"/>
-                            <line x1="10" x2="274" y1="{(count(preceding::app) * 20) + ((position() - 1) * 80) + 60}" y2="{(count(preceding::app) * 20) + ((position() - 1) * 80) + 60}" stroke-width="2" stroke="black"/>
-                        </g>
-                    </xsl:for-each>
+                    <g class="chart-headers">
+                        <xsl:for-each select="descendant::ab">
+                            <g class="ab{position()}-chart-header">
+                                <rect x="10" y="{(count(preceding::app) * 20) + ((position() - 1) * 80)}" width="264" height="{count(child::app) * 20 + 70}" fill="none" stroke="black" stroke-width="2"/>
+                                <text x="135" y="{(count(preceding::app) * 20) + ((position() - 1) * 80) + 20}" text-anchor="middle">AB #<xsl:value-of select="position()"/></text>
+                                <line x1="10" x2="274" y1="{(count(preceding::app) * 20) + ((position() - 1) * 80) + 30}" y2="{(count(preceding::app) * 20) + ((position() - 1) * 80) + 30}" stroke-width="2" stroke="black"/>
+                                <line x1="10" x2="274" y1="{(count(preceding::app) * 20) + ((position() - 1) * 80) + 60}" y2="{(count(preceding::app) * 20) + ((position() - 1) * 80) + 60}" stroke-width="2" stroke="black"/>
+                            </g>
+                        </xsl:for-each>
+                    </g>
                     <g>
                         <xsl:for-each select="$currentEdition">
                             <xsl:sort order="ascending"/>
@@ -39,29 +41,32 @@
                                             </text>
                                             <g class="c-variance-counts">
                                                 <xsl:for-each select="child::app[child::rdg[@wit[contains(., 'C')]]]">
-                                                    <xsl:choose>
-                                                        <xsl:when test="position() = (count(parent::ab/app) - 2)">
-                                                            <text x="26" y="{((count(preceding::app) * 20) + 160) + ((count(preceding::ab) - 1) * 80)}" text-anchor="middle" id="ab{count(preceding::ab) + 2}">
-                                                                <xsl:value-of select="child::rdg[@wit[contains(., 'C')]] ! string-length()"/>
-                                                            </text>
-                                                        </xsl:when>
-                                                        <xsl:otherwise>
-                                                            <text x="26" y="{((count(preceding::app) * 20) + 160) + ((count(preceding::ab) - 1) * 80)}" text-anchor="middle">
-                                                                <xsl:value-of select="child::rdg[@wit[contains(., 'C')]] ! string-length()"/>
-                                                            </text>
-                                                        </xsl:otherwise>
-                                                    </xsl:choose>
-                                                    <line class="edition-lines" x1="10" x2="43" y1="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" y2="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" stroke="lightGray" stroke-width="20" opacity="0">
+                                                    <g class="ab{count(preceding::ab) + 1}-c-variance{position()}-string-count">
                                                         <xsl:choose>
-                                                            <xsl:when test="((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80) = 0">
+                                                            <xsl:when test="position() = (count(parent::ab/app) - 2)">
+                                                                <text x="26" y="{((count(preceding::app) * 20) + 160) + ((count(preceding::ab) - 1) * 80)}" text-anchor="middle" id="ab{count(preceding::ab) + 2}">
+                                                                    <xsl:value-of select="child::rdg[@wit[contains(., 'C')]] ! string-length()"/>
+                                                                </text>
                                                             </xsl:when>
                                                             <xsl:otherwise>
-                                                                <title>
-                                                                    <xsl:value-of select="child::rdg[@wit[contains(., 'C')]]"/>
-                                                                </title>
+                                                                <text x="26" y="{((count(preceding::app) * 20) + 160) + ((count(preceding::ab) - 1) * 80)}" text-anchor="middle">
+                                                                    <xsl:value-of select="child::rdg[@wit[contains(., 'C')]] ! string-length()"/>
+                                                                </text>
                                                             </xsl:otherwise>
                                                         </xsl:choose>
-                                                    </line>
+                                                        <line class="edition-lines" x1="10" x2="43" y1="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" y2="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" stroke="lightGray" stroke-width="20" opacity="0">
+                                                            <xsl:choose>
+                                                                <xsl:when test="string-length(child::rdg[@wit[contains(., 'C')]]) = 0">
+                                                                    <title>No text available</title>
+                                                                </xsl:when>
+                                                                <xsl:otherwise>
+                                                                    <title>
+                                                                        <xsl:value-of select="child::rdg[@wit[contains(., 'C')]]"/>
+                                                                    </title>
+                                                                </xsl:otherwise>
+                                                            </xsl:choose>
+                                                        </line>
+                                                    </g>
                                                 </xsl:for-each>
                                             </g>
                                         </g>
@@ -74,20 +79,23 @@
                                             </text>
                                             <g class="d-variance-counts">
                                                 <xsl:for-each select="child::app[child::rdg[@wit[contains(., 'D')]]]">
-                                                    <text x="59" y="{((count(preceding::app) * 20) + 160) + ((count(preceding::ab) - 1) * 80)}" text-anchor="middle">
-                                                        <xsl:value-of select="child::rdg[@wit[contains(., $CE)]] ! string-length()"/>
-                                                    </text>
-                                                    <line class="edition-lines" x1="43" x2="76" y1="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" y2="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" stroke="lightGray" stroke-width="20" opacity="0">
-                                                        <xsl:choose>
-                                                            <xsl:when test="((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80) = 0">
-                                                            </xsl:when>
-                                                            <xsl:otherwise>
-                                                                <title>
-                                                                    <xsl:value-of select="child::rdg[@wit[contains(., 'D')]]"/>
-                                                                </title>
-                                                            </xsl:otherwise>
-                                                        </xsl:choose>
-                                                    </line>
+                                                    <g class="ab{count(preceding::ab) + 1}-d-variance{position()}-string-count">
+                                                        <text x="59" y="{((count(preceding::app) * 20) + 160) + ((count(preceding::ab) - 1) * 80)}" text-anchor="middle">
+                                                            <xsl:value-of select="child::rdg[@wit[contains(., 'D')]] ! string-length()"/>
+                                                        </text>
+                                                        <line class="edition-lines" x1="43" x2="76" y1="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" y2="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" stroke="lightGray" stroke-width="20" opacity="0">
+                                                            <xsl:choose>
+                                                                <xsl:when test="string-length(child::rdg[@wit[contains(., 'D')]]) = 0">
+                                                                    <title>No text available</title>
+                                                                </xsl:when>
+                                                                <xsl:otherwise>
+                                                                    <title>
+                                                                        <xsl:value-of select="child::rdg[@wit[contains(., 'D')]]"/>
+                                                                    </title>
+                                                                </xsl:otherwise>
+                                                            </xsl:choose>
+                                                        </line>
+                                                    </g>
                                                 </xsl:for-each>
                                             </g>
                                         </g>
@@ -100,20 +108,23 @@
                                             </text>
                                             <g class="i-variance-counts">
                                                 <xsl:for-each select="child::app[child::rdg[@wit[contains(., 'I')]]]">
-                                                    <text x="92" y="{((count(preceding::app) * 20) + 160) + ((count(preceding::ab) - 1) * 80)}" text-anchor="middle">
-                                                        <xsl:value-of select="child::rdg[@wit[contains(., 'I')]] ! string-length()"/>
-                                                    </text>
-                                                    <line class="edition-lines" x1="76" x2="109" y1="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" y2="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" stroke="lightGray" stroke-width="20" opacity="0">
-                                                        <xsl:choose>
-                                                            <xsl:when test="((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80) = 0">
-                                                            </xsl:when>
-                                                            <xsl:otherwise>
-                                                                <title>
-                                                                    <xsl:value-of select="child::rdg[@wit[contains(., 'I')]]"/>
-                                                                </title>
-                                                            </xsl:otherwise>
-                                                        </xsl:choose>
-                                                    </line>
+                                                    <g class="ab{count(preceding::ab) + 1}-i-variance{position()}-string-count">
+                                                        <text x="92" y="{((count(preceding::app) * 20) + 160) + ((count(preceding::ab) - 1) * 80)}" text-anchor="middle">
+                                                            <xsl:value-of select="child::rdg[@wit[contains(., 'I')]] ! string-length()"/>
+                                                        </text>
+                                                        <line class="edition-lines" x1="76" x2="109" y1="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" y2="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" stroke="lightGray" stroke-width="20" opacity="0">
+                                                            <xsl:choose>
+                                                                <xsl:when test="string-length(child::rdg[@wit[contains(., 'I')]]) = 0">
+                                                                    <title>No text available</title>
+                                                                </xsl:when>
+                                                                <xsl:otherwise>
+                                                                    <title>
+                                                                        <xsl:value-of select="child::rdg[@wit[contains(., 'I')]]"/>
+                                                                    </title>
+                                                                </xsl:otherwise>
+                                                            </xsl:choose>
+                                                        </line>
+                                                    </g>
                                                 </xsl:for-each>
                                             </g>
                                         </g>
@@ -126,20 +137,23 @@
                                             </text>
                                             <g class="j-variance-counts">
                                                 <xsl:for-each select="child::app[child::rdg[@wit[contains(., 'J')]]]">
-                                                    <text x="125" y="{((count(preceding::app) * 20) + 160) + ((count(preceding::ab) - 1) * 80)}" text-anchor="middle">
-                                                        <xsl:value-of select="child::rdg[@wit[contains(., 'J')]] ! string-length()"/>
-                                                    </text>
-                                                    <line class="edition-lines" x1="109" x2="142" y1="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" y2="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" stroke="lightGray" stroke-width="20" opacity="0">
-                                                        <xsl:choose>
-                                                            <xsl:when test="((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80) = 0">
-                                                            </xsl:when>
-                                                            <xsl:otherwise>
-                                                                <title>
-                                                                    <xsl:value-of select="child::rdg[@wit[contains(., 'J')]]"/>
-                                                                </title>
-                                                            </xsl:otherwise>
-                                                        </xsl:choose>
-                                                    </line>
+                                                    <g class="ab{count(preceding::ab) + 1}-j-variance{position()}-string-count">
+                                                       <text x="125" y="{((count(preceding::app) * 20) + 160) + ((count(preceding::ab) - 1) * 80)}" text-anchor="middle">
+                                                           <xsl:value-of select="child::rdg[@wit[contains(., 'J')]] ! string-length()"/>
+                                                       </text>
+                                                       <line class="edition-lines" x1="109" x2="142" y1="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" y2="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" stroke="lightGray" stroke-width="20" opacity="0">
+                                                           <xsl:choose>
+                                                               <xsl:when test="string-length(child::rdg[@wit[contains(., 'J')]]) = 0">
+                                                                   <title>No text available</title>
+                                                               </xsl:when>
+                                                               <xsl:otherwise>
+                                                                   <title>
+                                                                       <xsl:value-of select="child::rdg[@wit[contains(., 'J')]]"/>
+                                                                   </title>
+                                                               </xsl:otherwise>
+                                                           </xsl:choose>
+                                                       </line>
+                                                    </g>
                                                 </xsl:for-each>
                                             </g>
                                         </g>
@@ -152,20 +166,23 @@
                                             </text>
                                             <g class="o-variance-counts">
                                                 <xsl:for-each select="child::app[child::rdg[@wit[contains(., 'O')]]]">
-                                                    <text x="158" y="{((count(preceding::app) * 20) + 160) + ((count(preceding::ab) - 1) * 80)}" text-anchor="middle">
-                                                        <xsl:value-of select="child::rdg[@wit[contains(., 'O')]] ! string-length()"/>
-                                                    </text>
-                                                    <line class="edition-lines" x1="142" x2="175" y1="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" y2="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" stroke="lightGray" stroke-width="20" opacity="0">
-                                                        <xsl:choose>
-                                                            <xsl:when test="((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80) = 0">
-                                                            </xsl:when>
-                                                            <xsl:otherwise>
-                                                                <title>
-                                                                    <xsl:value-of select="child::rdg[@wit[contains(., 'O')]]"/>
-                                                                </title>
-                                                            </xsl:otherwise>
-                                                        </xsl:choose>
-                                                    </line>
+                                                    <g class="ab{count(preceding::ab) + 1}-o-variance{position()}-string-count">
+                                                        <text x="158" y="{((count(preceding::app) * 20) + 160) + ((count(preceding::ab) - 1) * 80)}" text-anchor="middle">
+                                                            <xsl:value-of select="child::rdg[@wit[contains(., 'O')]] ! string-length()"/>
+                                                        </text>
+                                                        <line class="edition-lines" x1="142" x2="175" y1="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" y2="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" stroke="lightGray" stroke-width="20" opacity="0">
+                                                            <xsl:choose>
+                                                                <xsl:when test="string-length(child::rdg[@wit[contains(., 'O')]]) = 0">
+                                                                    <title>No text available</title>
+                                                                </xsl:when>
+                                                                <xsl:otherwise>
+                                                                    <title>
+                                                                        <xsl:value-of select="child::rdg[@wit[contains(., 'O')]]"/>
+                                                                    </title>
+                                                                </xsl:otherwise>
+                                                            </xsl:choose>
+                                                        </line>
+                                                    </g>
                                                 </xsl:for-each>
                                             </g>
                                         </g>
@@ -178,20 +195,23 @@
                                             </text>
                                             <g class="r-variance-counts">
                                                 <xsl:for-each select="child::app[child::rdg[@wit[contains(., 'R')]]]">
-                                                    <text x="191" y="{((count(preceding::app) * 20) + 160) + ((count(preceding::ab) - 1) * 80)}" text-anchor="middle">
-                                                        <xsl:value-of select="child::rdg[@wit[contains(., 'R')]] ! string-length()"/>
-                                                    </text>
-                                                    <line class="edition-lines" x1="175" x2="208" y1="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" y2="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" stroke="lightGray" stroke-width="20" opacity="0">
-                                                        <xsl:choose>
-                                                            <xsl:when test="((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80) = 0">
-                                                            </xsl:when>
-                                                            <xsl:otherwise>
-                                                                <title>
-                                                                    <xsl:value-of select="child::rdg[@wit[contains(., 'R')]]"/>
-                                                                </title>
-                                                            </xsl:otherwise>
-                                                        </xsl:choose>
-                                                    </line>
+                                                    <g class="ab{count(preceding::ab) + 1}-r-variance{position()}-string-count">
+                                                        <text x="191" y="{((count(preceding::app) * 20) + 160) + ((count(preceding::ab) - 1) * 80)}" text-anchor="middle">
+                                                            <xsl:value-of select="child::rdg[@wit[contains(., 'R')]] ! string-length()"/>
+                                                        </text>
+                                                        <line class="edition-lines" x1="175" x2="208" y1="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" y2="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" stroke="lightGray" stroke-width="20" opacity="0">
+                                                            <xsl:choose>
+                                                                <xsl:when test="string-length(child::rdg[@wit[contains(., 'R')]]) = 0">
+                                                                    <title>No text available</title>
+                                                                </xsl:when>
+                                                                <xsl:otherwise>
+                                                                    <title>
+                                                                        <xsl:value-of select="child::rdg[@wit[contains(., 'R')]]"/>
+                                                                    </title>
+                                                                </xsl:otherwise>
+                                                            </xsl:choose>
+                                                        </line>
+                                                    </g>
                                                 </xsl:for-each>
                                             </g>
                                         </g>
@@ -204,20 +224,23 @@
                                             </text>
                                             <g class="s-variance-counts">
                                                 <xsl:for-each select="child::app[child::rdg[@wit[contains(., 'S')]]]">
-                                                    <text x="224" y="{((count(preceding::app) * 20) + 160) + ((count(preceding::ab) - 1) * 80)}" text-anchor="middle">
-                                                        <xsl:value-of select="child::rdg[@wit[contains(., 'S')]] ! string-length()"/>
-                                                    </text>
-                                                    <line class="edition-lines" x1="208" x2="242" y1="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" y2="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" stroke="lightGray" stroke-width="20" opacity="0">
-                                                        <xsl:choose>
-                                                            <xsl:when test="((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80) = 0">
-                                                            </xsl:when>
-                                                            <xsl:otherwise>
-                                                                <title>
-                                                                    <xsl:value-of select="child::rdg[@wit[contains(., 'S')]]"/>
-                                                                </title>
-                                                            </xsl:otherwise>
-                                                        </xsl:choose>
-                                                    </line>
+                                                    <g class="ab{count(preceding::ab) + 1}-s-variance{position()}-string-count">
+                                                        <text x="224" y="{((count(preceding::app) * 20) + 160) + ((count(preceding::ab) - 1) * 80)}" text-anchor="middle">
+                                                            <xsl:value-of select="child::rdg[@wit[contains(., 'S')]] ! string-length()"/>
+                                                        </text>
+                                                        <line class="edition-lines" x1="208" x2="242" y1="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" y2="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" stroke="lightGray" stroke-width="20" opacity="0">
+                                                            <xsl:choose>
+                                                                <xsl:when test="string-length(child::rdg[@wit[contains(., 'S')]]) = 0">
+                                                                    <title>No text available</title>
+                                                                </xsl:when>
+                                                                <xsl:otherwise>
+                                                                    <title>
+                                                                        <xsl:value-of select="child::rdg[@wit[contains(., 'S')]]"/>
+                                                                    </title>
+                                                                </xsl:otherwise>
+                                                            </xsl:choose>
+                                                        </line>
+                                                    </g>
                                                 </xsl:for-each>
                                             </g>
                                         </g>
@@ -230,20 +253,23 @@
                                             </text>
                                             <g class="w-variance-counts">
                                                 <xsl:for-each select="child::app[child::rdg[@wit[contains(., 'W')]]]">
-                                                    <text x="257" y="{((count(preceding::app) * 20) + 160) + ((count(preceding::ab) - 1) * 80)}" text-anchor="middle">
-                                                        <xsl:value-of select="child::rdg[@wit[contains(., 'W')]] ! string-length()"/>
-                                                    </text>
-                                                    <line class="edition-lines" x1="242" x2="275" y1="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" y2="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" stroke="lightGray" stroke-width="20" opacity="0">
-                                                        <xsl:choose>
-                                                            <xsl:when test="((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80) = 0">
-                                                            </xsl:when>
-                                                            <xsl:otherwise>
-                                                                <title>
-                                                                    <xsl:value-of select="child::rdg[@wit[contains(., 'S')]]"/>
-                                                                </title>
-                                                            </xsl:otherwise>
-                                                        </xsl:choose>
-                                                    </line>
+                                                    <g class="ab{count(preceding::ab) + 1}-w-variance{position()}-string-count">
+                                                        <text x="257" y="{((count(preceding::app) * 20) + 160) + ((count(preceding::ab) - 1) * 80)}" text-anchor="middle">
+                                                            <xsl:value-of select="child::rdg[@wit[contains(., 'W')]] ! string-length()"/>
+                                                        </text>
+                                                        <line class="edition-lines" x1="242" x2="275" y1="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" y2="{((count(preceding::app) * 20) + 155) + ((count(preceding::ab) - 1) * 80)}" stroke="lightGray" stroke-width="20" opacity="0">
+                                                            <xsl:choose>
+                                                                <xsl:when test="string-length(child::rdg[@wit[contains(., 'W')]]) = 0">
+                                                                    <title>No text available</title>
+                                                                </xsl:when>
+                                                                <xsl:otherwise>
+                                                                    <title>
+                                                                        <xsl:value-of select="child::rdg[@wit[contains(., 'W')]]"/>
+                                                                    </title>
+                                                                </xsl:otherwise>
+                                                            </xsl:choose>
+                                                        </line>
+                                                    </g>
                                                 </xsl:for-each>
                                             </g>
                                         </g>
