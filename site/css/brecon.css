@@ -105,6 +105,11 @@ body{
     align-items: flex-start;
     justify-content: center;
 }
+#method-img{
+    width: 40vw;
+    height: auto;
+    margin: auto;
+}
 .svg-page{
     display: flex;
     width: auto;

@@ -1,6 +1,26 @@
 /* 12-6-2019-Prepared by Amber Peddicord */
+function start() {
+    initialize();
+    scroll();
+}
+window.onload = start;
 
-window.onload = initialize;
+function scroll() {
+    window.onscroll = function () {
+        myFunction()
+    };
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+}
 
 function initialize() {
     var circleSelect = document.querySelectorAll('circle[id]');
