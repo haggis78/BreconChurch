@@ -65,19 +65,4 @@
             </span>
         </xsl:if>
     </xsl:template>
-    <xsl:template match="root()/descendant::add[@place='above']">
-        <sup>
-            <xsl:apply-templates/>
-        </sup>
-    </xsl:template>
-    <xsl:template match="root()/del[@rend='strikethrough']">
-        <strike>
-            <xsl:apply-templates/>
-        </strike>
-    </xsl:template>
-    <xsl:template match="root()/hi[@rend='underline']">
-        <u>
-            <xsl:apply-templates/>
-        </u>
-    </xsl:template>
 </xsl:stylesheet>
