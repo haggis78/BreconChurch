@@ -119,6 +119,12 @@ body{
     background-color: black;
     color: white;
 }
+.patent-coll-imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 svg.edition-svg text{
     stroke: black;
     stroke-width: 1;

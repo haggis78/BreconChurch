@@ -23,7 +23,6 @@
                 <body>
                     <xsl:comment> SSI line below </xsl:comment>
                     <xsl:comment>#include virtual="ssi/comparison-page-ssi.html"</xsl:comment>
-           
                     <div class="content">
                         <div class="comparison">
                             <div class="container">
