@@ -21,7 +21,8 @@
                   <msIdentifier>
                      <altIdentifier>
                         <idno></idno>
-                                             </altIdentifier>
+                        <note>W</note>
+                     </altIdentifier>
                   </msIdentifier>
                </bibl>
                
@@ -34,7 +35,7 @@
                   <msIdentifier>
                      <altIdentifier>
                         <idno></idno>
-                        
+                        <note>S</note>
                      </altIdentifier>
                   </msIdentifier>
                </bibl>
@@ -46,7 +47,7 @@
                   <msIdentifier>
                      <altIdentifier>
                         <idno></idno>
-                        
+                        <note>J</note>
                      </altIdentifier>
                   </msIdentifier>
                </bibl>
