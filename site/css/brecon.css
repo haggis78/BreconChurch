@@ -138,6 +138,7 @@ svg.edition-svg rect, svg.edition-svg line{
     text-decoration: none;
     color: white;
 }
+
 .ab-checkbox{
     display: flex;
     flex-direction: row;
