@@ -16,7 +16,7 @@ Evaluated by: @ebeshero
 
 
 ### General 
-This is an ambitious project to compare the available manuscripts documenting the origins of the Brecon Collegiate Church and School, and to find evidence of an original, now missing, first source. The team has constructed an interface for selecting sources to read side-by-side as well as a number of charts and visualizations to examine how eight source documents compare and diverge. 
+This is an ambitious project to compare the available manuscripts documenting the origins of the Brecon Collegiate Church and School, and to find evidence of a now missing original source. The team has constructed an interface for selecting sources to read side-by-side as well as a number of charts and visualizations to examine how eight source documents compare and diverge. 
 
 ### Research questions and goals
 The primary research question is well described on the [Methodology page](http://brecon.newtfire.org/html/methodology.html) as a "line-by-line comparison of all of the surviving copies" to find out how the documentation about the church school was being shared and altered over time, and to construct a *stemma codicum* or "family tree" of the available manuscripts perhaps to help understand the missing original document. Perhaps a secondary research goal might be the sharing of information about this church school for those interested in Welsh history more generally.
