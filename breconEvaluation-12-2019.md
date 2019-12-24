@@ -2,13 +2,16 @@
 
 
 Site publication: <http://brecon.newtfire.org>
+
 GitHub: <https://github.com/haggis78/BreconChurch>
+
 Developers:
 * William Campbell: @haggis78
 * Amber Peddicord: @amberpeddicord 
 * Connor Chinoy: @ChinoyIndustries
 
-Date of Evaluation: 2019-12-16
+Date of Evaluation: 2019-12-23
+
 Evaluated by: @ebeshero
 
 
