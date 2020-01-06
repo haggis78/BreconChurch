@@ -1,9 +1,10 @@
-window.onload = init
-function init() {
-    wordCountBG();
-    stringCountBG();
+function start() {
+    init();
+    scroll();
 }
-window.onload = function () {
+window.onload = start;
+
+function scroll() {
     window.onscroll = function () {
         myFunction()
     };
@@ -20,21 +21,21 @@ window.onload = function () {
     }
 }
 
-    function wordCountBG() {
-        var checkBox = document.getElementById("wordCountNav");
-        var text = document.getElementById("word-count");
-        if (checkBox.checked == true){
-            text.style.display = "block";
-        } else {
-            text.style.display = "none";
-        }
+function init() {
+    var svgSelect = document.querySelectorAll('g[id]');
+    for (var i = 0; i < svgSelect.length; i++)
+    {
+        svgSelect[i].addEventListener('mouseover', svgShow, false);
     }
-        function stringCountBG() {
-        var checkBox = document.getElementById("stringCountNav");
-        var text = document.getElementById("string-count");
-        if (checkBox.checked == true){
-            text.style.display = "block";
-        } else {
-            text.style.display = "none";
-        }
+}
+function svgShow() {
+    hide_last();
+    var tsvg = document.getElementById(this.id.split("-")[1]);
+    for (var i = 0; i < tsvg.length; i++){
+        tsvg[i].style.display = "block";
     }
+}
+
+function hide_last() {
+    trow.style.display = "none";
+}
