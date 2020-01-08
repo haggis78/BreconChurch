@@ -14,9 +14,9 @@
     <xsl:variable name="timeLength" as="xs:integer" select="$maxDate - $lowest"/>
     
     <xsl:template match="/">
-        <svg xmlns="http://www.w3.org/2000/svg" width="1700" height="6000">
+        <svg xmlns="http://www.w3.org/2000/svg" width="6000" height="1700">
             <g transform="translate(100, 100)">
-                <line x1="0" y1="0" x2="0" y2="{$timeLength * $stretcher}" stroke="#009933" stroke-width="3"/>
+                <line x1="0" y1="0" x2="{$timeLength * $stretcher}" y2="0" stroke="#009933" stroke-width="3"/>
                <xsl:comment>The number of years is this:<xsl:value-of select="$timeLength"/></xsl:comment>
                 <xsl:comment> <xsl:for-each select="descendant::entry">
                     <xsl:choose>
@@ -25,13 +25,13 @@
                     </xsl:choose>
                 </xsl:for-each></xsl:comment>
                <xsl:for-each select="0 to $timeLength">
-                   <xsl:if test="current() mod 20 = 0"><text x="10" y="{current() * $stretcher}" text-anchor="middle" stroke="black"><xsl:value-of select="$lowest + current()"/></text></xsl:if>
+                   <xsl:if test="current() mod 20 = 0"><text x="{current() * $stretcher}" y="28" text-anchor="middle" stroke="black"><xsl:value-of select="$lowest + current()"/></text></xsl:if>
                    
                </xsl:for-each>
                 <xsl:for-each select="descendant::entry">
                     <xsl:choose>
-                        <xsl:when test="@when"><circle r="10" cx="0" cy="{(@when - $lowest) * $stretcher}" stroke="black" id="c-t{@when}"/><foreignObject x="60" y="{(@when - $lowest) * $stretcher + 10}" stroke="black" width="auto" height="auto"><div xmlns="http://www.w3.org/1999/xhtml" class="t{@when}"><xsl:value-of select="@when"/>:<xsl:apply-templates/></div></foreignObject></xsl:when>
-                        <xsl:when test="@from"><ellipse rx="15" ry="{(@to - @from) * $stretcher}" cx="0" cy="{(@from - $lowest) * $stretcher}" stroke="black" fill="pink" fill-opacity="0.5" id="c-t{@from}"/><foreignObject x="60" y="{(@from - $lowest) * $stretcher + 15}" stroke="black"  width="auto" height="auto"><div xmlns="http://www.w3.org/1999/xhtml" class="t{@from}"><xsl:value-of select="@from"/> to <xsl:value-of select="@to"/>: <xsl:apply-templates/></div></foreignObject></xsl:when>
+                        <xsl:when test="@when"><circle r="10" cx="{(@when - $lowest) * $stretcher}" cy="0" stroke="black" id="c-t{@when}"/><foreignObject x="60" y="{(@when - $lowest) * $stretcher + 10}" stroke="black" width="auto" height="auto"><div xmlns="http://www.w3.org/1999/xhtml" class="t{@when}"><xsl:value-of select="@when"/>:<xsl:apply-templates/></div></foreignObject></xsl:when>
+                        <xsl:when test="@from"><ellipse rx="{(@to - @from) * $stretcher}" ry="15" cx="{(@from - $lowest) * $stretcher}" cy="0" stroke="black" fill="pink" fill-opacity="0.5" id="c-t{@from}"/><foreignObject x="60" y="{(@from - $lowest) * $stretcher + 15}" stroke="black"  width="auto" height="auto"><div xmlns="http://www.w3.org/1999/xhtml" class="t{@from}"><xsl:value-of select="@from"/> to <xsl:value-of select="@to"/>: <xsl:apply-templates/></div></foreignObject></xsl:when>
                     </xsl:choose>
                 </xsl:for-each>
         </g>
