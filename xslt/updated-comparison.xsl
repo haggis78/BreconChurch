@@ -71,6 +71,41 @@
                                     <a href="edition-svg.html">Anonymous Blocks</a>
                                 </div>
                             </div>
+                            <span id="variance-checkbox"><input type="checkbox" id="CompCNav" onclick="CompC()"/>C<br /></span>
+                            <span id="variance-checkbox"><input type="checkbox" id="CompDNav" onclick="CompD()"/>D<br /></span>
+                            <span id="variance-checkbox"><input type="checkbox" id="CompINav" onclick="CompI()"/>I<br /></span>
+                            <span id="variance-checkbox"><input type="checkbox" id="CompJNav" onclick="CompJ()"/>J<br /></span>
+                            <span id="variance-checkbox"><input type="checkbox" id="CompONav" onclick="CompO()"/>O<br /></span>
+                            <span id="variance-checkbox"><input type="checkbox" id="CompRNav" onclick="CompR()"/>R<br /></span>
+                            <span id="variance-checkbox"><input type="checkbox" id="CompSNav" onclick="CompS()"/>S<br /></span>
+                            <span id="variance-checkbox"><input type="checkbox" id="CompWNav" onclick="CompW()"/>W<br /></span>
+                        </div>
+                        <div class="svg-page">
+                            <button><a href="#ab1">1</a></button>
+                            <button><a href="#ab2">2</a></button>
+                            <button><a href="#ab3">3</a></button>
+                            <button><a href="#ab4">4</a></button>
+                            <button><a href="#ab5">5</a></button>
+                            <button><a href="#ab6">6</a></button>
+                            <button><a href="#ab7">7</a></button>
+                            <button><a href="#ab8">8</a></button>
+                            <button><a href="#ab9">9</a></button>
+                            <button><a href="#ab10">10</a></button>
+                            <button><a href="#ab11">11</a></button>
+                            <button><a href="#ab12">12</a></button>
+                            <button><a href="#ab13">13</a></button>
+                            <button><a href="#ab14">14</a></button>
+                            <button><a href="#ab15">15</a></button>
+                            <button><a href="#ab16">16</a></button>
+                            <button><a href="#ab17">17</a></button>
+                            <button><a href="#ab18">18</a></button>
+                            <button><a href="#ab19">19</a></button>
+                            <button><a href="#ab20">20</a></button>
+                            <button><a href="#ab21">21</a></button>
+                            <button><a href="#ab22">22</a></button>
+                            <button><a href="#ab23">23</a></button>
+                            <button><a href="#ab24">24</a></button>
+                            <button><a href="#ab25">25</a></button>
                         </div>
                     </div>
                     <xsl:comment>#include virtual="ssi/comparison-page-ssi.html"</xsl:comment>
@@ -82,19 +117,17 @@
         </xsl:result-document>
     </xsl:template>
     <xsl:template match="descendant::ab">
-        <div class="comp-ab">
-            <span>
-                <xsl:apply-templates/>
-            </span>
+        <div class="comp-ab" id="ab{preceding::ab => count() + 1}">
+            <xsl:apply-templates/>
         </div>
     </xsl:template>
     <xsl:template match="descendant::rdg">
-        <div class="comp-variance">
+        <div class="comp-variance" id="comp-{./@wit ! translate(., '#', '') ! translate(., ' ', '')}" style="display:none">
             <span class="comp-left">
                 <xsl:value-of select="./@wit ! translate(., '#', '')"/>
             </span>
             <span class="comp-right">
-                <xsl:apply-templates select="./text()"/>
+                <xsl:apply-templates select=".//text()"/>
             </span>
         </div>
     </xsl:template>
