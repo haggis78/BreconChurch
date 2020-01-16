@@ -71,14 +71,16 @@
                                     <a href="edition-svg.html">Anonymous Blocks</a>
                                 </div>
                             </div>
-                            <span id="variance-checkbox"><input type="checkbox" id="CompCNav" onclick="CompC()"/>C<br /></span>
-                            <span id="variance-checkbox"><input type="checkbox" id="CompDNav" onclick="CompD()"/>D<br /></span>
-                            <span id="variance-checkbox"><input type="checkbox" id="CompINav" onclick="CompI()"/>I<br /></span>
-                            <span id="variance-checkbox"><input type="checkbox" id="CompJNav" onclick="CompJ()"/>J<br /></span>
-                            <span id="variance-checkbox"><input type="checkbox" id="CompONav" onclick="CompO()"/>O<br /></span>
-                            <span id="variance-checkbox"><input type="checkbox" id="CompRNav" onclick="CompR()"/>R<br /></span>
-                            <span id="variance-checkbox"><input type="checkbox" id="CompSNav" onclick="CompS()"/>S<br /></span>
-                            <span id="variance-checkbox"><input type="checkbox" id="CompWNav" onclick="CompW()"/>W<br /></span>
+                            <div class="comp-checkbox">
+                                <span class="comp-single"><input type="checkbox" id="CompCNav" onclick="CompC()"/>C<br /></span>
+                                <span class="comp-single"><input type="checkbox" id="CompDNav" onclick="CompD()"/>D<br /></span>
+                                <span class="comp-single"><input type="checkbox" id="CompINav" onclick="CompI()"/>I<br /></span>
+                                <span class="comp-single"><input type="checkbox" id="CompJNav" onclick="CompJ()"/>J<br /></span>
+                                <span class="comp-single"><input type="checkbox" id="CompONav" onclick="CompO()"/>O<br /></span>
+                                <span class="comp-single"><input type="checkbox" id="CompRNav" onclick="CompR()"/>R<br /></span>
+                                <span class="comp-single"><input type="checkbox" id="CompSNav" onclick="CompS()"/>S<br /></span>
+                                <span class="comp-single"><input type="checkbox" id="CompWNav" onclick="CompW()"/>W<br /></span>
+                            </div>
                         </div>
                         <div class="svg-page">
                             <button><a href="#ab1">1</a></button>
@@ -117,16 +119,18 @@
         </xsl:result-document>
     </xsl:template>
     <xsl:template match="descendant::ab">
-        <div class="comp-ab" id="ab{preceding::ab => count() + 1}">
-            <xsl:apply-templates/>
+        <div id="ab{preceding::ab => count() + 1}">
+            <div  class="comp-ab">
+                <xsl:apply-templates/>
+            </div>
         </div>
     </xsl:template>
     <xsl:template match="descendant::rdg">
-        <div class="comp-variance" id="comp-{./@wit ! translate(., '#', '') ! translate(., ' ', '')}" style="display:none">
-            <span class="comp-left">
+        <div class="comp-variance">
+            <span class="comp-left" style="display:none" id="comp-left-{./@wit ! translate(., '#', '') ! translate(., ' ', '')}">
                 <xsl:value-of select="./@wit ! translate(., '#', '')"/>
             </span>
-            <span class="comp-right">
+            <span class="comp-right" style="display:none" id="comp-right-{./@wit ! translate(., '#', '') ! translate(., ' ', '')}">
                 <xsl:apply-templates select=".//text()"/>
             </span>
         </div>

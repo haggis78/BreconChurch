@@ -28,7 +28,7 @@ window.onload = function () {
 
     function CompC() {
         var checkBox = document.getElementById("CompCNav");
-        var textList = document.querySelectorAll("[id *= 'C']");
+        var textList = document.querySelectorAll("[class *= 'C']");
         var text;
         if (checkBox.checked == true){
             for (text = 0; text < textList.length; text++) {
@@ -42,7 +42,7 @@ window.onload = function () {
     }
     function CompD() {
         var checkBox = document.getElementById("CompDNav");
-        var textList = document.querySelectorAll("[id *= 'D']");
+        var textList = document.querySelectorAll("[class *= 'D']");
         var text;
         if (checkBox.checked == true){
             for (text = 0; text < textList.length; text++) {
@@ -56,7 +56,7 @@ window.onload = function () {
     }
     function CompI() {
         var checkBox = document.getElementById("CompINav");
-        var textList = document.querySelectorAll("[id *= 'I']");
+        var textList = document.querySelectorAll("[class *= 'I']");
         var text;
         if (checkBox.checked == true){
             for (text = 0; text < textList.length; text++) {
@@ -70,7 +70,7 @@ window.onload = function () {
     }
     function CompJ() {
         var checkBox = document.getElementById("CompJNav");
-        var textList = document.querySelectorAll("[id *= 'J']");
+        var textList = document.querySelectorAll("[class *= 'J']");
         var text;
         if (checkBox.checked == true){
             for (text = 0; text < textList.length; text++) {
@@ -84,7 +84,7 @@ window.onload = function () {
     }
     function CompO() {
         var checkBox = document.getElementById("CompONav");
-        var textList = document.querySelectorAll("[id *= 'O']");
+        var textList = document.querySelectorAll("[class *= 'O']");
         var text;
         if (checkBox.checked == true){
             for (text = 0; text < textList.length; text++) {
@@ -98,7 +98,7 @@ window.onload = function () {
     }
     function CompR() {
         var checkBox = document.getElementById("CompRNav");
-        var textList = document.querySelectorAll("[id *= 'R']");
+        var textList = document.querySelectorAll("[class *= 'R']");
         var text;
         if (checkBox.checked == true){
             for (text = 0; text < textList.length; text++) {
@@ -112,7 +112,7 @@ window.onload = function () {
     }
     function CompS() {
         var checkBox = document.getElementById("CompSNav");
-        var textList = document.querySelectorAll("[id *= 'S']");
+        var textList = document.querySelectorAll("[class *= 'S']");
         var text;
         if (checkBox.checked == true){
             for (text = 0; text < textList.length; text++) {
@@ -126,7 +126,7 @@ window.onload = function () {
     }
     function CompW() {
         var checkBox = document.getElementById("CompWNav");
-        var textList = document.querySelectorAll("[id *= 'W']");
+        var textList = document.querySelectorAll("[class *= 'W']");
         var text;
         if (checkBox.checked == true){
             for (text = 0; text < textList.length; text++) {

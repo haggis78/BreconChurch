@@ -83,6 +83,17 @@ body{
     align-items: center;
     color: white;
 }
+.comp-single{
+    display: flex;
+    flex-direction: row;
+}
+ul.comp-links{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-around;
+}
 .sticky {
     position: fixed;
     top: 0;
