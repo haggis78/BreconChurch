@@ -304,7 +304,6 @@ h2 {
 h3 {
     color: black;
     text-align: center;
-    font-size: 30px;
 }
 div.index {
     padding-left: 20px;
@@ -312,6 +311,13 @@ div.index {
 }
 div.notes {
     line-height: 90%;
+}
+div.info {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-right: 20vw;
+    
 }
 p {
     font-size: 20px;
@@ -333,6 +339,12 @@ img.github {
     margin-left: auto;
     margin-right: auto;
     max-width: 50%;
+}
+img.xml {
+    display: block;
+    max-width: 35%;
+    margin: auto;
+    padding-top: 3.25vw;
 }
 .flex-container {
     display: flex;
