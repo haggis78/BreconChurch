@@ -33,15 +33,15 @@ window.onload = function () {
         var textList = document.querySelectorAll("[class *= 'C']");
         var i;
         if (checkBox.checked == true){
-            for (text = 0; text < textList.length; text++) {
-                textList[text].style.display = "block"
+            for (x = 0; x < textList.length; x++) {
+                textList[x].style.display = "block"
             }
             for (i = 0; i < chars.length; i++) {
                 chars[i].style.color = "red"
             }
         } else {
-            for (text = 0; text < textList.length; text++) {
-                textList[text].style.display = "none"
+            for (x = 0; x < textList.length; x++) {
+                textList[x].style.display = "none"
             }
             for (i = 0; i < chars.length; i++) {
                 chars[i].style.color = "black"
@@ -54,15 +54,15 @@ window.onload = function () {
         var textList = document.querySelectorAll("[class *= 'D']");
         var i;
         if (checkBox.checked == true){
-            for (text = 0; text < textList.length; text++) {
-                textList[text].style.display = "block"
+            for (x = 0; x < textList.length; x++) {
+                textList[x].style.display = "block"
             }
             for (i = 0; i < chars.length; i++) {
                 chars[i].style.color = "red"
             }
         } else {
-            for (text = 0; text < textList.length; text++) {
-                textList[text].style.display = "none"
+            for (x = 0; x < textList.length; x++) {
+                textList[x].style.display = "none"
             }
             for (i = 0; i < chars.length; i++) {
                 chars[i].style.color = "black"
@@ -75,15 +75,15 @@ window.onload = function () {
         var textList = document.querySelectorAll("[class *= 'I']");
         var i;
         if (checkBox.checked == true){
-            for (text = 0; text < textList.length; text++) {
-                textList[text].style.display = "block"
+            for (x = 0; x < textList.length; x++) {
+                textList[x].style.display = "block"
             }
             for (i = 0; i < chars.length; i++) {
                 chars[i].style.color = "red"
             }
         } else {
-            for (text = 0; text < textList.length; text++) {
-                textList[text].style.display = "none"
+            for (x = 0; x < textList.length; x++) {
+                textList[x].style.display = "none"
             }
             for (i = 0; i < chars.length; i++) {
                 chars[i].style.color = "black"
@@ -96,15 +96,15 @@ window.onload = function () {
         var textList = document.querySelectorAll("[class *= 'J']");
         var i;
         if (checkBox.checked == true){
-            for (text = 0; text < textList.length; text++) {
-                textList[text].style.display = "block"
+            for (x = 0; x < textList.length; x++) {
+                textList[x].style.display = "block"
             }
             for (i = 0; i < chars.length; i++) {
                 chars[i].style.color = "red"
             }
         } else {
-            for (text = 0; text < textList.length; text++) {
-                textList[text].style.display = "none"
+            for (x = 0; x < textList.length; x++) {
+                textList[x].style.display = "none"
             }
             for (i = 0; i < chars.length; i++) {
                 chars[i].style.color = "black"
@@ -116,16 +116,17 @@ window.onload = function () {
         var chars = document.getElementsByClassName("id-o")
         var textList = document.querySelectorAll("[class *= 'O']");
         var i;
+        var x;
         if (checkBox.checked == true){
-            for (text = 0; text < textList.length; text++) {
-                textList[text].style.display = "block"
+            for (x = 0; x < textList.length; x++) {
+                textList[x].style.display = "block"
             }
             for (i = 0; i < chars.length; i++) {
                 chars[i].style.color = "red"
             }
         } else {
-            for (text = 0; text < textList.length; text++) {
-                textList[text].style.display = "none"
+            for (x = 0; x < textList.length; x++) {
+                textList[x].style.display = "none"
             }
             for (i = 0; i < chars.length; i++) {
                 chars[i].style.color = "black"
@@ -137,16 +138,17 @@ window.onload = function () {
         var chars = document.getElementsByClassName("id-r")
         var textList = document.querySelectorAll("[class *= 'R']");
         var i;
+        var x;
         if (checkBox.checked == true){
-            for (i = 0; i < textList.length; i++) {
-                textList[i].style.display = "block"
+            for (x = 0; x < textList.length; x++) {
+                textList[x].style.display = "block"
             }
             for (i = 0; i < chars.length; i++) {
                 chars[i].style.color = "red"
             }
         } else {
-            for (text = 0; text < textList.length; text++) {
-                textList[text].style.display = "none"
+            for (x = 0; x < textList.length; x++) {
+                textList[x].style.display = "none"
             }
             for (i = 0; i < chars.length; i++) {
                 chars[i].style.color = "black"
@@ -158,16 +160,17 @@ window.onload = function () {
         var chars = document.getElementsByClassName("id-s")
         var textList = document.querySelectorAll("[class *= 'S']");
         var i;
+        var x;
         if (checkBox.checked == true){
-            for (text = 0; text < textList.length; text++) {
-                textList[text].style.display = "block"
+            for (x = 0; x < textList.length; x++) {
+                textList[x].style.display = "block"
             }
             for (i = 0; i < chars.length; i++) {
                 chars[i].style.color = "red"
             }
         } else {
-            for (text = 0; text < textList.length; text++) {
-                textList[text].style.display = "none"
+            for (x = 0; x < textList.length; x++) {
+                textList[x].style.display = "none"
             }
             for (i = 0; i < chars.length; i++) {
                 chars[i].style.color = "black"
@@ -179,24 +182,33 @@ window.onload = function () {
         var chars = document.getElementsByClassName("id-w")
         var textList = document.querySelectorAll("[class *= 'W']");
         var i;
+        var x;
         if (checkBox.checked == true){
-            for (text = 0; text < textList.length; text++) {
-                textList[text].style.display = "block"
+            for (x = 0; x < textList.length; x++) {
+                textList[x].style.display = "block"
             }
             for (i = 0; i < chars.length; i++) {
                 chars[i].style.color = "red"
             }
         } else {
-            for (text = 0; text < textList.length; text++) {
-                textList[text].style.display = "none"
+            for (x = 0; x < textList.length; x++) {
+                textList[x].style.display = "none"
             }
             for (i = 0; i < chars.length; i++) {
                 chars[i].style.color = "black"
             }
         }
     }
-    var clearButton = document.getElementById("clearButton").addEventListener("click", clearFunction);
     function clearFunction() {
-        document.querySelectorAll("[class ^= 'edition-']").style.display = "none"
+        var clearList = document.querySelectorAll("[class ^= 'edition-']")
+        var clearChecks = document.querySelectorAll("[id ^= 'Comp']")
+        var i;
+        var x;
+        for (i = 0; i < clearList.length; i++) {
+            clearList[i].style.display = "none"
+        }
+        for (x = 0; x < clearChecks.length; x++) {
+            clearChecks[x].checked = false;
+        }
     }
 
