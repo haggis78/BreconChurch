@@ -318,7 +318,7 @@ p {
 }
 p.index {
     font-size: 20px;
-    text-align: center;
+    text-align: left;
 }
 p.msdesc {
     text-align: left;
