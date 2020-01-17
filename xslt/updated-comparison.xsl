@@ -80,37 +80,38 @@
                                 <span class="comp-single"><input type="checkbox" id="CompRNav" onclick="CompR()"/>R<br /></span>
                                 <span class="comp-single"><input type="checkbox" id="CompSNav" onclick="CompS()"/>S<br /></span>
                                 <span class="comp-single"><input type="checkbox" id="CompWNav" onclick="CompW()"/>W<br /></span>
+                                <button>CLEAR</button>
                             </div>
                         </div>
                         <div class="svg-page">
-                            <button><a href="#ab1">1</a></button>
-                            <button><a href="#ab2">2</a></button>
-                            <button><a href="#ab3">3</a></button>
-                            <button><a href="#ab4">4</a></button>
-                            <button><a href="#ab5">5</a></button>
-                            <button><a href="#ab6">6</a></button>
-                            <button><a href="#ab7">7</a></button>
-                            <button><a href="#ab8">8</a></button>
-                            <button><a href="#ab9">9</a></button>
-                            <button><a href="#ab10">10</a></button>
-                            <button><a href="#ab11">11</a></button>
-                            <button><a href="#ab12">12</a></button>
-                            <button><a href="#ab13">13</a></button>
-                            <button><a href="#ab14">14</a></button>
-                            <button><a href="#ab15">15</a></button>
-                            <button><a href="#ab16">16</a></button>
-                            <button><a href="#ab17">17</a></button>
-                            <button><a href="#ab18">18</a></button>
-                            <button><a href="#ab19">19</a></button>
-                            <button><a href="#ab20">20</a></button>
-                            <button><a href="#ab21">21</a></button>
-                            <button><a href="#ab22">22</a></button>
-                            <button><a href="#ab23">23</a></button>
-                            <button><a href="#ab24">24</a></button>
-                            <button><a href="#ab25">25</a></button>
+                            <label><a href="#ab1">1</a></label>
+                            <label><a href="#ab2">2</a></label>
+                            <label><a href="#ab3">3</a></label>
+                            <label><a href="#ab4">4</a></label>
+                            <label><a href="#ab5">5</a></label>
+                            <label><a href="#ab6">6</a></label>
+                            <label><a href="#ab7">7</a></label>
+                            <label><a href="#ab8">8</a></label>
+                            <label><a href="#ab9">9</a></label>
+                            <label><a href="#ab10">10</a></label>
+                            <label><a href="#ab11">11</a></label>
+                            <label><a href="#ab12">12</a></label>
+                            <label><a href="#ab13">13</a></label>
+                            <label><a href="#ab14">14</a></label>
+                            <label><a href="#ab15">15</a></label>
+                            <label><a href="#ab16">16</a></label>
+                            <label><a href="#ab17">17</a></label>
+                            <label><a href="#ab18">18</a></label>
+                            <label><a href="#ab19">19</a></label>
+                            <label><a href="#ab20">20</a></label>
+                            <label><a href="#ab21">21</a></label>
+                            <label><a href="#ab22">22</a></label>
+                            <label><a href="#ab23">23</a></label>
+                            <label><a href="#ab24">24</a></label>
+                            <label><a href="#ab25">25</a></label>
                         </div>
                     </div>
-                    <xsl:comment>#include virtual="ssi/comparison-page-ssi.html"</xsl:comment>
+                    <xsl:comment>#include virtual="ssi/comparison-page2-ssi.html"</xsl:comment>
                     <div class="content">
                         <xsl:apply-templates select="descendant::ab"/>
                     </div>
@@ -127,12 +128,18 @@
     </xsl:template>
     <xsl:template match="descendant::rdg">
         <div class="comp-variance">
-            <span class="comp-left" style="display:none" id="comp-left-{./@wit ! translate(., '#', '') ! translate(., ' ', '')}">
-                <xsl:value-of select="./@wit ! translate(., '#', '')"/>
-            </span>
-            <span class="comp-right" style="display:none" id="comp-right-{./@wit ! translate(., '#', '') ! translate(., ' ', '')}">
-                <xsl:apply-templates select=".//text()"/>
-            </span>
+            <div class="comp-left">
+                <span style="display:none" class="{./@wit ! translate(., '#', '') ! translate(., ' ', '')}">
+                    <xsl:apply-templates select="./@wit ! translate(., '#', '') ! tokenize(., ' ') ! concat(., ' ')">
+                        <xsl:sort select="." order="ascending"/>
+                    </xsl:apply-templates>
+                </span>
+            </div>
+            <div class="comp-right">
+                <span style="display:none" class="{./@wit ! translate(., '#', '') ! translate(., ' ', '')}">
+                    <xsl:apply-templates select=".//text()"/>
+                </span>
+            </div>
         </div>
     </xsl:template>
 </xsl:stylesheet>
