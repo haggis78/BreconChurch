@@ -80,7 +80,7 @@
                                 <span class="comp-single"><input type="checkbox" id="CompRNav" onclick="CompR()"/>R<br /></span>
                                 <span class="comp-single"><input type="checkbox" id="CompSNav" onclick="CompS()"/>S<br /></span>
                                 <span class="comp-single"><input type="checkbox" id="CompWNav" onclick="CompW()"/>W<br /></span>
-                                <button>CLEAR</button>
+                                <button type="reset" id="clearButton" onclick="clearFunction()">CLEAR</button>
                             </div>
                         </div>
                         <div class="svg-page">
@@ -129,14 +129,51 @@
     <xsl:template match="descendant::rdg">
         <div class="comp-variance">
             <div class="comp-left">
-                <span style="display:none" class="{./@wit ! translate(., '#', '') ! translate(., ' ', '')}">
-                    <xsl:apply-templates select="./@wit ! translate(., '#', '') ! tokenize(., ' ') ! concat(., ' ')">
-                        <xsl:sort select="." order="ascending"/>
-                    </xsl:apply-templates>
+                <span style="display:none" class="edition-{./@wit ! translate(., '#', '') ! translate(., ' ', '')}">
+                    <xsl:choose>
+                        <xsl:when test="./@wit !translate(., '#', '') ! tokenize(., ' ') = 'C'">
+                            <span class="id-c">C </span>
+                        </xsl:when>
+                    </xsl:choose>
+                    <xsl:choose>
+                        <xsl:when test="./@wit !translate(., '#', '') ! tokenize(., ' ') = 'D'">
+                            <span class="id-d">D </span>
+                        </xsl:when>
+                    </xsl:choose>
+                    <xsl:choose>
+                        <xsl:when test="./@wit !translate(., '#', '') ! tokenize(., ' ') = 'I'">
+                            <span class="id-i">I </span>
+                        </xsl:when>
+                    </xsl:choose>
+                    <xsl:choose>
+                        <xsl:when test="./@wit !translate(., '#', '') ! tokenize(., ' ') = 'J'">
+                            <span class="id-j">J </span>
+                        </xsl:when>
+                    </xsl:choose>
+                    <xsl:choose>
+                        <xsl:when test="./@wit !translate(., '#', '') ! tokenize(., ' ') = 'O'">
+                            <span class="id-o">O </span>
+                        </xsl:when>
+                    </xsl:choose>
+                    <xsl:choose>
+                        <xsl:when test="./@wit !translate(., '#', '') ! tokenize(., ' ') = 'R'">
+                            <span class="id-r">R </span>
+                        </xsl:when>
+                    </xsl:choose>
+                    <xsl:choose>
+                        <xsl:when test="./@wit !translate(., '#', '') ! tokenize(., ' ') = 'S'">
+                            <span class="id-s">S </span>
+                        </xsl:when>
+                    </xsl:choose>
+                    <xsl:choose>
+                        <xsl:when test="./@wit !translate(., '#', '') ! tokenize(., ' ') = 'W'">
+                            <span class="id-w">W</span>
+                        </xsl:when>
+                    </xsl:choose>
                 </span>
             </div>
             <div class="comp-right">
-                <span style="display:none" class="{./@wit ! translate(., '#', '') ! translate(., ' ', '')}">
+                <span style="display:none" class="edition-{./@wit ! translate(., '#', '') ! translate(., ' ', '')}">
                     <xsl:apply-templates select=".//text()"/>
                 </span>
             </div>
