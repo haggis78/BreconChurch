@@ -1,6 +1,6 @@
 html, body {margin: 0; padding: 0;}
 body{
-    font-family: "Times New Roman";
+    font-family: Candara;
     background-color: #ffe6b3;
     overflow-x: hidden;
 }
@@ -348,7 +348,7 @@ img.xml {
 }
 img.brecon-index {
 display: block;
-    max-width: 45%;
+    max-width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -368,3 +368,34 @@ ul.timeline {
 strikethrough { text-decoration: line-through; }
 
 above { vertical-align: super; }
+
+.container{
+    position: relative;
+    width: 50%;
+}
+.overlay {
+display: block;
+margin-left: auto;
+margin-right: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+}
+.container:hover .overlay{
+    opacity: .50;
+}
+.text{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
