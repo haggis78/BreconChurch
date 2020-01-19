@@ -31,7 +31,7 @@ body{
     overflow: hidden;
 }
 .dropdown .dropbtn {
-    font-size: 16px;  
+    font-size: 16px;
     border: none;
     outline: none;
     color: white;
@@ -244,7 +244,7 @@ svg.edition-svg rect, svg.edition-svg line{
 }
 foreignObject { overflow: visible; }
 .t1269, .t1283, .t1287, .t1509, .t1534, .t1536, .t1538, .t1539, .t1541, .t1543, .t1561, .t1680, .t1719, .t1739{
-    display:none; 
+    display:none;
 }
 .t1269 on{
     font-size: 20px;
@@ -272,12 +272,6 @@ foreignObject { overflow: visible; }
     flex-direction: row;
     justify-content: space-around;
 }
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 30vw;
-}
 #variance-checkbox{
     color: red;
     justify-content: center;
@@ -295,7 +289,7 @@ h1 {
     text-align: center;
     padding-right: 20px;
     padding-left: 10px;
-    font-size: 50px; 
+    font-size: 50px;
 }
 h2 {
     color: black;
@@ -317,7 +311,7 @@ div.info {
     justify-content: space-between;
     text-align: center;
     padding-right: 20vw;
-    
+
 }
 p {
     font-size: 20px;
@@ -358,7 +352,7 @@ display: block;
     justify-content: space-around;
     margin: auto;
     padding-right: 20px;
-    
+
 }
 ul.timeline {
     list-style-type: none;
@@ -370,6 +364,7 @@ strikethrough { text-decoration: line-through; }
 above { vertical-align: super; }
 
 .container{
+    margin: auto;
     position: relative;
     width: 50%;
 }
