@@ -3,6 +3,7 @@ body{
     font-family: Candara;
     background-color: #ffe6b3;
     overflow-x: hidden;
+    font-size: 20px;
 }
 .header{
     display: flex;
@@ -397,4 +398,34 @@ margin-right: auto;
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 1;
+}
+.texts-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.texts-info{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.texts-halves{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.texts-bottom{
+  display: flex;
+  width: 95%;
+  flex-directioN: column;
+  margin: auto;
+}
+.texts-source-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
