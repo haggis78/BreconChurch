@@ -9,10 +9,10 @@ function scroll() {
     window.onscroll = function () {
         myFunction()
     };
-    
+
     var navbar = document.getElementById("navbar");
     var sticky = navbar.offsetTop;
-    
+
     function myFunction() {
         if (window.pageYOffset >= sticky) {
             navbar.classList.add("sticky")
@@ -47,7 +47,7 @@ function textShow() {
 function hide_last() {
     var divs = document.querySelectorAll('foreignObject > div[class]');
     for (var i = 0; i < divs.length; i++){
-    
+
     divs[i].style.display = "none"
     }
 }
