@@ -17,6 +17,7 @@ body{
     width: 100%;
     overflow: hidden;
     background-color: black;
+    z-index: 500;
 }
 .navbar a {
     float: left;
@@ -25,6 +26,7 @@ body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    z-index: 501;
 }
 .dropdown {
     float: left;
@@ -98,9 +100,11 @@ ul.comp-links{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 500;
 }
 .sticky + .content {
     padding-top: 60px;
+    z-index: 500;
 }
 .content{
     display: flex;
