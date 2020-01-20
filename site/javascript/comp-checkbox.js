@@ -1,23 +1,38 @@
 window.onload = init
 function init() {
-    CompC();
-    CompD();
-    CompI();
-    CompJ();
-    CompO();
-    CompR();
-    CompS();
-    CompW();
-    clearFunction();
+    leftCompC();
+    leftCompD();
+    leftCompI();
+    leftCompJ();
+    leftCompO();
+    leftCompR();
+    leftCompS();
+    leftCompW();
+    centerCompC();
+    centerCompD();
+    centerCompI();
+    centerCompJ();
+    centerCompO();
+    centerCompR();
+    centerCompS();
+    centerCompW();
+    rightCompC();
+    rightCompD();
+    rightCompI();
+    rightCompJ();
+    rightCompO();
+    rightCompR();
+    rightCompS();
+    rightCompW();
 }
 window.onload = function () {
     window.onscroll = function () {
         myFunction()
     };
-    
+
     var navbar = document.getElementById("navbar");
     var sticky = navbar.offsetTop;
-    
+
     function myFunction() {
         if (window.pageYOffset >= sticky) {
             navbar.classList.add("sticky")
@@ -27,196 +42,219 @@ window.onload = function () {
     }
 }
 
-    function CompC() {
-        var checkBox = document.getElementById("CompCNav");
-        var chars = document.getElementsByClassName("id-c");
-        var textList = document.querySelectorAll("[class *= 'C']");
-        var i;
+    function leftCompC() {
+        var checkBox = document.getElementById("leftCompCnav");
+        var text = document.getElementById("leftCompC");
         if (checkBox.checked == true){
-            for (x = 0; x < textList.length; x++) {
-                textList[x].style.display = "block"
-            }
-            for (i = 0; i < chars.length; i++) {
-                chars[i].style.color = "red"
-            }
+            text.style.display = "block";
         } else {
-            for (x = 0; x < textList.length; x++) {
-                textList[x].style.display = "none"
-            }
-            for (i = 0; i < chars.length; i++) {
-                chars[i].style.color = "black"
-            }
+            text.style.display = "none";
         }
     }
-    function CompD() {
-        var checkBox = document.getElementById("CompDNav");
-        var chars = document.getElementsByClassName("id-d");
-        var textList = document.querySelectorAll("[class *= 'D']");
-        var i;
-        var x;
+        function leftCompD() {
+        var checkBox = document.getElementById("leftCompDnav");
+        var text = document.getElementById("leftCompD");
         if (checkBox.checked == true){
-            for (x = 0; x < textList.length; x++) {
-                textList[x].style.display = "block"
-            }
-            for (i = 0; i < chars.length; i++) {
-                chars[i].style.color = "red"
-            }
+            text.style.display = "block";
         } else {
-            for (x = 0; x < textList.length; x++) {
-                textList[x].style.display = "none"
-            }
-            for (i = 0; i < chars.length; i++) {
-                chars[i].style.color = "black"
-            }
+            text.style.display = "none";
         }
     }
-    function CompI() {
-        var checkBox = document.getElementById("CompINav");
-        var chars = document.getElementsByClassName("id-i");
-        var textList = document.querySelectorAll("[class *= 'I']");
-        var i;
-        var x;
+    function leftCompI() {
+        var checkBox = document.getElementById("leftCompInav");
+        var text = document.getElementById("leftCompI");
         if (checkBox.checked == true){
-            for (x = 0; x < textList.length; x++) {
-                textList[x].style.display = "block"
-            }
-            for (i = 0; i < chars.length; i++) {
-                chars[i].style.color = "red"
-            }
+            text.style.display = "block";
         } else {
-            for (x = 0; x < textList.length; x++) {
-                textList[x].style.display = "none"
-            }
-            for (i = 0; i < chars.length; i++) {
-                chars[i].style.color = "black"
-            }
+            text.style.display = "none";
         }
     }
-    function CompJ() {
-        var checkBox = document.getElementById("CompJNav");
-        var chars = document.getElementsByClassName("id-j");
-        var textList = document.querySelectorAll("[class *= 'J']");
-        var i;
-        var x;
+    function leftCompJ() {
+        var checkBox = document.getElementById("leftCompJnav");
+        var text = document.getElementById("leftCompJ");
         if (checkBox.checked == true){
-            for (x = 0; x < textList.length; x++) {
-                textList[x].style.display = "block"
-            }
-            for (i = 0; i < chars.length; i++) {
-                chars[i].style.color = "red"
-            }
+            text.style.display = "block";
         } else {
-            for (x = 0; x < textList.length; x++) {
-                textList[x].style.display = "none"
-            }
-            for (i = 0; i < chars.length; i++) {
-                chars[i].style.color = "black"
-            }
+            text.style.display = "none";
         }
     }
-    function CompO() {
-        var checkBox = document.getElementById("CompONav");
-        var chars = document.getElementsByClassName("id-o");
-        var textList = document.querySelectorAll("[class *= 'O']");
-        var i;
-        var x;
+    function leftCompO() {
+        var checkBox = document.getElementById("leftCompOnav");
+        var text = document.getElementById("leftCompO");
         if (checkBox.checked == true){
-            for (x = 0; x < textList.length; x++) {
-                textList[x].style.display = "block"
-            }
-            for (i = 0; i < chars.length; i++) {
-                chars[i].style.color = "red"
-            }
+            text.style.display = "block";
         } else {
-            for (x = 0; x < textList.length; x++) {
-                textList[x].style.display = "none"
-            }
-            for (i = 0; i < chars.length; i++) {
-                chars[i].style.color = "black"
-            }
+            text.style.display = "none";
         }
     }
-    function CompR() {
-        var checkBox = document.getElementById("CompRNav");
-        var chars = document.getElementsByClassName("id-r");
-        var textList = document.querySelectorAll("[class *= 'R']");
-        var i;
-        var x;
+    function leftCompR() {
+        var checkBox = document.getElementById("leftCompRnav");
+        var text = document.getElementById("leftCompR");
         if (checkBox.checked == true){
-            for (x = 0; x < textList.length; x++) {
-                textList[x].style.display = "block"
-            }
-            for (i = 0; i < chars.length; i++) {
-                chars[i].style.color = "red"
-            }
+            text.style.display = "block";
         } else {
-            for (x = 0; x < textList.length; x++) {
-                textList[x].style.display = "none"
-            }
-            for (i = 0; i < chars.length; i++) {
-                chars[i].style.color = "black"
-            }
+            text.style.display = "none";
         }
     }
-    function CompS() {
-        var checkBox = document.getElementById("CompSNav");
-        var chars = document.getElementsByClassName("id-s");
-        var textList = document.querySelectorAll("[class *= 'S']");
-        var i;
-        var x;
+    function leftCompS() {
+        var checkBox = document.getElementById("leftCompSnav");
+        var text = document.getElementById("leftCompS");
         if (checkBox.checked == true){
-            for (x = 0; x < textList.length; x++) {
-                textList[x].style.display = "block"
-            }
-            for (i = 0; i < chars.length; i++) {
-                chars[i].style.color = "red"
-            }
+            text.style.display = "block";
         } else {
-            for (x = 0; x < textList.length; x++) {
-                textList[x].style.display = "none"
-            }
-            for (i = 0; i < chars.length; i++) {
-                chars[i].style.color = "black"
-            }
+            text.style.display = "none";
         }
     }
-    function CompW() {
-        var checkBox = document.getElementById("CompWNav");
-        var chars = document.getElementsByClassName("id-w");
-        var textList = document.querySelectorAll("[class *= 'W']");
-        var i;
-        var x;
+    function leftCompW() {
+        var checkBox = document.getElementById("leftCompWnav");
+        var text = document.getElementById("leftCompW");
         if (checkBox.checked == true){
-            for (x = 0; x < textList.length; x++) {
-                textList[x].style.display = "block"
-            }
-            for (i = 0; i < chars.length; i++) {
-                chars[i].style.color = "red"
-            }
+            text.style.display = "block";
         } else {
-            for (x = 0; x < textList.length; x++) {
-                textList[x].style.display = "none"
-            }
-            for (i = 0; i < chars.length; i++) {
-                chars[i].style.color = "black"
-            }
+            text.style.display = "none";
         }
     }
-    function clearFunction() {
-        var clearList = document.querySelectorAll("[class ^= 'edition-']");
-        var editionsList = document.querySelectorAll("[class ^= 'id-']");
-        var clearChecks = document.querySelectorAll("[id ^= 'Comp']");
-        var i;
-        var x;
-        var y;
-        for (i = 0; i < clearList.length; i++) {
-            clearList[i].style.display = "none"
-        }
-        for (x = 0; x < clearChecks.length; x++) {
-            clearChecks[x].checked = false;
-        }
-        for (y = 0; y < editionsList.length; y++) {
-            editionsList[y].style.color = "black"
+    function centerCompC() {
+        var checkBox = document.getElementById("centerCompCnav");
+        var text = document.getElementById("centerCompC");
+        if (checkBox.checked == true){
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
         }
     }
-
+    function centerCompD() {
+        var checkBox = document.getElementById("centerCompDnav");
+        var text = document.getElementById("centerCompD");
+        if (checkBox.checked == true){
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    }
+    function centerCompI() {
+        var checkBox = document.getElementById("centerCompInav");
+        var text = document.getElementById("centerCompI");
+        if (checkBox.checked == true){
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    }
+    function centerCompJ() {
+        var checkBox = document.getElementById("centerCompJnav");
+        var text = document.getElementById("centerCompJ");
+        if (checkBox.checked == true){
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    }
+    function centerCompO() {
+        var checkBox = document.getElementById("centerCompOnav");
+        var text = document.getElementById("centerCompO");
+        if (checkBox.checked == true){
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    }
+    function centerCompR() {
+        var checkBox = document.getElementById("centerCompRnav");
+        var text = document.getElementById("centerCompR");
+        if (checkBox.checked == true){
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    }
+    function centerCompS() {
+        var checkBox = document.getElementById("centerCompSnav");
+        var text = document.getElementById("centerCompS");
+        if (checkBox.checked == true){
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    }
+    function centerCompW() {
+        var checkBox = document.getElementById("centerCompWnav");
+        var text = document.getElementById("centerCompW");
+        if (checkBox.checked == true){
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    }
+    function rightCompC() {
+        var checkBox = document.getElementById("rightCompCnav");
+        var text = document.getElementById("rightCompC");
+        if (checkBox.checked == true){
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    }
+    function rightCompD() {
+        var checkBox = document.getElementById("rightCompDnav");
+        var text = document.getElementById("rightCompD");
+        if (checkBox.checked == true){
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    }
+    function rightCompI() {
+        var checkBox = document.getElementById("rightCompInav");
+        var text = document.getElementById("rightCompI");
+        if (checkBox.checked == true){
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    }
+    function rightCompJ() {
+        var checkBox = document.getElementById("rightCompJnav");
+        var text = document.getElementById("rightCompJ");
+        if (checkBox.checked == true){
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    }
+    function rightCompO() {
+        var checkBox = document.getElementById("rightCompOnav");
+        var text = document.getElementById("rightCompO");
+        if (checkBox.checked == true){
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    }
+    function rightCompR() {
+        var checkBox = document.getElementById("rightCompRnav");
+        var text = document.getElementById("rightCompR");
+        if (checkBox.checked == true){
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    }
+    function rightCompS() {
+        var checkBox = document.getElementById("rightCompSnav");
+        var text = document.getElementById("rightCompS");
+        if (checkBox.checked == true){
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    }
+    function rightCompW() {
+        var checkBox = document.getElementById("rightCompWnav");
+        var text = document.getElementById("rightCompW");
+        if (checkBox.checked == true){
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    }
