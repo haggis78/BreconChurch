@@ -391,12 +391,6 @@ margin-right: auto;
 .container:hover .overlay{
     opacity: .50;
 }
-#timeline{
-  display: flex;
-  width: 100%;
-  height: auto;
-  overflow-x: scroll;
-}
 .text{
     color: black;
     position: absolute;
