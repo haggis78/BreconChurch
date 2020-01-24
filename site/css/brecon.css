@@ -429,3 +429,8 @@ margin-right: auto;
   justify-content: center;
   align-items: center;
 }
+.table{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
