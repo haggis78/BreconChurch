@@ -49,14 +49,49 @@ function textShow() {
 }
 
 function hide_last() {
-    var divs = document.querySelectorAll('foreignObject > div[class]');
+    var divs = document.querySelectorAll('foreignObject > div[class ^= "t"]');
     for (var i = 0; i < divs.length; i++){
-
     divs[i].style.display = "none"
     }
 }
 
+function init_highlight() {
+    var circleSelect = document.querySelectorAll("circle[id ^= 'cr']");
+    var ellipseSelect = document.querySelectorAll("ellipse[id ^= 'cr']");
+    for (var i = 0; i < circleSelect.length; i++) {
+        circleSelect[i].addEventListener("mouseover", textHighlight, false);
+    }
+    for (var j = 0; j < circleSelect.length; j++) {
+        circleSelect[j].addEventListener("mouseout", textReturn, false);
+    }
+    for (var k = 0; k < ellipseSelect.length; k++) {
+        ellipseSelect[k].addEventListener("mouseover", textHighlight, false);
+    }
+    for (var l = 0; l < ellipseSelect.length; l++) {
+        ellipseSelect[l].addEventListener("mouseout", textReturn, false);
+    }
+}
+
+function textHighlight() {
+    var textH = document.getElementsByClassName(this.id.split("r")[1]);
+    var divs = document.querySelectorAll("[class ^= 'c']");
+    for (var j = 0; j < divs.length; j++) {
+        divs[j].style.display = "block";
+    }
+    for (var i = 0; i < textH.length; i++) {
+        textH[i].style.color = "red";
+    }
+}
+
+function textReturn() {
+    var textR = document.getElementsByClassName(this.id.split("r")[1]);
+    for (var i = 0; i < textR.length; i++) {
+        textR[i].style.color = "black";
+    }
+}
+
 function show1213() {
+    init_highlight();
     document.getElementById("tl-1213").style.display = "block";
     document.getElementById("tl-1314").style.display = "none";
     document.getElementById("tl-1415").style.display = "none";
@@ -94,35 +129,4 @@ function show1617() {
     document.getElementById("tl-1415").style.display = "none";
     document.getElementById("tl-1516").style.display = "none";
     document.getElementById("tl-1617").style.display = "block";
-}
-
-function init_highlight() {
-    var circleSelect = document.querySelectorAll("circle[id]");
-    var ellipseSelect = document.querySelectorAll("ellipse[id]");
-    for (var i = 0; i < circleSelect.length; i++) {
-        circleSelect[i].addEventListener("mouseover", textHighlight, false);
-    }
-    for (var j = 0; j < circleSelect.length; j++) {
-        circleSelect[j].addEventListener("mouseout", textReturn, false);
-    }
-    for (var k = 0; k < ellipseSelect.length; k++) {
-        ellipseSelect[k].addEventListener("mouseover", textHighlight, false);
-    }
-    for (var k = 0; k < ellipseSelect.length; k++) {
-        ellipseSelect[k].addEventListener("mouseout", textReturn, false);
-    }
-}
-
-function textHighlight() {
-    var textH = document.getElementsByClassName(this.id.split("r")[1]);
-    for (var i = 0; i < textH.length; i++) {
-        textH[i].style.color = "red";
-    }
-}
-
-function textReturn() {
-    var textR = document.getElementsByClassName(this.id.split("r")[1]);
-    for (var i = 0; i < textR.length; i++) {
-        textR[i].style.color = "black";
-    }
 }
