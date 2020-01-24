@@ -2,11 +2,8 @@
 function start() {
     initialize();
     scroll();
-    show1213();
-    show1314();
-    show1415();
-    show1516();
-    show1617();
+    secondTimelines();
+    init_highlight();
 }
 window.onload = start;
 
@@ -90,8 +87,19 @@ function textReturn() {
     }
 }
 
+function secondTimelines() {
+    show1213();
+    show1314();
+    show1415();
+    show1516();
+    show1617();
+    var svgs = document.querySelectorAll("[id ^= 'tl-']");
+    for (var i = 0; i < svgs.length; i++) {
+        svgs[i].style.display = "none"
+    }
+}
+
 function show1213() {
-    init_highlight();
     document.getElementById("tl-1213").style.display = "block";
     document.getElementById("tl-1314").style.display = "none";
     document.getElementById("tl-1415").style.display = "none";
