@@ -96,39 +96,33 @@ function show1617() {
     document.getElementById("tl-1617").style.display = "block";
 }
 
-function h1269() {document.getElementById("a1269").style.color = "red";}
-function r1269() {document.getElementById("a1269").style.color = "black";}
-function h1283() {document.getElementById("a1283").style.color = "red";}
-function r1283() {document.getElementById("a1283").style.color = "black";}
-function h1287() {document.getElementById("a1287").style.color = "red";}
-function r1287() {document.getElementById("a1287").style.color = "black";}
-function h1509() {document.getElementById("a1509").style.color = "red";}
-function r1509() {document.getElementById("a1509").style.color = "black";}
-function h1534() {document.getElementById("a1534").style.color = "red";}
-function r1534() {document.getElementById("a1534").style.color = "black";}
-function h1536() {document.getElementById("a1536").style.color = "red";}
-function r1536() {document.getElementById("a1536").style.color = "black";}
-function h1538() {document.getElementById("a1538").style.color = "red";}
-function r1538() {document.getElementById("a1538").style.color = "black";}
-function h1539() {document.getElementById("a1539").style.color = "red";}
-function r1539() {document.getElementById("a1539").style.color = "black";}
-function h1541() {document.getElementById("a1541").style.color = "red";}
-function r1541() {document.getElementById("a1541").style.color = "black";}
-function h1543() {document.getElementById("a1543").style.color = "red";}
-function r1543() {document.getElementById("a1543").style.color = "black";}
-function h1561() {document.getElementById("a1561").style.color = "red";}
-function r1561() {document.getElementById("a1561").style.color = "black";}
-function h1567() {document.getElementById("a1567").style.color = "red";}
-function r1567() {document.getElementById("a1567").style.color = "black";}
-function h1680() {
-    document.getElementById("a1680").style.color = "red";
-    document.getElementById("a1740").style.color = "red";
+function init_highlight() {
+    var circleSelect = document.querySelectorAll("circle[id]");
+    var ellipseSelect = document.querySelectorAll("ellipse[id]");
+    for (var i = 0; i < circleSelect.length; i++) {
+        circleSelect[i].addEventListener("mouseover", textHighlight, false);
+    }
+    for (var j = 0; j < circleSelect.length; j++) {
+        circleSelect[j].addEventListener("mouseout", textReturn, false);
+    }
+    for (var k = 0; k < ellipseSelect.length; k++) {
+        ellipseSelect[k].addEventListener("mouseover", textHighlight, false);
+    }
+    for (var k = 0; k < ellipseSelect.length; k++) {
+        ellipseSelect[k].addEventListener("mouseout", textReturn, false);
+    }
 }
-function r1680() {
-    document.getElementById("a1680").style.color = "black";
-    document.getElementById("a1740").style.color = "black";
+
+function textHighlight() {
+    var textH = document.getElementsByClassName(this.id.split("r")[1]);
+    for (var i = 0; i < textH.length; i++) {
+        textH[i].style.color = "red";
+    }
 }
-function h1739() {document.getElementById("a1739").style.color = "red";}
-function r1739() {document.getElementById("a1739").style.color = "black";}
-function h1719() {document.getElementById("a1719").style.color = "red";}
-function r1719() {document.getElementById("a1719").style.color = "black";}
+
+function textReturn() {
+    var textR = document.getElementsByClassName(this.id.split("r")[1]);
+    for (var i = 0; i < textR.length; i++) {
+        textR[i].style.color = "black";
+    }
+}
