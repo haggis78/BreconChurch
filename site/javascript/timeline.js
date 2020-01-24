@@ -76,7 +76,7 @@ function textHighlight() {
         divs[j].style.display = "block";
     }
     for (var i = 0; i < textH.length; i++) {
-        textH[i].style.color = "red";
+        textH[i].style.color = "#1f78b4";
     }
 }
 
@@ -94,8 +94,12 @@ function secondTimelines() {
     show1516();
     show1617();
     var svgs = document.querySelectorAll("[id ^= 'tl-']");
+    var rectangles = document.querySelectorAll("[id ^= 'rect']");
     for (var i = 0; i < svgs.length; i++) {
-        svgs[i].style.display = "none"
+        svgs[i].style.display = "none";
+    }
+    for (var j = 0; j < rectangles.length; j++) {
+        rectangles[j].style.opacity = "0";
     }
 }
 
@@ -105,6 +109,11 @@ function show1213() {
     document.getElementById("tl-1415").style.display = "none";
     document.getElementById("tl-1516").style.display = "none";
     document.getElementById("tl-1617").style.display = "none";
+    document.getElementById("rect1213").style.opacity = "0.5";
+    document.getElementById("rect1314").style.opacity = "0";
+    document.getElementById("rect1415").style.opacity = "0";
+    document.getElementById("rect1516").style.opacity = "0";
+    document.getElementById("rect1617").style.opacity = "0";
 }
 
 function show1314() {
@@ -113,6 +122,11 @@ function show1314() {
     document.getElementById("tl-1415").style.display = "none";
     document.getElementById("tl-1516").style.display = "none";
     document.getElementById("tl-1617").style.display = "none";
+    document.getElementById("rect1213").style.opacity = "0";
+    document.getElementById("rect1314").style.opacity = "0.5";
+    document.getElementById("rect1415").style.opacity = "0";
+    document.getElementById("rect1516").style.opacity = "0";
+    document.getElementById("rect1617").style.opacity = "0";
 }
 
 function show1415() {
@@ -121,6 +135,11 @@ function show1415() {
     document.getElementById("tl-1415").style.display = "block";
     document.getElementById("tl-1516").style.display = "none";
     document.getElementById("tl-1617").style.display = "none";
+    document.getElementById("rect1213").style.opacity = "0";
+    document.getElementById("rect1314").style.opacity = "0";
+    document.getElementById("rect1415").style.opacity = "0.5";
+    document.getElementById("rect1516").style.opacity = "0";
+    document.getElementById("rect1617").style.opacity = "0";
 }
 
 function show1516() {
@@ -129,6 +148,11 @@ function show1516() {
     document.getElementById("tl-1415").style.display = "none";
     document.getElementById("tl-1516").style.display = "block";
     document.getElementById("tl-1617").style.display = "none";
+    document.getElementById("rect1213").style.opacity = "0";
+    document.getElementById("rect1314").style.opacity = "0";
+    document.getElementById("rect1415").style.opacity = "0";
+    document.getElementById("rect1516").style.opacity = "0.5";
+    document.getElementById("rect1617").style.opacity = "0";
 }
 
 function show1617() {
@@ -137,4 +161,9 @@ function show1617() {
     document.getElementById("tl-1415").style.display = "none";
     document.getElementById("tl-1516").style.display = "none";
     document.getElementById("tl-1617").style.display = "block";
+    document.getElementById("rect1213").style.opacity = "0";
+    document.getElementById("rect1314").style.opacity = "0";
+    document.getElementById("rect1415").style.opacity = "0";
+    document.getElementById("rect1516").style.opacity = "0";
+    document.getElementById("rect1617").style.opacity = "0.5";
 }

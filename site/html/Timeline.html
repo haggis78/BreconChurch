@@ -9,6 +9,59 @@
     </head>
     <body>
         <!-- SSI line below-->
+        <div class="header">
+            <img src="../img/background/brecon.svg" alt="Image of 'Brecon Collegiate Church and School' in script across the top"/>
+        </div>
+        <div id="navbar">
+            <div class="navbar">
+                <a href="../index.html">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn">About<i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="history.html">History</a>
+                        <a href="Glossary.html">Glossary</a>
+                        <a href="BreconPeople.html">People</a>
+                        <a href="methodology.html">Methodology</a>
+                        <a href="Project_Team.html">About Team</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Analysis<i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="Timeline.html">Timeline</a>
+                        <a href="TextualAnalysis.html#codicum">Stemma</a>
+                        <a href="Graphs.html">Graphs</a>
+                        <a href="TextualAnalysis.html">Textual</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Witnesses<i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="texts.html">Source Descriptions</a>
+                        <a href="patent-collection.html">Patent Roll</a>
+                        <a href="transcripts/display-R.html">Manuscript R</a>
+                        <a href="transcripts/display-C.html">Manuscript C</a>
+                        <a href="transcripts/display-D.html">Manuscript D</a>
+                        <a href="transcripts/display-I.html">Manuscript I</a>
+                        <a href="transcripts/display-O.html">Manuscript O</a>
+                        <a href="transcripts/display-W.html">Printing W</a>
+                        <a href="transcripts/display-S.html">Printing S</a>
+                        <a href="transcripts/display-J.html">Printing J</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Comparison<i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="comparison.html">Transcripts</a>
+                        <a href="edition-svg.html">Anonymous Blocks</a>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!--#include virtual="ssi/main-ssi.html" -->
         <div class="content">
             <h2>Timeline of Important Dates</h2>
@@ -29,86 +82,86 @@
                 <!--2019-12-11 ebb: I added a viewBox to reduce the proportion of space the widest objects are taking up on the screen.
           This just shrinks the plot a bit. -->
                 <g transform="translate(0, 100)">
-                    <line x1="0" y1="0" x2="260" y2="0" stroke="#009933" stroke-width="3"/>
-                    <line x1="0" x2="0" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
-                    <line x1="260" y1="0" x2="520" y2="0" stroke="#009933" stroke-width="3"/>
-                    <line x1="260" x2="260" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
-                    <line x1="520" y1="0" x2="780" y2="0" stroke="#009933" stroke-width="3"/>
-                    <line x1="520" x2="520" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
-                    <line x1="780" y1="0" x2="1040" y2="0" stroke="#009933" stroke-width="3"/>
-                    <line x1="780" x2="780" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
-                    <line x1="1040" y1="0" x2="1300" y2="0" stroke="#009933" stroke-width="3"/>
-                    <line x1="1040" x2="1040" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
-                    <line x1="1300" x2="1300" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
+                    <rect onclick="show1213()" id="rect1213" x="0" y="-40" width="260" height="80" fill="#fbb4b9"/>
+                    <rect onclick="show1314()" id="rect1314" x="260" y="-40" width="260" height="80" fill="#fbb4b9"/>
+                    <rect onclick="show1415()" id="rect1415" x="520" y="-40" width="260" height="80" fill="#fbb4b9"/>
+                    <rect onclick="show1516()" id="rect1516" x="780" y="-40" width="260" height="80" fill="#fbb4b9"/>
+                    <rect onclick="show1617()" id="rect1617" x="1040" y="-40" width="260" height="80" fill="#fbb4b9"/>
+                    <line onclick="show1213()" x1="0" y1="0" x2="260" y2="0" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="0" x2="0" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
+                    <line onclick="show1314()" x1="260" y1="0" x2="520" y2="0" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="260" x2="260" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
+                    <line onclick="show1415()" x1="520" y1="0" x2="780" y2="0" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="520" x2="520" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
+                    <line onclick="show1516()" id="line1516" x1="780" y1="0" x2="1040" y2="0" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="780" x2="780" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
+                    <line onclick="show1617()" x1="1040" y1="0" x2="1300" y2="0" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="1040" x2="1040" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="1300" x2="1300" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
                     <text x="0" y="28" text-anchor="middle" stroke="black">1265</text>
                     <text x="260" y="28" text-anchor="middle" stroke="black">1365</text>
                     <text x="520" y="28" text-anchor="middle" stroke="black">1465</text>
                     <text x="780" y="28" text-anchor="middle" stroke="black">1564</text>
                     <text x="1040" y="28" text-anchor="middle" stroke="black">1665</text>
                     <text x="1300" y="28" text-anchor="middle" stroke="black">1765</text>
-                    <rect onclick="show1213()" id="rect1213" x="0" y="-40" width="260" height="80" opacity="0"/>
-                    <rect onclick="show1314()" id="rect1314" x="260" y="-40" width="260" height="80" opacity="0"/>
-                    <rect onclick="show1415()" id="rect1415" x="520" y="-40" width="260" height="80" opacity="0"/>
-                    <rect onclick="show1516()" id="rect1516" x="780" y="-40" width="260" height="80" opacity="0"/>
-                    <rect onclick="show1617()" id="rect1617" x="1040" y="-40" width="260" height="80" opacity="0"/>
-                    <circle r="10" cx="10.4" cy="0" stroke="black" id="m-t1269"/>
+                    <circle r="10" cx="10.4" cy="0" stroke="#1f78b4" fill="#a6cee3" id="m-t1269"/>
                     <foreignObject x="400" y="50" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="t1269">1269: Dominican Friars establish a priory at Brecon, Breconshire.</div>
                     </foreignObject>
-                    <circle r="10" cx="46.8" cy="0" stroke="black" id="m-t1283"/>
+                    <circle r="10" cx="46.8" cy="0" stroke="#1f78b4" fill="#a6cee3" id="m-t1283"/>
                     <foreignObject x="230" y="50" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="t1283">1283: Bishop Thomas Bek of St Davids establishes a collegiate church at Llangadog, Carmarthenshire.</div>
                     </foreignObject>
-                    <circle r="10" cx="57.2" cy="0" stroke="black" id="m-t1287"/>
+                    <circle r="10" cx="57.2" cy="0" stroke="#1f78b4" fill="#a6cee3" id="m-t1287"/>
                     <foreignObject x="140" y="50" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="t1287">1287: Bek moves his new Llangadog foundation to Abergwili, Carmarthenshire, on the outskirts of the town of Carmarthen.</div>
                     </foreignObject>
-                    <circle r="10" cx="634.4" cy="0" stroke="black" id="m-t1509"/>
+                    <circle r="10" cx="634.4" cy="0" stroke="#1f78b4" fill="#a6cee3" id="m-t1509"/>
                     <foreignObject x="520" y="50" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="t1509">1509: Henry VIII crowned King.</div>
                     </foreignObject>
-                    <circle r="10" cx="699.4" cy="0" stroke="black" id="m-t1534"/>
+                    <circle r="10" cx="699.4" cy="0" stroke="#1f78b4" fill="#a6cee3" id="m-t1534"/>
                     <foreignObject x="230" y="50" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="t1534">1534: Henry VIII breaks with Rome; King declared 'Supreme head on earth of the Church of England'.</div>
                     </foreignObject>
-                    <circle r="10" cx="704.6" cy="0" stroke="black" id="m-t1536"/>
+                    <circle r="10" cx="704.6" cy="0" stroke="#1f78b4" fill="#a6cee3" id="m-t1536"/>
                     <foreignObject x="150" y="50" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="t1536">1536: William Barlow made Bishop of St Davids; monasteries dissolved; first act incorporating Wales into the English state.</div>
                     </foreignObject>
-                    <circle r="10" cx="709.8" cy="0" stroke="black" id="m-t1538"/>
+                    <circle r="10" cx="709.8" cy="0" stroke="#1f78b4" fill="#a6cee3" id="m-t1538"/>
                     <foreignObject x="350" y="50" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="t1538">1538: Houses of friars dissolved, including the Dominican house at Brecon.</div>
                     </foreignObject>
-                    <ellipse rx="2.6" ry="15" cx="712.4" cy="0" stroke="black" fill="pink"
+                    <ellipse rx="2.6" ry="15" cx="712.4" cy="0" stroke="#1f78b4" fill="#b2df8a"
                         fill-opacity="0.5" id="m-t1539"/>
                     <foreignObject x="-60" y="50" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="t1539">1539-1540: Barlow writes to Thomas Cromwell, proposing that Abergwili Collegiate Church be re-founded at Brecon and St Davids Cathedral be re-founded at Carmarthen.</div>
                     </foreignObject>
-                    <circle r="10" cx="717.6" cy="0" stroke="black" id="m-t1541"/>
+                    <circle r="10" cx="717.6" cy="0" stroke="#1f78b4" fill="#a6cee3" id="m-t1541"/>
                     <foreignObject x="-50" y="50" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="t1541">1541: Henry VIII issues Letters Patent moving Abergwili Collegiate Church to Brecon under the new name Christ College Brecon. Copy recorded in the Patent Rolls (Witness R).</div>
                     </foreignObject>
-                    <circle r="10" cx="722.8" cy="0" stroke="black" id="m-t1543"/>
+                    <circle r="10" cx="722.8" cy="0" stroke="#1f78b4" fill="#a6cee3" id="m-t1543"/>
                     <foreignObject x="400" y="50" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="t1543">1543: Second act incorporating Wales into the English state.</div>
                     </foreignObject>
-                    <ellipse rx="15.6" ry="15" cx="769.6" cy="0" stroke="black" fill="pink"
+                    <ellipse rx="15.6" ry="15" cx="769.6" cy="0" stroke="#1f78b4" fill="#b2df8a"
                         fill-opacity="0.5" id="m-t1561"/>
                     <foreignObject x="-50" y="50" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="t1561">1561-1567: Bishop Richard Davies of St Davids and William Salesbury collaborate at Abergwili to translate the Anglican Book of Common Prayer and New Testament into Welsh.</div>
                     </foreignObject>
-                    <ellipse rx="78" ry="15" cx="1157" cy="0" stroke="black" fill="pink"
+                    <ellipse rx="78" ry="15" cx="1157" cy="0" stroke="#1f78b4" fill="#b2df8a"
                         fill-opacity="0.5" id="m-t1680"/>
                     <foreignObject x="-10" y="50" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="t1680">1680-1740: Witnesses C, D, I, and O written: all are copies of the medieval Statutes of St Davids Cathedral, to which the Brecon charter appears as an appendix.</div>
                         <div xmlns="http://www.w3.org/1999/xhtml" class="t1680">Copies circulate, ending up at St Davids (D and I), St John's College Cambridge (C), and the Harley Collection (O).</div>
                     </foreignObject>
-                    <ellipse rx="28.6" ry="15" cx="1261" cy="0" stroke="black" fill="pink"
+                    <ellipse rx="28.6" ry="15" cx="1261" cy="0" stroke="#1f78b4" fill="#b2df8a"
                         fill-opacity="0.5" id="m-t1739"/>
                     <foreignObject x="100" y="50" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="t1739">1739-1761: Edward Yardley, Archdeacon of Carmarthen, compiles his history of St Davids Cathedral and Diocese, Menevia Sacra.</div>
                     </foreignObject>
-                    <circle r="10" cx="1180.4" cy="0" stroke="black" id="m-t1719"/>
+                    <circle r="10" cx="1180.4" cy="0" stroke="#1f78b4" fill="#a6cee3" id="m-t1719"/>
                     <foreignObject x="0" y="50" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="t1719">1719: Browne Willis publishes the Brecon charter in An History of the Mitred Parliamentary Abbies, and Conventual Cathedral Churches, vol. II (Witness W).</div>
                     </foreignObject>
@@ -117,27 +170,27 @@
             <svg xmlns="http://www.w3.org/2000/svg" style="display:none;" id="tl-1213" width="1350"
                 height="250" viewBox="0 0 1350 300">
                 <g transform="translate(0, 20)">
-                    <line x1="150" y1="0" x2="1150" y2="0" stroke="#009933" stroke-width="3"/>
-                    <line x1="150" x2="150" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
-                    <line x1="400" x2="400" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
-                    <line x1="650" x2="650" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
-                    <line x1="900" x2="900" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
-                    <line x1="1150" x2="1150" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
+                    <line x1="150" y1="0" x2="1150" y2="0" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="150" x2="150" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="400" x2="400" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="650" x2="650" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="900" x2="900" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="1150" x2="1150" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
                     <text x="150" y="28" text-anchor="middle" stroke="black">1265</text>
                     <text x="400" y="28" text-anchor="middle" stroke="black">1290</text>
                     <text x="650" y="28" text-anchor="middle" stroke="black">1315</text>
                     <text x="900" y="28" text-anchor="middle" stroke="black">1340</text>
                     <text x="1150" y="28" text-anchor="middle" stroke="black">1365</text>
-                    <circle id="crc1269" r="10" cx="190" cy="0" stroke="black"/>
-                    <foreignObject x="400" y="50" stroke="black" width="1600" height="1">
+                    <circle id="crc1269" r="10" cx="190" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <foreignObject x="-60" y="50" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1269">1269: Dominican Friars establish a priory at Brecon, Breconshire.</div>
                     </foreignObject>
-                    <circle id="crc1283" r="10" cx="330" cy="0" stroke="black"/>
-                    <foreignObject x="230" y="75" stroke="black" width="1600" height="1">
+                    <circle id="crc1283" r="10" cx="330" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <foreignObject x="-60" y="75" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1283">1283: Bishop Thomas Bek of St Davids establishes a collegiate church at Llangadog, Carmarthenshire.</div>
                     </foreignObject>
-                    <circle id="crc1287" r="10" cx="370" cy="0" stroke="black"/>
-                    <foreignObject x="140" y="100" stroke="black" width="1600" height="1">
+                    <circle id="crc1287" r="10" cx="370" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <foreignObject x="-60" y="100" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1287">1287: Bek moves his new Llangadog foundation to Abergwili, Carmarthenshire, on the outskirts of the town of Carmarthen.</div>
                     </foreignObject>
                 </g>
@@ -145,12 +198,12 @@
             <svg xmlns="http://www.w3.org/2000/svg" style="display:none;" id="tl-1314" width="1350"
                 height="250" viewBox="0 0 1350 300">
                 <g transform="translate(0, 20)">
-                    <line x1="150" y1="0" x2="1150" y2="0" stroke="#009933" stroke-width="3"/>
-                    <line x1="150" x2="150" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
-                    <line x1="400" x2="400" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
-                    <line x1="650" x2="650" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
-                    <line x1="900" x2="900" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
-                    <line x1="1150" x2="1150" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
+                    <line x1="150" y1="0" x2="1150" y2="0" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="150" x2="150" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="400" x2="400" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="650" x2="650" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="900" x2="900" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="1150" x2="1150" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
                     <text x="150" y="28" text-anchor="middle" stroke="black">1365</text>
                     <text x="400" y="28" text-anchor="middle" stroke="black">1390</text>
                     <text x="650" y="28" text-anchor="middle" stroke="black">1415</text>
@@ -161,47 +214,47 @@
             <svg xmlns="http://www.w3.org/2000/svg" style="display:none;" id="tl-1415" width="1350"
                 height="250" viewBox="0 0 1350 300">
                 <g transform="translate(0, 20)">
-                    <line x1="150" y1="0" x2="1150" y2="0" stroke="#009933" stroke-width="3"/>
-                    <line x1="150" x2="150" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
-                    <line x1="400" x2="400" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
-                    <line x1="650" x2="650" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
-                    <line x1="900" x2="900" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
-                    <line x1="1150" x2="1150" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
+                    <line x1="150" y1="0" x2="1150" y2="0" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="150" x2="150" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="400" x2="400" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="650" x2="650" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="900" x2="900" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="1150" x2="1150" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
                     <text x="150" y="28" text-anchor="middle" stroke="black">1465</text>
                     <text x="400" y="28" text-anchor="middle" stroke="black">1490</text>
                     <text x="650" y="28" text-anchor="middle" stroke="black">1515</text>
                     <text x="900" y="28" text-anchor="middle" stroke="black">1540</text>
                     <text x="1150" y="28" text-anchor="middle" stroke="black">1565</text>
-                    <circle id="crc1509" r="10" cx="590" cy="0" stroke="black"/>
-                    <foreignObject style="none" x="520" y="50" stroke="black" width="1600" height="1">
+                    <circle id="crc1509" r="10" cx="590" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <foreignObject style="none" x="-60" y="50" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1509">1509: Henry VIII crowned King.</div>
                     </foreignObject>
-                    <circle id="crc1534" r="10" cx="840" cy="0" stroke="black"/>
-                    <foreignObject x="230" y="75" stroke="black" width="1600" height="1">
+                    <circle id="crc1534" r="10" cx="840" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <foreignObject x="-60" y="75" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1534">1534: Henry VIII breaks with Rome; King declared 'Supreme head on earth of the Church of England'.</div>
                     </foreignObject>
-                    <circle id="crc1536" r="10" cx="860" cy="0" stroke="black"/>
-                    <foreignObject x="150" y="100" stroke="black" width="1600" height="1">
+                    <circle id="crc1536" r="10" cx="860" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <foreignObject x="-60" y="100" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1536">1536: William Barlow made Bishop of St Davids; monasteries dissolved; first act incorporating Wales into the English state.</div>
                     </foreignObject>
-                    <circle id="crc1538" r="10" cx="880" cy="0" stroke="black"/>
-                    <foreignObject x="350" y="125" stroke="black" width="1600" height="1">
+                    <circle id="crc1538" r="10" cx="880" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <foreignObject x="-60" y="125" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1538">1538: Houses of friars dissolved, including the Dominican house at Brecon.</div>
                     </foreignObject>
-                    <ellipse id="crc1539" rx="5" ry="15" cx="895" cy="0" stroke="black" fill="pink" fill-opacity="0.5"/>
+                    <ellipse id="crc1539" rx="5" ry="15" cx="895" cy="0" stroke="#1f78b4" fill="#b2df8a" fill-opacity="0.5"/>
                     <foreignObject x="-60" y="150" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1539">1539-1540: Barlow writes to Thomas Cromwell, proposing that Abergwili Collegiate Church be re-founded at Brecon and St Davids Cathedral be re-founded at Carmarthen.</div>
                     </foreignObject>
-                    <circle id="crc1541" r="10" cx="910" cy="0" stroke="black"/>
-                    <foreignObject x="-50" y="175" stroke="black" width="1600" height="1">
+                    <circle id="crc1541" r="10" cx="910" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <foreignObject x="-60" y="175" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1541">1541: Henry VIII issues Letters Patent moving Abergwili Collegiate Church to Brecon under the new name Christ College Brecon. Copy recorded in the Patent Rolls (Witness R).</div>
                     </foreignObject>
-                    <circle id="crc1543" r="10" cx="930" cy="0" stroke="black"/>
-                    <foreignObject x="400" y="200" stroke="black" width="1600" height="1">
+                    <circle id="crc1543" r="10" cx="930" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <foreignObject x="-60" y="200" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1543">1543: Second act incorporating Wales into the English state.</div>
                     </foreignObject>
-                    <ellipse id="crc1561" rx="30" ry="15" cx="1130" cy="0" stroke="black" fill="pink" fill-opacity="0.5"/>
-                    <foreignObject x="-50" y="225" stroke="black" width="1600" height="1">
+                    <ellipse id="crc1561" rx="30" ry="15" cx="1130" cy="0" stroke="#1f78b4" fill="#b2df8a" fill-opacity="0.5"/>
+                    <foreignObject x="-60" y="225" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1561">1561-1567: Bishop Richard Davies of St Davids and William Salesbury collaborate at Abergwili to translate the Anglican Book of Common Prayer and New Testament into Welsh.</div>
                     </foreignObject>
                 </g>
@@ -209,19 +262,19 @@
             <svg xmlns="http://www.w3.org/2000/svg" style="display:none;" id="tl-1516" width="1350"
                 height="250" viewBox="0 0 1350 300">
                 <g transform="translate(0, 20)">
-                    <line x1="150" y1="0" x2="1150" y2="0" stroke="#009933" stroke-width="3"/>
-                    <line x1="150" x2="150" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
-                    <line x1="400" x2="400" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
-                    <line x1="650" x2="650" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
-                    <line x1="900" x2="900" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
-                    <line x1="1150" x2="1150" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
+                    <line x1="150" y1="0" x2="1150" y2="0" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="150" x2="150" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="400" x2="400" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="650" x2="650" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="900" x2="900" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="1150" x2="1150" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
                     <text x="150" y="28" text-anchor="middle" stroke="black">1565</text>
                     <text x="400" y="28" text-anchor="middle" stroke="black">1590</text>
                     <text x="650" y="28" text-anchor="middle" stroke="black">1615</text>
                     <text x="900" y="28" text-anchor="middle" stroke="black">1640</text>
                     <text x="1150" y="28" text-anchor="middle" stroke="black">1665</text>
-                    <ellipse id="crc1567" rx="30" ry="15" cx="130" cy="0" stroke="black" fill="pink" fill-opacity="0.5"/>
-                    <foreignObject x="-50" y="50" stroke="black" width="1600" height="1">
+                    <ellipse id="crc1567" rx="30" ry="15" cx="130" cy="0" stroke="#1f78b4" fill="#b2df8a" fill-opacity="0.5"/>
+                    <foreignObject x="-60" y="50" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1567">1561-1567: Bishop Richard Davies of St Davids and William Salesbury collaborate at Abergwili to translate the Anglican Book of Common Prayer and New Testament into Welsh.</div>
                     </foreignObject>
                 </g>
@@ -229,28 +282,28 @@
             <svg xmlns="http://www.w3.org/2000/svg" style="display:none;" id="tl-1617" width="1350"
                 height="250" viewBox="0 0 1350 300">
                 <g transform="translate(0, 20)">
-                    <line x1="150" y1="0" x2="1150" y2="0" stroke="#009933" stroke-width="3"/>
-                    <line x1="150" x2="150" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
-                    <line x1="400" x2="400" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
-                    <line x1="650" x2="650" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
-                    <line x1="900" x2="900" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
-                    <line x1="1150" x2="1150" y1="-10" y2="10" stroke="#009933" stroke-width="3"/>
+                    <line x1="150" y1="0" x2="1150" y2="0" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="150" x2="150" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="400" x2="400" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="650" x2="650" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="900" x2="900" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
+                    <line x1="1150" x2="1150" y1="-10" y2="10" stroke="#1f78b4" stroke-width="3"/>
                     <text x="150" y="28" text-anchor="middle" stroke="black">1665</text>
                     <text x="400" y="28" text-anchor="middle" stroke="black">1690</text>
                     <text x="650" y="28" text-anchor="middle" stroke="black">1715</text>
                     <text x="900" y="28" text-anchor="middle" stroke="black">1740</text>
                     <text x="1150" y="28" text-anchor="middle" stroke="black">1765</text>
-                    <ellipse id="crc1680" rx="300" ry="15" cx="600" cy="0" stroke="black" fill="pink" fill-opacity="0.5"/>
-                    <foreignObject x="-10" y="50" stroke="black" width="1600" height="1">
+                    <ellipse id="crc1680" rx="300" ry="15" cx="600" cy="0" stroke="#1f78b4" fill="#b2df8a" fill-opacity="0.5"/>
+                    <foreignObject x="-60" y="50" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1680">1680-1740: Witnesses C, D, I, and O written: all are copies of the medieval Statutes of St Davids Cathedral, to which the Brecon charter appears as an appendix.</div>
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1680">Copies circulate, ending up at St Davids (D and I), St John's College Cambridge (C), and the Harley Collection (O).</div>
                     </foreignObject>
-                    <ellipse id="crc1739" rx="110" ry="15" cx="1000" cy="0" stroke="black" fill="pink" fill-opacity="0.5"/>
-                    <foreignObject x="100" y="125" stroke="black" width="1600" height="1">
+                    <ellipse id="crc1739" rx="110" ry="15" cx="1000" cy="0" stroke="#1f78b4" fill="#b2df8a" fill-opacity="0.5"/>
+                    <foreignObject x="-60" y="125" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1739">1739-1761: Edward Yardley, Archdeacon of Carmarthen, compiles his history of St Davids Cathedral and Diocese, Menevia Sacra.</div>
                     </foreignObject>
-                    <circle id="crc1719"  r="10" cx="690" cy="0" stroke="black"/>
-                    <foreignObject x="0" y="100" stroke="black" width="1600" height="1">
+                    <circle id="crc1719" r="10" cx="690" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <foreignObject x="-60" y="100" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1719">1719: Browne Willis publishes the Brecon charter in An History of the Mitred Parliamentary Abbies, and Conventual Cathedral Churches, vol. II (Witness W).</div>
                     </foreignObject>
                 </g>
