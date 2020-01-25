@@ -4,6 +4,7 @@ function start() {
     scroll();
     secondTimelines();
     init_highlight();
+    init_shape_highlight();
 }
 window.onload = start;
 
@@ -53,19 +54,19 @@ function hide_last() {
 }
 
 function init_highlight() {
-    var circleSelect = document.querySelectorAll("circle[id ^= 'cr']");
-    var ellipseSelect = document.querySelectorAll("ellipse[id ^= 'cr']");
+    var circleSelect = document.querySelectorAll("circle[id ^= 'dr']");
+    var ellipseSelect = document.querySelectorAll("ellipse[id ^= 'dr']");
     for (var i = 0; i < circleSelect.length; i++) {
         circleSelect[i].addEventListener("mouseover", textHighlight, false);
-    }
-    for (var j = 0; j < circleSelect.length; j++) {
-        circleSelect[j].addEventListener("mouseout", textReturn, false);
+        circleSelect[i].addEventListener("mouseout", textReturn, false);
+        circleSelect[i].addEventListener("mouseover", shapeHighlight, false);
+        circleSelect[i].addEventListener("mouseout", shapeReturn, false);
     }
     for (var k = 0; k < ellipseSelect.length; k++) {
         ellipseSelect[k].addEventListener("mouseover", textHighlight, false);
-    }
-    for (var l = 0; l < ellipseSelect.length; l++) {
-        ellipseSelect[l].addEventListener("mouseout", textReturn, false);
+        ellipseSelect[k].addEventListener("mouseout", textReturn, false);
+        ellipseSelect[k].addEventListener("mouseover", shapeHighlight, false);
+        ellipseSelect[k].addEventListener("mouseout", shapeReturn, false);
     }
 }
 
@@ -84,6 +85,28 @@ function textReturn() {
     var textR = document.getElementsByClassName(this.id.split("r")[1]);
     for (var i = 0; i < textR.length; i++) {
         textR[i].style.color = "black";
+    }
+}
+
+function shapeHighlight() {
+    var shapeH = document.getElementsByClassName(this.id.split("d")[1]);
+    var divs = document.querySelectorAll("[class ^= 'drc']");
+    for (var j = 0; j < divs.length; j++) {
+        divs[j].style.display = "block";
+    }
+    for (var i = 0; i < shapeH.length; i++) {
+        shapeH[i].style.fill = "#f768a1";
+    }
+}
+
+function shapeReturn() {
+    var circleR = document.querySelectorAll("circle[id ^= 'dr']");
+    for (var i = 0; i < circleR.length; i++) {
+        circleR[i].style.fill = "#a6cee3";
+    }
+    var ellipseR = document.querySelectorAll("ellipse[id ^= 'dr']");
+    for (var j = 0; j < ellipseR.length; j++) {
+        ellipseR[j].style.fill = "#b2df8a";
     }
 }
 
