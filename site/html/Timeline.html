@@ -10,10 +10,58 @@
     <body>
         <!-- SSI line below-->
         <div class="header">
-            <img src="../img/background/brecon.svg" alt="Image of 'Brecon Collegiate Church and School' in script across the top"/>
+    <img src="../img/background/brecon.svg" alt="Image of 'Brecon Collegiate Church and School' in script across the top"/>
+</div>
+<div id="navbar">
+    <div class="navbar">
+        <a href="../index.html">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">About<i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="history.html">History</a>
+                <a href="Glossary.html">Glossary</a>
+                <a href="BreconPeople.html">People</a>
+                <a href="methodology.html">Methodology</a>
+                <a href="Project_Team.html">About Team</a>
+            </div>
         </div>
-        
-        
+        <div class="dropdown">
+            <button class="dropbtn">Analysis<i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="Timeline.html">Timeline</a>
+                <a href="TextualAnalysis.html#codicum">Stemma</a>
+                <a href="Graphs.html">Graphs</a>
+                <a href="TextualAnalysis.html">Textual</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Witnesses<i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="texts.html">Source Descriptions</a>
+                <a href="patent-collection.html">Patent Roll</a>
+                <a href="transcripts/display-R.html">Manuscript R</a>
+                <a href="transcripts/display-C.html">Manuscript C</a>
+                <a href="transcripts/display-D.html">Manuscript D</a>
+                <a href="transcripts/display-I.html">Manuscript I</a>
+                <a href="transcripts/display-O.html">Manuscript O</a>
+                <a href="transcripts/display-W.html">Printing W</a>
+                <a href="transcripts/display-S.html">Printing S</a>
+                <a href="transcripts/display-J.html">Printing J</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Comparison<i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="comparison.html">Transcripts</a>
+                <a href="edition-svg.html">Anonymous Blocks</a>
+            </div>
+        </div>
+    </div>
+</div>
         <!--#include virtual="ssi/main-ssi.html" -->
         <div class="content">
             <h2>Timeline of Important Dates</h2>
@@ -130,15 +178,18 @@
                     <text x="650" y="28" text-anchor="middle" stroke="black">1315</text>
                     <text x="900" y="28" text-anchor="middle" stroke="black">1340</text>
                     <text x="1150" y="28" text-anchor="middle" stroke="black">1365</text>
-                    <circle id="drc1269" class="rc1269" onmouseover="init_shape_highlight()" onmouseout="rShape()" r="10" cx="190" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <circle id="drc1269" class="rc1269" r="10" cx="190" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <rect id="r1269" opacity="0" x="-65" y="50" width="550" height="25"/>
                     <foreignObject x="-60" y="50" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1269">1269: Dominican Friars establish a priory at Brecon, Breconshire.</div>
                     </foreignObject>
-                    <circle id="drc1283" class="rc1283" onmouseover="init_shape_highlight()" onmouseout="rShape()" r="10" cx="330" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <circle id="drc1283" class="rc1283" r="10" cx="330" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <rect id="r1283" opacity="0" x="-65" y="75" width="860" height="25"/>
                     <foreignObject x="-60" y="75" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1283">1283: Bishop Thomas Bek of St Davids establishes a collegiate church at Llangadog, Carmarthenshire.</div>
                     </foreignObject>
-                    <circle id="drc1287" class="rc1287" onmouseover="init_shape_highlight()" onmouseout="rShape()" r="10" cx="370" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <circle id="drc1287" class="rc1287" r="10" cx="370" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <rect id="r1287" opacity="0" x="-65" y="100" width="1050" height="25"/>
                     <foreignObject x="-60" y="100" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1287">1287: Bek moves his new Llangadog foundation to Abergwili, Carmarthenshire, on the outskirts of the town of Carmarthen.</div>
                     </foreignObject>
@@ -172,35 +223,43 @@
                     <text x="650" y="28" text-anchor="middle" stroke="black">1515</text>
                     <text x="900" y="28" text-anchor="middle" stroke="black">1540</text>
                     <text x="1150" y="28" text-anchor="middle" stroke="black">1565</text>
-                    <circle id="drc1509" class="rc1509" onmouseover="init_shape_highlight()" onmouseout="rShape()" r="10" cx="590" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <circle id="drc1509" class="rc1509" r="10" cx="590" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <rect id="r1509" opacity="0" x="-65" y="50" width="270" height="25"/>
                     <foreignObject style="none" x="-60" y="50" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1509">1509: Henry VIII crowned King.</div>
                     </foreignObject>
-                    <circle id="drc1534" class="rc1534" onmouseover="init_shape_highlight()" onmouseout="rShape()" r="10" cx="840" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <circle id="drc1534" class="rc1534" r="10" cx="840" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <rect id="r1534" opacity="0" x="-65" y="75" width="860" height="25"/>
                     <foreignObject x="-60" y="75" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1534">1534: Henry VIII breaks with Rome; King declared 'Supreme head on earth of the Church of England'.</div>
                     </foreignObject>
-                    <circle id="drc1536" class="rc1536" onmouseover="init_shape_highlight()" onmouseout="rShape()" r="10" cx="860" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <circle id="drc1536" class="rc1536" r="10" cx="860" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <rect id="r1536" opacity="0" x="-65" y="100" width="1040" height="25"/>
                     <foreignObject x="-60" y="100" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1536">1536: William Barlow made Bishop of St Davids; monasteries dissolved; first act incorporating Wales into the English state.</div>
                     </foreignObject>
-                    <circle id="drc1538" class="rc1538" onmouseover="init_shape_highlight()" onmouseout="rShape()" r="10" cx="880" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <circle id="drc1538" class="rc1538" r="10" cx="880" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <rect id="r1538" opacity="0" x="-65" y="125" width="640" height="25"/>
                     <foreignObject x="-60" y="125" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1538">1538: Houses of friars dissolved, including the Dominican house at Brecon.</div>
                     </foreignObject>
-                    <ellipse id="drc1539" class="rc1539" onmouseover="init_shape_highlight()" onmouseout="rShape()" rx="5" ry="15" cx="895" cy="0" stroke="#1f78b4" fill="#b2df8a" fill-opacity="0.5"/>
+                    <ellipse id="drc1539" class="rc1539" rx="5" ry="15" cx="895" cy="0" stroke="#1f78b4" fill="#b2df8a" fill-opacity="0.5"/>
+                    <rect id="r1539" opacity="0" x="-65" y="150" width="1440" height="25"/>
                     <foreignObject x="-60" y="150" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1539">1539-1540: Barlow writes to Thomas Cromwell, proposing that Abergwili Collegiate Church be re-founded at Brecon and St Davids Cathedral be re-founded at Carmarthen.</div>
                     </foreignObject>
-                    <circle id="drc1541" class="rc1541" onmouseover="init_shape_highlight()" onmouseout="rShape()" r="10" cx="910" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <circle id="drc1541" class="rc1541" r="10" cx="910" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <rect id="r1541" opacity="0" x="-65" y="50" width="1350" height="50"/>
                     <foreignObject x="-60" y="175" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1541">1541: Henry VIII issues Letters Patent moving Abergwili Collegiate Church to Brecon under the new name Christ College Brecon. Copy recorded in the Patent Rolls (Witness R).</div>
                     </foreignObject>
-                    <circle id="drc1543" class="rc1543" onmouseover="init_shape_highlight()" onmouseout="rShape()" r="10" cx="930" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <circle id="drc1543" class="rc1543" r="10" cx="930" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <rect id="r1543" opacity="0" x="-65" y="200" width="520" height="25"/>
                     <foreignObject x="-60" y="200" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1543">1543: Second act incorporating Wales into the English state.</div>
                     </foreignObject>
-                    <ellipse id="drc1561" class="rc1561" onmouseover="init_shape_highlight()" onmouseout="rShape()" rx="30" ry="15" cx="1130" cy="0" stroke="#1f78b4" fill="#b2df8a" fill-opacity="0.5"/>
+                    <ellipse id="drc1561" class="rc1561" rx="30" ry="15" cx="1130" cy="0" stroke="#1f78b4" fill="#b2df8a" fill-opacity="0.5"/>
+                    <rect id="r1561" opacity="0" x="-65" y="225" width="1490" height="25"/>
                     <foreignObject x="-60" y="225" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1561">1561-1567: Bishop Richard Davies of St Davids and William Salesbury collaborate at Abergwili to translate the Anglican Book of Common Prayer and New Testament into Welsh.</div>
                     </foreignObject>
@@ -219,7 +278,7 @@
                     <text x="650" y="28" text-anchor="middle" stroke="black">1615</text>
                     <text x="900" y="28" text-anchor="middle" stroke="black">1640</text>
                     <text x="1150" y="28" text-anchor="middle" stroke="black">1665</text>
-                    <ellipse id="drc1567" class="rc1567" onmouseover="init_shape_highlight()" onmouseout="rShape()" rx="30" ry="15" cx="130" cy="0" stroke="#1f78b4" fill="#b2df8a" fill-opacity="0.5"/>
+                    <ellipse id="drc1567" class="rc1567" rx="30" ry="15" cx="130" cy="0" stroke="#1f78b4" fill="#b2df8a" fill-opacity="0.5"/>
                     <foreignObject x="-60" y="50" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1567">1561-1567: Bishop Richard Davies of St Davids and William Salesbury collaborate at Abergwili to translate the Anglican Book of Common Prayer and New Testament into Welsh.</div>
                     </foreignObject>
@@ -238,18 +297,21 @@
                     <text x="650" y="28" text-anchor="middle" stroke="black">1715</text>
                     <text x="900" y="28" text-anchor="middle" stroke="black">1740</text>
                     <text x="1150" y="28" text-anchor="middle" stroke="black">1765</text>
-                    <ellipse id="drc1680" class="rc1680" onmouseover="init_shape_highlight()" onmouseout="rShape()" rx="300" ry="15" cx="600" cy="0" stroke="#1f78b4" fill="#b2df8a" fill-opacity="0.5"/>
+                    <ellipse id="drc1680" class="rc1680" rx="300" ry="15" cx="600" cy="0" stroke="#1f78b4" fill="#b2df8a" fill-opacity="0.5"/>
+                    <rect id="r1680" opacity="0" x="-65" y="50" width="1350" height="50"/>
                     <foreignObject x="-60" y="50" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1680">1680-1740: Witnesses C, D, I, and O written: all are copies of the medieval Statutes of St Davids Cathedral, to which the Brecon charter appears as an appendix.</div>
                     </foreignObject>
                     <foreignObject x="30" y="75" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1680">Copies circulate, ending up at St Davids (D and I), St John's College Cambridge (C), and the Harley Collection (O).</div>
                     </foreignObject>
-                    <ellipse id="drc1739" class="rc1739" onmouseover="init_shape_highlight()" onmouseout="rShape()" rx="110" ry="15" cx="1000" cy="0" stroke="#1f78b4" fill="#b2df8a" fill-opacity="0.5"/>
+                    <ellipse id="drc1739" class="rc1739" rx="110" ry="15" cx="1000" cy="0" stroke="#1f78b4" fill="#b2df8a" fill-opacity="0.5"/>
+                    <rect id="r1739" opacity="0" x="-65" y="100" width="1310" height="25"/>
                     <foreignObject x="-60" y="125" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1739">1739-1761: Edward Yardley, Archdeacon of Carmarthen, compiles his history of St Davids Cathedral and Diocese, Menevia Sacra.</div>
                     </foreignObject>
-                    <circle id="drc1719" class="rc1719" onmouseover="init_shape_highlight()" onmouseout="rShape()" r="10" cx="690" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <circle id="drc1719" class="rc1719" r="10" cx="690" cy="0" stroke="#1f78b4" fill="#a6cee3"/>
+                    <rect id="r1719" opacity="0" x="-65" y="125" width="1080" height="25"/>
                     <foreignObject x="-60" y="100" stroke="black" width="1600" height="1">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="c1719">1719: Browne Willis publishes the Brecon charter in An History of the Mitred Parliamentary Abbies, and Conventual Cathedral Churches, vol. II (Witness W).</div>
                     </foreignObject>
