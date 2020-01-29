@@ -30,7 +30,7 @@ window.onload = function () {
     function CompC() {
         var checkBox = document.getElementById("CompCNav");
         var chars = document.getElementsByClassName("id-c");
-        var textList = document.querySelectorAll("[class *= 'C']");
+        var textList = document.querySelectorAll("[class ^= 'c-variance']");
         var i;
         if (checkBox.checked == true){
             for (x = 0; x < textList.length; x++) {
@@ -51,7 +51,7 @@ window.onload = function () {
     function CompD() {
         var checkBox = document.getElementById("CompDNav");
         var chars = document.getElementsByClassName("id-d");
-        var textList = document.querySelectorAll("[class *= 'D']");
+        var textList = document.querySelectorAll('[class ^= "d-variance"]');
         var i;
         var x;
         if (checkBox.checked == true){
@@ -73,7 +73,7 @@ window.onload = function () {
     function CompI() {
         var checkBox = document.getElementById("CompINav");
         var chars = document.getElementsByClassName("id-i");
-        var textList = document.querySelectorAll("[class *= 'I']");
+        var textList = document.querySelectorAll("[class ^= 'i-variance']");
         var i;
         var x;
         if (checkBox.checked == true){
@@ -95,7 +95,7 @@ window.onload = function () {
     function CompJ() {
         var checkBox = document.getElementById("CompJNav");
         var chars = document.getElementsByClassName("id-j");
-        var textList = document.querySelectorAll("[class *= 'J']");
+        var textList = document.querySelectorAll("[class ^= 'j-variance']");
         var i;
         var x;
         if (checkBox.checked == true){
@@ -117,7 +117,7 @@ window.onload = function () {
     function CompO() {
         var checkBox = document.getElementById("CompONav");
         var chars = document.getElementsByClassName("id-o");
-        var textList = document.querySelectorAll("[class *= 'O']");
+        var textList = document.querySelectorAll("[class ^= 'o-variance']");
         var i;
         var x;
         if (checkBox.checked == true){
@@ -139,7 +139,7 @@ window.onload = function () {
     function CompR() {
         var checkBox = document.getElementById("CompRNav");
         var chars = document.getElementsByClassName("id-r");
-        var textList = document.querySelectorAll("[class *= 'R']");
+        var textList = document.querySelectorAll("[class ^= 'r-variance']");
         var i;
         var x;
         if (checkBox.checked == true){
@@ -161,7 +161,7 @@ window.onload = function () {
     function CompS() {
         var checkBox = document.getElementById("CompSNav");
         var chars = document.getElementsByClassName("id-s");
-        var textList = document.querySelectorAll("[class *= 'S']");
+        var textList = document.querySelectorAll("[class ^= 's-variance']");
         var i;
         var x;
         if (checkBox.checked == true){
@@ -183,7 +183,7 @@ window.onload = function () {
     function CompW() {
         var checkBox = document.getElementById("CompWNav");
         var chars = document.getElementsByClassName("id-w");
-        var textList = document.querySelectorAll("[class *= 'W']");
+        var textList = document.querySelectorAll("[class ^= 'w-variance']");
         var i;
         var x;
         if (checkBox.checked == true){

@@ -114,32 +114,24 @@ ul.comp-links{
     justify-content: center;
     margin: auto;
 }
-.comp-ab{
+.comp{
     display: flex;
     width: 80%;
-    height: 100%;
-    flex-direction: column;
-    margin: 20px;
-    margin-left: 200px;
-    align-items: flex-start;
-}
-.comp-variance{
-    display: flex;
-    width: 100%;
-    height: 100%;
+    height: auto;
     flex-direction: row;
-    margin-left: -120px;
+    border: 1px solid red;
 }
-.comp-left{
+.left{
     display: flex;
     width: 10%;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
+    border: 1px solid black;
 }
-.comp-right{
+.right{
     display: flex;
-    width: 90%;
-    margin-left: 30px;
+    width: 85%;
+    border: 1px solid black;
 }
 .manuscript{
     display: flex;
