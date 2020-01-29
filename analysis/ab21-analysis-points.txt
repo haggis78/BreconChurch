@@ -1,28 +1,28 @@
-    C    5    D    5
-    C    5    I    4
-    C    5    J    0
-    C    5    O    4
-    C    5    R    0
-    C    5    S    0
-    C    5    W    0
-    D    5    I    4
-    D    5    J    0
-    D    5    O    4
-    D    5    R    0
-    D    5    S    0
-    D    5    W    0
-    I    5    J    0
-    I    5    O    5
-    I    5    R    0
-    I    5    S    0
-    I    5    W    0
-    J    5    O    0
-    J    5    R    5
-    J    5    S    5
-    J    5    W    5
-    O    5    R    0
-    O    5    S    0
-    O    5    W    0
-    R    5    S    5
-    R    5    W    5
-    S    5    W    5
+C    5    D    5
+C    5    I    4
+C    5    J    0
+C    5    O    4
+C    5    R    0
+C    5    S    0
+C    5    W    0
+D    5    I    4
+D    5    J    0
+D    5    O    4
+D    5    R    0
+D    5    S    0
+D    5    W    0
+I    5    J    0
+I    5    O    5
+I    5    R    0
+I    5    S    0
+I    5    W    0
+J    5    O    0
+J    5    R    5
+J    5    S    5
+J    5    W    5
+O    5    R    0
+O    5    S    0
+O    5    W    0
+R    5    S    5
+R    5    W    5
+S    5    W    5

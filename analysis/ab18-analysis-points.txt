@@ -1,28 +1,28 @@
-    C    10    D    7
-    C    10    I    7
-    C    10    J    3
-    C    10    O    6
-    C    10    R    4
-    C    10    S    3
-    C    10    W    3
-    D    10    I    8
-    D    10    J    4
-    D    10    O    7
-    D    10    R    5
-    D    10    S    4
-    D    10    W    4
-    I    10    J    6
-    I    10    O    9
-    I    10    R    5
-    I    10    S    6
-    I    10    W    6
-    J    10    O    5
-    J    10    R    2
-    J    10    S    9
-    J    10    W    9
-    O    10    R    4
-    O    10    S    5
-    O    10    W    5
-    R    10    S    3
-    R    10    W    3
-    S    10    W    10
+C    10    D    7
+C    10    I    7
+C    10    J    3
+C    10    O    6
+C    10    R    4
+C    10    S    3
+C    10    W    3
+D    10    I    8
+D    10    J    4
+D    10    O    7
+D    10    R    5
+D    10    S    4
+D    10    W    4
+I    10    J    6
+I    10    O    9
+I    10    R    5
+I    10    S    6
+I    10    W    6
+J    10    O    5
+J    10    R    2
+J    10    S    9
+J    10    W    9
+O    10    R    4
+O    10    S    5
+O    10    W    5
+R    10    S    3
+R    10    W    3
+S    10    W    10

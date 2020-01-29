@@ -1,28 +1,28 @@
-    C    13    D    8
-    C    13    I    9
-    C    13    J    3
-    C    13    O    12
-    C    13    R    6
-    C    13    S    4
-    C    13    W    5
-    D    13    I    7
-    D    13    J    1
-    D    13    O    8
-    D    13    R    7
-    D    13    S    2
-    D    13    W    3
-    I    13    J    4
-    I    13    O    10
-    I    13    R    7
-    I    13    S    5
-    I    13    W    6
-    J    13    O    4
-    J    13    R    5
-    J    13    S    10
-    J    13    W    9
-    O    13    R    6
-    O    13    S    5
-    O    13    W    6
-    R    13    S    6
-    R    13    W    7
-    S    13    W    11
+C    13    D    8
+C    13    I    9
+C    13    J    3
+C    13    O    12
+C    13    R    6
+C    13    S    4
+C    13    W    5
+D    13    I    7
+D    13    J    1
+D    13    O    8
+D    13    R    7
+D    13    S    2
+D    13    W    3
+I    13    J    4
+I    13    O    10
+I    13    R    7
+I    13    S    5
+I    13    W    6
+J    13    O    4
+J    13    R    5
+J    13    S    10
+J    13    W    9
+O    13    R    6
+O    13    S    5
+O    13    W    6
+R    13    S    6
+R    13    W    7
+S    13    W    11
