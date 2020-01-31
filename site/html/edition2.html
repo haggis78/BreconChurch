@@ -8,97 +8,17 @@
         <title>Brecon | Edition SVG</title>
     </head>
     <body>
-        <!--  -->
-        <div class="header">
-            <img id="ab1" src="../img/background/brecon.svg" alt="Image of 'Brecon Collegiate Church and School' in script across the top"/>
-        </div>
-        <div id="navbar">
-            <div class="navbar">
-                <a href="../index.html">Home</a>
-                <div class="dropdown">
-                    <button class="dropbtn">About<i class="fa fa-caret-down"></i></button>
-                    <div class="dropdown-content">
-                        <a href="history.html">History</a>
-                        <a href="Glossary.html">Glossary</a>
-                        <a href="BreconPeople.html">People</a>
-                        <a href="methodology.html">Methodology</a>
-                        <a href="Project_Team.html">About Team</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <button class="dropbtn">Analysis<i class="fa fa-caret-down"></i></button>
-                    <div class="dropdown-content">
-                        <a href="Timeline.html">Timeline</a>
-                        <a href="graphs.html">Graphs</a>
-                        <a href="stemma.html">Stemma</a>
-                        <a href="TextualAnalysis.html">Textual</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <button class="dropbtn">Witnesses<i class="fa fa-caret-down"></i></button>
-                    <div class="dropdown-content">
-                        <a href="texts.html">Source Descriptions</a>
-                        <a href="patent-collection.html">Patent Roll</a>
-                        <a href="transcripts/display/display-R.html">Manuscript R</a>
-                        <a href="transcripts/display/display-C.html">Manuscript C</a>
-                        <a href="transcripts/display/display-D.html">Manuscript D</a>
-                        <a href="transcripts/display/display-I.html">Manuscript I</a>
-                        <a href="transcripts/display/display-O.html">Manuscript O</a>
-                        <a href="transcripts/display/display-W.html">Printing W</a>
-                        <a href="transcripts/display/display-S.html">Printing S</a>
-                        <a href="transcripts/display/display-J.html">Printing J</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <button class="dropbtn">Comparison<i class="fa fa-caret-down"></i></button>
-                    <div class="dropdown-content">
-                        <a href="comparison.html">Transcripts</a>
-                        <a href="edition-svg.html">Anonymous Blocks</a>
-                    </div>
-                </div>
-                <div class="ab-legend">
-                    <a id="ab-legend-C">C</a>
-                    <a id="ab-legend-D">D</a>
-                    <a id="ab-legend-I">I</a>
-                    <a id="ab-legend-J">J</a>
-                    <a id="ab-legend-O">O</a>
-                    <a id="ab-legend-R">R</a>
-                    <a id="ab-legend-S">S</a>
-                    <a id="ab-legend-W">W</a>
-                </div>
-            </div>
-            <div class="svg-page">
-                <button onclick="location.href='#ab1'; abBarGraphs()">1</button>
-                <button onclick="location.href='#ab2'; abBarGraphs()">2</button>
-                <button onclick="location.href='#ab3'; abBarGraphs()">3</button>
-                <button onclick="location.href='#ab4'; abBarGraphs()">4</button>
-                <button onclick="location.href='#ab5'; abBarGraphs()">5</button>
-                <button onclick="location.href='#ab6'; abBarGraphs()">6</button>
-                <button onclick="location.href='#ab7'; abBarGraphs()">7</button>
-                <button onclick="location.href='#ab8'; abBarGraphs()">8</button>
-                <button onclick="location.href='#ab9'; abBarGraphs()">9</button>
-                <button onclick="location.href='#ab10'; abBarGraphs()">10</button>
-                <button onclick="location.href='#ab11'; abBarGraphs()">11</button>
-                <button onclick="location.href='#ab12'; abBarGraphs()">12</button>
-                <button onclick="location.href='#ab13'; abBarGraphs()">13</button>
-                <button onclick="location.href='#ab14'; abBarGraphs()">14</button>
-                <button onclick="location.href='#ab15'; abBarGraphs()">15</button>
-                <button onclick="location.href='#ab16'; abBarGraphs()">16</button>
-                <button onclick="location.href='#ab17'; abBarGraphs()">17</button>
-                <button onclick="location.href='#ab18'; abBarGraphs()">18</button>
-                <button onclick="location.href='#ab19'; abBarGraphs()">19</button>
-                <button onclick="location.href='#ab20'; abBarGraphs()">20</button>
-                <button onclick="location.href='#ab21'; abBarGraphs()">21</button>
-                <button onclick="location.href='#ab22'; abBarGraphs()">22</button>
-                <button onclick="location.href='#ab23'; abBarGraphs()">23</button>
-                <button onclick="location.href='#ab24'; abBarGraphs()">24</button>
-                <button onclick="location.href='#ab25'; abBarGraphs()">25</button>
-            </div>
-        </div>
-        <!--  -->
+        <!-- SSI line below -->
+       <!--#include virtual="ssi/ab-ssi.html" -->
         <div class="content">
+           <p>Below, on the left side, is a chart for each anonymous block of the Letter Patent. The first row of numbers of each chart shows the total word count for that anonymous block; this includes the text in the anonymous block that are the same across all copies and the text that varies, which were tagged using the TEI's critical apparatus tool. Underneath the word count is the string count for each variance between the copies.
+              
+              Located in the navigation bar across the top is the legend for the chart, depicting the color associated with each copy of the Letter Patent. There are also two check boxes that toglle on and off two sets of bar graphs. One shows the word count that was found the same way as in the chart while the other shows the sum of all the string lengths found within the chart.</p>
+           <p>Although the graphs do not match up with the chart, we are working on javascript to hide/show the graphs on the right with the corresponding AB chart on the left.</p>
             <!--If you are looking for a specific manuscript ab, find ab[number]-[manuscript edition]-markers-->
             <!--Example: Manuscript D's AB 7 string counts = ab7-d-markers-->
+           <div class="ab-graphs">
+           <div class="ab-graphs-left">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="8700" viewBox="0 0 300 8700">
                <g transform="translate(0, 40)">
                   <g class="chart-headers">
@@ -14403,8 +14323,9 @@
                   </g>
                </g>
             </svg>
-            <div class="ab-graphs">
-               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="-webkit-user-select: none" id="ab1-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
+           </div>
+            <div class="ab-graphs-right">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ab1-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
                   <g transform="translate(20, 60) scale(.8)">
                      <g class="ab1-word-count-lines">
                         <text x="20" y="-30">Anonymous Block #1: Word Count</text>
@@ -14662,7 +14583,7 @@
                      </g>
                   </g>
                </svg>
-               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="-webkit-user-select: none" id="ab2-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ab2-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
                   <g transform="translate(20, 60) scale(.8)">
                      <g class="ab2-word-count-lines">
                         <text x="20" y="-30">Anonymous Block #2: Word Count</text>
@@ -14920,7 +14841,7 @@
                      </g>
                   </g>
                </svg>
-               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="-webkit-user-select: none" id="ab3-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ab3-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
                   <g transform="translate(20, 60) scale(.8)">
                      <g class="ab3-word-count-lines">
                         <text x="20" y="-30">Anonymous Block #3: Word Count</text>
@@ -15178,7 +15099,7 @@
                      </g>
                   </g>
                </svg>
-               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="-webkit-user-select: none" id="ab4-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ab4-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
                   <g transform="translate(20, 60) scale(.8)">
                      <g class="ab4-word-count-lines">
                         <text x="20" y="-30">Anonymous Block #4: Word Count</text>
@@ -15436,7 +15357,7 @@
                      </g>
                   </g>
                </svg>
-               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="-webkit-user-select: none" id="ab5-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ab5-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
                   <g transform="translate(20, 60) scale(.8)">
                      <g class="ab5-word-count-lines">
                         <text x="20" y="-30">Anonymous Block #5: Word Count</text>
@@ -15694,7 +15615,7 @@
                      </g>
                   </g>
                </svg>
-               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="-webkit-user-select: none" id="ab6-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ab6-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
                   <g transform="translate(20, 60) scale(.8)">
                      <g class="ab6-word-count-lines">
                         <text x="20" y="-30">Anonymous Block #6: Word Count</text>
@@ -15952,7 +15873,7 @@
                      </g>
                   </g>
                </svg>
-               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="-webkit-user-select: none" id="ab7-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ab7-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
                   <g transform="translate(20, 60) scale(.8)">
                      <g class="ab7-word-count-lines">
                         <text x="20" y="-30">Anonymous Block #7: Word Count</text>
@@ -16210,7 +16131,7 @@
                      </g>
                   </g>
                </svg>
-               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="-webkit-user-select: none" id="ab8-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ab8-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
                   <g transform="translate(20, 60) scale(.8)">
                      <g class="ab8-word-count-lines">
                         <text x="20" y="-30">Anonymous Block #8: Word Count</text>
@@ -16468,7 +16389,7 @@
                      </g>
                   </g>
                </svg>
-               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="-webkit-user-select: none" id="ab9-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ab9-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
                   <g transform="translate(20, 60) scale(.8)">
                      <g class="ab9-word-count-lines">
                         <text x="20" y="-30">Anonymous Block #9: Word Count</text>
@@ -16726,7 +16647,7 @@
                      </g>
                   </g>
                </svg>
-               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="-webkit-user-select: none" id="ab10-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ab10-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
                   <g transform="translate(20, 60) scale(.8)">
                      <g class="ab10-word-count-lines">
                         <text x="20" y="-30">Anonymous Block #10: Word Count</text>
@@ -16984,7 +16905,7 @@
                      </g>
                   </g>
                </svg>
-               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="-webkit-user-select: none" id="ab11-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ab11-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
                   <g transform="translate(20, 60) scale(.8)">
                      <g class="ab11-word-count-lines">
                         <text x="20" y="-30">Anonymous Block #11: Word Count</text>
@@ -17242,7 +17163,7 @@
                      </g>
                   </g>
                </svg>
-               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="-webkit-user-select: none" id="ab12-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ab12-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
                   <g transform="translate(20, 60) scale(.8)">
                      <g class="ab12-word-count-lines">
                         <text x="20" y="-30">Anonymous Block #12: Word Count</text>
@@ -17500,7 +17421,7 @@
                      </g>
                   </g>
                </svg>
-               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="-webkit-user-select: none" id="ab13-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ab13-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
                   <g transform="translate(20, 60) scale(.8)">
                      <g class="ab13-word-count-lines">
                         <text x="20" y="-30">Anonymous Block #13: Word Count</text>
@@ -17758,7 +17679,7 @@
                      </g>
                   </g>
                </svg>
-               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="-webkit-user-select: none" id="ab14-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ab14-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
                   <g transform="translate(20, 60) scale(.8)">
                      <g class="ab14-word-count-lines">
                         <text x="20" y="-30">Anonymous Block #14: Word Count</text>
@@ -18016,7 +17937,7 @@
                      </g>
                   </g>
                </svg>
-               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="-webkit-user-select: none" id="ab15-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ab15-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
                   <g transform="translate(20, 60) scale(.8)">
                      <g class="ab15-word-count-lines">
                         <text x="20" y="-30">Anonymous Block #15: Word Count</text>
@@ -18274,7 +18195,7 @@
                      </g>
                   </g>
                </svg>
-               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="-webkit-user-select: none" id="ab16-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ab16-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
                   <g transform="translate(20, 60) scale(.8)">
                      <g class="ab16-word-count-lines">
                         <text x="20" y="-30">Anonymous Block #16: Word Count</text>
@@ -18532,7 +18453,7 @@
                      </g>
                   </g>
                </svg>
-               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="-webkit-user-select: none" id="ab17-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ab17-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
                   <g transform="translate(20, 60) scale(.8)">
                      <g class="ab17-word-count-lines">
                         <text x="20" y="-30">Anonymous Block #17: Word Count</text>
@@ -18790,7 +18711,7 @@
                      </g>
                   </g>
                </svg>
-               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="-webkit-user-select: none" id="ab18-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ab18-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
                   <g transform="translate(20, 60) scale(.8)">
                      <g class="ab18-word-count-lines">
                         <text x="20" y="-30">Anonymous Block #18: Word Count</text>
@@ -19048,7 +18969,7 @@
                      </g>
                   </g>
                </svg>
-               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="-webkit-user-select: none" id="ab19-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ab19-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
                   <g transform="translate(20, 60) scale(.8)">
                      <g class="ab19-word-count-lines">
                         <text x="20" y="-30">Anonymous Block #19: Word Count</text>
@@ -19306,7 +19227,7 @@
                      </g>
                   </g>
                </svg>
-               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="-webkit-user-select: none" id="ab20-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ab20-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
                   <g transform="translate(20, 60) scale(.8)">
                      <g class="ab20-word-count-lines">
                         <text x="20" y="-30">Anonymous Block #20: Word Count</text>
@@ -19564,7 +19485,7 @@
                      </g>
                   </g>
                </svg>
-               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="-webkit-user-select: none" id="ab21-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ab21-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
                   <g transform="translate(20, 60) scale(.8)">
                      <g class="ab21-word-count-lines">
                         <text x="20" y="-30">Anonymous Block #21: Word Count</text>
@@ -19822,7 +19743,7 @@
                      </g>
                   </g>
                </svg>
-               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="-webkit-user-select: none" id="ab22-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ab22-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
                   <g transform="translate(20, 60) scale(.8)">
                      <g class="ab22-word-count-lines">
                         <text x="20" y="-30">Anonymous Block #22: Word Count</text>
@@ -20080,7 +20001,7 @@
                      </g>
                   </g>
                </svg>
-               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="-webkit-user-select: none" id="ab23-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ab23-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
                   <g transform="translate(20, 60) scale(.8)">
                      <g class="ab23-word-count-lines">
                         <text x="20" y="-30">Anonymous Block #23: Word Count</text>
@@ -20330,7 +20251,7 @@
                      </g>
                   </g>
                </svg>
-               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="-webkit-user-select: none" id="ab24-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ab24-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
                   <g transform="translate(20, 60) scale(.8)">
                      <g class="ab24-word-count-lines">
                         <text x="20" y="-30">Anonymous Block #24: Word Count</text>
@@ -20587,7 +20508,7 @@
                      </g>
                   </g>
                </svg>
-               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="-webkit-user-select: none" id="ab25-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ab25-bar-graphs" width="1300" height="600" viewBox="0 0 1300 600">
                   <g transform="translate(20, 60) scale(.8)">
                      <g class="ab25-word-count-lines">
                         <text x="20" y="-30">Anonymous Block #25: Word Count</text>
@@ -20836,6 +20757,7 @@
                   </g>
                </svg>
             </div>
+           </div>
         </div>
     </body>
 </html>

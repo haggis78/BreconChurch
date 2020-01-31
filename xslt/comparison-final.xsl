@@ -133,7 +133,7 @@
     </xsl:template>
     <xsl:template match="descendant::rdg">
         <xsl:if test="attribute::wit[contains(., 'C')]">
-            <div class="c-variance" style="display:none">
+            <div class="c-variance comp" style="display:none">
                 <span class="left">C</span>
                 <span class="right">
                     <xsl:apply-templates select="./text()"/>
@@ -141,7 +141,7 @@
             </div>
         </xsl:if>
         <xsl:if test="attribute::wit[contains(., 'D')]">
-            <div class="d-variance" style="display:none">
+            <div class="d-variance comp" style="display:none">
                 <span class="left">D</span>
                 <span class="right">
                     <xsl:apply-templates select="./text()"/>
@@ -149,7 +149,7 @@
             </div>
         </xsl:if>
         <xsl:if test="attribute::wit[contains(., 'I')]">
-            <div class="i-variance" style="display:none">
+            <div class="i-variance comp" style="display:none">
                 <span class="left">I</span>
                 <span class="right">
                     <xsl:apply-templates select="./text()"/>
@@ -157,7 +157,7 @@
             </div>
         </xsl:if>
         <xsl:if test="attribute::wit[contains(., 'O')]">
-            <div class="o-variance" style="display:none">
+            <div class="o-variance comp" style="display:none">
                 <span class="left">O</span>
                 <span class="right">
                     <xsl:apply-templates select="./text()"/>
@@ -165,7 +165,7 @@
             </div>
         </xsl:if>
         <xsl:if test="attribute::wit[contains(., 'R')]">
-            <div class="r-variance" style="display:none">
+            <div class="r-variance comp" style="display:none">
                 <span class="left">R</span>
                 <span class="right">
                     <xsl:apply-templates select="./text()"/>
@@ -173,7 +173,7 @@
             </div>
         </xsl:if>
         <xsl:if test="attribute::wit[contains(., 'S')]">
-            <div class="s-variance" style="display:none">
+            <div class="s-variance comp" style="display:none">
                 <span class="left">S</span>
                 <span class="right">
                     <xsl:apply-templates select="./text()"/>
@@ -181,7 +181,7 @@
             </div>
         </xsl:if>
         <xsl:if test="attribute::wit[contains(., 'W')]">
-            <div class="w-variance" style="display:none">
+            <div class="w-variance comp" style="display:none">
                 <span class="left">w</span>
                 <span class="right">
                     <xsl:apply-templates select="./text()"/>
