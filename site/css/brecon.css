@@ -222,6 +222,21 @@ svg.edition-svg rect, svg.edition-svg line{
     height: 100%;
     
 }
+.network{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+.network-info{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20vw;
+}
 .svg-page button{
     color: white;
     background-color: black;
