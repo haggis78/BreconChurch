@@ -21,7 +21,7 @@
                     <title>Brecon | Network Analysis</title>
                 </head>
                 <body>
-                    <!-- SSI line below -->
+                    <xsl:comment><!-- SSI line below --></xsl:comment>
                     <div class="header">
                         <img src="../img/background/brecon.svg" alt="Image of 'Brecon Collegiate Church and School' in script across the top"/>
                     </div>
@@ -98,7 +98,7 @@
                             <label><a href="#ab25">25</a></label>
                         </div>
                     </div>
-                    <!--#include virtual="ssi/netwrok-ssi.html"-->
+                    <xsl:comment><!--#include virtual="ssi/netwrok-ssi.html"--></xsl:comment>
                     <div class="content">
                         <p>On this page are network analyses for each anonymous block. Each graph has a circle for each edition. The size of the circle reflects the number of variances that the edition has in that anonymous block that contains text.
                            The thickness of the lines connecting the circles (editions) shows the number of anonymous blocks that the editions have in common. If there is not a line present, the editions have no text variances in common.</p>
