@@ -237,6 +237,9 @@ svg.edition-svg rect, svg.edition-svg line{
     height: 100%;
     width: 20vw;
 }
+.network-table{text-align: center; border-collapse: collapse; overflow: hidden;}
+.network-table td{width: 1em;}
+.network-table td:hover{color: red; background-color: white; font-weight: bold;}
 .svg-page button{
     color: white;
     background-color: black;
