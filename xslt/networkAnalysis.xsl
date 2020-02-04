@@ -150,6 +150,12 @@
                                             <td id="td-su-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit='#S'] => count()"/></td>
                                             <td id="td-wu-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit='#W'] => count()"/></td>
                                         </tr>
+                                        <tr>
+                                            <td><b>Shared</b></td>
+                                            <td>
+                                                <xsl:value-of select="((.[position()]//rdg[@wit[contains(., 'C')][contains(., 'D')]] => count()) > 0)"/>
+                                            </td>
+                                        </tr>
                                     </table>
                                 </div>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="150 0 700 600">
@@ -453,102 +459,102 @@
                                         <caption><b>Apps in Common</b></caption>
                                         <tr>
                                             <th/>
-                                            <th id="head-C-column-ab{position()}">C</th>
-                                            <th id="head-D-column-ab{position()}">D</th>
-                                            <th id="head-I-column-ab{position()}">I</th>
-                                            <th id="head-J-column-ab{position()}">J</th>
-                                            <th id="head-O-column-ab{position()}">O</th>
-                                            <th id="head-R-column-ab{position()}">R</th>
-                                            <th id="head-S-column-ab{position()}">S</th>
-                                            <th id="head-W-column-ab{position()}">W</th>
+                                            <th id="head-C-col-ab{position()}">C</th>
+                                            <th id="head-D-col-ab{position()}">D</th>
+                                            <th id="head-I-col-ab{position()}">I</th>
+                                            <th id="head-J-col-ab{position()}">J</th>
+                                            <th id="head-O-col-ab{position()}">O</th>
+                                            <th id="head-R-col-ab{position()}">R</th>
+                                            <th id="head-S-col-ab{position()}">S</th>
+                                            <th id="head-W-col-ab{position()}">W</th>
                                         </tr>
                                         <tr>
                                             <td id="head-C-row-ab{position()}"><b>C</b></td>
-                                            <td id="column1-1-ab{position()}"> </td>
-                                            <td id="column2-1-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'C')][contains(., 'D')]] => count()"/></td>
-                                            <td id="column3-1-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'C')][contains(., 'I')]] => count()"/></td>
-                                            <td id="column4-1-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'C')][contains(., 'J')]] => count()"/></td>
-                                            <td id="column5-1-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'C')][contains(., 'O')]] => count()"/></td>
-                                            <td id="column6-1-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'C')][contains(., 'R')]] => count()"/></td>
-                                            <td id="column7-1-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'C')][contains(., 'S')]] => count()"/></td>
-                                            <td id="column8-1-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'C')][contains(., 'W')]] => count()"/></td>
+                                            <td class="1-1-ab{position()}" id="column1-1-ab{position()}"> </td>
+                                            <td class="2-1-ab{position()}" id="column2-1-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'C')][contains(., 'D')]] => count()"/></td>
+                                            <td class="3-1-ab{position()}" id="column3-1-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'C')][contains(., 'I')]] => count()"/></td>
+                                            <td class="4-1-ab{position()}" id="column4-1-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'C')][contains(., 'J')]] => count()"/></td>
+                                            <td class="5-1-ab{position()}" id="column5-1-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'C')][contains(., 'O')]] => count()"/></td>
+                                            <td class="6-1-ab{position()}" id="column6-1-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'C')][contains(., 'R')]] => count()"/></td>
+                                            <td class="7-1-ab{position()}" id="column7-1-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'C')][contains(., 'S')]] => count()"/></td>
+                                            <td class="8-1-ab{position()}" id="column8-1-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'C')][contains(., 'W')]] => count()"/></td>
                                         </tr>
                                         <tr>
                                             <td id="head-D-row-ab{position()}"><b>D</b></td>
-                                            <td id="column1-2-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'D')][contains(., 'C')]] => count()"/></td>
-                                            <td id="column2-2-ab{position()}"> </td>
-                                            <td id="column3-2-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'D')][contains(., 'I')]] => count()"/></td>
-                                            <td id="column4-2-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'D')][contains(., 'J')]] => count()"/></td>
-                                            <td id="column5-2-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'D')][contains(., 'O')]] => count()"/></td>
-                                            <td id="column6-2-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'D')][contains(., 'R')]] => count()"/></td>
-                                            <td id="column7-2-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'D')][contains(., 'S')]] => count()"/></td>
-                                            <td id="column8-2-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'D')][contains(., 'W')]] => count()"/></td>
+                                            <td class="1-2-ab{position()}" id="column1-2-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'D')][contains(., 'C')]] => count()"/></td>
+                                            <td class="2-2-ab{position()}" id="column2-2-ab{position()}"> </td>
+                                            <td class="3-2-ab{position()}" id="column3-2-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'D')][contains(., 'I')]] => count()"/></td>
+                                            <td class="4-2-ab{position()}" id="column4-2-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'D')][contains(., 'J')]] => count()"/></td>
+                                            <td class="5-2-ab{position()}" id="column5-2-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'D')][contains(., 'O')]] => count()"/></td>
+                                            <td class="6-2-ab{position()}" id="column6-2-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'D')][contains(., 'R')]] => count()"/></td>
+                                            <td class="7-2-ab{position()}" id="column7-2-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'D')][contains(., 'S')]] => count()"/></td>
+                                            <td class="8-2-ab{position()}" id="column8-2-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'D')][contains(., 'W')]] => count()"/></td>
                                         </tr>
                                         <tr>
                                             <td id="head-I-row-ab{position()}"><b>I</b></td>
-                                            <td id="column1-3-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'I')][contains(., 'C')]] => count()"/></td>
-                                            <td id="column2-3-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'I')][contains(., 'D')]] => count()"/></td>
-                                            <td id="column3-3-ab{position()}"> </td>
-                                            <td id="column4-3-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'I')][contains(., 'J')]] => count()"/></td>
-                                            <td id="column5-3-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'I')][contains(., 'O')]] => count()"/></td>
-                                            <td id="column6-3-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'I')][contains(., 'R')]] => count()"/></td>
-                                            <td id="column7-3-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'I')][contains(., 'S')]] => count()"/></td>
-                                            <td id="column8-3-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'I')][contains(., 'W')]] => count()"/></td>
+                                            <td class="1-3-ab{position()}" id="column1-3-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'I')][contains(., 'C')]] => count()"/></td>
+                                            <td class="2-3-ab{position()}" id="column2-3-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'I')][contains(., 'D')]] => count()"/></td>
+                                            <td class="3-3-ab{position()}" id="column3-3-ab{position()}"> </td>
+                                            <td class="4-3-ab{position()}" id="column4-3-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'I')][contains(., 'J')]] => count()"/></td>
+                                            <td class="5-3-ab{position()}" id="column5-3-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'I')][contains(., 'O')]] => count()"/></td>
+                                            <td class="6-3-ab{position()}" id="column6-3-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'I')][contains(., 'R')]] => count()"/></td>
+                                            <td class="7-3-ab{position()}" id="column7-3-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'I')][contains(., 'S')]] => count()"/></td>
+                                            <td class="8-3-ab{position()}" id="column8-3-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'I')][contains(., 'W')]] => count()"/></td>
                                         </tr>
                                         <tr>
                                             <td id="head-J-row-ab{position()}"><b>J</b></td>
-                                            <td id="column1-4-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'J')][contains(., 'C')]] => count()"/></td>
-                                            <td id="column2-4-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'J')][contains(., 'D')]] => count()"/></td>
-                                            <td id="column3-4-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'J')][contains(., 'I')]] => count()"/></td>
-                                            <td id="column4-4-ab{position()}"> </td>
-                                            <td id="column5-4-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'J')][contains(., 'O')]] => count()"/></td>
-                                            <td id="column6-4-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'J')][contains(., 'R')]] => count()"/></td>
-                                            <td id="column7-4-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'J')][contains(., 'S')]] => count()"/></td>
-                                            <td id="column8-4-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'J')][contains(., 'W')]] => count()"/></td>
+                                            <td class="1-4-ab{position()}" id="column1-4-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'J')][contains(., 'C')]] => count()"/></td>
+                                            <td class="2-4-ab{position()}" id="column2-4-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'J')][contains(., 'D')]] => count()"/></td>
+                                            <td class="3-4-ab{position()}" id="column3-4-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'J')][contains(., 'I')]] => count()"/></td>
+                                            <td class="4-4-ab{position()}" id="column4-4-ab{position()}"> </td>
+                                            <td class="5-4-ab{position()}" id="column5-4-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'J')][contains(., 'O')]] => count()"/></td>
+                                            <td class="6-4-ab{position()}" id="column6-4-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'J')][contains(., 'R')]] => count()"/></td>
+                                            <td class="7-4-ab{position()}" id="column7-4-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'J')][contains(., 'S')]] => count()"/></td>
+                                            <td class="8-4-ab{position()}" id="column8-4-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'J')][contains(., 'W')]] => count()"/></td>
                                         </tr>
                                         <tr>
                                             <td id="head-O-row-ab{position()}"><b>O</b></td>
-                                            <td id="column1-5-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'O')][contains(., 'C')]] => count()"/></td>
-                                            <td id="column2-5-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'O')][contains(., 'D')]] => count()"/></td>
-                                            <td id="column3-5-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'O')][contains(., 'I')]] => count()"/></td>
-                                            <td id="column4-5-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'O')][contains(., 'J')]] => count()"/></td>
-                                            <td id="column5-5-ab{position()}"> </td>
-                                            <td id="column6-5-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'O')][contains(., 'R')]] => count()"/></td>
-                                            <td id="column7-5-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'O')][contains(., 'S')]] => count()"/></td>
-                                            <td id="column8-5-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'O')][contains(., 'W')]] => count()"/></td>
+                                            <td class="1-5-ab{position()}" id="column1-5-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'O')][contains(., 'C')]] => count()"/></td>
+                                            <td class="2-5-ab{position()}" id="column2-5-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'O')][contains(., 'D')]] => count()"/></td>
+                                            <td class="3-5-ab{position()}" id="column3-5-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'O')][contains(., 'I')]] => count()"/></td>
+                                            <td class="4-5-ab{position()}" id="column4-5-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'O')][contains(., 'J')]] => count()"/></td>
+                                            <td class="5-5-ab{position()}" id="column5-5-ab{position()}"> </td>
+                                            <td class="6-5-ab{position()}" id="column6-5-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'O')][contains(., 'R')]] => count()"/></td>
+                                            <td class="7-5-ab{position()}" id="column7-5-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'O')][contains(., 'S')]] => count()"/></td>
+                                            <td class="8-5-ab{position()}" id="column8-5-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'O')][contains(., 'W')]] => count()"/></td>
                                         </tr>
                                         <tr>
                                             <td id="head-R-row-ab{position()}"><b>R</b></td>
-                                            <td id="column1-6-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'R')][contains(., 'C')]] => count()"/></td>
-                                            <td id="column2-6-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'R')][contains(., 'D')]] => count()"/></td>
-                                            <td id="column3-6-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'R')][contains(., 'I')]] => count()"/></td>
-                                            <td id="column4-6-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'R')][contains(., 'J')]] => count()"/></td>
-                                            <td id="column5-6-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'R')][contains(., 'O')]] => count()"/></td>
-                                            <td id="column6-6-ab{position()}"> </td>
-                                            <td id="column7-6-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'R')][contains(., 'S')]] => count()"/></td>
-                                            <td id="column8-6-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'R')][contains(., 'W')]] => count()"/></td>
+                                            <td class="1-6-ab{position()}" id="column1-6-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'R')][contains(., 'C')]] => count()"/></td>
+                                            <td class="2-6-ab{position()}" id="column2-6-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'R')][contains(., 'D')]] => count()"/></td>
+                                            <td class="3-6-ab{position()}" id="column3-6-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'R')][contains(., 'I')]] => count()"/></td>
+                                            <td class="4-6-ab{position()}" id="column4-6-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'R')][contains(., 'J')]] => count()"/></td>
+                                            <td class="5-6-ab{position()}" id="column5-6-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'R')][contains(., 'O')]] => count()"/></td>
+                                            <td class="6-6-ab{position()}" id="column6-6-ab{position()}"> </td>
+                                            <td class="7-6-ab{position()}" id="column7-6-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'R')][contains(., 'S')]] => count()"/></td>
+                                            <td class="8-6-ab{position()}" id="column8-6-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'R')][contains(., 'W')]] => count()"/></td>
                                         </tr>
                                         <tr>
                                             <td id="head-S-row-ab{position()}"><b>S</b></td>
-                                            <td id="column1-7-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'S')][contains(., 'C')]] => count()"/></td>
-                                            <td id="column2-7-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'S')][contains(., 'D')]] => count()"/></td>
-                                            <td id="column3-7-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'S')][contains(., 'I')]] => count()"/></td>
-                                            <td id="column4-7-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'S')][contains(., 'J')]] => count()"/></td>
-                                            <td id="column5-7-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'S')][contains(., 'O')]] => count()"/></td>
-                                            <td id="column6-7-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'S')][contains(., 'R')]] => count()"/></td>
-                                            <td id="column7-7-ab{position()}"> </td>
-                                            <td id="column8-7-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'S')][contains(., 'W')]] => count()"/></td>
+                                            <td class="1-7-ab{position()}" id="column1-7-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'S')][contains(., 'C')]] => count()"/></td>
+                                            <td class="2-7-ab{position()}" id="column2-7-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'S')][contains(., 'D')]] => count()"/></td>
+                                            <td class="3-7-ab{position()}" id="column3-7-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'S')][contains(., 'I')]] => count()"/></td>
+                                            <td class="4-7-ab{position()}" id="column4-7-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'S')][contains(., 'J')]] => count()"/></td>
+                                            <td class="5-7-ab{position()}" id="column5-7-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'S')][contains(., 'O')]] => count()"/></td>
+                                            <td class="6-7-ab{position()}" id="column6-7-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'S')][contains(., 'R')]] => count()"/></td>
+                                            <td class="7-7-ab{position()}" id="column7-7-ab{position()}"> </td>
+                                            <td class="8-7-ab{position()}" id="column8-7-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'S')][contains(., 'W')]] => count()"/></td>
                                         </tr>
                                         <tr>
                                             <td id="head-W-row-ab{position()}"><b>W</b></td>
-                                            <td id="column1-8-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'W')][contains(., 'C')]] => count()"/></td>
-                                            <td id="column2-8-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'W')][contains(., 'D')]] => count()"/></td>
-                                            <td id="column3-8-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'W')][contains(., 'I')]] => count()"/></td>
-                                            <td id="column4-8-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'W')][contains(., 'J')]] => count()"/></td>
-                                            <td id="column5-8-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'W')][contains(., 'O')]] => count()"/></td>
-                                            <td id="column6-8-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'W')][contains(., 'R')]] => count()"/></td>
-                                            <td id="column7-8-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'W')][contains(., 'S')]] => count()"/></td>
-                                            <td id="column8-8-ab{position()}"> </td>
+                                            <td class="1-8-ab{position()}" id="column1-8-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'W')][contains(., 'C')]] => count()"/></td>
+                                            <td class="2-8-ab{position()}" id="column2-8-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'W')][contains(., 'D')]] => count()"/></td>
+                                            <td class="3-8-ab{position()}" id="column3-8-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'W')][contains(., 'I')]] => count()"/></td>
+                                            <td class="4-8-ab{position()}" id="column4-8-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'W')][contains(., 'J')]] => count()"/></td>
+                                            <td class="5-8-ab{position()}" id="column5-8-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'W')][contains(., 'O')]] => count()"/></td>
+                                            <td class="6-8-ab{position()}" id="column6-8-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'W')][contains(., 'R')]] => count()"/></td>
+                                            <td class="7-8-ab{position()}" id="column7-8-ab{position()}"><xsl:value-of select=".[position()]//rdg[@wit[contains(., 'W')][contains(., 'S')]] => count()"/></td>
+                                            <td class="8-8-ab{position()}" id="column8-8-ab{position()}"> </td>
                                         </tr>
                                     </table>
                                 </div>

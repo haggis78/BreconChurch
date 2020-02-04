@@ -105,6 +105,11 @@ function initialize() {
     for (var l = 0; l < tdSel.length; l++) {
         tdSel[l].addEventListener("mouseover", tdH, false);
     }
+    var lineSel = document.querySelectorAll("[id ^= 'line-']")
+    for (var m = 0; m < lineSel.length; m++) {
+        lineSel[m].addEventListener("mouseover", lineH, false);
+        lineSel[m].addEventListener("mouseout", clear, false);
+    }
 }
 
 function clear() {
@@ -118,6 +123,10 @@ function clear() {
     for (var j = 0; j < headers.length; j++) {
         headers[j].style.backgroundColor = "#ffe6b3";
         headers[j].style.color = "black";
+    }
+    var lines = document.querySelectorAll("[id ^= 'line']");
+    for (var k = 0; k < lines.length; k++) {
+        lines[k].style.stroke ="black";
     }
 }
 
@@ -445,5 +454,12 @@ function tdH() {
         tdHighlight[i].style.backgroundColor = "red";
         tdHighlight[i].style.color = "white";
         tdHighlight[i].style.fontWeight = "bold";
+    }
+}
+
+function lineH() {
+    var lineHighlight = document.getElementsByClassName(this.id.split("line-")[1]);
+    for (var i = 0; i < lineHighlight.length; i++) {
+        lineHighlight[i].style.stroke = "red";
     }
 }
