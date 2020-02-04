@@ -32,21 +32,21 @@ function initialize() {
     var circleSSel = document.querySelectorAll("[id ^= 'circleS']");
     var circleWSel = document.querySelectorAll("[id ^= 'circleW']");
     for (var i = 0; i < circleCSel.length; i++) {
-        circleCSel[i].addEventListener("mouseover", cCircleH, false);
+        circleCSel[i].addEventListener("mouseover", cH, false);
         circleCSel[i].addEventListener("mouseout", circleClear, false);
-        circleDSel[i].addEventListener("mouseover", dCircleH, false);
+        circleDSel[i].addEventListener("mouseover", dH, false);
         circleDSel[i].addEventListener("mouseout", circleClear, false);
-        circleISel[i].addEventListener("mouseover", iCircleH, false);
+        circleISel[i].addEventListener("mouseover", iH, false);
         circleISel[i].addEventListener("mouseout", circleClear, false);
-        circleJSel[i].addEventListener("mouseover", jCircleH, false);
+        circleJSel[i].addEventListener("mouseover", jH, false);
         circleJSel[i].addEventListener("mouseout", circleClear, false);
-        circleOSel[i].addEventListener("mouseover", oCircleH, false);
+        circleOSel[i].addEventListener("mouseover", oH, false);
         circleOSel[i].addEventListener("mouseout", circleClear, false);
-        circleRSel[i].addEventListener("mouseover", rCircleH, false);
+        circleRSel[i].addEventListener("mouseover", rH, false);
         circleRSel[i].addEventListener("mouseout", circleClear, false);
-        circleSSel[i].addEventListener("mouseover", sCircleH, false);
+        circleSSel[i].addEventListener("mouseover", sH, false);
         circleSSel[i].addEventListener("mouseout", circleClear, false);
-        circleWSel[i].addEventListener("mouseover", wCircleH, false);
+        circleWSel[i].addEventListener("mouseover", wH, false);
         circleWSel[i].addEventListener("mouseout", circleClear, false);
     }
     var column1Sel = document.querySelectorAll("[id ^= 'column1-']");
@@ -101,13 +101,39 @@ function initialize() {
         row8Sel[k].addEventListener("mouseover", row8H, false);
         row8Sel[k].addEventListener("mouseout", clear, false);
     }
+    var tc = document.querySelectorAll("[id ^= 'head-C']");
+    var td = document.querySelectorAll("[id ^= 'head-D']");
+    var ti = document.querySelectorAll("[id ^= 'head-I']");
+    var tj = document.querySelectorAll("[id ^= 'head-J']");
+    var to = document.querySelectorAll("[id ^= 'head-O']");
+    var tr = document.querySelectorAll("[id ^= 'head-R']");
+    var ts = document.querySelectorAll("[id ^= 'head-S']");
+    var tw = document.querySelectorAll("[id ^= 'head-W']");
+    for (var n = 0; n < tc.length; n++) {
+        tc[n].addEventListener("mouseover", cH, false);
+        tc[n].addEventListener("mouseout", clear, false);
+        td[n].addEventListener("mouseover", dH, false);
+        td[n].addEventListener("mouseout", clear, false);
+        ti[n].addEventListener("mouseover", iH, false);
+        ti[n].addEventListener("mouseout", clear, false);
+        tj[n].addEventListener("mouseover", jH, false);
+        tj[n].addEventListener("mouseout", clear, false);
+        to[n].addEventListener("mouseover", oH, false);
+        to[n].addEventListener("mouseout", clear, false);
+        tr[n].addEventListener("mouseover", rH, false);
+        tr[n].addEventListener("mouseout", clear, false);
+        ts[n].addEventListener("mouseover", sH, false);
+        ts[n].addEventListener("mouseout", clear, false);
+        tw[n].addEventListener("mouseover", wH, false);
+        tw[n].addEventListener("mouseout", clear, false);
+    }
     var tdSel = document.querySelectorAll("[id ^= 'column']");
     for (var l = 0; l < tdSel.length; l++) {
-        tdSel[l].addEventListener("mouseover", tdH, false);
+        tdSel[l].addEventListener("mouseover", matchH, false);
     }
     var lineSel = document.querySelectorAll("[id ^= 'line-']")
     for (var m = 0; m < lineSel.length; m++) {
-        lineSel[m].addEventListener("mouseover", lineH, false);
+        lineSel[m].addEventListener("mouseover", matchH, false);
         lineSel[m].addEventListener("mouseout", clear, false);
     }
 }
@@ -128,84 +154,157 @@ function clear() {
     for (var k = 0; k < lines.length; k++) {
         lines[k].style.stroke ="black";
     }
+    var tds = document.querySelectorAll("[id ^= 'td-']");
+    for (var l = 0; l < tds.length; l++) {
+        tds[l].style.backgroundColor = "#ffe6b3";
+    }
+    var circles = document.querySelectorAll("[id ^= 'circle']");
+    for (var m = 0; m < circles.length; m++) {
+        circles[m].style.stroke = "black";
+    }
 }
 
-function cCircleH() {
+function cH() {
     var cLines = document.querySelectorAll("[id *= 'C']");
     for (var i = 0; i < cLines.length; i++) {
         cLines[i].style.stroke = "red"
-    }
-    var cHead = document.querySelectorAll("[id ^= 'head-c']");
-    for (var j = 0; j < cHead.length; j++) {
-        cHead[j].style.backgroundColor = "grey";
-        cHead[j].style.color = "white";
     }
     var cTD = document.querySelectorAll("[id ^= 'td-c']");
     for (var k = 0; k < cTD.length; k++) {
         cTD[k].style.backgroundColor = "lightGrey";
     }
+    var cRow = document.querySelectorAll("[id *= '-1-ab']");
+    var crHead = document. querySelectorAll("[id ^= 'head-C-col']");
+    var cColumn = document.querySelectorAll("[id ^= 'column1-']");
+    var ccHead = document.querySelectorAll("[id ^= 'head-C-row']");
+    for (var l = 0; l < cRow.length; l++) {
+        cRow[l].style.backgroundColor = "lightGrey";
+    }
+    for (var m = 0; m < cColumn.length; m++) {
+        cColumn[m].style.backgroundColor = "lightGrey";
+    }
+    for (var n = 0; n < crHead.length; n++) {
+        crHead[n].style.backgroundColor = "grey";
+        crHead[n].style.color = "white";
+    }
+    for (var o = 0; o < ccHead.length; o++) {
+        ccHead[o].style.backgroundColor = "grey";
+        ccHead[o].style.color = "white";
+    }
 }
-function dCircleH() {
+function dH() {
     var dLines = document.querySelectorAll("[id *= 'D']");
     for (var i = 0; i < dLines.length; i++) {
         dLines[i].style.stroke = "red"
-    }
-    var dHead = document.querySelectorAll("[id ^= 'head-d']");
-    for (var j = 0; j < dHead.length; j++) {
-        dHead[j].style.backgroundColor = "grey";
-        dHead[j].style.color = "white";
     }
     var dTD = document.querySelectorAll("[id ^= 'td-d']");
     for (var k = 0; k < dTD.length; k++) {
         dTD[k].style.backgroundColor = "lightGrey";
     }
+    var dRow = document.querySelectorAll("[id *= '-2-ab']");
+    var drHead = document. querySelectorAll("[id ^= 'head-D-col']");
+    var dColumn = document.querySelectorAll("[id ^= 'column2-']");
+    var dcHead = document.querySelectorAll("[id ^= 'head-D-row']");
+    for (var l = 0; l < dRow.length; l++) {
+        dRow[l].style.backgroundColor = "lightGrey";
+    }
+    for (var m = 0; m < dColumn.length; m++) {
+        dColumn[m].style.backgroundColor = "lightGrey";
+    }
+    for (var n = 0; n < drHead.length; n++) {
+        drHead[n].style.backgroundColor = "grey";
+        drHead[n].style.color = "white";
+    }
+    for (var o = 0; o < dcHead.length; o++) {
+        dcHead[o].style.backgroundColor = "grey";
+        dcHead[o].style.color = "white";
+    }
 }
-function iCircleH() {
+function iH() {
     var iLines = document.querySelectorAll("[id *= 'I']");
     for (var i = 0; i < iLines.length; i++) {
         iLines[i].style.stroke = "red"
-    }
-    var iHead = document.querySelectorAll("[id ^= 'head-i']");
-    for (var j = 0; j < iHead.length; j++) {
-        iHead[j].style.backgroundColor = "grey";
-        iHead[j].style.color = "white";
     }
     var iTD = document.querySelectorAll("[id ^= 'td-i']");
     for (var k = 0; k < iTD.length; k++) {
         iTD[k].style.backgroundColor = "lightGrey";
     }
+    var iRow = document.querySelectorAll("[id *= '-3-ab']");
+    var irHead = document. querySelectorAll("[id ^= 'head-I-col']");
+    var iColumn = document.querySelectorAll("[id ^= 'column3-']");
+    var icHead = document.querySelectorAll("[id ^= 'head-I-row']");
+    for (var l = 0; l < iRow.length; l++) {
+        iRow[l].style.backgroundColor = "lightGrey";
+    }
+    for (var m = 0; m < iColumn.length; m++) {
+        iColumn[m].style.backgroundColor = "lightGrey";
+    }
+    for (var n = 0; n < irHead.length; n++) {
+        irHead[n].style.backgroundColor = "grey";
+        irHead[n].style.color = "white";
+    }
+    for (var o = 0; o < icHead.length; o++) {
+        icHead[o].style.backgroundColor = "grey";
+        icHead[o].style.color = "white";
+    }
 }
-function jCircleH() {
+function jH() {
     var jLines = document.querySelectorAll("[id *= 'J']");
     for (var i = 0; i < jLines.length; i++) {
         jLines[i].style.stroke = "red"
-    }
-    var jHead = document.querySelectorAll("[id ^= 'head-j']");
-    for (var j = 0; j < jHead.length; j++) {
-        jHead[j].style.backgroundColor = "grey";
-        jHead[j].style.color = "white";
     }
     var jTD = document.querySelectorAll("[id ^= 'td-j']");
     for (var k = 0; k < jTD.length; k++) {
         jTD[k].style.backgroundColor = "lightGrey";
     }
+    var jRow = document.querySelectorAll("[id *= '-4-ab']");
+    var jrHead = document. querySelectorAll("[id ^= 'head-J-col']");
+    var jColumn = document.querySelectorAll("[id ^= 'column4-']");
+    var jcHead = document.querySelectorAll("[id ^= 'head-J-row']");
+    for (var l = 0; l < jRow.length; l++) {
+        jRow[l].style.backgroundColor = "lightGrey";
+    }
+    for (var m = 0; m < jColumn.length; m++) {
+        jColumn[m].style.backgroundColor = "lightGrey";
+    }
+    for (var n = 0; n < jrHead.length; n++) {
+        jrHead[n].style.backgroundColor = "grey";
+        jrHead[n].style.color = "white";
+    }
+    for (var o = 0; o < jcHead.length; o++) {
+        jcHead[o].style.backgroundColor = "grey";
+        jcHead[o].style.color = "white";
+    }
 }
-function oCircleH() {
+function oH() {
     var oLines = document.querySelectorAll("[id *= 'O']");
     for (var i = 0; i < oLines.length; i++) {
         oLines[i].style.stroke = "red"
-    }
-    var oHead = document.querySelectorAll("[id ^= 'head-o']");
-    for (var j = 0; j < oHead.length; j++) {
-        oHead[j].style.backgroundColor = "grey";
-        oHead[j].style.color = "white";
     }
     var oTD = document.querySelectorAll("[id ^= 'td-o']");
     for (var k = 0; k < oTD.length; k++) {
         oTD[k].style.backgroundColor = "lightGrey";
     }
+    var oRow = document.querySelectorAll("[id *= '-5-ab']");
+    var orHead = document. querySelectorAll("[id ^= 'head-O-col']");
+    var oColumn = document.querySelectorAll("[id ^= 'column5-']");
+    var ocHead = document.querySelectorAll("[id ^= 'head-O-row']");
+    for (var l = 0; l < oRow.length; l++) {
+        oRow[l].style.backgroundColor = "lightGrey";
+    }
+    for (var m = 0; m < oColumn.length; m++) {
+        oColumn[m].style.backgroundColor = "lightGrey";
+    }
+    for (var n = 0; n < orHead.length; n++) {
+        orHead[n].style.backgroundColor = "grey";
+        orHead[n].style.color = "white";
+    }
+    for (var o = 0; o < ocHead.length; o++) {
+        ocHead[o].style.backgroundColor = "grey";
+        ocHead[o].style.color = "white";
+    }
 }
-function rCircleH() {
+function rH() {
     var rLines = document.querySelectorAll("[id *= 'R']");
     for (var i = 0; i < rLines.length; i++) {
         rLines[i].style.stroke = "red"
@@ -219,8 +318,26 @@ function rCircleH() {
     for (var k = 0; k < rTD.length; k++) {
         rTD[k].style.backgroundColor = "lightGrey";
     }
+    var rRow = document.querySelectorAll("[id *= '-6-ab']");
+    var rrHead = document. querySelectorAll("[id ^= 'head-R-col']");
+    var rColumn = document.querySelectorAll("[id ^= 'column6-']");
+    var rcHead = document.querySelectorAll("[id ^= 'head-R-row']");
+    for (var l = 0; l < rRow.length; l++) {
+        rRow[l].style.backgroundColor = "lightGrey";
+    }
+    for (var m = 0; m < rColumn.length; m++) {
+        rColumn[m].style.backgroundColor = "lightGrey";
+    }
+    for (var n = 0; n < rrHead.length; n++) {
+        rrHead[n].style.backgroundColor = "grey";
+        rrHead[n].style.color = "white";
+    }
+    for (var o = 0; o < rcHead.length; o++) {
+        rcHead[o].style.backgroundColor = "grey";
+        rcHead[o].style.color = "white";
+    }
 }
-function sCircleH() {
+function sH() {
     var sLines = document.querySelectorAll("[id *= 'S']");
     for (var i = 0; i < sLines.length; i++) {
         sLines[i].style.stroke = "red"
@@ -234,8 +351,26 @@ function sCircleH() {
     for (var k = 0; k < sTD.length; k++) {
         sTD[k].style.backgroundColor = "lightGrey";
     }
+    var sRow = document.querySelectorAll("[id *= '-7-ab']");
+    var srHead = document. querySelectorAll("[id ^= 'head-S-col']");
+    var sColumn = document.querySelectorAll("[id ^= 'column7-']");
+    var scHead = document.querySelectorAll("[id ^= 'head-S-row']");
+    for (var l = 0; l < sRow.length; l++) {
+        sRow[l].style.backgroundColor = "lightGrey";
+    }
+    for (var m = 0; m < sColumn.length; m++) {
+        sColumn[m].style.backgroundColor = "lightGrey";
+    }
+    for (var n = 0; n < srHead.length; n++) {
+        srHead[n].style.backgroundColor = "grey";
+        srHead[n].style.color = "white";
+    }
+    for (var o = 0; o < scHead.length; o++) {
+        scHead[o].style.backgroundColor = "grey";
+        scHead[o].style.color = "white";
+    }
 }
-function wCircleH() {
+function wH() {
     var wLines = document.querySelectorAll("[id *= 'W']");
     for (var i = 0; i < wLines.length; i++) {
         wLines[i].style.stroke = "red"
@@ -248,6 +383,24 @@ function wCircleH() {
     var wTD = document.querySelectorAll("[id ^= 'td-w']");
     for (var k = 0; k < wTD.length; k++) {
         wTD[k].style.backgroundColor = "lightGrey";
+    }
+    var wRow = document.querySelectorAll("[id *= '-8-ab']");
+    var wrHead = document. querySelectorAll("[id ^= 'head-W-col']");
+    var wColumn = document.querySelectorAll("[id ^= 'column8-']");
+    var wcHead = document.querySelectorAll("[id ^= 'head-W-row']");
+    for (var l = 0; l < wRow.length; l++) {
+        wRow[l].style.backgroundColor = "lightGrey";
+    }
+    for (var m = 0; m < wColumn.length; m++) {
+        wColumn[m].style.backgroundColor = "lightGrey";
+    }
+    for (var n = 0; n < wrHead.length; n++) {
+        wrHead[n].style.backgroundColor = "grey";
+        wrHead[n].style.color = "white";
+    }
+    for (var o = 0; o < wcHead.length; o++) {
+        wcHead[o].style.backgroundColor = "grey";
+        wcHead[o].style.color = "white";
     }
 }
 function circleClear() {
@@ -267,6 +420,10 @@ function circleClear() {
     var tds = document.querySelectorAll("[id ^= 'td']");
     for (var l = 0; l < tds.length; l++) {
         tds[l].style.backgroundColor = "#ffe6b3";
+    }
+    var tLines = document.querySelectorAll("[id ^= 'column']");
+    for (var m = 0; m < tLines.length; m++) {
+        tLines[m].style.backgroundColor = "#ffe6b3";
     }
 }
 
@@ -360,7 +517,7 @@ function column8H() {
 }
 
 function row1H() {
-    var row1 = document.querySelectorAll("[id *= '-1-ab']");
+    var row1 = document.querySelectorAll("[id *= '1-ab']");
     var rowC = document.querySelectorAll("[id *= 'C-row-']");
     for (var i = 0; i < row1.length; i++) {
         row1[i].style.backgroundColor = "lightGrey";
@@ -448,17 +605,14 @@ function row8H() {
     }
 }
 
-function tdH() {
-    var tdHighlight = document.getElementsByClassName(this.id.split("column")[1]);
+function matchH() {
+    var tdHighlight = document.getElementsByClassName(this.id.split("match")[1]);
     for (var i = 0; i < tdHighlight.length; i++) {
         tdHighlight[i].style.backgroundColor = "red";
         tdHighlight[i].style.color = "white";
         tdHighlight[i].style.fontWeight = "bold";
     }
-}
-
-function lineH() {
-    var lineHighlight = document.getElementsByClassName(this.id.split("line-")[1]);
+    var lineHighlight = document.getElementsByClassName(this.id.split("match")[1]);
     for (var i = 0; i < lineHighlight.length; i++) {
         lineHighlight[i].style.stroke = "red";
     }
