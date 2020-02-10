@@ -116,22 +116,19 @@ ul.comp-links{
 }
 .comp{
     display: flex;
-    width: 80%;
-    height: auto;
     flex-direction: row;
-    border: 1px solid red;
+    width: 100%;
+    border-bottom: 1px solid black;
 }
 .left{
     display: flex;
-    width: 10%;
+    width: 5%;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
 }
 .right{
     display: flex;
-    width: 85%;
-    border: 1px solid black;
+    width: 95%;
 }
 .manuscript{
     display: flex;
@@ -388,9 +385,9 @@ above { vertical-align: super; }
     width: 50%;
 }
 .overlay {
-display: block;
-margin-left: auto;
-margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -414,34 +411,34 @@ margin-right: auto;
     opacity: 1;
 }
 .texts-container{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: space-around;
-  align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 .texts-info{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-around;
-  align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 .texts-halves{
-  display: flex;
-  flex-direction: column;
-  width: 45%;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
 }
 .texts-bottom{
-  display: flex;
-  width: 95%;
-  flex-directioN: column;
-  margin: auto;
+    display: flex;
+    width: 95%;
+    flex-directioN: column;
+    margin: auto;
 }
 .texts-source-title{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .table{
     display: flex;

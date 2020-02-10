@@ -113,7 +113,7 @@
                                         <caption>
                                             <b>
                                                 <xsl:text>AB #</xsl:text>
-                                                <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'C')]] => count()"/>
+                                                <xsl:value-of select="position()"/>
                                             </b>
                                         </caption>
                                         <colgroup class="network-col-width"/>
@@ -163,205 +163,234 @@
                                         </tr>
                                     </table>
                                 </div>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="150 0 700 600">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="150 0 700 600">
                                     <g class="network-analysis">
                                         <g class="lines">
-                                            <line class="1CD{position()} 2CD{position()}" id="line-CD-ab-match11CD{position()}" x1="500" y1="50" x2="675" y2="125" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'C')][contains(., 'D')]] => count()}">
+                                            <line class="1CD{position()} 2CD{position()}" id="line-CD-ab-1match1CD{position()}" x1="500" y1="50" x2="675" y2="125" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1CD{position()} 2CD{position()}" id="line-CD-ab-2match1CD{position()}" x1="500" y1="50" x2="675" y2="125" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'C')][contains(., 'D')]] => count()}">
                                                 <title>
                                                     <xsl:text>C to D: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'C')][contains(., 'D')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
-                                            <line class="1CI{position()} 2CI{position()}" id="line-CI-ab-match11CI{position()}" x1="500" y1="50" x2="750" y2="300" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'C')][contains(., 'I')]] => count()}">
+                                            <line class="1CI{position()} 2CI{position()}" id="line-CI-ab-1match1CI{position()}" x1="500" y1="50" x2="750" y2="300" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1CI{position()} 2CI{position()}" id="line-CI-ab-2match1CI{position()}" x1="500" y1="50" x2="750" y2="300" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'C')][contains(., 'I')]] => count()}">
                                                 <title>
                                                     <xsl:text>C to I: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'C')][contains(., 'I')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
-                                            <line class="1CJ{position()} 2CJ{position()}" id="line-CJ-ab-match11CJ{position()}" x1="500" y1="50" x2="675" y2="475" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'C')][contains(., 'J')]] => count()}">
+                                            <line class="1CJ{position()} 2CJ{position()}" id="line-CJ-ab-1match1CJ{position()}" x1="500" y1="50" x2="675" y2="475" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1CJ{position()} 2CJ{position()}" id="line-CJ-ab-2match1CJ{position()}" x1="500" y1="50" x2="675" y2="475" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'C')][contains(., 'J')]] => count()}">
                                                 <title>
                                                     <xsl:text>C to J: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'C')][contains(., 'J')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
-                                            <line class="1CO{position()} 2CO{position()}" id="line-CO-ab-match1CO{position()}" x1="500" y1="50" x2="500" y2="550" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'C')][contains(., 'O')]] => count()}">
+                                            <line class="1CO{position()} 2CO{position()}" id="line-CO-ab-1match1CO{position()}" x1="500" y1="50" x2="500" y2="550" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1CO{position()} 2CO{position()}" id="line-CO-ab-2match1CO{position()}" x1="500" y1="50" x2="500" y2="550" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'C')][contains(., 'O')]] => count()}">
                                                 <title>
                                                     <xsl:text>C to O: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'C')][contains(., 'O')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
-                                            <line class="1CR{position()} 2CR{position()}" id="line-CR-ab-match1CR{position()}" x1="500" y1="50" x2="325" y2="475" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'C')][contains(., 'R')]] => count()}">
+                                            <line class="1CR{position()} 2CR{position()}" id="line-CR-ab-1match1CR{position()}" x1="500" y1="50" x2="325" y2="475" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1CR{position()} 2CR{position()}" id="line-CR-ab-2match1CR{position()}" x1="500" y1="50" x2="325" y2="475" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'C')][contains(., 'R')]] => count()}">
                                                 <title>
                                                     <xsl:text>C to R: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'C')][contains(., 'R')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
-                                            <line class="1CS{position()} 2CS{position()}" id="line-CS-ab-match1CS{position()}" x1="500" y1="50" x2="250" y2="300" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'C')][contains(., 'S')]] => count()}">
+                                            <line class="1CS{position()} 2CS{position()}" id="line-CS-ab-1match1CS{position()}" x1="500" y1="50" x2="250" y2="300" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1CS{position()} 2CS{position()}" id="line-CS-ab-2match1CS{position()}" x1="500" y1="50" x2="250" y2="300" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'C')][contains(., 'S')]] => count()}">
                                                 <title>
                                                     <xsl:text>C to S: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'C')][contains(., 'S')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
-                                            <line class="1CW{position()} 2CW{position()}" id="line-CW-ab-match1CW{position()}" x1="500" y1="50" x2="325" y2="125" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'C')][contains(., 'W')]] => count()}">
+                                            <line class="1CW{position()} 2CW{position()}" id="line-CW-ab-1match1CW{position()}" x1="500" y1="50" x2="325" y2="125" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1CW{position()} 2CW{position()}" id="line-CW-ab-2match1CW{position()}" x1="500" y1="50" x2="325" y2="125" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'C')][contains(., 'W')]] => count()}">
                                                 <title>
                                                     <xsl:text>C to W: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'C')][contains(., 'W')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
-                                            <line class="1DI{position()} 2DI{position()}" id="line-DI-ab-match1DI{position()}" x1="675" y1="125" x2="750" y2="300" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'D')][contains(., 'I')]] => count()}">
+                                            <line class="1DI{position()} 2DI{position()}" id="line-DI-ab-1match1DI{position()}" x1="675" y1="125" x2="750" y2="300" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1DI{position()} 2DI{position()}" id="line-DI-ab-2match1DI{position()}" x1="675" y1="125" x2="750" y2="300" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'D')][contains(., 'I')]] => count()}">
                                                 <title>
                                                     <xsl:text>D to I: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'D')][contains(., 'I')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
-                                            <line class="1DJ{position()} 2DJ{position()}" id="line-DJ-ab-match1DJ{position()}" x1="675" y1="125" x2="675" y2="475" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'D')][contains(., 'J')]] => count()}">
+                                            <line class="1DJ{position()} 2DJ{position()}" id="line-DJ-ab-1match1DJ{position()}" x1="675" y1="125" x2="675" y2="475" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1DJ{position()} 2DJ{position()}" id="line-DJ-ab-2match1DJ{position()}" x1="675" y1="125" x2="675" y2="475" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'D')][contains(., 'J')]] => count()}">
                                                 <title>
                                                     <xsl:text>D to J: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'D')][contains(., 'J')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
-                                            <line class="1DO{position()} 2DO{position()}" id="line-DO-ab-match1DO{position()}" x1="675" y1="125" x2="500" y2="550" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'D')][contains(., 'O')]] => count()}">
+                                            <line class="1DO{position()} 2DO{position()}" id="line-DO-ab-1match1DO{position()}" x1="675" y1="125" x2="500" y2="550" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1DO{position()} 2DO{position()}" id="line-DO-ab-2match1DO{position()}" x1="675" y1="125" x2="500" y2="550" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'D')][contains(., 'O')]] => count()}">
                                                 <title>
                                                     <xsl:text>D to O: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'D')][contains(., 'O')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
-                                            <line class="1DR{position()} 2DR{position()}" id="line-DR-ab-match1DR{position()}" x1="675" y1="125" x2="325" y2="475" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'D')][contains(., 'R')]] => count()}">
+                                            <line class="1DR{position()} 2DR{position()}" id="line-DR-ab-1match1DR{position()}" x1="675" y1="125" x2="325" y2="475" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1DR{position()} 2DR{position()}" id="line-DR-ab-2match1DR{position()}" x1="675" y1="125" x2="325" y2="475" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'D')][contains(., 'R')]] => count()}">
                                                 <title>
                                                     <xsl:text>D to R: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'D')][contains(., 'R')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
-                                            <line class="1DS{position()} 2DS{position()}" id="line-DS-ab-match1DS{position()}" x1="675" y1="125" x2="250" y2="300" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'D')][contains(., 'S')]] => count()}">
+                                            <line class="1DS{position()} 2DS{position()}" id="line-DS-ab-1match1DS{position()}" x1="675" y1="125" x2="250" y2="300" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1DS{position()} 2DS{position()}" id="line-DS-ab-2match1DS{position()}" x1="675" y1="125" x2="250" y2="300" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'D')][contains(., 'S')]] => count()}">
                                                 <title>
                                                     <xsl:text>D to S: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'D')][contains(., 'S')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
-                                            <line class="1DW{position()} 2DW{position()}" id="line-DW-ab-match1DW{position()}" x1="675" y1="125" x2="325" y2="125" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'D')][contains(., 'W')]] => count()}">
+                                            <line class="1DW{position()} 2DW{position()}" id="line-DW-ab-1match1DW{position()}" x1="675" y1="125" x2="325" y2="125" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1DW{position()} 2DW{position()}" id="line-DW-ab-2match1DW{position()}" x1="675" y1="125" x2="325" y2="125" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'D')][contains(., 'W')]] => count()}">
                                                 <title>
                                                     <xsl:text>D to W: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'D')][contains(., 'W')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
-                                            <line class="1IJ{position()} 2IJ{position()}" id="line-IJ-ab-match1IJ{position()}" x1="750" y1="300" x2="675" y2="475" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'I')][contains(., 'J')]] => count()}">
+                                            <line class="1IJ{position()} 2IJ{position()}" id="line-IJ-ab-1match1IJ{position()}" x1="750" y1="300" x2="675" y2="475" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1IJ{position()} 2IJ{position()}" id="line-IJ-ab-2match1IJ{position()}" x1="750" y1="300" x2="675" y2="475" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'I')][contains(., 'J')]] => count()}">
                                                 <title>
                                                     <xsl:text>I to J: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'I')][contains(., 'J')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
-                                            <line class="1IO{position()} 2IO{position()}" id="line-IO-ab-match1IO{position()}" x1="750" y1="300" x2="500" y2="550" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'I')][contains(., 'O')]] => count()}">
+                                            <line class="1IO{position()} 2IO{position()}" id="line-IO-ab-1match1IO{position()}" x1="750" y1="300" x2="500" y2="550" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1IO{position()} 2IO{position()}" id="line-IO-ab-2match1IO{position()}" x1="750" y1="300" x2="500" y2="550" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'I')][contains(., 'O')]] => count()}">
                                                 <title>
                                                     <xsl:text>I to O: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'I')][contains(., 'O')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
-                                            <line class="1IR{position()} 2IR{position()}" id="line-IR-ab-match1IR{position()}" x1="750" y1="300" x2="325" y2="475" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'I')][contains(., 'R')]] => count()}">
+                                            <line class="1IR{position()} 2IR{position()}" id="line-IR-ab-1match1IR{position()}" x1="750" y1="300" x2="325" y2="475" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1IR{position()} 2IR{position()}" id="line-IR-ab-2match1IR{position()}" x1="750" y1="300" x2="325" y2="475" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'I')][contains(., 'R')]] => count()}">
                                                 <title>
                                                     <xsl:text>I to R: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'I')][contains(., 'R')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
-                                            <line class="1IS{position()} 2IS{position()}" id="line-IS-ab-match1IS{position()}" x1="750" y1="300" x2="250" y2="300" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'I')][contains(., 'S')]] => count()}">
+                                            <line class="1IS{position()} 2IS{position()}" id="line-IS-ab-1match1IS{position()}" x1="750" y1="300" x2="250" y2="300" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1IS{position()} 2IS{position()}" id="line-IS-ab-2match1IS{position()}" x1="750" y1="300" x2="250" y2="300" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'I')][contains(., 'S')]] => count()}">
                                                 <title>
                                                     <xsl:text>I to S: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'I')][contains(., 'S')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
-                                            <line class="1IW{position()} 2IW{position()}" id="line-IW-ab-match1IW{position()}" x1="750" y1="300" x2="325" y2="125" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'I')][contains(., 'W')]] => count()}">
+                                            <line class="1IW{position()} 2IW{position()}" id="line-IW-ab-1match1IW{position()}" x1="750" y1="300" x2="325" y2="125" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1IW{position()} 2IW{position()}" id="line-IW-ab-2match1IW{position()}" x1="750" y1="300" x2="325" y2="125" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'I')][contains(., 'W')]] => count()}">
                                                 <title>
                                                     <xsl:text>I to W: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'I')][contains(., 'W')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
-                                            <line class="1JO{position()} 2JO{position()}" id="line-JO-ab-match1JO{position()}" x1="675" y1="475" x2="500" y2="550" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'J')][contains(., 'O')]] => count()}">
+                                            <line class="1JO{position()} 2JO{position()}" id="line-JO-ab-1match1JO{position()}" x1="675" y1="475" x2="500" y2="550" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1JO{position()} 2JO{position()}" id="line-JO-ab-2match1JO{position()}" x1="675" y1="475" x2="500" y2="550" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'J')][contains(., 'O')]] => count()}">
                                                 <title>
                                                     <xsl:text>J to O: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'J')][contains(., 'O')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
-                                            <line class="1JR{position()} 2JR{position()}" id="line-JR-ab-match1JR{position()}" x1="675" y1="475" x2="325" y2="475" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'J')][contains(., 'R')]] => count()}">
+                                            <line class="1JR{position()} 2JR{position()}" id="line-JR-ab-1match1JR{position()}" x1="675" y1="475" x2="325" y2="475" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1JR{position()} 2JR{position()}" id="line-JR-ab-2match1JR{position()}" x1="675" y1="475" x2="325" y2="475" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'J')][contains(., 'R')]] => count()}">
                                                 <title>
                                                     <xsl:text>J to R: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'J')][contains(., 'R')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
-                                            <line class="1JS{position()} 2JS{position()}" id="line-JS-ab-match1JS{position()}" x1="675" y1="475" x2="250" y2="300" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'J')][contains(., 'S')]] => count()}">
+                                            <line class="1JS{position()} 2JS{position()}" id="line-JS-ab-1match1JS{position()}" x1="675" y1="475" x2="250" y2="300" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1JS{position()} 2JS{position()}" id="line-JS-ab-2match1JS{position()}" x1="675" y1="475" x2="250" y2="300" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'J')][contains(., 'S')]] => count()}">
                                                 <title>
                                                     <xsl:text>J to S: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'J')][contains(., 'S')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
-                                            <line class="1JW{position()} 2JW{position()}" id="line-JW-ab-match1JW{position()}" x1="675" y1="475" x2="325" y2="125" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'J')][contains(., 'W')]] => count()}">
+                                            <line class="1JW{position()} 2JW{position()}" id="line-JW-ab-1match1JW{position()}" x1="675" y1="475" x2="325" y2="125" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1JW{position()} 2JW{position()}" id="line-JW-ab-2match1JW{position()}" x1="675" y1="475" x2="325" y2="125" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'J')][contains(., 'W')]] => count()}">
                                                 <title>
                                                     <xsl:text>J to W: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'J')][contains(., 'W')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
-                                            <line class="1OR{position()} 2OR{position()}" id="line-OR-ab-match1OR{position()}" x1="500" y1="550" x2="325" y2="475" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'O')][contains(., 'R')]] => count()}">
+                                            <line class="1OR{position()} 2OR{position()}" id="line-OR-ab-1match1OR{position()}" x1="500" y1="550" x2="325" y2="475" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1OR{position()} 2OR{position()}" id="line-OR-ab-2match1OR{position()}" x1="500" y1="550" x2="325" y2="475" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'O')][contains(., 'R')]] => count()}">
                                                 <title>
                                                     <xsl:text>O to R: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'O')][contains(., 'R')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
-                                            <line class="1OS{position()} 2OS{position()}" id="line-OS-ab-match1OS{position()}" x1="500" y1="550" x2="250" y2="300" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'O')][contains(., 'S')]] => count()}">
+                                            <line class="1OS{position()} 2OS{position()}" id="line-OS-ab-1match1OS{position()}" x1="500" y1="550" x2="250" y2="300" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1OS{position()} 2OS{position()}" id="line-OS-ab-2match1OS{position()}" x1="500" y1="550" x2="250" y2="300" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'O')][contains(., 'S')]] => count()}">
                                                 <title>
                                                     <xsl:text>O to S: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'O')][contains(., 'S')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
-                                            <line class="1OW{position()} 2OW{position()}" id="line-OW-ab-match1OW{position()}" x1="500" y1="550" x2="325" y2="125" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'O')][contains(., 'W')]] => count()}">
+                                            <line class="1OW{position()} 2OW{position()}" id="line-OW-ab-1match1OW{position()}" x1="500" y1="550" x2="325" y2="125" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1OW{position()} 2OW{position()}" id="line-OW-ab-2match1OW{position()}" x1="500" y1="550" x2="325" y2="125" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'O')][contains(., 'W')]] => count()}">
                                                 <title>
                                                     <xsl:text>O to W: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'O')][contains(., 'W')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
-                                            <line class="1RS{position()} 2RS{position()}" id="line-RS-ab-match1RS{position()}" x1="325" y1="475" x2="250" y2="300" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'R')][contains(., 'S')]] => count()}">
+                                            <line class="1RS{position()} 2RS{position()}" id="line-RS-ab-1match1RS{position()}" x1="325" y1="475" x2="250" y2="300" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1RS{position()} 2RS{position()}" id="line-RS-ab-2match1RS{position()}" x1="325" y1="475" x2="250" y2="300" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'R')][contains(., 'S')]] => count()}">
                                                 <title>
                                                     <xsl:text>R to S: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'R')][contains(., 'S')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
-                                            <line class="1RW{position()} 2RW{position()}" id="line-RW-ab-match1RW{position()}" x1="325" y1="475" x2="325" y2="125" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'R')][contains(., 'W')]] => count()}">
+                                            <line class="1RW{position()} 2RW{position()}" id="line-RW-ab-1match1RW{position()}" x1="325" y1="475" x2="325" y2="125" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1RW{position()} 2RW{position()}" id="line-RW-ab-2match1RW{position()}" x1="325" y1="475" x2="325" y2="125" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'R')][contains(., 'W')]] => count()}">
                                                 <title>
                                                     <xsl:text>R to W: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'R')][contains(., 'W')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
-                                            <line class="1SW{position()} 2SW{position()}" id="line-SW-ab-match1SW{position()}" x1="250" y1="300" x2="325" y2="125" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'S')][contains(., 'W')]] => count()}">
+                                            <line class="1SW{position()} 2SW{position()}" id="line-SW-ab-1match1SW{position()}" x1="250" y1="300" x2="325" y2="125" stroke="black" stroke-width="6" opacity="0"/>
+                                            <line class="1SW{position()} 2SW{position()}" id="line-SW-ab-2match1SW{position()}" x1="250" y1="300" x2="325" y2="125" stroke="black" stroke-width="{.[position()]//rdg[@wit[contains(., 'S')][contains(., 'W')]] => count()}">
                                                 <title>
                                                     <xsl:text>S to W: </xsl:text>
                                                     <xsl:value-of select=".[position()]//rdg[@wit[contains(., 'S')][contains(., 'W')]] => count()"/>
                                                     <xsl:text> ABs in common</xsl:text>
                                                 </title>
                                             </line>
+                                            <use id="use-ab{position()}" xlink:href="line-SW-ab-match1SW{position()}"/>
                                         </g>
                                         <g class="circles">
                                             <g class="c-edition">

@@ -617,3 +617,11 @@ function matchH() {
         lineHighlight[i].style.stroke = "red";
     }
 }
+
+function redraw(evt) {
+    var newtarget = evt.target || event.target;
+    var topmost = document.getElementById("use");
+    topmost.setAttributeNS("http://www.w3.org/1999/xlink",
+        "xlink:href",
+        "#" + newtarget.id);
+}
