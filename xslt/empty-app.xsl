@@ -9,13 +9,13 @@
         omit-xml-declaration="yes"/>
     <xsl:variable name="currentEdition" as="node()+" select="descendant::altIdentifier/note"/>
     <xsl:template match="/">
-        <xsl:result-document method="xhtml" indent="yes" href="../site/html/variance.html">
+        <xsl:result-document method="xhtml" indent="yes" href="../site/html/analysis/empty-app.html">
             <html xmlns="http://www.w3.org/1999/xhtml">
                 <head>
                     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-                    <link rel="stylesheet" type="text/css" href="../css/brecon.css"/>
-                    <link rel="icon" href="../img/background/brecon-favicon.png"/>
-                    <script src="../javascript/network.js"/>
+                    <link rel="stylesheet" type="text/css" href="../../css/brecon.css"/>
+                    <link rel="icon" href="../../img/background/brecon-favicon.png"/>
+                    <script src="../../javascript/network.js"/>
                     <title>Brecon | Network Analysis</title>
                 </head>
                 <body>
