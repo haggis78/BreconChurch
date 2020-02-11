@@ -51,9 +51,6 @@ function initialize() {
     var row196 = document.querySelectorAll("[id *= '-196-']");
     var row216 = document.querySelectorAll("[id *= '-216-']");
     var row236 = document.querySelectorAll("[id *= '-236-']");
-    for (var aa = 0; aa < row0.length; aa++){
-        row0[aa].style.fill = "black";
-    }
     for (var a = 0; a < row1.length; a++){
         row1[a].style.fill = "#e50000";
     }
@@ -105,34 +102,37 @@ function initialize() {
     for (var r = 0; r < row36.length; r++){
         row36[r].style.fill = "#12cef5";
     }
-    for (var t = 0; t < row56.length; t++){
-        row56[t].style.fill = "#13a2f6";
+    for (var s = 0; s < row56.length; s++){
+        row56[s].style.fill = "#13a2f6";
     }
-    for (var v = 0; v < row76.length; v++){
-        row76[v].style.fill = "#147bf7";
+    for (var t = 0; t < row76.length; t++){
+        row76[t].style.fill = "#147bf7";
     }
-    for (var x = 0; x < row96.length; x++){
-        row96[x].style.fill = "#164bf8";
+    for (var u = 0; u < row96.length; u++){
+        row96[u].style.fill = "#164bf8";
     }
-    for (var z = 0; z < row116.length; z++){
-        row116[z].style.fill = "#171ff9";
+    for (var v = 0; v < row116.length; v++){
+        row116[v].style.fill = "#171ff9";
     }
-    for (var ac = 0; ac < row136.length; ac++){
-        row136[ac].style.fill = "#3c18fa";
+    for (var w = 0; w < row136.length; w++){
+        row136[w].style.fill = "#3c18fa";
     }
-    for (var ae = 0; ae < row156.length; ae++){
-        row156[ae].style.fill = "#6a19fb";
+    for (var x = 0; x < row156.length; x++){
+        row156[x].style.fill = "#6a19fb";
     }
-    for (var ag = 0; ag < row176.length; ag++){
-        row176[ag].style.fill = "#981bfc";
+    for (var y = 0; y < row176.length; y++){
+        row176[y].style.fill = "#981bfc";
     }
-    for (var ai = 0; ai < row196.length; ai++){
-        row196[ai].style.fill = "#c61cfd";
+    for (var z = 0; z < row196.length; z++){
+        row196[z].style.fill = "#c61cfd";
     }
-    for (var ak = 0; ak < row216.length; ak++){
-        row216[ak].style.fill = "#f31d4e";
+    for (var aa = 0; aa < row216.length; aa++){
+        row216[aa].style.fill = "#f31d4e";
     }
-    for (var am = 0; am < row236.length; am++){
-        row236[am].style.fill = "#ff1fdd";
+    for (var ab = 0; ab < row236.length; ab++){
+        row236[ab].style.fill = "#ff1fdd";
+    }
+    for (var ac = 0; ac < row0.length; ac++){
+        row0[ac].style.fill = "black";
     }
 }
