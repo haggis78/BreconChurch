@@ -67,11 +67,160 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="hmKey">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="30" viewBox="0 -10 1450 30">
+                                <g transform="scale(.95), translate(0, -10)">
+                                    <g>
+                                        <rect x="20" y="0" width="55" height="30" fill="#e50000"/>
+                                        <rect x="75" y="0" width="55" height="30" fill="#e62e01"/>
+                                        <rect x="130" y="0" width="55" height="30" fill="#e75c02"/>
+                                        <rect x="185" y="0" width="55" height="30" fill="#e88b03"/>
+                                        <rect x="240" y="0" width="55" height="30" fill="#e9b904"/>
+                                        <rect x="295" y="0" width="55" height="30" fill="#eae705"/>
+                                        <rect x="350" y="0" width="55" height="30" fill="#bfeb06"/>
+                                        <rect x="405" y="0" width="55" height="30" fill="#93ec07"/>
+                                        <rect x="460" y="0" width="55" height="30" fill="#67ed08"/>
+                                        <rect x="515" y="0" width="55" height="30" fill="#3bee0a"/>
+                                        <rect x="570" y="0" width="55" height="30" fill="#0fef0b"/>
+                                        <rect x="625" y="0" width="55" height="30" fill="#0cf035"/>
+                                        <rect x="680" y="0" width="55" height="30" fill="#0df163"/>
+                                        <rect x="735" y="0" width="55" height="30" fill="#0ef291"/>
+                                        <rect x="790" y="0" width="55" height="30" fill="#0ff3bf"/>
+                                        <rect x="845" y="0" width="55" height="30" fill="#11f4ed"/>
+                                        <rect x="900" y="0" width="55" height="30" fill="#12cef5"/>
+                                        <rect x="955" y="0" width="55" height="30" fill="#13a2f6"/>
+                                        <rect x="1010" y="0" width="55" height="30" fill="#147bf7"/>
+                                        <rect x="1065" y="0" width="55" height="30" fill="#164bf8"/>
+                                        <rect x="1120" y="0" width="55" height="30" fill="#171ff9"/>
+                                        <rect x="1175" y="0" width="55" height="30" fill="#3c18fa"/>
+                                        <rect x="1230" y="0" width="55" height="30" fill="#6a19fb"/>
+                                        <rect x="1285" y="0" width="55" height="30" fill="#981bfc"/>
+                                        <rect x="1340" y="0" width="55" height="30" fill="#c61cfd"/>
+                                        <rect x="1395" y="0" width="55" height="30" fill="#f31d4e"/>
+                                        <rect x="1450" y="0" width="55" height="30" fill="#ff1fdd"/>
+                                    </g>
+                                    <g>
+                                        <text x="45" y="20" font-size="14" stroke="black">1</text>
+                                        <text x="100" y="20" font-size="14" stroke="black">2</text>
+                                        <text x="155" y="20" font-size="14" stroke="black">3</text>
+                                        <text x="210" y="20" font-size="14" stroke="black">4</text>
+                                        <text x="265" y="20" font-size="14" stroke="black">5</text>
+                                        <text x="320" y="20" font-size="14" stroke="black">6</text>
+                                        <text x="375" y="20" font-size="14" stroke="black">7</text>
+                                        <text x="430" y="20" font-size="14" stroke="black">8</text>
+                                        <text x="485" y="20" font-size="14" stroke="black">9</text>
+                                        <text x="535" y="20" font-size="14" stroke="black">10</text>
+                                        <text x="590" y="20" font-size="14" stroke="black">11</text>
+                                        <text x="645" y="20" font-size="14" stroke="black">12</text>
+                                        <text x="700" y="20" font-size="14" stroke="black">13</text>
+                                        <text x="755" y="20" font-size="14" stroke="black">14</text>
+                                        <text x="810" y="20" font-size="14" stroke="black">15</text>
+                                        <text x="857" y="20" font-size="14" stroke="black">16-35</text>
+                                        <text x="910" y="20" font-size="14" stroke="black">36-55</text>
+                                        <text x="965" y="20" font-size="14" stroke="black">56-75</text>
+                                        <text x="1020" y="20" font-size="14" stroke="black">76-95</text>
+                                        <text x="1075" y="20" font-size="14" stroke="black">96-115</text>
+                                        <text x="1127" y="20" font-size="14" stroke="black">116-135</text>
+                                        <text x="1182" y="20" font-size="14" stroke="black">136-155</text>
+                                        <text x="1237" y="20" font-size="14" stroke="black">156-175</text>
+                                        <text x="1292" y="20" font-size="14" stroke="black">176-195</text>
+                                        <text x="1347" y="20" font-size="14" stroke="black">196-215</text>
+                                        <text x="1402" y="20" font-size="14" stroke="black">216-235</text>
+                                        <text x="1457" y="20" font-size="14" stroke="black">236-255</text>
+                                    </g>
+                                    <g opacity="0">
+                                        <rect x="20" y="0" width="55" height="30" fill="#e50000">
+                                            <title>String Length = 1</title>
+                                        </rect>
+                                        <rect x="75" y="0" width="55" height="30" fill="#e62e01">
+                                            <title>String Length = 2</title>
+                                        </rect>
+                                        <rect x="130" y="0" width="55" height="30" fill="#e75c02">
+                                            <title>String Length = 3</title>
+                                        </rect>
+                                        <rect x="185" y="0" width="55" height="30" fill="#e88b03">
+                                            <title>String Length = 4</title>
+                                        </rect>
+                                        <rect x="240" y="0" width="55" height="30" fill="#e9b904">
+                                            <title>String Length = 5</title>
+                                        </rect>
+                                        <rect x="295" y="0" width="55" height="30" fill="#eae705">
+                                            <title>String Length = 6</title>
+                                        </rect>
+                                        <rect x="350" y="0" width="55" height="30" fill="#bfeb06">
+                                            <title>String Length = 7</title>
+                                        </rect>
+                                        <rect x="405" y="0" width="55" height="30" fill="#93ec07">
+                                            <title>String Length = 8</title>
+                                        </rect>
+                                        <rect x="460" y="0" width="55" height="30" fill="#67ed08">
+                                            <title>String Length = 9</title>
+                                        </rect>
+                                        <rect x="515" y="0" width="55" height="30" fill="#3bee0a">
+                                            <title>String Length = 10</title>
+                                        </rect>
+                                        <rect x="570" y="0" width="55" height="30" fill="#0fef0b">
+                                            <title>String Length = 11</title>
+                                        </rect>
+                                        <rect x="625" y="0" width="55" height="30" fill="#0cf035">
+                                            <title>String Length = 12</title>
+                                        </rect>
+                                        <rect x="680" y="0" width="55" height="30" fill="#0df163">
+                                            <title>String Length = 13</title>
+                                        </rect>
+                                        <rect x="735" y="0" width="55" height="30" fill="#0ef291">
+                                            <title>String Length = 14</title>
+                                        </rect>
+                                        <rect x="790" y="0" width="55" height="30" fill="#0ff3bf">
+                                            <title>String Length = 15</title>
+                                        </rect>
+                                        <rect x="845" y="0" width="55" height="30" fill="#11f4ed">
+                                            <title>16 &lt; String Length &lt; 35</title>
+                                        </rect>
+                                        <rect x="900" y="0" width="55" height="30" fill="#12cef5">
+                                            <title>36 &lt; String Length &lt; 55</title>
+                                        </rect>
+                                        <rect x="955" y="0" width="55" height="30" fill="#13a2f6">
+                                            <title>56 &lt; String Length &lt; 75</title>
+                                        </rect>
+                                        <rect x="1010" y="0" width="55" height="30" fill="#147bf7">
+                                            <title>76 &lt; String Length &lt; 95</title>
+                                        </rect>
+                                        <rect x="1065" y="0" width="55" height="30" fill="#164bf8">
+                                            <title>96 &lt; String Length &lt; 115</title>
+                                        </rect>
+                                        <rect x="1120" y="0" width="55" height="30" fill="#171ff9">
+                                            <title>116 &lt; String Length &lt; 135</title>
+                                        </rect>
+                                        <rect x="1175" y="0" width="55" height="30" fill="#3c18fa">
+                                            <title>136 &lt; String Length &lt; 155</title>
+                                        </rect>
+                                        <rect x="1230" y="0" width="55" height="30" fill="#6a19fb">
+                                            <title>156 &lt; String Length &lt; 175</title>
+                                        </rect>
+                                        <rect x="1285" y="0" width="55" height="30" fill="#981bfc">
+                                            <title>176 &lt; String Length &lt; 195</title>
+                                        </rect>
+                                        <rect x="1340" y="0" width="55" height="30" fill="#c61cfd">
+                                            <title>196 &lt; String Length &lt; 215</title>
+                                        </rect>
+                                        <rect x="1395" y="0" width="55" height="30" fill="#f31d4e">
+                                            <title>216 &lt; String Length &lt; 235</title>
+                                        </rect>
+                                        <rect x="1450" y="0" width="55" height="30" fill="#ff1fdd">
+                                            <title>236 &lt; String Length &lt; 255</title>
+                                        </rect>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
                     </div>
                     <xsl:comment>#include virtual="../ssi/analysis-ssi.html" </xsl:comment>
                     <div class="content">
+                        <h1>String Length Heat Map</h1>
+                        <p>On this page, you'll find a graphic that measures the string length of each varaince for every witness. The witnesses are listed vertically while the apps are horizontal and a key is held in the navigation bar. A black box indicates that there is no text in that apparatus.</p>
                         <div class="varianceGraphic">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="115" viewBox="0 0 1450 115">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="slhm1" width="1000" height="115" viewBox="0 0 1050 115">
                                 <g transform="translate(10, 0)">
                                 <xsl:for-each select="(descendant::rdg)[position() le 146]">
                                     <xsl:if test=".[@wit[contains(., 'C')]]">
@@ -2999,7 +3148,7 @@
                                     </g>
                                 </g>
                             </svg>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="115" viewBox="0 0 1450 115">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="slhm2" width="1000" height="115" viewBox="0 0 1050 115">
                                 <g transform="translate(-928, 0)">
                                     <xsl:for-each select="(descendant::rdg)[position() ge 147 and position() le 299]">
                                         <xsl:if test=".[@wit[contains(., 'C')]]">
@@ -5927,7 +6076,7 @@
                                     </g>
                                 </g>
                             </svg>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="115" viewBox="0 0 1450 115">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="slhm3" width="1000" height="115" viewBox="0 0 1050 115">
                                 <g transform="translate(-1866, 0)">
                                 <xsl:for-each select="(descendant::rdg)[position() ge 300 and position() le 462]">
                                     <xsl:if test=".[@wit[contains(., 'C')]]">
@@ -8855,7 +9004,7 @@
                                     </g>
                                 </g>
                             </svg>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="115" viewBox="0 0 1450 115">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="slhm4" width="1000" height="115" viewBox="0 0 1050 115">
                                 <g transform="translate(-2804, 0)">
                                 <xsl:for-each select="(descendant::rdg)[position() ge 463]">
                                     <xsl:if test=".[@wit[contains(., 'C')]]">

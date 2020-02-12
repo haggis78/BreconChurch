@@ -73,6 +73,16 @@ body{
     width: 100%;
     background-color: black;
 }
+.varianceGraphic{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+#slhm1, #slhm2, #slhm3, #slhm4{
+    margin: auto;
+}
 .checkbox-nav{
     display: flex;
     flex-direction: row;
