@@ -68,6 +68,11 @@ body{
 .dropdown:hover .dropdown-content {
     display: block;
 }
+.hmKey{
+    display: flex;
+    width: 100%;
+    background-color: black;
+}
 .checkbox-nav{
     display: flex;
     flex-direction: row;
