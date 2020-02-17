@@ -75,13 +75,28 @@ body{
 }
 .varianceGraphic{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: auto;
     justify-content: center;
     align-items: center;
 }
+.svg-expanded{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+#expanded{
+    text-align: center;
+}
 #slhm1, #slhm2, #slhm3, #slhm4{
     margin: auto;
+}
+.hmKey{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
 }
 .checkbox-nav{
     display: flex;
