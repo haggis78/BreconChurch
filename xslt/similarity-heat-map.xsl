@@ -19,6 +19,7 @@
                         <h1>App Similarity Heat Map</h1>
                         <p>On this page, you'll find a graphic that measures the similarities between each witness. The witnesses are listed vertically while the apps are horizontal and a key is held in the navigation bar.</p>
                         <div class="varianceGraphic">
+                            <div class="svg-expanded">
                             <svg xmlns="http://www.w3.org/2000/svg" id="shm1" width="1000" height="115" viewBox="0 0 1050 115">
                                 <g transform="translate(10, 0)">
                                 <xsl:for-each select="(descendant::rdg)[position() le 146]">
@@ -2515,6 +2516,7 @@
                                     </g>
                                 </g>
                             </svg>
+                            </div>
                         </div>
                     </div>
                 </body>
