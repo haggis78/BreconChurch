@@ -20,7 +20,7 @@
                         <p>On this page, you'll find a graphic that measures the similarities between each witness. The witnesses are listed vertically while the apps are horizontal and a key is held in the navigation bar.</p>
                         <div class="varianceGraphic">
                             <div class="svg-expanded">
-                            <svg xmlns="http://www.w3.org/2000/svg" id="shm1" width="1000" height="115" viewBox="0 0 1050 115">
+                                <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="shm1" width="1000" height="115" viewBox="0 0 1050 115">
                                 <g transform="translate(10, 0)">
                                 <xsl:for-each select="(descendant::rdg)[position() le 146]">
                                     <xsl:if test=".[@wit[contains(., 'C')]]">
@@ -633,18 +633,42 @@
                                     </xsl:if>
                                 </xsl:for-each>
                                     <g>
-                                        <text x="-10" y="13" font-size="16">C</text>
-                                        <text x="-10" y="27" font-size="16">D</text>
-                                        <text x="-10" y="41" font-size="16">I</text>
-                                        <text x="-10" y="55" font-size="16">J</text>
-                                        <text x="-10" y="69" font-size="16">O</text>
-                                        <text x="-10" y="83" font-size="16">R</text>
-                                        <text x="-10" y="97" font-size="16">S</text>
-                                        <text x="-10" y="111" font-size="16">W</text>
+                                        <a xlink:href="../comparison/c-app-hm-expanded.html" xlink:title="C App Similarity Heat Map (Expanded)">
+                                            <rect x="-10" y="0" height="15" width="20" opacity="0"/>
+                                            <text x="-10" y="13" font-size="16">C</text>
+                                        </a>
+                                        <a xlink:href="../comparison/d-app-hm-expanded.html" xlink:title="D App Similarity Heat Map (Expanded)">
+                                            <rect x="-10" y="13" height="15" width="20" opacity="0"/>
+                                            <text x="-10" y="27" font-size="16">D</text>
+                                        </a>
+                                        <a xlink:href="../comparison/i-app-hm-expanded.html" xlink:title="I App Similarity Heat Map (Expanded)">
+                                            <rect x="-10" y="27" height="15" width="20" opacity="0"/>
+                                            <text x="-10" y="41" font-size="16">I</text>
+                                        </a>
+                                        <a xlink:href="../comparison/j-app-hm-expanded.html" xlink:title="J App Similarity Heat Map (Expanded)">
+                                            <rect x="-10" y="41" height="15" width="20" opacity="0"/>
+                                            <text x="-10" y="55" font-size="16">J</text>
+                                        </a>
+                                        <a xlink:href="../comparison/o-app-hm-expanded.html" xlink:title="O App Similarity Heat Map (Expanded)">
+                                            <rect x="-10" y="55" height="15" width="20" opacity="0"/>
+                                            <text x="-10" y="69" font-size="16">O</text>
+                                        </a>
+                                        <a xlink:href="../comparison/r-app-hm-expanded.html" xlink:title="R App Similarity Heat Map (Expanded)">
+                                            <rect x="-10" y="69" height="15" width="20" opacity="0"/>
+                                            <text x="-10" y="83" font-size="16">R</text>
+                                        </a>
+                                        <a xlink:href="../comparison/s-app-hm-expanded.html" xlink:title="S App Similarity Heat Map (Expanded)">
+                                            <rect x="-10" y="83" height="15" width="20" opacity="0"/>
+                                            <text x="-10" y="97" font-size="16">S</text>
+                                        </a>
+                                        <a xlink:href="../comparison/w-app-hm-expanded.html" xlink:title="W App Similarity Heat Map (Expanded)">
+                                            <rect x="-10" y="97" height="15" width="20" opacity="0"/>
+                                            <text x="-10" y="111" font-size="16">W</text>
+                                        </a>
                                     </g>
                                 </g>
                             </svg>
-                            <svg xmlns="http://www.w3.org/2000/svg" id="slhm2" width="1000" height="115" viewBox="0 0 1050 115">
+                                <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="slhm2" width="1000" height="115" viewBox="0 0 1050 115">
                                 <g transform="translate(-928, 0)">
                                     <xsl:for-each select="(descendant::rdg)[position() ge 147 and position() le 299]">
                                     <xsl:if test=".[@wit[contains(., 'C')]]">
@@ -1257,18 +1281,42 @@
                                     </xsl:if>
                                 </xsl:for-each>
                                     <g>
-                                        <text x="928" y="13" font-size="16">C</text>
-                                        <text x="928" y="27" font-size="16">D</text>
-                                        <text x="928" y="41" font-size="16">I</text>
-                                        <text x="928" y="55" font-size="16">J</text>
-                                        <text x="928" y="69" font-size="16">O</text>
-                                        <text x="928" y="83" font-size="16">R</text>
-                                        <text x="928" y="97" font-size="16">S</text>
-                                        <text x="928" y="111" font-size="16">W</text>
+                                        <a xlink:href="../comparison/c-app-hm-expanded.html" xlink:title="C App Similarity Heat Map (Expanded)">
+                                            <rect x="928" y="0" height="15" width="20" opacity="0"/>
+                                            <text x="928" y="13" font-size="16">C</text>
+                                        </a>
+                                        <a xlink:href="../comparison/d-app-hm-expanded.html" xlink:title="D App Similarity Heat Map (Expanded)">
+                                            <rect x="928" y="13" height="15" width="20" opacity="0"/>
+                                            <text x="928" y="27" font-size="16">D</text>
+                                        </a>
+                                        <a xlink:href="../comparison/i-app-hm-expanded.html" xlink:title="I App Similarity Heat Map (Expanded)">
+                                            <rect x="928" y="27" height="15" width="20" opacity="0"/>
+                                            <text x="928" y="41" font-size="16">I</text>
+                                        </a>
+                                        <a xlink:href="../comparison/j-app-hm-expanded.html" xlink:title="J App Similarity Heat Map (Expanded)">
+                                            <rect x="928" y="41" height="15" width="20" opacity="0"/>
+                                            <text x="928" y="55" font-size="16">J</text>
+                                        </a>
+                                        <a xlink:href="../comparison/o-app-hm-expanded.html" xlink:title="O App Similarity Heat Map (Expanded)">
+                                            <rect x="928" y="55" height="15" width="20" opacity="0"/>
+                                            <text x="928" y="69" font-size="16">O</text>
+                                        </a>
+                                        <a xlink:href="../comparison/r-app-hm-expanded.html" xlink:title="R App Similarity Heat Map (Expanded)">
+                                            <rect x="928" y="69" height="15" width="20" opacity="0"/>
+                                            <text x="928" y="83" font-size="16">R</text>
+                                        </a>
+                                        <a xlink:href="../comparison/s-app-hm-expanded.html" xlink:title="S App Similarity Heat Map (Expanded)">
+                                            <rect x="928" y="83" height="15" width="20" opacity="0"/>
+                                            <text x="928" y="97" font-size="16">S</text>
+                                        </a>
+                                        <a xlink:href="../comparison/w-app-hm-expanded.html" xlink:title="W App Similarity Heat Map (Expanded)">
+                                            <rect x="928" y="97" height="15" width="20" opacity="0"/>
+                                            <text x="928" y="111" font-size="16">W</text>
+                                        </a>
                                     </g>
                                 </g>
                             </svg>
-                            <svg xmlns="http://www.w3.org/2000/svg" id="slhm3" width="1000" height="115" viewBox="0 0 1050 115">
+                                <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="slhm3" width="1000" height="115" viewBox="0 0 1050 115">
                                 <g transform="translate(-1866, 0)">
                                     <xsl:for-each select="(descendant::rdg)[position() ge 300 and position() le 462]">
                                     <xsl:if test=".[@wit[contains(., 'C')]]">
@@ -1881,18 +1929,42 @@
                                     </xsl:if>
                                 </xsl:for-each>
                                     <g>
-                                        <text x="1866" y="13" font-size="16">C</text>
-                                        <text x="1866" y="27" font-size="16">D</text>
-                                        <text x="1866" y="41" font-size="16">I</text>
-                                        <text x="1866" y="55" font-size="16">J</text>
-                                        <text x="1866" y="69" font-size="16">O</text>
-                                        <text x="1866" y="83" font-size="16">R</text>
-                                        <text x="1866" y="97" font-size="16">S</text>
-                                        <text x="1866" y="111" font-size="16">W</text>
+                                        <a xlink:href="../comparison/c-app-hm-expanded.html" xlink:title="C App Similarity Heat Map (Expanded)">
+                                            <rect x="1866" y="0" height="15" width="20" opacity="0"/>
+                                            <text x="1866" y="13" font-size="16">C</text>
+                                        </a>
+                                        <a xlink:href="../comparison/d-app-hm-expanded.html" xlink:title="D App Similarity Heat Map (Expanded)">
+                                            <rect x="1866" y="13" height="15" width="20" opacity="0"/>
+                                            <text x="1866" y="27" font-size="16">D</text>
+                                        </a>
+                                        <a xlink:href="../comparison/i-app-hm-expanded.html" xlink:title="I App Similarity Heat Map (Expanded)">
+                                            <rect x="1866" y="27" height="15" width="20" opacity="0"/>
+                                            <text x="1866" y="41" font-size="16">I</text>
+                                        </a>
+                                        <a xlink:href="../comparison/j-app-hm-expanded.html" xlink:title="J App Similarity Heat Map (Expanded)">
+                                            <rect x="1866" y="41" height="15" width="20" opacity="0"/>
+                                            <text x="1866" y="55" font-size="16">J</text>
+                                        </a>
+                                        <a xlink:href="../comparison/o-app-hm-expanded.html" xlink:title="O App Similarity Heat Map (Expanded)">
+                                            <rect x="1866" y="55" height="15" width="20" opacity="0"/>
+                                            <text x="1866" y="69" font-size="16">O</text>
+                                        </a>
+                                        <a xlink:href="../comparison/r-app-hm-expanded.html" xlink:title="R App Similarity Heat Map (Expanded)">
+                                            <rect x="1866" y="69" height="15" width="20" opacity="0"/>
+                                            <text x="1866" y="83" font-size="16">R</text>
+                                        </a>
+                                        <a xlink:href="../comparison/s-app-hm-expanded.html" xlink:title="S App Similarity Heat Map (Expanded)">
+                                            <rect x="1866" y="83" height="15" width="20" opacity="0"/>
+                                            <text x="1866" y="97" font-size="16">S</text>
+                                        </a>
+                                        <a xlink:href="../comparison/w-app-hm-expanded.html" xlink:title="W App Similarity Heat Map (Expanded)">
+                                            <rect x="1866" y="97" height="15" width="20" opacity="0"/>
+                                            <text x="1866" y="111" font-size="16">W</text>
+                                        </a>
                                     </g>
                                 </g>
                             </svg>
-                            <svg xmlns="http://www.w3.org/2000/svg" id="slhm4" width="1000" height="115" viewBox="0 0 1050 115">
+                                <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="slhm4" width="1000" height="115" viewBox="0 0 1050 115">
                                 <g transform="translate(-2804, 0)">
                                     <xsl:for-each select="(descendant::rdg)[position() ge 463]">
                                     <xsl:if test=".[@wit[contains(., 'C')]]">
@@ -2505,14 +2577,38 @@
                                     </xsl:if>
                                 </xsl:for-each>
                                     <g>
-                                        <text x="2804" y="13" font-size="16">C</text>
-                                        <text x="2804" y="27" font-size="16">D</text>
-                                        <text x="2804" y="41" font-size="16">I</text>
-                                        <text x="2804" y="55" font-size="16">J</text>
-                                        <text x="2804" y="69" font-size="16">O</text>
-                                        <text x="2804" y="83" font-size="16">R</text>
-                                        <text x="2804" y="97" font-size="16">S</text>
-                                        <text x="2804" y="111" font-size="16">W</text>
+                                        <a xlink:href="../comparison/c-app-hm-expanded.html" xlink:title="C App Similarity Heat Map (Expanded)">
+                                            <rect x="2804" y="0" height="15" width="20" opacity="0"/>
+                                            <text x="2804" y="13" font-size="16">C</text>
+                                        </a>
+                                        <a xlink:href="../comparison/d-app-hm-expanded.html" xlink:title="D App Similarity Heat Map (Expanded)">
+                                            <rect x="2804" y="13" height="15" width="20" opacity="0"/>
+                                            <text x="2804" y="27" font-size="16">D</text>
+                                        </a>
+                                        <a xlink:href="../comparison/i-app-hm-expanded.html" xlink:title="I App Similarity Heat Map (Expanded)">
+                                            <rect x="2804" y="27" height="15" width="20" opacity="0"/>
+                                            <text x="2804" y="41" font-size="16">I</text>
+                                        </a>
+                                        <a xlink:href="../comparison/j-app-hm-expanded.html" xlink:title="J App Similarity Heat Map (Expanded)">
+                                            <rect x="2804" y="41" height="15" width="20" opacity="0"/>
+                                            <text x="2804" y="55" font-size="16">J</text>
+                                        </a>
+                                        <a xlink:href="../comparison/o-app-hm-expanded.html" xlink:title="O App Similarity Heat Map (Expanded)">
+                                            <rect x="2804" y="55" height="15" width="20" opacity="0"/>
+                                            <text x="2804" y="69" font-size="16">O</text>
+                                        </a>
+                                        <a xlink:href="../comparison/r-app-hm-expanded.html" xlink:title="R App Similarity Heat Map (Expanded)">
+                                            <rect x="2804" y="69" height="15" width="20" opacity="0"/>
+                                            <text x="2804" y="83" font-size="16">R</text>
+                                        </a>
+                                        <a xlink:href="../comparison/s-app-hm-expanded.html" xlink:title="S App Similarity Heat Map (Expanded)">
+                                            <rect x="2804" y="83" height="15" width="20" opacity="0"/>
+                                            <text x="2804" y="97" font-size="16">S</text>
+                                        </a>
+                                        <a xlink:href="../comparison/w-app-hm-expanded.html" xlink:title="W App Similarity Heat Map (Expanded)">
+                                            <rect x="2804" y="97" height="15" width="20" opacity="0"/>
+                                            <text x="2804" y="111" font-size="16">W</text>
+                                        </a>
                                     </g>
                                 </g>
                             </svg>
