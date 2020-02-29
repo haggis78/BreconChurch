@@ -14,6 +14,111 @@
                 </head>
                 <body>
                     <xsl:comment> SSI line below </xsl:comment>
+                    <div class="header">
+                        <img src="../../img/background/brecon.svg" alt="Image of 'Brecon Collegiate Church and School' in script across the top" />
+                    </div>
+                    <div id="navbar">
+                        <div class="navbar"><a href="../../index.html">Home</a><div class="dropdown"><button class="dropbtn">About<i class="fa fa-caret-down"></i></button><div class="dropdown-content"><a href="../about/history.html">History</a><a href="../about/Glossary.html">Glossary</a><a href="../about/BreconPeople.html">People</a><a href="../about/methodology.html">Methodology</a><a href="../about/Project_Team.html">About Team</a></div>
+                        </div>
+                            <div class="dropdown">
+                                <button class="dropbtn">Analysis<i class="fa fa-caret-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="Timeline.html">Timeline</a>
+                                    <a href="TextualAnalysis.html#codicum">Stemma</a>
+                                    <a href="Graphs.html">Graphs</a>
+                                    <a href="string-length-heat-map.html">String Length Heat Map</a>
+                                    <a href="similarity-heat-map.html">App Similarity Heat Map</a>
+                                    <a href="network.html">Network</a>
+                                    <a href="TextualAnalysis.html">Textual</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropbtn">Witnesses<i class="fa fa-caret-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="../witnesses/texts.html">Source Descriptions</a>
+                                    <a href="../witnesses/patent-collection.html">Patent Roll</a>
+                                    <a href="../witnesses/display-R.html">Manuscript R</a>
+                                    <a href="../witnesses/display-C.html">Manuscript C</a>
+                                    <a href="../witnesses/display-D.html">Manuscript D</a>
+                                    <a href="../witnesses/display-I.html">Manuscript I</a>
+                                    <a href="../witnesses/display-O.html">Manuscript O</a>
+                                    <a href="../witnesses/display-W.html">Printing W</a>
+                                    <a href="../witnesses/display-S.html">Printing S</a>
+                                    <a href="../witnesses/display-J.html">Printing J</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropbtn">Comparison<i class="fa fa-caret-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a>Transcripts (WiP)</a>
+                                    <a>Anonymous Blocks (WiP)</a>
+                                </div>
+                            </div>
+                            <div class="editions">
+                                <a href="../comparison/c-app-hm-expanded.html">C</a>
+                                <a href="../comparison/d-app-hm-expanded.html">D</a>
+                                <a href="../comparison/i-app-hm-expanded.html">I</a>
+                                <a href="../comparison/j-app-hm-expanded.html">J</a>
+                                <a href="../comparison/o-app-hm-expanded.html">O</a>
+                                <a href="../comparison/r-app-hm-expanded.html">R</a>
+                                <a href="../comparison/s-app-hm-expanded.html">S</a>
+                                <a href="../comparison/w-app-hm-expanded.html">W</a>
+                                <a href="similarity-heat-map.html">Similarity Overview</a>
+                            </div>
+                        </div>
+                        <div class="hmKey">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="30" viewBox="0 -10 1450 30">
+                                <g transform="scale(.95), translate(0, -10)">
+                                    <g>
+                                        <rect x="20" y="0" width="180" height="30" fill="#e50000"/>
+                                        <rect x="200" y="0" width="180" height="30" fill="#e62e01"/>
+                                        <rect x="380" y="0" width="180" height="30" fill="#e75c02"/>
+                                        <rect x="560" y="0" width="180" height="30" fill="#e88b03"/>
+                                        <rect x="740" y="0" width="180" height="30" fill="#e9b904"/>
+                                        <rect x="920" y="0" width="180" height="30" fill="#eae705"/>
+                                        <rect x="1100" y="0" width="180" height="30" fill="#bfeb06"/>
+                                        <rect x="1280" y="0" width="180" height="30" fill="#93ec07"/>
+                                    </g>
+                                    <g>
+                                        <text x="110" y="20" font-size="14" stroke="black" text-anchor="middle">Unique</text>
+                                        <text x="290" y="20" font-size="14" stroke="black" text-anchor="middle">1 in Common</text>
+                                        <text x="470" y="20" font-size="14" stroke="black" text-anchor="middle">2 in Common</text>
+                                        <text x="650" y="20" font-size="14" stroke="black" text-anchor="middle">3 in Common</text>
+                                        <text x="830" y="20" font-size="14" stroke="black" text-anchor="middle">4 in Common</text>
+                                        <text x="1010" y="20" font-size="14" stroke="black" text-anchor="middle">5 in Common</text>
+                                        <text x="1190" y="20" font-size="14" stroke="black" text-anchor="middle">6 in Common</text>
+                                        <text x="1370" y="20" font-size="14" stroke="black" text-anchor="middle">All in Common</text>
+                                    </g>
+                                    <g opacity="0">
+                                        <rect x="20" y="0" width="180" height="30">
+                                            <title>Unique to that edition</title>
+                                        </rect>
+                                        <rect x="200" y="0" width="180" height="30">
+                                            <title>1 Other Edition in Common</title>
+                                        </rect>
+                                        <rect x="380" y="0" width="180" height="30">
+                                            <title>2 Other Edition in Common</title>
+                                        </rect>
+                                        <rect x="560" y="0" width="180" height="30">
+                                            <title>3 Other Edition in Common</title>
+                                        </rect>
+                                        <rect x="740" y="0" width="180" height="30">
+                                            <title>4 Other Edition in Common</title>
+                                        </rect>
+                                        <rect x="920" y="0" width="180" height="30">
+                                            <title>5 Other Edition in Common</title>
+                                        </rect>
+                                        <rect x="1100" y="0" width="180" height="30">
+                                            <title>6 Other Edition in Common</title>
+                                        </rect>
+                                        <rect x="1280" y="0" width="180" height="30">
+                                            <title>All Editions have this text in Common</title>
+                                        </rect>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
                     <xsl:comment>#include virtual="../ssi/analysis-similarity-heatmap-ssi.html" </xsl:comment>
                     <div class="content">
                         <h1>App Similarity Heat Map</h1>
@@ -104,14 +209,12 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals">
+                                            <text x="-10" y="16">C</text>
                                             <g class="c-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expC-1" x="-60" y="3" width="44" height="14" opacity="0">
-                                                    <title>Expand heat map for witness C</title>
-                                                </rect>
+                                                <rect id="expC-1" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
-                                            <text x="-10" y="16">C</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -667,9 +770,9 @@
                                             <g class="c-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colC-1" x="-60" y="3" width="44" height="14" opacity="0">
+                                                <polygon id="colC-1" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness C</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -757,14 +860,12 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals">
+                                            <text x="-10" y="16">D</text>
                                             <g class="d-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expD-1" x="-60" y="3" width="44" height="14" opacity="0">
-                                                    <title>Expand heat map for witness D</title>
-                                                </rect>
+                                                <rect id="expD-1" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
-                                            <text x="-10" y="16">D</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -1320,9 +1421,9 @@
                                             <g class="d-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colD-1" x="-60" y="3" width="44" height="14" opacity="0">
+                                                <polygon id="colD-1" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness D</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -1410,14 +1511,12 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals">
+                                            <text x="-10" y="16">I</text>
                                             <g class="i-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expI-1" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
-                                                    <title>Expand heat map for witness I</title>
-                                                </rect>
+                                                <rect id="expI-1" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
-                                            <text x="-10" y="16">I</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -1973,9 +2072,9 @@
                                             <g class="i-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colI-1" x="-60" y="3" width="44" height="14" opacity="0">
+                                                <polygon id="colI-1" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness I</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -2063,14 +2162,12 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals">
+                                            <text x="-10" y="16">J</text>
                                             <g class="j-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expJ-1" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
-                                                    <title>Expand heat map for witness C</title>
-                                                </rect>
+                                                <rect id="expJ-1" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
-                                            <text x="-10" y="16">J</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -2626,9 +2723,9 @@
                                             <g class="j-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colJ-1" x="-60" y="3" width="44" height="14" opacity="0">
+                                                <polygon id="colJ-1" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness J</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -2716,14 +2813,12 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals">
+                                            <text x="-10" y="16">O</text>
                                             <g class="o-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expO-1" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
-                                                    <title>Expand heat map for witness C</title>
-                                                </rect>
+                                                <rect id="expO-1" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
-                                            <text x="-10" y="16">O</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -3279,9 +3374,9 @@
                                             <g class="o-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colO-1" x="-60" y="3" width="44" height="14" opacity="0">
+                                                <polygon id="colO-1" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness O</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -3369,14 +3464,12 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals">
+                                            <text x="-10" y="16">R</text>
                                             <g class="r-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expR-1" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
-                                                    <title>Expand heat map for witness C</title>
-                                                </rect>
+                                                <rect id="expR-1" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
-                                            <text x="-10" y="16">R</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -3932,9 +4025,9 @@
                                             <g class="r-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colR-1" x="-60" y="3" width="44" height="14" opacity="0">
+                                                <polygon id="colR-1" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness R</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -4022,14 +4115,12 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals">
+                                            <text x="-10" y="16">S</text>
                                             <g class="s-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expS-1" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
-                                                    <title>Expand heat map for witness C</title>
-                                                </rect>
+                                                <rect id="expS-1" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
-                                            <text x="-10" y="16">S</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -4585,9 +4676,9 @@
                                             <g class="s-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colS-1" x="-60" y="3" width="44" height="14" opacity="0">
+                                                <polygon id="colS-1" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness S</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -4675,14 +4766,12 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals">
+                                            <text x="-10" y="16">W</text>
                                             <g class="w-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expW-1" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
-                                                    <title>Expand heat map for witness W</title>
-                                                </rect>
+                                                <rect id="expW-1" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
-                                            <text x="-10" y="16">W</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -5238,9 +5327,9 @@
                                             <g class="w-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colW-1" x="-60" y="3" width="44" height="14" opacity="0">
+                                                <polygon id="colW-1" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness W</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -5333,14 +5422,14 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals" transform="translate(1340, 0)">
+                                            <text x="-10" y="16">C</text>
                                             <g class="c-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expC-2" x="-60" y="3" width="44" height="14" opacity="0">
+                                                <rect id="expC-2" x="-60" y="0" width="1410" height="20" opacity="0">
                                                     <title>Expand heat map for witness C</title>
                                                 </rect>
                                             </g>
-                                            <text x="-10" y="16">C</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -5896,9 +5985,9 @@
                                             <g class="c-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colC-2" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
+                                                <polygon id="colC-2" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness C</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -5987,13 +6076,13 @@
                                         </g>
                                         <g class="additionals" transform="translate(1340, 0)">
                                             <g class="d-expand-button">
+                                                <text x="-10" y="16">D</text>
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expD-2" x="-60" y="3" width="44" height="14" opacity="0">
+                                                <rect id="expD-2" x="-60" y="0" width="1410" height="20" opacity="0">
                                                     <title>Expand heat map for witness D</title>
                                                 </rect>
                                             </g>
-                                            <text x="-10" y="16">D</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -6549,9 +6638,9 @@
                                             <g class="d-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colD-2" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
+                                                <polygon id="colD-2" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness D</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -6639,14 +6728,14 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals" transform="translate(1340, 0)">
+                                            <text x="-10" y="16">I</text>
                                             <g class="i-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expI-2" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
+                                                <rect id="expI-2" x="-60" y="0" width="1410" height="20" opacity="0">
                                                     <title>Expand heat map for witness I</title>
                                                 </rect>
                                             </g>
-                                            <text x="-10" y="16">I</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -7202,9 +7291,9 @@
                                             <g class="i-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colI-2" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
+                                                <polygon id="colI-2" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness I</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -7292,14 +7381,14 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals" transform="translate(1340, 0)">
+                                            <text x="-10" y="16">J</text>
                                             <g class="j-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expJ-2" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
-                                                    <title>Expand heat map for witness C</title>
+                                                <rect id="expJ-2" x="-60" y="0" width="1410" height="20" opacity="0">
+                                                    <title>Expand heat map for witness J</title>
                                                 </rect>
                                             </g>
-                                            <text x="-10" y="16">J</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -7855,9 +7944,9 @@
                                             <g class="j-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colJ-2" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
+                                                <polygon id="colJ-2" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness J</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -7945,14 +8034,12 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals" transform="translate(1340, 0)">
+                                            <text x="-10" y="16">O</text>
                                             <g class="o-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expO-2" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
-                                                    <title>Expand heat map for witness C</title>
-                                                </rect>
+                                                <rect id="expO-2" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
-                                            <text x="-10" y="16">O</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -8508,9 +8595,9 @@
                                             <g class="o-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colO-2" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
+                                                <polygon id="colO-2" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness O</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -8598,14 +8685,12 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals" transform="translate(1340, 0)">
+                                            <text x="-10" y="16">R</text>
                                             <g class="r-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expR-2" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
-                                                    <title>Expand heat map for witness C</title>
-                                                </rect>
+                                                <rect id="expR-2" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
-                                            <text x="-10" y="16">R</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -9161,9 +9246,9 @@
                                             <g class="r-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colR-2" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
+                                                <polygon id="colR-2" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness R</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -9251,14 +9336,12 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals" transform="translate(1340, 0)">
+                                            <text x="-10" y="16">S</text>
                                             <g class="s-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expS-2" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
-                                                    <title>Expand heat map for witness C</title>
-                                                </rect>
+                                                <rect id="expS-2" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
-                                            <text x="-10" y="16">S</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -9814,9 +9897,9 @@
                                             <g class="s-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colS-2" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
+                                                <polygon id="colS-2" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness S</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -9904,14 +9987,12 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals" transform="translate(1340, 0)">
+                                            <text x="-10" y="16">W</text>
                                             <g class="w-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expW-2" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
-                                                    <title>Expand heat map for witness W</title>
-                                                </rect>
+                                                <rect id="expW-2" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
-                                            <text x="-10" y="16">W</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -10467,9 +10548,9 @@
                                             <g class="w-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colW-2" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
+                                                <polygon id="colW-2" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness W</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -10562,14 +10643,14 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals" transform="translate(2680, 0)">
+                                            <text x="-10" y="16">C</text>
                                             <g class="c-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expC-3" x="-60" y="3" width="44" height="14" opacity="0">
+                                                <rect id="expC-3" x="-60" y="0" width="1410" height="20" opacity="0">
                                                     <title>Expand heat map for witness C</title>
                                                 </rect>
                                             </g>
-                                            <text x="-10" y="16">C</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -11125,9 +11206,9 @@
                                             <g class="c-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colC-3" x="-60" y="3" width="44" height="14" opacity="0">
+                                                <polygon id="colC-3" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness C</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -11215,14 +11296,12 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals" transform="translate(2680, 0)">
+                                            <text x="-10" y="16">D</text>
                                             <g class="d-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expD-3" x="-60" y="3" width="44" height="14" opacity="0">
-                                                    <title>Expand heat map for witness D</title>
-                                                </rect>
+                                                <rect id="expD-3" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
-                                            <text x="-10" y="16">D</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -11778,9 +11857,9 @@
                                             <g class="d-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colD-3" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
+                                                <polygon id="colD-3" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness D</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -11869,13 +11948,15 @@
                                         </g>
                                         <g class="additionals" transform="translate(2680, 0)">
                                             <g class="i-expand-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
-                                                <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expI-3" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
-                                                    <title>Expand heat map for witness I</title>
-                                                </rect>
+                                                <text x="-10" y="16">I</text>
+                                                <g class="i-expand-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
+                                                    <text x="-56" y="13" fill="white" font-size="11">expand</text>
+                                                    <rect id="expI-3" x="-60" y="0" width="1410" height="20" opacity="0">
+                                                        <title>Expand heat map for witness I</title>
+                                                    </rect>
+                                                </g>
                                             </g>
-                                            <text x="-10" y="16">I</text>
                                          </g>
                                     </g>
                                 </svg>
@@ -12431,9 +12512,9 @@
                                             <g class="i-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colI-3" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
+                                                <polygon id="colI-3" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness I</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -12521,14 +12602,14 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals" transform="translate(2680, 0)">
+                                            <text x="-10" y="16">I</text>
                                             <g class="j-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expJ-3" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
-                                                    <title>Expand heat map for witness C</title>
+                                                <rect id="expJ-3" x="-60" y="0" width="1410" height="20" opacity="0">
+                                                    <title>Expand heat map for witness J</title>
                                                 </rect>
                                             </g>
-                                            <text x="-10" y="16">J</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -13084,9 +13165,9 @@
                                             <g class="j-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colJ-3" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
+                                                <polygon id="colJ-3" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness J</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -13174,14 +13255,12 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals" transform="translate(2680, 0)">
+                                            <text x="-10" y="16">O</text>
                                             <g class="o-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expO-3" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
-                                                    <title>Expand heat map for witness C</title>
-                                                </rect>
+                                                <rect id="expO-3" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
-                                            <text x="-10" y="16">O</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -13737,9 +13816,9 @@
                                             <g class="o-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colO-3" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
+                                                <polygon id="colO-3" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness O</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -13827,14 +13906,12 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals" transform="translate(2680, 0)">
+                                            <text x="-10" y="16">R</text>
                                             <g class="r-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expR-3" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
-                                                    <title>Expand heat map for witness C</title>
-                                                </rect>
+                                                <rect id="expR-3" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
-                                            <text x="-10" y="16">R</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -14390,9 +14467,9 @@
                                             <g class="r-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colR-3" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
+                                                <polygon id="colR-3" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness R</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -14480,14 +14557,12 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals" transform="translate(2680, 0)">
+                                            <text x="-10" y="16">S</text>
                                             <g class="s-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expS-3" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
-                                                    <title>Expand heat map for witness C</title>
-                                                </rect>
+                                                <rect id="expS-3" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
-                                            <text x="-10" y="16">S</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -15043,9 +15118,9 @@
                                             <g class="s-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colS-3" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
+                                                <polygon id="colS-3" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness S</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -15133,14 +15208,12 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals" transform="translate(2680, 0)">
+                                            <text x="-10" y="16">W</text>
                                             <g class="w-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expW-3" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
-                                                    <title>Expand heat map for witness W</title>
-                                                </rect>
+                                                <rect id="expW-3" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
-                                            <text x="-10" y="16">W</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -15696,9 +15769,9 @@
                                             <g class="w-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colW-3" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
+                                                <polygon id="colW-3" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness W</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -15791,14 +15864,14 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals" transform="translate(4020, 0)">
+                                            <text x="-10" y="16">C</text>
                                             <g class="c-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expC-4" x="-60" y="3" width="44" height="14" opacity="0">
+                                                <rect id="expC-4" x="-60" y="0" width="1410" height="20" opacity="0">
                                                     <title>Expand heat map for witness C</title>
                                                 </rect>
                                             </g>
-                                            <text x="-10" y="16">C</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -16354,9 +16427,9 @@
                                             <g class="c-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colC-4" x="-60" y="3" width="44" height="14" opacity="0">
+                                                <polygon id="colC-4" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness C</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -16444,14 +16517,12 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals" transform="translate(4020, 0)">
+                                            <text x="-10" y="16">D</text>
                                             <g class="d-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expD-4" x="-60" y="3" width="44" height="14" opacity="0">
-                                                    <title>Expand heat map for witness D</title>
-                                                </rect>
+                                                <rect id="expD-4" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
-                                            <text x="-10" y="16">D</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -17007,9 +17078,9 @@
                                             <g class="d-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colD-4" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
+                                                <polygon id="colD-4" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness D</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -17097,14 +17168,14 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals" transform="translate(4020, 0)">
+                                            <text x="-10" y="16">I</text>
                                             <g class="i-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expI-4" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
+                                                <rect id="expI-4" x="-60" y="0" width="1410" height="20" opacity="0">
                                                     <title>Expand heat map for witness I</title>
                                                 </rect>
                                             </g>
-                                            <text x="-10" y="16">I</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -17660,9 +17731,9 @@
                                             <g class="i-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colI-4" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
+                                                <polygon id="colI-4" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness I</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -17750,14 +17821,14 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals" transform="translate(4020, 0)">
+                                            <text x="-10" y="16">J</text>
                                             <g class="j-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expJ-4" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
-                                                    <title>Expand heat map for witness C</title>
+                                                <rect id="expJ-4" x="-60" y="0" width="1410" height="20" opacity="0">
+                                                    <title>Expand heat map for witness J</title>
                                                 </rect>
                                             </g>
-                                            <text x="-10" y="16">J</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -18313,9 +18384,9 @@
                                             <g class="j-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colJ-4" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
+                                                <polygon id="colJ-4" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness J</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -18403,14 +18474,12 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals" transform="translate(4020, 0)">
+                                            <text x="-10" y="16">O</text>
                                             <g class="o-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expO-4" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
-                                                    <title>Expand heat map for witness C</title>
-                                                </rect>
+                                                <rect id="expO-4" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
-                                            <text x="-10" y="16">O</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -18966,9 +19035,9 @@
                                             <g class="o-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colO-4" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
+                                                <polygon id="colO-4" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness O</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -19057,13 +19126,13 @@
                                         </g>
                                         <g class="additionals" transform="translate(4020, 0)">
                                             <g class="r-expand-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
-                                                <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expR-4" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
-                                                    <title>Expand heat map for witness C</title>
-                                                </rect>
+                                                <text x="-10" y="16">R</text>
+                                                <g class="r-expand-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
+                                                    <text x="-56" y="13" fill="white" font-size="11">expand</text>
+                                                    <rect id="expR-4" x="-60" y="0" width="1410" height="20" opacity="0"/>
+                                                </g>
                                             </g>
-                                            <text x="-10" y="16">R</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -19619,9 +19688,9 @@
                                             <g class="r-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colR-4" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
+                                                <polygon id="colR-4" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness R</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -19709,14 +19778,12 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals" transform="translate(4020, 0)">
+                                            <text x="-10" y="16">S</text>
                                             <g class="s-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expS-4" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
-                                                    <title>Expand heat map for witness C</title>
-                                                </rect>
+                                                <rect id="expS-4" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
-                                            <text x="-10" y="16">S</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -20272,9 +20339,9 @@
                                             <g class="s-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colS-4" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
+                                                <polygon id="colS-4" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness S</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
@@ -20362,14 +20429,12 @@
                                             </xsl:for-each>
                                         </g>
                                         <g class="additionals" transform="translate(4020, 0)">
+                                            <text x="-10" y="16">W</text>
                                             <g class="w-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expW-4" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
-                                                    <title>Expand heat map for witness W</title>
-                                                </rect>
+                                                <rect id="expW-4" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
-                                            <text x="-10" y="16">W</text>
                                         </g>
                                     </g>
                                 </svg>
@@ -20925,9 +20990,9 @@
                                             <g class="w-collapse-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
                                                 <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <rect id="colW-4" x="-60" y="3" width="44" height="14" rx="5" opacity="0">
+                                                <polygon id="colW-4" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
                                                     <title>Collapse heat map for witness W</title>
-                                                </rect>
+                                                </polygon>
                                             </g>
                                         </g>
                                     </g>
