@@ -2947,6 +2947,8 @@
                                     </g>
                                 </g>
                             </svg>
+                        </div>
+                        <div class="varianceGraphic">
                             <svg xmlns="http://www.w3.org/2000/svg" id="slhm2" width="1000" height="115" viewBox="0 0 1050 115">
                                 <g transform="translate(-928, 0)">
                                     <xsl:for-each select="(descendant::rdg)[position() ge 147 and position() le 299]">
@@ -5875,6 +5877,8 @@
                                     </g>
                                 </g>
                             </svg>
+                        </div>
+                        <div class="varianceGraphic">
                             <svg xmlns="http://www.w3.org/2000/svg" id="slhm3" width="1000" height="115" viewBox="0 0 1050 115">
                                 <g transform="translate(-1866, 0)">
                                 <xsl:for-each select="(descendant::rdg)[position() ge 300 and position() le 462]">
@@ -8803,6 +8807,8 @@
                                     </g>
                                 </g>
                             </svg>
+                        </div>
+                        <div class="varianceGraphic">
                             <svg xmlns="http://www.w3.org/2000/svg" id="slhm4" width="1000" height="115" viewBox="0 0 1050 115">
                                 <g transform="translate(-2804, 0)">
                                 <xsl:for-each select="(descendant::rdg)[position() ge 463]">
