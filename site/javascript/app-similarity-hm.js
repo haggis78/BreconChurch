@@ -56,6 +56,38 @@ function initialize() {
     for (var h = 0; h < row8.length; h++){
         row8[h].style.fill = "#93ec07";
     }
+/*    var witC = document.querySelectorAll("[id *= '-C-']");
+    var witD = document.querySelectorAll("[id *= '-D-']");
+    var witI = document.querySelectorAll("[id *= '-I-']");
+    var witJ = document.querySelectorAll("[id *= '-J-']");
+    var witO = document.querySelectorAll("[id *= '-O-']");
+    var witR = document.querySelectorAll("[id *= '-R-']");
+    var witS = document.querySelectorAll("[id *= '-S-']");
+    var witW = document.querySelectorAll("[id *= '-W-']");
+    for (var m = 0; m < witC.length; m++){
+        witC[m].style.fill = "#ff3ad4";
+    }
+    for (var n = 0; n < witD.length; n++){
+        witD[n].style.fill = "#ff3f3a";
+    }
+    for (var o = 0; o < witI.length; o++){
+        witI[o].style.fill = "#ffac3a";
+    }
+    for (var p = 0; p < witJ.length; p++){
+        witJ[p].style.fill = "#ffe83a";
+    }
+    for (var q = 0; q < witO.length; q++){
+        witO[q].style.fill = "#3aff47";
+    }
+    for (var r = 0; r < witR.length; r++){
+        witR[r].style.fill = "#48acff";
+    }
+    for (var s = 0; s < witS.length; s++){
+        witS[s].style.fill = "#6636ff";
+    }
+    for (var t = 0; t < witW.length; t++){
+        witW[t].style.fill = "#a848ff";
+    }*/
     var tableSel = document.querySelectorAll("[id *= 'exp']");
     for (var i = 0; i < tableSel.length; i++){
         tableSel[i].addEventListener("click", expand, false);
