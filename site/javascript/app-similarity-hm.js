@@ -56,11 +56,11 @@ function initialize() {
     for (var h = 0; h < row8.length; h++){
         row8[h].style.fill = "#93ec07";
     }
-    var tableSel = document.querySelectorAll("[id ^= 'exp']");
+    var tableSel = document.querySelectorAll("[id *= 'exp']");
     for (var i = 0; i < tableSel.length; i++){
         tableSel[i].addEventListener("click", expand, false);
     }
-    var colButton = document.querySelectorAll("[id ^= 'col']");
+    var colButton = document.querySelectorAll("[id *= 'col']");
     for (var j = 0; j < colButton.length; j++){
         colButton[j].addEventListener("click", collapse, false);
     }

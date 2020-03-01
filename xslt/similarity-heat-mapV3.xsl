@@ -14,6 +14,111 @@
                 </head>
                 <body>
                     <xsl:comment> SSI line below </xsl:comment>
+                    <div class="header">
+                        <img src="../../img/background/brecon.svg" alt="Image of 'Brecon Collegiate Church and School' in script across the top" />
+                    </div>
+                    <div id="navbar">
+                        <div class="navbar"><a href="../../index.html">Home</a><div class="dropdown"><button class="dropbtn">About<i class="fa fa-caret-down"></i></button><div class="dropdown-content"><a href="../about/history.html">History</a><a href="../about/Glossary.html">Glossary</a><a href="../about/BreconPeople.html">People</a><a href="../about/methodology.html">Methodology</a><a href="../about/Project_Team.html">About Team</a></div>
+                        </div>
+                            <div class="dropdown">
+                                <button class="dropbtn">Analysis<i class="fa fa-caret-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="Timeline.html">Timeline</a>
+                                    <a href="TextualAnalysis.html#codicum">Stemma</a>
+                                    <a href="Graphs.html">Graphs</a>
+                                    <a href="string-length-heat-map.html">String Length Heat Map</a>
+                                    <a href="similarity-heat-map.html">App Similarity Heat Map</a>
+                                    <a href="network.html">Network</a>
+                                    <a href="TextualAnalysis.html">Textual</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropbtn">Witnesses<i class="fa fa-caret-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="../witnesses/texts.html">Source Descriptions</a>
+                                    <a href="../witnesses/patent-collection.html">Patent Roll</a>
+                                    <a href="../witnesses/display-R.html">Manuscript R</a>
+                                    <a href="../witnesses/display-C.html">Manuscript C</a>
+                                    <a href="../witnesses/display-D.html">Manuscript D</a>
+                                    <a href="../witnesses/display-I.html">Manuscript I</a>
+                                    <a href="../witnesses/display-O.html">Manuscript O</a>
+                                    <a href="../witnesses/display-W.html">Printing W</a>
+                                    <a href="../witnesses/display-S.html">Printing S</a>
+                                    <a href="../witnesses/display-J.html">Printing J</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropbtn">Comparison<i class="fa fa-caret-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a>Transcripts (WiP)</a>
+                                    <a>Anonymous Blocks (WiP)</a>
+                                </div>
+                            </div>
+                            <div class="editions">
+                                <a href="../comparison/c-app-hm-expanded.html">C</a>
+                                <a href="../comparison/d-app-hm-expanded.html">D</a>
+                                <a href="../comparison/i-app-hm-expanded.html">I</a>
+                                <a href="../comparison/j-app-hm-expanded.html">J</a>
+                                <a href="../comparison/o-app-hm-expanded.html">O</a>
+                                <a href="../comparison/r-app-hm-expanded.html">R</a>
+                                <a href="../comparison/s-app-hm-expanded.html">S</a>
+                                <a href="../comparison/w-app-hm-expanded.html">W</a>
+                                <a href="similarity-heat-map.html">Similarity Overview</a>
+                            </div>
+                        </div>
+                        <div class="hmKey">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="30" viewBox="0 -10 1450 30">
+                                <g transform="scale(.95), translate(0, -10)">
+                                    <g>
+                                        <rect x="20" y="0" width="180" height="30" fill="#e50000"/>
+                                        <rect x="200" y="0" width="180" height="30" fill="#e62e01"/>
+                                        <rect x="380" y="0" width="180" height="30" fill="#e75c02"/>
+                                        <rect x="560" y="0" width="180" height="30" fill="#e88b03"/>
+                                        <rect x="740" y="0" width="180" height="30" fill="#e9b904"/>
+                                        <rect x="920" y="0" width="180" height="30" fill="#eae705"/>
+                                        <rect x="1100" y="0" width="180" height="30" fill="#bfeb06"/>
+                                        <rect x="1280" y="0" width="180" height="30" fill="#93ec07"/>
+                                    </g>
+                                    <g>
+                                        <text x="110" y="20" font-size="14" stroke="black" text-anchor="middle">Unique</text>
+                                        <text x="290" y="20" font-size="14" stroke="black" text-anchor="middle">1 in Common</text>
+                                        <text x="470" y="20" font-size="14" stroke="black" text-anchor="middle">2 in Common</text>
+                                        <text x="650" y="20" font-size="14" stroke="black" text-anchor="middle">3 in Common</text>
+                                        <text x="830" y="20" font-size="14" stroke="black" text-anchor="middle">4 in Common</text>
+                                        <text x="1010" y="20" font-size="14" stroke="black" text-anchor="middle">5 in Common</text>
+                                        <text x="1190" y="20" font-size="14" stroke="black" text-anchor="middle">6 in Common</text>
+                                        <text x="1370" y="20" font-size="14" stroke="black" text-anchor="middle">All in Common</text>
+                                    </g>
+                                    <g opacity="0">
+                                        <rect x="20" y="0" width="180" height="30">
+                                            <title>Unique to that edition</title>
+                                        </rect>
+                                        <rect x="200" y="0" width="180" height="30">
+                                            <title>1 Other Edition in Common</title>
+                                        </rect>
+                                        <rect x="380" y="0" width="180" height="30">
+                                            <title>2 Other Edition in Common</title>
+                                        </rect>
+                                        <rect x="560" y="0" width="180" height="30">
+                                            <title>3 Other Edition in Common</title>
+                                        </rect>
+                                        <rect x="740" y="0" width="180" height="30">
+                                            <title>4 Other Edition in Common</title>
+                                        </rect>
+                                        <rect x="920" y="0" width="180" height="30">
+                                            <title>5 Other Edition in Common</title>
+                                        </rect>
+                                        <rect x="1100" y="0" width="180" height="30">
+                                            <title>6 Other Edition in Common</title>
+                                        </rect>
+                                        <rect x="1280" y="0" width="180" height="30">
+                                            <title>All Editions have this text in Common</title>
+                                        </rect>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
                     <xsl:comment>#include virtual="../ssi/analysis-similarity-heatmap-ssi.html" </xsl:comment>
                     <div class="content">
                         <h1>App Similarity Heat Map</h1>
@@ -28,7 +133,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'C')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#C']">
-                                                            <rect id="C-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expC-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -37,7 +142,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="C-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expC-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -46,7 +151,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="C-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expC-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -55,7 +160,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="C-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expC-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -64,7 +169,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="C-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expC-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -73,7 +178,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="C-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expC-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -82,7 +187,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="C-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expC-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -91,7 +196,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="C-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expC-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -108,7 +213,6 @@
                                             <g class="c-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expC-1" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
                                         </g>
                                     </g>
@@ -119,6 +223,24 @@
                                             <xsl:for-each select="(descendant::rdg)[position() le 146]">
                                                 <rect x="{preceding::app => count() * 20 + 10}" y="0" height="140" width="20" stroke="white" fill="black"/>
                                             </xsl:for-each>
+                                            <g class="additionals" fill="red">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">O</text>
+                                                    <text x="-10" y="36">I</text>
+                                                    <text x="-10" y="56">D</text>
+                                                    <text x="-10" y="76">W</text>
+                                                    <text x="-10" y="96">J</text>
+                                                    <text x="-10" y="116">S</text>
+                                                    <text x="-10" y="136">R</text>
+                                                </g>
+                                                <g class="c-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colC-1" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness C</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() le 146]">
                                                 <xsl:if test=".[@wit[contains(., 'C')]]">
                                                     <xsl:choose>
@@ -126,262 +248,262 @@
                                                             <xsl:choose>
                                                                 <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
                                                                         <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
+                                                                            <circle id="{preceding::app => count()}-O-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
                                                                                 <title>Witness O</title>
                                                                             </circle>
                                                                         </xsl:if>
                                                                         <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
+                                                                            <circle id="{preceding::app => count()}-I-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
                                                                                 <title>Witness I</title>
                                                                             </circle>
                                                                         </xsl:if>
                                                                         <xsl:if test=".[@wit[contains(., 'D')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3f3a">
+                                                                            <circle id="{preceding::app => count()}-D-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3f3a">
                                                                                 <title>Witness D</title>
                                                                             </circle>
                                                                         </xsl:if>
                                                                         <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
+                                                                            <circle id="{preceding::app => count()}-W-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
                                                                                 <title>Witness W</title>
                                                                             </circle>
                                                                         </xsl:if>
                                                                         <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
+                                                                            <circle id="{preceding::app => count()}-J-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
                                                                                 <title>Witness J</title>
                                                                             </circle>
                                                                         </xsl:if>
                                                                         <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
+                                                                            <circle id="{preceding::app => count()}-S-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
                                                                                 <title>Witness S</title>
                                                                             </circle>
                                                                         </xsl:if>
                                                                         <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
+                                                                            <circle id="{preceding::app => count()}-R-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
                                                                                 <title>Witness R</title>
                                                                             </circle>
                                                                         </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'D')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3f3a">
-                                                                                <title>Witness D</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'D')]]">
+                                                                        <circle id="{preceding::app => count()}-D-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3f3a">
+                                                                            <title>Witness D</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'D')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3f3a">
-                                                                                <title>Witness D</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'D')]]">
+                                                                        <circle id="{preceding::app => count()}-D-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3f3a">
+                                                                            <title>Witness D</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'D')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3f3a">
-                                                                                <title>Witness D</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'D')]]">
+                                                                        <circle id="{preceding::app => count()}-D-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3f3a">
+                                                                            <title>Witness D</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'D')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3f3a">
-                                                                                <title>Witness D</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'D')]]">
+                                                                        <circle id="{preceding::app => count()}-D-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3f3a">
+                                                                            <title>Witness D</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'D')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3f3a">
-                                                                                <title>Witness D</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'D')]]">
+                                                                        <circle id="{preceding::app => count()}-D-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3f3a">
+                                                                            <title>Witness D</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'D')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3f3a">
-                                                                                <title>Witness D</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'D')]]">
+                                                                        <circle id="{preceding::app => count()}-D-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3f3a">
+                                                                            <title>Witness D</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                             </xsl:choose>
                                                         </xsl:when>
@@ -389,286 +511,268 @@
                                                             <xsl:choose>
                                                                 <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
                                                                         <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
+                                                                            <circle id="{preceding::app => count()}-O-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
                                                                                 <title>Witness O</title>
                                                                             </circle>
                                                                         </xsl:if>
                                                                         <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
+                                                                            <circle id="{preceding::app => count()}-I-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
                                                                                 <title>Witness I</title>
                                                                             </circle>
                                                                         </xsl:if>
                                                                         <xsl:if test=".[@wit[contains(., 'D')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3f3a" stroke-width="2">
+                                                                            <circle id="{preceding::app => count()}-D-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3f3a" stroke-width="2">
                                                                                 <title>Witness D</title>
                                                                             </circle>
                                                                         </xsl:if>
                                                                         <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
+                                                                            <circle id="{preceding::app => count()}-W-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
                                                                                 <title>Witness W</title>
                                                                             </circle>
                                                                         </xsl:if>
                                                                         <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
+                                                                            <circle id="{preceding::app => count()}-J-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
                                                                                 <title>Witness J</title>
                                                                             </circle>
                                                                         </xsl:if>
                                                                         <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
+                                                                            <circle id="{preceding::app => count()}-S-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
                                                                                 <title>Witness S</title>
                                                                             </circle>
                                                                         </xsl:if>
                                                                         <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
+                                                                            <circle id="{preceding::app => count()}-R-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
                                                                                 <title>Witness R</title>
                                                                             </circle>
                                                                         </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'D')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3f3a" stroke-width="2">
-                                                                                <title>Witness D</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'D')]]">
+                                                                        <circle id="{preceding::app => count()}-D-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3f3a" stroke-width="2">
+                                                                            <title>Witness D</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'D')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3f3a" stroke-width="2">
-                                                                                <title>Witness D</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'D')]]">
+                                                                        <circle id="{preceding::app => count()}-D-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3f3a" stroke-width="2">
+                                                                            <title>Witness D</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'D')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3f3a" stroke-width="2">
-                                                                                <title>Witness D</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'D')]]">
+                                                                        <circle id="{preceding::app => count()}-D-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3f3a" stroke-width="2">
+                                                                            <title>Witness D</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'D')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3f3a" stroke-width="2">
-                                                                                <title>Witness D</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'D')]]">
+                                                                        <circle id="{preceding::app => count()}-D-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3f3a" stroke-width="2">
+                                                                            <title>Witness D</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'D')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3f3a" stroke-width="2">
-                                                                                <title>Witness D</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'D')]]">
+                                                                        <circle id="{preceding::app => count()}-D-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3f3a" stroke-width="2">
+                                                                            <title>Witness D</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'D')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3f3a" stroke-width="2">
-                                                                                <title>Witness D</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'D')]]">
+                                                                        <circle id="{preceding::app => count()}-D-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3f3a" stroke-width="2">
+                                                                            <title>Witness D</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colC-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                             </xsl:choose>
                                                         </xsl:otherwise>
                                                     </xsl:choose>
                                                 </xsl:if>
                                             </xsl:for-each>
-                                        </g>
-                                        <g class="additionals" fill="red">
-                                            <g class="labels">
-                                                <text x="-10" y="16">O</text>
-                                                <text x="-10" y="36">I</text>
-                                                <text x="-10" y="56">D</text>
-                                                <text x="-10" y="76">W</text>
-                                                <text x="-10" y="96">J</text>
-                                                <text x="-10" y="116">S</text>
-                                                <text x="-10" y="136">R</text>
-                                            </g>
-                                            <g class="c-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colC-1" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness C</title>
-                                                </polygon>
-                                            </g>
                                         </g>
                                     </g>
                                 </svg>
@@ -679,7 +783,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'D')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#D']">
-                                                            <rect id="D-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expD-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -688,7 +792,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="D-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expD-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -697,7 +801,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="D-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expD-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -706,7 +810,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="D-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expD-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -715,7 +819,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="D-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expD-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -724,7 +828,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="D-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expD-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -733,7 +837,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="D-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expD-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -742,7 +846,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="D-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expD-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -759,7 +863,6 @@
                                             <g class="d-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expD-1" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
                                         </g>
                                     </g>
@@ -770,556 +873,556 @@
                                             <xsl:for-each select="(descendant::app)[position() le 67]">
                                                 <rect x="{preceding::app => count() * 20 + 10}" y="0" height="140" width="20" stroke="white" fill="black"/>
                                             </xsl:for-each>
+                                            <g class="additionals" fill="red">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">C</text>
+                                                    <text x="-10" y="36">I</text>
+                                                    <text x="-10" y="56">O</text>
+                                                    <text x="-10" y="76">W</text>
+                                                    <text x="-10" y="96">R</text>
+                                                    <text x="-10" y="116">S</text>
+                                                    <text x="-10" y="136">J</text>
+                                                </g>
+                                                <g class="d-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colD-1" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness D</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() le 146]">
                                                 <xsl:if test=".[@wit[contains(., 'D')]]">
                                                     <xsl:choose>
                                                         <xsl:when test="./text()[string-length() gt 0]">
                                                             <xsl:choose>
                                                                 <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                             </xsl:choose>
                                                         </xsl:when>
                                                         <xsl:otherwise>
                                                             <xsl:choose>
                                                                 <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colD-1" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                             </xsl:choose>
                                                         </xsl:otherwise>
                                                     </xsl:choose>
                                                 </xsl:if>
                                             </xsl:for-each>
-                                        </g>
-                                        <g class="additionals" fill="red">
-                                            <g class="labels">
-                                                <text x="-10" y="16">C</text>
-                                                <text x="-10" y="36">I</text>
-                                                <text x="-10" y="56">O</text>
-                                                <text x="-10" y="76">W</text>
-                                                <text x="-10" y="96">R</text>
-                                                <text x="-10" y="116">S</text>
-                                                <text x="-10" y="136">J</text>
-                                            </g>
-                                            <g class="d-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colD-1" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness D</title>
-                                                </polygon>
-                                            </g>
                                         </g>
                                     </g>
                                 </svg>
@@ -1330,7 +1433,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'I')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#I']">
-                                                            <rect id="I-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expI-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -1339,7 +1442,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="I-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expI-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -1348,7 +1451,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="I-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expI-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -1357,7 +1460,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="I-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expI-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -1366,7 +1469,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="I-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expI-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -1375,7 +1478,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="I-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expI-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -1384,7 +1487,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="I-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expI-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -1393,7 +1496,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="I-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expI-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -1410,7 +1513,6 @@
                                             <g class="i-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expI-1" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
                                         </g>
                                     </g>
@@ -1421,6 +1523,24 @@
                                           <xsl:for-each select="(descendant::app)[position() le 67]">
                                               <rect x="{preceding::app => count() * 20 +10}" y="0" height="140" width="20" stroke="white" fill="black"/>
                                           </xsl:for-each>
+                                            <g class="additionals" fill="red">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">O</text>
+                                                    <text x="-10" y="36">C</text>
+                                                    <text x="-10" y="56">D</text>
+                                                    <text x="-10" y="76">W</text>
+                                                    <text x="-10" y="96">S</text>
+                                                    <text x="-10" y="116">J</text>
+                                                    <text x="-10" y="136">R</text>
+                                                </g>
+                                                <g class="i-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colI-1" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness I</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                           <xsl:for-each select="(descendant::rdg)[position() le 146]">
                                               <xsl:if test=".[@wit[contains(., 'I')]]">
                                                   <xsl:choose>
@@ -1954,24 +2074,6 @@
                                               </xsl:if>
                                           </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red">
-                                            <g class="labels">
-                                                <text x="-10" y="16">O</text>
-                                                <text x="-10" y="36">C</text>
-                                                <text x="-10" y="56">D</text>
-                                                <text x="-10" y="76">W</text>
-                                                <text x="-10" y="96">S</text>
-                                                <text x="-10" y="116">J</text>
-                                                <text x="-10" y="136">R</text>
-                                            </g>
-                                            <g class="i-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colI-1" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness I</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1340" height="20" viewBox="0 0 1500 20">
@@ -1981,7 +2083,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'J')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#J']">
-                                                            <rect id="J-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expJ-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -1990,7 +2092,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="J-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expJ-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -1999,7 +2101,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="J-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expJ-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -2008,7 +2110,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="J-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expJ-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -2017,7 +2119,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="J-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expJ-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -2026,7 +2128,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="J-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expJ-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -2035,7 +2137,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="J-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expJ-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -2044,7 +2146,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="J-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expJ-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -2061,7 +2163,6 @@
                                             <g class="j-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expJ-1" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
                                         </g>
                                     </g>
@@ -2072,6 +2173,24 @@
                                             <xsl:for-each select="(descendant::app)[position() le 67]">
                                                 <rect x="{preceding::app => count() * 20 +10}" y="0" height="200" width="20" stroke="white" fill="black"/>
                                             </xsl:for-each>
+                                            <g class="additionals" fill="red">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">S</text>
+                                                    <text x="-10" y="36">W</text>
+                                                    <text x="-10" y="56">I</text>
+                                                    <text x="-10" y="76">C</text>
+                                                    <text x="-10" y="96">O</text>
+                                                    <text x="-10" y="116">R</text>
+                                                    <text x="-10" y="136">D</text>
+                                                </g>
+                                                <g class="j-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colJ-1" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness J</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() le 146]">
                                                 <xsl:if test=".[@wit[contains(., 'J')]]">
                                                     <xsl:choose>
@@ -2605,24 +2724,6 @@
                                                 </xsl:if>
                                             </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red">
-                                            <g class="labels">
-                                                <text x="-10" y="16">S</text>
-                                                <text x="-10" y="36">W</text>
-                                                <text x="-10" y="56">I</text>
-                                                <text x="-10" y="76">C</text>
-                                                <text x="-10" y="96">O</text>
-                                                <text x="-10" y="116">R</text>
-                                                <text x="-10" y="136">D</text>
-                                            </g>
-                                            <g class="j-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colJ-1" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness J</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1340" height="20" viewBox="0 0 1500 20">
@@ -2632,7 +2733,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'O')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#O']">
-                                                            <rect id="O-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expO-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -2641,7 +2742,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="O-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expO-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -2650,7 +2751,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="O-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expO-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -2659,7 +2760,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="O-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expO-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -2668,7 +2769,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="O-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expO-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -2677,7 +2778,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="O-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expO-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -2686,7 +2787,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="O-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expO-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -2695,7 +2796,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="O-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expO-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -2712,7 +2813,6 @@
                                             <g class="o-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expO-1" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
                                         </g>
                                     </g>
@@ -2722,7 +2822,25 @@
                                         <g class="witness-expands">
                                            <xsl:for-each select="(descendant::app)[position() le 67]">
                                                <rect x="{preceding::app => count() * 20 + 10}" y="0" height="140" width="20" stroke="white" fill="black"/>
-                                           </xsl:for-each>
+                                            </xsl:for-each>
+                                            <g class="additionals" fill="red">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">I</text>
+                                                    <text x="-10" y="36">C</text>
+                                                    <text x="-10" y="56">D</text>
+                                                    <text x="-10" y="76">W</text>
+                                                    <text x="-10" y="96">S</text>
+                                                    <text x="-10" y="116">J</text>
+                                                    <text x="-10" y="136">R</text>
+                                                </g>
+                                                <g class="o-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colO-1" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness O</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                            <xsl:for-each select="(descendant::rdg)[position() le 146]">
                                                <xsl:if test=".[@wit[contains(., 'O')]]">
                                                    <xsl:choose>
@@ -3256,24 +3374,6 @@
                                                </xsl:if>
                                            </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red">
-                                            <g class="labels">
-                                                <text x="-10" y="16">I</text>
-                                                <text x="-10" y="36">C</text>
-                                                <text x="-10" y="56">D</text>
-                                                <text x="-10" y="76">W</text>
-                                                <text x="-10" y="96">S</text>
-                                                <text x="-10" y="116">J</text>
-                                                <text x="-10" y="136">R</text>
-                                            </g>
-                                            <g class="o-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colO-1" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness O</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1340" height="20" viewBox="0 0 1500 20">
@@ -3283,7 +3383,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'R')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#R']">
-                                                            <rect id="R-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expR-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -3292,7 +3392,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="R-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expR-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -3301,7 +3401,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="R-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expR-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -3310,7 +3410,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="R-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expR-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -3319,7 +3419,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="R-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expR-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -3328,7 +3428,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="R-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expR-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -3337,7 +3437,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="R-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expR-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -3346,7 +3446,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="R-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expR-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -3363,7 +3463,6 @@
                                             <g class="r-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expR-1" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
                                         </g>
                                     </g>
@@ -3374,6 +3473,24 @@
                                             <xsl:for-each select="(descendant::app)[position() le 67]">
                                                 <rect x="{preceding::app => count() * 20 + 10}" y="0" height="140" width="20" stroke="white" fill="black"/>
                                             </xsl:for-each>
+                                            <g class="additionals" fill="red">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">W</text>
+                                                    <text x="-10" y="36">I</text>
+                                                    <text x="-10" y="56">S</text>
+                                                    <text x="-10" y="76">C</text>
+                                                    <text x="-10" y="96">J</text>
+                                                    <text x="-10" y="116">D</text>
+                                                    <text x="-10" y="136">O</text>
+                                                </g>
+                                                <g class="r-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colR-1" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness R</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() le 146]">
                                                 <xsl:if test=".[@wit[contains(., 'R')]]">
                                                     <xsl:choose>
@@ -3907,24 +4024,6 @@
                                                 </xsl:if>
                                             </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red">
-                                            <g class="labels">
-                                                <text x="-10" y="16">W</text>
-                                                <text x="-10" y="36">I</text>
-                                                <text x="-10" y="56">S</text>
-                                                <text x="-10" y="76">C</text>
-                                                <text x="-10" y="96">J</text>
-                                                <text x="-10" y="116">D</text>
-                                                <text x="-10" y="136">O</text>
-                                            </g>
-                                            <g class="r-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colR-1" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness R</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1340" height="20" viewBox="0 0 1500 20">
@@ -3934,7 +4033,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'S')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#S']">
-                                                            <rect id="S-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expS-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -3943,7 +4042,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="S-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expS-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -3952,7 +4051,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="S-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expS-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -3961,7 +4060,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="S-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expS-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -3970,7 +4069,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="S-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expS-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -3979,7 +4078,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="S-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expS-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -3988,7 +4087,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="S-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expS-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -3997,7 +4096,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="S-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expS-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -4014,7 +4113,6 @@
                                             <g class="s-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expS-1" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
                                         </g>
                                     </g>
@@ -4025,6 +4123,24 @@
                                             <xsl:for-each select="(descendant::app)[position() le 67]">
                                                 <rect x="{preceding::app => count() * 20 + 10}" y="0" height="140" width="20" stroke="white" fill="black"/>
                                             </xsl:for-each>
+                                            <g class="additionals" fill="red">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">W</text>
+                                                    <text x="-10" y="36">J</text>
+                                                    <text x="-10" y="56">I</text>
+                                                    <text x="-10" y="76">O</text>
+                                                    <text x="-10" y="96">C</text>
+                                                    <text x="-10" y="116">R</text>
+                                                    <text x="-10" y="136">D</text>
+                                                </g>
+                                                <g class="s-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colS-1" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness S</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() le 146]">
                                                 <xsl:if test=".[@wit[contains(., 'S')]]">
                                                     <xsl:choose>
@@ -4558,24 +4674,6 @@
                                                 </xsl:if>
                                             </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red">
-                                            <g class="labels">
-                                                <text x="-10" y="16">W</text>
-                                                <text x="-10" y="36">J</text>
-                                                <text x="-10" y="56">I</text>
-                                                <text x="-10" y="76">O</text>
-                                                <text x="-10" y="96">C</text>
-                                                <text x="-10" y="116">R</text>
-                                                <text x="-10" y="136">D</text>
-                                            </g>
-                                            <g class="s-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colS-1" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness S</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1340" height="20" viewBox="0 0 1500 20">
@@ -4585,7 +4683,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'W')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#W']">
-                                                            <rect id="W-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expW-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -4594,7 +4692,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="W-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expW-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -4603,7 +4701,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="W-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expW-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -4612,7 +4710,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="W-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expW-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -4621,7 +4719,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="W-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expW-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -4630,7 +4728,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="W-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expW-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -4639,7 +4737,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="W-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expW-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -4648,7 +4746,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="W-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expW-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -4665,7 +4763,6 @@
                                             <g class="w-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expW-1" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
                                         </g>
                                     </g>
@@ -4676,6 +4773,24 @@
                                             <xsl:for-each select="(descendant::app)[position() le 67]">
                                                 <rect x="{preceding::app => count() * 20 + 10}" y="0" height="140" width="20" stroke="white" fill="black"/>
                                             </xsl:for-each>
+                                            <g class="additionals" fill="red">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">S</text>
+                                                    <text x="-10" y="36">J</text>
+                                                    <text x="-10" y="56">I</text>
+                                                    <text x="-10" y="76">C</text>
+                                                    <text x="-10" y="96">O</text>
+                                                    <text x="-10" y="116">R</text>
+                                                    <text x="-10" y="136">D</text>
+                                                </g>
+                                                <g class="w-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colW-1" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness W</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                              <xsl:for-each select="(descendant::rdg)[position() le 146]">
                                                 <xsl:if test=".[@wit[contains(., 'W')]]">
                                                     <xsl:choose>
@@ -5209,24 +5324,6 @@
                                                  </xsl:if>
                                              </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red">
-                                            <g class="labels">
-                                                <text x="-10" y="16">S</text>
-                                                <text x="-10" y="36">J</text>
-                                                <text x="-10" y="56">I</text>
-                                                <text x="-10" y="76">C</text>
-                                                <text x="-10" y="96">O</text>
-                                                <text x="-10" y="116">R</text>
-                                                <text x="-10" y="136">D</text>
-                                            </g>
-                                            <g class="w-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colW-1" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness W</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                             </div>
@@ -5241,7 +5338,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'C')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#C']">
-                                                            <rect id="C-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expC-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -5250,7 +5347,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="C-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expC-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -5259,7 +5356,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="C-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expC-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -5268,7 +5365,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="C-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expC-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -5277,7 +5374,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="C-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expC-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -5286,7 +5383,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="C-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expC-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -5295,7 +5392,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="C-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expC-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -5304,7 +5401,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="C-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expC-1" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -5321,9 +5418,6 @@
                                             <g class="c-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expC-2" x="-60" y="0" width="1410" height="20" opacity="0">
-                                                    <title>Expand heat map for witness C</title>
-                                                </rect>
                                             </g>
                                         </g>
                                     </g>
@@ -5334,6 +5428,24 @@
                                             <xsl:for-each select="(descendant::rdg)[position() ge 147 and position() le 299]">
                                                 <rect x="{preceding::app => count() * 20 + 10}" y="0" height="140" width="20" stroke="white" fill="black"/>
                                             </xsl:for-each>
+                                            <g class="additionals" fill="red" transform="translate(1340, 0)">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">O</text>
+                                                    <text x="-10" y="36">I</text>
+                                                    <text x="-10" y="56">D</text>
+                                                    <text x="-10" y="76">W</text>
+                                                    <text x="-10" y="96">J</text>
+                                                    <text x="-10" y="116">S</text>
+                                                    <text x="-10" y="136">R</text>
+                                                </g>
+                                                <g class="c-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colC-2" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness C</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() ge 147 and position() le 299]">
                                                 <xsl:if test=".[@wit[contains(., 'C')]]">
                                                     <xsl:choose>
@@ -5867,24 +5979,6 @@
                                                 </xsl:if>
                                             </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red" transform="translate(1340, 0)">
-                                            <g class="labels">
-                                                <text x="-10" y="16">O</text>
-                                                <text x="-10" y="36">I</text>
-                                                <text x="-10" y="56">D</text>
-                                                <text x="-10" y="76">W</text>
-                                                <text x="-10" y="96">J</text>
-                                                <text x="-10" y="116">S</text>
-                                                <text x="-10" y="136">R</text>
-                                            </g>
-                                            <g class="c-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colC-2" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness C</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1340" height="20" viewBox="0 0 1500 20">
@@ -5894,7 +5988,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'D')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#D']">
-                                                            <rect id="D-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expD-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -5903,7 +5997,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="D-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expD-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -5912,7 +6006,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="D-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expD-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -5921,7 +6015,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="D-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expD-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -5930,7 +6024,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="D-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expD-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -5939,7 +6033,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="D-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expD-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -5948,7 +6042,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="D-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expD-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -5957,7 +6051,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="D-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expD-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -5974,9 +6068,6 @@
                                                 <text x="-10" y="16">D</text>
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expD-2" x="-60" y="0" width="1410" height="20" opacity="0">
-                                                    <title>Expand heat map for witness D</title>
-                                                </rect>
                                             </g>
                                         </g>
                                     </g>
@@ -5987,556 +6078,556 @@
                                             <xsl:for-each select="(descendant::rdg)[position() ge 147 and position() le 299]">
                                                 <rect x="{preceding::app => count() * 20 + 10}" y="0" height="140" width="20" stroke="white" fill="black"/>
                                             </xsl:for-each>
+                                            <g class="additionals" fill="red" transform="translate(1340, 0)">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">C</text>
+                                                    <text x="-10" y="36">I</text>
+                                                    <text x="-10" y="56">O</text>
+                                                    <text x="-10" y="76">W</text>
+                                                    <text x="-10" y="96">R</text>
+                                                    <text x="-10" y="116">S</text>
+                                                    <text x="-10" y="136">J</text>
+                                                </g>
+                                                <g class="d-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colD-2" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness D</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() ge 147 and position() le 299]">
                                                 <xsl:if test=".[@wit[contains(., 'D')]]">
                                                     <xsl:choose>
                                                         <xsl:when test="./text()[string-length() gt 0]">
                                                             <xsl:choose>
                                                                 <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="#ff3ad4">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="#ffac3a">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="#3aff47">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="#a848ff">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="#48acff">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="#6636ff">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="#ffe83a">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                             </xsl:choose>
                                                         </xsl:when>
                                                         <xsl:otherwise>
                                                             <xsl:choose>
                                                                 <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                                 <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                                        <xsl:if test=".[@wit[contains(., 'C')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
-                                                                                <title>Witness C</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'I')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
-                                                                                <title>Witness I</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'O')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
-                                                                                <title>Witness O</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'W')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
-                                                                                <title>Witness W</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'R')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
-                                                                                <title>Witness R</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'S')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
-                                                                                <title>Witness S</title>
-                                                                            </circle>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=".[@wit[contains(., 'J')]]">
-                                                                            <circle r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
-                                                                                <title>Witness J</title>
-                                                                            </circle>
-                                                                        </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'C')]]">
+                                                                        <circle id="{preceding::app => count()}-C-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="50" fill="black" stroke="#ff3ad4" stroke-width="2">
+                                                                            <title>Witness C</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'I')]]">
+                                                                        <circle id="{preceding::app => count()}-I-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="30" fill="black" stroke="#ffac3a" stroke-width="2">
+                                                                            <title>Witness I</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'O')]]">
+                                                                        <circle id="{preceding::app => count()}-O-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="10" fill="black" stroke="#3aff47" stroke-width="2">
+                                                                            <title>Witness O</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'W')]]">
+                                                                        <circle id="{preceding::app => count()}-W-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="70" fill="black" stroke="#a848ff" stroke-width="2">
+                                                                            <title>Witness W</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'R')]]">
+                                                                        <circle id="{preceding::app => count()}-R-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="130" fill="black" stroke="#48acff" stroke-width="2">
+                                                                            <title>Witness R</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'S')]]">
+                                                                        <circle id="{preceding::app => count()}-S-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="110" fill="black" stroke="#6636ff" stroke-width="2">
+                                                                            <title>Witness S</title>
+                                                                        </circle>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=".[@wit[contains(., 'J')]]">
+                                                                        <circle id="{preceding::app => count()}-J-colD-2" r="8" cx="{preceding::app => count() * 20 + 20}" cy="90" fill="black" stroke="#ffe83a" stroke-width="2">
+                                                                            <title>Witness J</title>
+                                                                        </circle>
+                                                                    </xsl:if>
                                                                 </xsl:when>
                                                             </xsl:choose>
                                                         </xsl:otherwise>
                                                     </xsl:choose>
                                                 </xsl:if>
                                             </xsl:for-each>
-                                        </g>
-                                        <g class="additionals" fill="red" transform="translate(1340, 0)">
-                                            <g class="labels">
-                                                <text x="-10" y="16">C</text>
-                                                <text x="-10" y="36">I</text>
-                                                <text x="-10" y="56">O</text>
-                                                <text x="-10" y="76">W</text>
-                                                <text x="-10" y="96">R</text>
-                                                <text x="-10" y="116">S</text>
-                                                <text x="-10" y="136">J</text>
-                                            </g>
-                                            <g class="d-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colD-2" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness D</title>
-                                                </polygon>
-                                            </g>
                                         </g>
                                     </g>
                                 </svg>
@@ -6547,7 +6638,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'I')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#I']">
-                                                            <rect id="I-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expI-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -6556,7 +6647,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="I-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expI-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -6565,7 +6656,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="I-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expI-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -6574,7 +6665,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="I-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expI-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -6583,7 +6674,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="I-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expI-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -6592,7 +6683,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="I-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expI-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -6601,7 +6692,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="I-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expI-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -6610,7 +6701,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="I-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expI-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -6627,9 +6718,6 @@
                                             <g class="i-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expI-2" x="-60" y="0" width="1410" height="20" opacity="0">
-                                                    <title>Expand heat map for witness I</title>
-                                                </rect>
                                             </g>
                                         </g>
                                     </g>
@@ -6639,7 +6727,25 @@
                                         <g class="witness-expands">
                                             <xsl:for-each select="(descendant::rdg)[position() ge 147 and position() le 299]">
                                               <rect x="{preceding::app => count() * 20 + 10}" y="0" height="140" width="20" stroke="white" fill="black"/>
-                                          </xsl:for-each>
+                                            </xsl:for-each>
+                                            <g class="additionals" fill="red" transform="translate(1340, 0)">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">O</text>
+                                                    <text x="-10" y="36">C</text>
+                                                    <text x="-10" y="56">D</text>
+                                                    <text x="-10" y="76">W</text>
+                                                    <text x="-10" y="96">S</text>
+                                                    <text x="-10" y="116">J</text>
+                                                    <text x="-10" y="136">R</text>
+                                                </g>
+                                                <g class="i-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colI-2" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness I</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() ge 147 and position() le 299]">
                                               <xsl:if test=".[@wit[contains(., 'I')]]">
                                                   <xsl:choose>
@@ -7173,24 +7279,6 @@
                                               </xsl:if>
                                           </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red" transform="translate(1340, 0)">
-                                            <g class="labels">
-                                                <text x="-10" y="16">O</text>
-                                                <text x="-10" y="36">C</text>
-                                                <text x="-10" y="56">D</text>
-                                                <text x="-10" y="76">W</text>
-                                                <text x="-10" y="96">S</text>
-                                                <text x="-10" y="116">J</text>
-                                                <text x="-10" y="136">R</text>
-                                            </g>
-                                            <g class="i-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colI-2" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness I</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1340" height="20" viewBox="0 0 1500 20">
@@ -7200,7 +7288,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'J')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#J']">
-                                                            <rect id="J-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expJ-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -7209,7 +7297,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="J-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expJ-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -7218,7 +7306,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="J-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expJ-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -7227,7 +7315,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="J-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expJ-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -7236,7 +7324,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="J-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expJ-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -7245,7 +7333,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="J-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expJ-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -7254,7 +7342,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="J-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expJ-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -7263,7 +7351,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="J-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expJ-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -7280,9 +7368,6 @@
                                             <g class="j-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expJ-2" x="-60" y="0" width="1410" height="20" opacity="0">
-                                                    <title>Expand heat map for witness J</title>
-                                                </rect>
                                             </g>
                                         </g>
                                     </g>
@@ -7293,6 +7378,24 @@
                                             <xsl:for-each select="(descendant::rdg)[position() ge 147 and position() le 299]">
                                                 <rect x="{preceding::app => count() * 20 +10}" y="0" height="200" width="20" stroke="white" fill="black"/>
                                             </xsl:for-each>
+                                            <g class="additionals" fill="red" transform="translate(1340, 0)">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">S</text>
+                                                    <text x="-10" y="36">W</text>
+                                                    <text x="-10" y="56">I</text>
+                                                    <text x="-10" y="76">C</text>
+                                                    <text x="-10" y="96">O</text>
+                                                    <text x="-10" y="116">R</text>
+                                                    <text x="-10" y="136">D</text>
+                                                </g>
+                                                <g class="j-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colJ-2" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness J</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() ge 147 and position() le 299]">
                                                 <xsl:if test=".[@wit[contains(., 'J')]]">
                                                     <xsl:choose>
@@ -7826,24 +7929,6 @@
                                                 </xsl:if>
                                             </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red" transform="translate(1340, 0)">
-                                            <g class="labels">
-                                                <text x="-10" y="16">S</text>
-                                                <text x="-10" y="36">W</text>
-                                                <text x="-10" y="56">I</text>
-                                                <text x="-10" y="76">C</text>
-                                                <text x="-10" y="96">O</text>
-                                                <text x="-10" y="116">R</text>
-                                                <text x="-10" y="136">D</text>
-                                            </g>
-                                            <g class="j-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colJ-2" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness J</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1340" height="20" viewBox="0 0 1500 20">
@@ -7853,7 +7938,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'O')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#O']">
-                                                            <rect id="O-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expO-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -7862,7 +7947,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="O-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expO-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -7871,7 +7956,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="O-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expO-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -7880,7 +7965,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="O-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expO-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -7889,7 +7974,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="O-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expO-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -7898,7 +7983,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="O-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expO-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -7907,7 +7992,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="O-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expO-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -7916,7 +8001,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="O-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expO-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -7933,7 +8018,6 @@
                                             <g class="o-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expO-2" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
                                         </g>
                                     </g>
@@ -7943,7 +8027,25 @@
                                         <g class="witness-expands">
                                             <xsl:for-each select="(descendant::rdg)[position() ge 147 and position() le 299]">
                                                <rect x="{preceding::app => count() * 20 + 10}" y="0" height="140" width="20" stroke="white" fill="black"/>
-                                           </xsl:for-each>
+                                            </xsl:for-each>
+                                            <g class="additionals" fill="red" transform="translate(1340, 0)">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">I</text>
+                                                    <text x="-10" y="36">C</text>
+                                                    <text x="-10" y="56">D</text>
+                                                    <text x="-10" y="76">W</text>
+                                                    <text x="-10" y="96">S</text>
+                                                    <text x="-10" y="116">J</text>
+                                                    <text x="-10" y="136">R</text>
+                                                </g>
+                                                <g class="o-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colO-2" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness O</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() ge 147 and position() le 299]">
                                                <xsl:if test=".[@wit[contains(., 'O')]]">
                                                    <xsl:choose>
@@ -8477,24 +8579,6 @@
                                                </xsl:if>
                                            </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red" transform="translate(1340, 0)">
-                                            <g class="labels">
-                                                <text x="-10" y="16">I</text>
-                                                <text x="-10" y="36">C</text>
-                                                <text x="-10" y="56">D</text>
-                                                <text x="-10" y="76">W</text>
-                                                <text x="-10" y="96">S</text>
-                                                <text x="-10" y="116">J</text>
-                                                <text x="-10" y="136">R</text>
-                                            </g>
-                                            <g class="o-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colO-2" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness O</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1340" height="20" viewBox="0 0 1500 20">
@@ -8504,7 +8588,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'R')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#R']">
-                                                            <rect id="R-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expR-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -8513,7 +8597,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="R-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expR-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -8522,7 +8606,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="R-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expR-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -8531,7 +8615,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="R-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expR-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -8540,7 +8624,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="R-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expR-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -8549,7 +8633,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="R-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expR-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -8558,7 +8642,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="R-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expR-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -8567,7 +8651,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="R-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expR-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -8584,7 +8668,6 @@
                                             <g class="r-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expR-2" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
                                         </g>
                                     </g>
@@ -8595,6 +8678,24 @@
                                             <xsl:for-each select="(descendant::rdg)[position() ge 147 and position() le 299]">
                                                 <rect x="{preceding::app => count() * 20 + 10}" y="0" height="140" width="20" stroke="white" fill="black"/>
                                             </xsl:for-each>
+                                            <g class="additionals" fill="red" transform="translate(1340, 0)">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">W</text>
+                                                    <text x="-10" y="36">I</text>
+                                                    <text x="-10" y="56">S</text>
+                                                    <text x="-10" y="76">C</text>
+                                                    <text x="-10" y="96">J</text>
+                                                    <text x="-10" y="116">D</text>
+                                                    <text x="-10" y="136">O</text>
+                                                </g>
+                                                <g class="r-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colR-2" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness R</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() ge 147 and position() le 299]">
                                                 <xsl:if test=".[@wit[contains(., 'R')]]">
                                                     <xsl:choose>
@@ -9128,24 +9229,6 @@
                                                 </xsl:if>
                                             </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red" transform="translate(1340, 0)">
-                                            <g class="labels">
-                                                <text x="-10" y="16">W</text>
-                                                <text x="-10" y="36">I</text>
-                                                <text x="-10" y="56">S</text>
-                                                <text x="-10" y="76">C</text>
-                                                <text x="-10" y="96">J</text>
-                                                <text x="-10" y="116">D</text>
-                                                <text x="-10" y="136">O</text>
-                                            </g>
-                                            <g class="r-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colR-2" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness R</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1340" height="20" viewBox="0 0 1500 20">
@@ -9155,7 +9238,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'S')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#S']">
-                                                            <rect id="S-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expS-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -9164,7 +9247,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="S-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expS-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -9173,7 +9256,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="S-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expS-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -9182,7 +9265,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="S-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expS-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -9191,7 +9274,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="S-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expS-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -9200,7 +9283,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="S-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expS-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -9209,7 +9292,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="S-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expS-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -9218,7 +9301,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="S-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expS-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -9235,7 +9318,6 @@
                                             <g class="s-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expS-2" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
                                         </g>
                                     </g>
@@ -9246,6 +9328,24 @@
                                             <xsl:for-each select="(descendant::rdg)[position() ge 147 and position() le 299]">
                                                 <rect x="{preceding::app => count() * 20 + 10}" y="0" height="140" width="20" stroke="white" fill="black"/>
                                             </xsl:for-each>
+                                            <g class="additionals" fill="red" transform="translate(1340, 0)">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">W</text>
+                                                    <text x="-10" y="36">J</text>
+                                                    <text x="-10" y="56">I</text>
+                                                    <text x="-10" y="76">O</text>
+                                                    <text x="-10" y="96">C</text>
+                                                    <text x="-10" y="116">R</text>
+                                                    <text x="-10" y="136">D</text>
+                                                </g>
+                                                <g class="s-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colS-2" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness S</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() ge 147 and position() le 299]">
                                                 <xsl:if test=".[@wit[contains(., 'S')]]">
                                                     <xsl:choose>
@@ -9779,24 +9879,6 @@
                                                 </xsl:if>
                                             </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red" transform="translate(1340, 0)">
-                                            <g class="labels">
-                                                <text x="-10" y="16">W</text>
-                                                <text x="-10" y="36">J</text>
-                                                <text x="-10" y="56">I</text>
-                                                <text x="-10" y="76">O</text>
-                                                <text x="-10" y="96">C</text>
-                                                <text x="-10" y="116">R</text>
-                                                <text x="-10" y="136">D</text>
-                                            </g>
-                                            <g class="s-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colS-2" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness S</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1340" height="20" viewBox="0 0 1500 20">
@@ -9806,7 +9888,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'W')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#W']">
-                                                            <rect id="W-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expW-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -9815,7 +9897,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="W-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expW-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -9824,7 +9906,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="W-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expW-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -9833,7 +9915,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="W-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expW-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -9842,7 +9924,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="W-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expW-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -9851,7 +9933,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="W-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expW-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -9860,7 +9942,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="W-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expW-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -9869,7 +9951,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="W-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expW-2" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -9886,7 +9968,6 @@
                                             <g class="w-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expW-2" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
                                         </g>
                                     </g>
@@ -9897,6 +9978,24 @@
                                             <xsl:for-each select="(descendant::rdg)[position() ge 147 and position() le 299]">
                                                 <rect x="{preceding::app => count() * 20 + 10}" y="0" height="140" width="20" stroke="white" fill="black"/>
                                             </xsl:for-each>
+                                            <g class="additionals" fill="red" transform="translate(1340, 0)">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">S</text>
+                                                    <text x="-10" y="36">J</text>
+                                                    <text x="-10" y="56">I</text>
+                                                    <text x="-10" y="76">C</text>
+                                                    <text x="-10" y="96">O</text>
+                                                    <text x="-10" y="116">R</text>
+                                                    <text x="-10" y="136">D</text>
+                                                </g>
+                                                <g class="w-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colW-2" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness W</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() ge 147 and position() le 299]">
                                                 <xsl:if test=".[@wit[contains(., 'W')]]">
                                                     <xsl:choose>
@@ -10430,24 +10529,6 @@
                                                  </xsl:if>
                                              </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red" transform="translate(1340, 0)">
-                                            <g class="labels">
-                                                <text x="-10" y="16">S</text>
-                                                <text x="-10" y="36">J</text>
-                                                <text x="-10" y="56">I</text>
-                                                <text x="-10" y="76">C</text>
-                                                <text x="-10" y="96">O</text>
-                                                <text x="-10" y="116">R</text>
-                                                <text x="-10" y="136">D</text>
-                                            </g>
-                                            <g class="w-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colW-2" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness W</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                             </div>
@@ -10462,7 +10543,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'C')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#C']">
-                                                            <rect id="C-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expC-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -10471,7 +10552,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="C-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expC-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -10480,7 +10561,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="C-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expC-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -10489,7 +10570,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="C-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expC-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -10498,7 +10579,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="C-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expC-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -10507,7 +10588,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="C-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expC-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -10516,7 +10597,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="C-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expC-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -10525,7 +10606,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="C-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expC-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -10542,9 +10623,6 @@
                                             <g class="c-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expC-3" x="-60" y="0" width="1410" height="20" opacity="0">
-                                                    <title>Expand heat map for witness C</title>
-                                                </rect>
                                             </g>
                                         </g>
                                     </g>
@@ -10555,6 +10633,24 @@
                                             <xsl:for-each select="(descendant::rdg)[position() ge 300 and position() le 462]">
                                                 <rect x="{preceding::app => count() * 20 + 10}" y="0" height="140" width="20" stroke="white" fill="black"/>
                                             </xsl:for-each>
+                                            <g class="additionals" fill="red" transform="translate(2680, 0)">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">O</text>
+                                                    <text x="-10" y="36">I</text>
+                                                    <text x="-10" y="56">D</text>
+                                                    <text x="-10" y="76">W</text>
+                                                    <text x="-10" y="96">J</text>
+                                                    <text x="-10" y="116">S</text>
+                                                    <text x="-10" y="136">R</text>
+                                                </g>
+                                                <g class="c-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colC-3" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness C</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() ge 300 and position() le 462]">
                                                 <xsl:if test=".[@wit[contains(., 'C')]]">
                                                     <xsl:choose>
@@ -11088,24 +11184,6 @@
                                                 </xsl:if>
                                             </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red" transform="translate(2680, 0)">
-                                            <g class="labels">
-                                                <text x="-10" y="16">O</text>
-                                                <text x="-10" y="36">I</text>
-                                                <text x="-10" y="56">D</text>
-                                                <text x="-10" y="76">W</text>
-                                                <text x="-10" y="96">J</text>
-                                                <text x="-10" y="116">S</text>
-                                                <text x="-10" y="136">R</text>
-                                            </g>
-                                            <g class="c-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colC-3" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness C</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1340" height="20" viewBox="0 0 1500 20">
@@ -11115,7 +11193,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'D')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#D']">
-                                                            <rect id="D-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expD-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -11124,7 +11202,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="D-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expD-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -11133,7 +11211,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="D-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expD-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -11142,7 +11220,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="D-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expD-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -11151,7 +11229,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="D-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expD-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -11160,7 +11238,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="D-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expD-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -11169,7 +11247,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="D-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expD-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -11178,7 +11256,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="D-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expD-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -11195,7 +11273,6 @@
                                             <g class="d-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expD-3" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
                                         </g>
                                     </g>
@@ -11206,6 +11283,24 @@
                                             <xsl:for-each select="(descendant::rdg)[position() ge 300 and position() le 462]">
                                                 <rect x="{preceding::app => count() * 20 + 10}" y="0" height="140" width="20" stroke="white" fill="black"/>
                                             </xsl:for-each>
+                                            <g class="additionals" fill="red" transform="translate(2680, 0)">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">C</text>
+                                                    <text x="-10" y="36">I</text>
+                                                    <text x="-10" y="56">O</text>
+                                                    <text x="-10" y="76">W</text>
+                                                    <text x="-10" y="96">R</text>
+                                                    <text x="-10" y="116">S</text>
+                                                    <text x="-10" y="136">J</text>
+                                                </g>
+                                                <g class="d-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colD-3" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness D</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() ge 300 and position() le 462]">
                                                 <xsl:if test=".[@wit[contains(., 'D')]]">
                                                     <xsl:choose>
@@ -11739,24 +11834,6 @@
                                                 </xsl:if>
                                             </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red" transform="translate(2680, 0)">
-                                            <g class="labels">
-                                                <text x="-10" y="16">C</text>
-                                                <text x="-10" y="36">I</text>
-                                                <text x="-10" y="56">O</text>
-                                                <text x="-10" y="76">W</text>
-                                                <text x="-10" y="96">R</text>
-                                                <text x="-10" y="116">S</text>
-                                                <text x="-10" y="136">J</text>
-                                            </g>
-                                            <g class="d-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colD-3" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness D</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1340" height="20" viewBox="0 0 1500 20">
@@ -11766,7 +11843,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'I')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#I']">
-                                                            <rect id="I-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expI-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -11775,7 +11852,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="I-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expI-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -11784,7 +11861,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="I-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expI-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -11793,7 +11870,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="I-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expI-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -11802,7 +11879,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="I-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expI-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -11811,7 +11888,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="I-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expI-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -11820,7 +11897,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="I-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expI-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -11829,7 +11906,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="I-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expI-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -11847,9 +11924,6 @@
                                                 <g class="i-expand-button">
                                                     <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                     <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                    <rect id="expI-3" x="-60" y="0" width="1410" height="20" opacity="0">
-                                                        <title>Expand heat map for witness I</title>
-                                                    </rect>
                                                 </g>
                                             </g>
                                          </g>
@@ -11860,7 +11934,25 @@
                                         <g class="witness-expands">
                                             <xsl:for-each select="(descendant::rdg)[position() ge 300 and position() le 462]">
                                               <rect x="{preceding::app => count() * 20 + 10}" y="0" height="140" width="20" stroke="white" fill="black"/>
-                                          </xsl:for-each>
+                                            </xsl:for-each>
+                                            <g class="additionals" fill="red" transform="translate(2680, 0)">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">O</text>
+                                                    <text x="-10" y="36">C</text>
+                                                    <text x="-10" y="56">D</text>
+                                                    <text x="-10" y="76">W</text>
+                                                    <text x="-10" y="96">S</text>
+                                                    <text x="-10" y="116">J</text>
+                                                    <text x="-10" y="136">R</text>
+                                                </g>
+                                                <g class="i-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colI-3" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness I</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() ge 300 and position() le 462]">
                                               <xsl:if test=".[@wit[contains(., 'I')]]">
                                                   <xsl:choose>
@@ -12394,24 +12486,6 @@
                                               </xsl:if>
                                           </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red" transform="translate(2680, 0)">
-                                            <g class="labels">
-                                                <text x="-10" y="16">O</text>
-                                                <text x="-10" y="36">C</text>
-                                                <text x="-10" y="56">D</text>
-                                                <text x="-10" y="76">W</text>
-                                                <text x="-10" y="96">S</text>
-                                                <text x="-10" y="116">J</text>
-                                                <text x="-10" y="136">R</text>
-                                            </g>
-                                            <g class="i-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colI-3" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness I</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1340" height="20" viewBox="0 0 1500 20">
@@ -12421,7 +12495,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'J')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#J']">
-                                                            <rect id="J-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expJ-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -12430,7 +12504,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="J-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expJ-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -12439,7 +12513,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="J-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expJ-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -12448,7 +12522,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="J-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expJ-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -12457,7 +12531,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="J-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expJ-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -12466,7 +12540,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="J-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expJ-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -12475,7 +12549,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="J-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expJ-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -12484,7 +12558,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="J-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expJ-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -12501,9 +12575,6 @@
                                             <g class="j-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expJ-3" x="-60" y="0" width="1410" height="20" opacity="0">
-                                                    <title>Expand heat map for witness J</title>
-                                                </rect>
                                             </g>
                                         </g>
                                     </g>
@@ -12514,6 +12585,24 @@
                                             <xsl:for-each select="(descendant::rdg)[position() ge 300 and position() le 462]">
                                                 <rect x="{preceding::app => count() * 20 +10}" y="0" height="200" width="20" stroke="white" fill="black"/>
                                             </xsl:for-each>
+                                            <g class="additionals" fill="red" transform="translate(2680, 0)">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">S</text>
+                                                    <text x="-10" y="36">W</text>
+                                                    <text x="-10" y="56">I</text>
+                                                    <text x="-10" y="76">C</text>
+                                                    <text x="-10" y="96">O</text>
+                                                    <text x="-10" y="116">R</text>
+                                                    <text x="-10" y="136">D</text>
+                                                </g>
+                                                <g class="j-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colJ-3" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness J</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() ge 300 and position() le 462]">
                                                 <xsl:if test=".[@wit[contains(., 'J')]]">
                                                     <xsl:choose>
@@ -13047,24 +13136,6 @@
                                                 </xsl:if>
                                             </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red" transform="translate(2680, 0)">
-                                            <g class="labels">
-                                                <text x="-10" y="16">S</text>
-                                                <text x="-10" y="36">W</text>
-                                                <text x="-10" y="56">I</text>
-                                                <text x="-10" y="76">C</text>
-                                                <text x="-10" y="96">O</text>
-                                                <text x="-10" y="116">R</text>
-                                                <text x="-10" y="136">D</text>
-                                            </g>
-                                            <g class="j-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colJ-3" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness J</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1340" height="20" viewBox="0 0 1500 20">
@@ -13074,7 +13145,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'O')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#O']">
-                                                            <rect id="O-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expO-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -13083,7 +13154,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="O-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expO-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -13092,7 +13163,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="O-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expO-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -13101,7 +13172,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="O-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expO-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -13110,7 +13181,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="O-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expO-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -13119,7 +13190,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="O-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expO-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -13128,7 +13199,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="O-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expO-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -13137,7 +13208,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="O-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expO-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -13154,7 +13225,6 @@
                                             <g class="o-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expO-3" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
                                         </g>
                                     </g>
@@ -13165,6 +13235,24 @@
                                             <xsl:for-each select="(descendant::rdg)[position() ge 300 and position() le 462]">
                                                <rect x="{preceding::app => count() * 20 + 10}" y="0" height="140" width="20" stroke="white" fill="black"/>
                                            </xsl:for-each>
+                                            <g class="additionals" fill="red" transform="translate(2680, 0)">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">I</text>
+                                                    <text x="-10" y="36">C</text>
+                                                    <text x="-10" y="56">D</text>
+                                                    <text x="-10" y="76">W</text>
+                                                    <text x="-10" y="96">S</text>
+                                                    <text x="-10" y="116">J</text>
+                                                    <text x="-10" y="136">R</text>
+                                                </g>
+                                                <g class="o-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colO-3" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness O</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() ge 300 and position() le 462]">
                                                <xsl:if test=".[@wit[contains(., 'O')]]">
                                                    <xsl:choose>
@@ -13698,24 +13786,6 @@
                                                </xsl:if>
                                            </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red" transform="translate(2680, 0)">
-                                            <g class="labels">
-                                                <text x="-10" y="16">I</text>
-                                                <text x="-10" y="36">C</text>
-                                                <text x="-10" y="56">D</text>
-                                                <text x="-10" y="76">W</text>
-                                                <text x="-10" y="96">S</text>
-                                                <text x="-10" y="116">J</text>
-                                                <text x="-10" y="136">R</text>
-                                            </g>
-                                            <g class="o-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colO-3" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness O</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1340" height="20" viewBox="0 0 1500 20">
@@ -13725,7 +13795,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'R')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#R']">
-                                                            <rect id="R-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expR-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -13734,7 +13804,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="R-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expR-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -13743,7 +13813,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="R-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expR-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -13752,7 +13822,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="R-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expR-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -13761,7 +13831,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="R-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expR-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -13770,7 +13840,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="R-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expR-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -13779,7 +13849,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="R-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expR-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -13788,7 +13858,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="R-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expR-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -13805,7 +13875,6 @@
                                             <g class="r-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expR-3" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
                                         </g>
                                     </g>
@@ -13816,6 +13885,24 @@
                                             <xsl:for-each select="(descendant::rdg)[position() ge 300 and position() le 462]">
                                                 <rect x="{preceding::app => count() * 20 + 10}" y="0" height="140" width="20" stroke="white" fill="black"/>
                                             </xsl:for-each>
+                                            <g class="additionals" fill="red" transform="translate(2680, 0)">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">W</text>
+                                                    <text x="-10" y="36">I</text>
+                                                    <text x="-10" y="56">S</text>
+                                                    <text x="-10" y="76">C</text>
+                                                    <text x="-10" y="96">J</text>
+                                                    <text x="-10" y="116">D</text>
+                                                    <text x="-10" y="136">O</text>
+                                                </g>
+                                                <g class="r-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colR-3" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness R</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() ge 300 and position() le 462]">
                                                 <xsl:if test=".[@wit[contains(., 'R')]]">
                                                     <xsl:choose>
@@ -14349,24 +14436,6 @@
                                                 </xsl:if>
                                             </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red" transform="translate(2680, 0)">
-                                            <g class="labels">
-                                                <text x="-10" y="16">W</text>
-                                                <text x="-10" y="36">I</text>
-                                                <text x="-10" y="56">S</text>
-                                                <text x="-10" y="76">C</text>
-                                                <text x="-10" y="96">J</text>
-                                                <text x="-10" y="116">D</text>
-                                                <text x="-10" y="136">O</text>
-                                            </g>
-                                            <g class="r-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colR-3" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness R</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1340" height="20" viewBox="0 0 1500 20">
@@ -14376,7 +14445,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'S')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#S']">
-                                                            <rect id="S-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expS-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -14385,7 +14454,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="S-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expS-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -14394,7 +14463,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="S-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expS-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -14403,7 +14472,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="S-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expS-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -14412,7 +14481,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="S-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expS-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -14421,7 +14490,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="S-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expS-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -14430,7 +14499,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="S-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expS-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -14439,7 +14508,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="S-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expS-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -14456,7 +14525,6 @@
                                             <g class="s-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expS-3" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
                                         </g>
                                     </g>
@@ -14467,6 +14535,24 @@
                                             <xsl:for-each select="(descendant::rdg)[position() ge 300 and position() le 462]">
                                                 <rect x="{preceding::app => count() * 20 + 10}" y="0" height="140" width="20" stroke="white" fill="black"/>
                                             </xsl:for-each>
+                                            <g class="additionals" fill="red" transform="translate(2680, 0)">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">W</text>
+                                                    <text x="-10" y="36">J</text>
+                                                    <text x="-10" y="56">I</text>
+                                                    <text x="-10" y="76">O</text>
+                                                    <text x="-10" y="96">C</text>
+                                                    <text x="-10" y="116">R</text>
+                                                    <text x="-10" y="136">D</text>
+                                                </g>
+                                                <g class="s-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colS-3" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness S</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() ge 300 and position() le 462]">
                                                 <xsl:if test=".[@wit[contains(., 'S')]]">
                                                     <xsl:choose>
@@ -15000,24 +15086,6 @@
                                                 </xsl:if>
                                             </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red" transform="translate(2680, 0)">
-                                            <g class="labels">
-                                                <text x="-10" y="16">W</text>
-                                                <text x="-10" y="36">J</text>
-                                                <text x="-10" y="56">I</text>
-                                                <text x="-10" y="76">O</text>
-                                                <text x="-10" y="96">C</text>
-                                                <text x="-10" y="116">R</text>
-                                                <text x="-10" y="136">D</text>
-                                            </g>
-                                            <g class="s-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colS-3" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness S</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1340" height="20" viewBox="0 0 1500 20">
@@ -15027,7 +15095,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'W')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#W']">
-                                                            <rect id="W-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expW-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -15036,7 +15104,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="W-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expW-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -15045,7 +15113,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="W-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expW-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -15054,7 +15122,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="W-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expW-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -15063,7 +15131,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="W-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expW-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -15072,7 +15140,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="W-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expW-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -15081,7 +15149,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="W-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expW-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -15090,7 +15158,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="W-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expW-3" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -15107,7 +15175,6 @@
                                             <g class="w-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expW-3" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
                                         </g>
                                     </g>
@@ -15118,6 +15185,24 @@
                                             <xsl:for-each select="(descendant::rdg)[position() ge 300 and position() le 462]">
                                                 <rect x="{preceding::app => count() * 20 + 10}" y="0" height="140" width="20" stroke="white" fill="black"/>
                                             </xsl:for-each>
+                                            <g class="additionals" fill="red" transform="translate(2680, 0)">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">S</text>
+                                                    <text x="-10" y="36">J</text>
+                                                    <text x="-10" y="56">I</text>
+                                                    <text x="-10" y="76">C</text>
+                                                    <text x="-10" y="96">O</text>
+                                                    <text x="-10" y="116">R</text>
+                                                    <text x="-10" y="136">D</text>
+                                                </g>
+                                                <g class="w-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colW-3" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness W</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() ge 300 and position() le 462]">
                                                 <xsl:if test=".[@wit[contains(., 'W')]]">
                                                     <xsl:choose>
@@ -15651,24 +15736,6 @@
                                                  </xsl:if>
                                              </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red" transform="translate(2680, 0)">
-                                            <g class="labels">
-                                                <text x="-10" y="16">S</text>
-                                                <text x="-10" y="36">J</text>
-                                                <text x="-10" y="56">I</text>
-                                                <text x="-10" y="76">C</text>
-                                                <text x="-10" y="96">O</text>
-                                                <text x="-10" y="116">R</text>
-                                                <text x="-10" y="136">D</text>
-                                            </g>
-                                            <g class="w-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colW-3" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness W</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                             </div>
@@ -15683,7 +15750,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'C')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#C']">
-                                                            <rect id="C-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expC-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -15692,7 +15759,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="C-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expC-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -15701,7 +15768,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="C-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expC-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -15710,7 +15777,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="C-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expC-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -15719,7 +15786,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="C-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expC-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -15728,7 +15795,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="C-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expC-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -15737,7 +15804,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="C-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expC-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -15746,7 +15813,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="C-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expC-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>C App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -15763,9 +15830,6 @@
                                             <g class="c-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expC-4" x="-60" y="0" width="1410" height="20" opacity="0">
-                                                    <title>Expand heat map for witness C</title>
-                                                </rect>
                                             </g>
                                         </g>
                                     </g>
@@ -15776,6 +15840,24 @@
                                             <xsl:for-each select="(descendant::rdg)[position() ge 463]">
                                                 <rect x="{preceding::app => count() * 20 + 10}" y="0" height="140" width="20" stroke="white" fill="black"/>
                                             </xsl:for-each>
+                                            <g class="additionals" fill="red" transform="translate(4020, 0)">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">O</text>
+                                                    <text x="-10" y="36">I</text>
+                                                    <text x="-10" y="56">D</text>
+                                                    <text x="-10" y="76">W</text>
+                                                    <text x="-10" y="96">J</text>
+                                                    <text x="-10" y="116">S</text>
+                                                    <text x="-10" y="136">R</text>
+                                                </g>
+                                                <g class="c-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colC-4" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness C</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() ge 463]">
                                                 <xsl:if test=".[@wit[contains(., 'C')]]">
                                                     <xsl:choose>
@@ -16309,24 +16391,6 @@
                                                 </xsl:if>
                                             </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red" transform="translate(4020, 0)">
-                                            <g class="labels">
-                                                <text x="-10" y="16">O</text>
-                                                <text x="-10" y="36">I</text>
-                                                <text x="-10" y="56">D</text>
-                                                <text x="-10" y="76">W</text>
-                                                <text x="-10" y="96">J</text>
-                                                <text x="-10" y="116">S</text>
-                                                <text x="-10" y="136">R</text>
-                                            </g>
-                                            <g class="c-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colC-4" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness C</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1340" height="20" viewBox="0 0 1500 20">
@@ -16336,7 +16400,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'D')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#D']">
-                                                            <rect id="D-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expD-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -16345,7 +16409,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="D-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expD-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -16354,7 +16418,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="D-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expD-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -16363,7 +16427,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="D-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expD-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -16372,7 +16436,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="D-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expD-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -16381,7 +16445,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="D-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expD-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -16390,7 +16454,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="D-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expD-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -16399,7 +16463,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="D-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expD-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>D App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -16416,7 +16480,6 @@
                                             <g class="d-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expD-4" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
                                         </g>
                                     </g>
@@ -16427,6 +16490,24 @@
                                             <xsl:for-each select="(descendant::rdg)[position() ge 463]">
                                                 <rect x="{preceding::app => count() * 20 + 10}" y="0" height="140" width="20" stroke="white" fill="black"/>
                                             </xsl:for-each>
+                                            <g class="additionals" fill="red" transform="translate(4020, 0)">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">C</text>
+                                                    <text x="-10" y="36">I</text>
+                                                    <text x="-10" y="56">O</text>
+                                                    <text x="-10" y="76">W</text>
+                                                    <text x="-10" y="96">R</text>
+                                                    <text x="-10" y="116">S</text>
+                                                    <text x="-10" y="136">J</text>
+                                                </g>
+                                                <g class="d-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colD-4" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness D</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() ge 463]">
                                                 <xsl:if test=".[@wit[contains(., 'D')]]">
                                                     <xsl:choose>
@@ -16960,24 +17041,6 @@
                                                 </xsl:if>
                                             </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red" transform="translate(4020, 0)">
-                                            <g class="labels">
-                                                <text x="-10" y="16">C</text>
-                                                <text x="-10" y="36">I</text>
-                                                <text x="-10" y="56">O</text>
-                                                <text x="-10" y="76">W</text>
-                                                <text x="-10" y="96">R</text>
-                                                <text x="-10" y="116">S</text>
-                                                <text x="-10" y="136">J</text>
-                                            </g>
-                                            <g class="d-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colD-4" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness D</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1340" height="20" viewBox="0 0 1500 20">
@@ -16987,7 +17050,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'I')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#I']">
-                                                            <rect id="I-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expI-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -16996,7 +17059,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="I-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expI-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -17005,7 +17068,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="I-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expI-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -17014,7 +17077,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="I-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expI-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -17023,7 +17086,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="I-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expI-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -17032,7 +17095,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="I-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expI-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -17041,7 +17104,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="I-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expI-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -17050,7 +17113,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="I-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expI-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>I App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -17067,9 +17130,6 @@
                                             <g class="i-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expI-4" x="-60" y="0" width="1410" height="20" opacity="0">
-                                                    <title>Expand heat map for witness I</title>
-                                                </rect>
                                             </g>
                                         </g>
                                     </g>
@@ -17079,7 +17139,25 @@
                                         <g class="witness-expands">
                                             <xsl:for-each select="(descendant::rdg)[position() ge 463]">
                                               <rect x="{preceding::app => count() * 20 + 10}" y="0" height="140" width="20" stroke="white" fill="black"/>
-                                          </xsl:for-each>
+                                            </xsl:for-each>
+                                            <g class="additionals" fill="red" transform="translate(4020, 0)">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">O</text>
+                                                    <text x="-10" y="36">C</text>
+                                                    <text x="-10" y="56">D</text>
+                                                    <text x="-10" y="76">W</text>
+                                                    <text x="-10" y="96">S</text>
+                                                    <text x="-10" y="116">J</text>
+                                                    <text x="-10" y="136">R</text>
+                                                </g>
+                                                <g class="i-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colI-4" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness I</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() ge 463]">
                                               <xsl:if test=".[@wit[contains(., 'I')]]">
                                                   <xsl:choose>
@@ -17613,24 +17691,6 @@
                                               </xsl:if>
                                           </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red" transform="translate(4020, 0)">
-                                            <g class="labels">
-                                                <text x="-10" y="16">O</text>
-                                                <text x="-10" y="36">C</text>
-                                                <text x="-10" y="56">D</text>
-                                                <text x="-10" y="76">W</text>
-                                                <text x="-10" y="96">S</text>
-                                                <text x="-10" y="116">J</text>
-                                                <text x="-10" y="136">R</text>
-                                            </g>
-                                            <g class="i-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colI-4" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness I</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1340" height="20" viewBox="0 0 1500 20">
@@ -17640,7 +17700,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'J')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#J']">
-                                                            <rect id="J-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expJ-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -17649,7 +17709,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="J-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expJ-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -17658,7 +17718,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="J-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expJ-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -17667,7 +17727,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="J-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expJ-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -17676,7 +17736,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="J-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expJ-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -17685,7 +17745,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="J-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expJ-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -17694,7 +17754,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="J-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expJ-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -17703,7 +17763,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="J-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expJ-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>J App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -17720,9 +17780,6 @@
                                             <g class="j-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expJ-4" x="-60" y="0" width="1410" height="20" opacity="0">
-                                                    <title>Expand heat map for witness J</title>
-                                                </rect>
                                             </g>
                                         </g>
                                     </g>
@@ -17733,6 +17790,24 @@
                                             <xsl:for-each select="(descendant::rdg)[position() ge 463]">
                                                 <rect x="{preceding::app => count() * 20 +10}" y="0" height="200" width="20" stroke="white" fill="black"/>
                                             </xsl:for-each>
+                                            <g class="additionals" fill="red" transform="translate(4020, 0)">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">S</text>
+                                                    <text x="-10" y="36">W</text>
+                                                    <text x="-10" y="56">I</text>
+                                                    <text x="-10" y="76">C</text>
+                                                    <text x="-10" y="96">O</text>
+                                                    <text x="-10" y="116">R</text>
+                                                    <text x="-10" y="136">D</text>
+                                                </g>
+                                                <g class="j-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colJ-4" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness J</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() ge 463]">
                                                 <xsl:if test=".[@wit[contains(., 'J')]]">
                                                     <xsl:choose>
@@ -18266,24 +18341,6 @@
                                                 </xsl:if>
                                             </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red" transform="translate(4020, 0)">
-                                            <g class="labels">
-                                                <text x="-10" y="16">S</text>
-                                                <text x="-10" y="36">W</text>
-                                                <text x="-10" y="56">I</text>
-                                                <text x="-10" y="76">C</text>
-                                                <text x="-10" y="96">O</text>
-                                                <text x="-10" y="116">R</text>
-                                                <text x="-10" y="136">D</text>
-                                            </g>
-                                            <g class="j-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colJ-4" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness J</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1340" height="20" viewBox="0 0 1500 20">
@@ -18293,7 +18350,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'O')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#O']">
-                                                            <rect id="O-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expO-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -18302,7 +18359,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="O-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expO-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -18311,7 +18368,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="O-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expO-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -18320,7 +18377,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="O-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expO-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -18329,7 +18386,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="O-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expO-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -18338,7 +18395,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="O-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expO-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -18347,7 +18404,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="O-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expO-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -18356,7 +18413,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="O-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expO-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>O App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -18373,7 +18430,6 @@
                                             <g class="o-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expO-4" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
                                         </g>
                                     </g>
@@ -18384,6 +18440,24 @@
                                             <xsl:for-each select="(descendant::rdg)[position() ge 463]">
                                                <rect x="{preceding::app => count() * 20 + 10}" y="0" height="140" width="20" stroke="white" fill="black"/>
                                            </xsl:for-each>
+                                            <g class="additionals" fill="red" transform="translate(4020, 0)">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">I</text>
+                                                    <text x="-10" y="36">C</text>
+                                                    <text x="-10" y="56">D</text>
+                                                    <text x="-10" y="76">W</text>
+                                                    <text x="-10" y="96">S</text>
+                                                    <text x="-10" y="116">J</text>
+                                                    <text x="-10" y="136">R</text>
+                                                </g>
+                                                <g class="o-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colO-4" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness O</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() ge 463]">
                                                <xsl:if test=".[@wit[contains(., 'O')]]">
                                                    <xsl:choose>
@@ -18917,24 +18991,6 @@
                                                </xsl:if>
                                            </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red" transform="translate(4020, 0)">
-                                            <g class="labels">
-                                                <text x="-10" y="16">I</text>
-                                                <text x="-10" y="36">C</text>
-                                                <text x="-10" y="56">D</text>
-                                                <text x="-10" y="76">W</text>
-                                                <text x="-10" y="96">S</text>
-                                                <text x="-10" y="116">J</text>
-                                                <text x="-10" y="136">R</text>
-                                            </g>
-                                            <g class="o-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colO-4" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness O</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1340" height="20" viewBox="0 0 1500 20">
@@ -18944,7 +19000,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'R')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#R']">
-                                                            <rect id="R-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expR-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -18953,7 +19009,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="R-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expR-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -18962,7 +19018,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="R-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expR-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -18971,7 +19027,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="R-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expR-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -18980,7 +19036,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="R-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expR-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -18989,7 +19045,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="R-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expR-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -18998,7 +19054,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="R-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expR-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -19007,7 +19063,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="R-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expR-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>R App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -19025,8 +19081,7 @@
                                                 <g class="r-expand-button">
                                                     <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                     <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                    <rect id="expR-4" x="-60" y="0" width="1410" height="20" opacity="0"/>
-                                                </g>
+                                                    </g>
                                             </g>
                                         </g>
                                     </g>
@@ -19037,6 +19092,24 @@
                                             <xsl:for-each select="(descendant::rdg)[position() ge 463]">
                                                 <rect x="{preceding::app => count() * 20 + 10}" y="0" height="140" width="20" stroke="white" fill="black"/>
                                             </xsl:for-each>
+                                            <g class="additionals" fill="red" transform="translate(4020, 0)">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">W</text>
+                                                    <text x="-10" y="36">I</text>
+                                                    <text x="-10" y="56">S</text>
+                                                    <text x="-10" y="76">C</text>
+                                                    <text x="-10" y="96">J</text>
+                                                    <text x="-10" y="116">D</text>
+                                                    <text x="-10" y="136">O</text>
+                                                </g>
+                                                <g class="r-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colR-4" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness R</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() ge 463]">
                                                 <xsl:if test=".[@wit[contains(., 'R')]]">
                                                     <xsl:choose>
@@ -19570,24 +19643,6 @@
                                                 </xsl:if>
                                             </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red" transform="translate(4020, 0)">
-                                            <g class="labels">
-                                                <text x="-10" y="16">W</text>
-                                                <text x="-10" y="36">I</text>
-                                                <text x="-10" y="56">S</text>
-                                                <text x="-10" y="76">C</text>
-                                                <text x="-10" y="96">J</text>
-                                                <text x="-10" y="116">D</text>
-                                                <text x="-10" y="136">O</text>
-                                            </g>
-                                            <g class="r-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colR-4" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness R</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1340" height="20" viewBox="0 0 1500 20">
@@ -19597,7 +19652,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'S')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#S']">
-                                                            <rect id="S-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expS-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -19606,7 +19661,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="S-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expS-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -19615,7 +19670,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="S-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expS-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -19624,7 +19679,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="S-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expS-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -19633,7 +19688,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="S-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expS-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -19642,7 +19697,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="S-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expS-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -19651,7 +19706,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="S-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expS-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -19660,7 +19715,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="S-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expS-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>S App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -19677,7 +19732,6 @@
                                             <g class="s-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expS-4" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
                                         </g>
                                     </g>
@@ -19688,6 +19742,24 @@
                                             <xsl:for-each select="(descendant::rdg)[position() ge 463]">
                                                 <rect x="{preceding::app => count() * 20 + 10}" y="0" height="140" width="20" stroke="white" fill="black"/>
                                             </xsl:for-each>
+                                            <g class="additionals" fill="red" transform="translate(4020, 0)">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">W</text>
+                                                    <text x="-10" y="36">J</text>
+                                                    <text x="-10" y="56">I</text>
+                                                    <text x="-10" y="76">O</text>
+                                                    <text x="-10" y="96">C</text>
+                                                    <text x="-10" y="116">R</text>
+                                                    <text x="-10" y="136">D</text>
+                                                </g>
+                                                <g class="s-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colS-4" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness S</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() ge 463]">
                                                 <xsl:if test=".[@wit[contains(., 'S')]]">
                                                     <xsl:choose>
@@ -20221,24 +20293,6 @@
                                                 </xsl:if>
                                             </xsl:for-each>
                                         </g>
-                                        <g class="additionals" fill="red" transform="translate(4020, 0)">
-                                            <g class="labels">
-                                                <text x="-10" y="16">W</text>
-                                                <text x="-10" y="36">J</text>
-                                                <text x="-10" y="56">I</text>
-                                                <text x="-10" y="76">O</text>
-                                                <text x="-10" y="96">C</text>
-                                                <text x="-10" y="116">R</text>
-                                                <text x="-10" y="136">D</text>
-                                            </g>
-                                            <g class="s-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colS-4" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness S</title>
-                                                </polygon>
-                                            </g>
-                                        </g>
                                     </g>
                                 </svg>
                                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1340" height="20" viewBox="0 0 1500 20">
@@ -20248,7 +20302,7 @@
                                                 <xsl:if test=".[@wit[contains(., 'W')]]">
                                                     <xsl:choose>
                                                         <xsl:when test=".[@wit='#W']">
-                                                            <rect id="W-1-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-1-expW-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -20257,7 +20311,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^#\w #\w$')]]">
-                                                            <rect id="W-2-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-2-expW-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -20266,7 +20320,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){2}#\w$')]]">
-                                                            <rect id="W-3-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-3-expW-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -20275,7 +20329,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){3}#\w$')]]">
-                                                            <rect id="W-4-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-4-expW-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -20284,7 +20338,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){4}#\w$')]]">
-                                                            <rect id="W-5-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-5-expW-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -20293,7 +20347,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){5}#\w$')]]">
-                                                            <rect id="W-6-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-6-expW-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -20302,7 +20356,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){6}#\w$')]]">
-                                                            <rect id="W-7-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-7-expW-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -20311,7 +20365,7 @@
                                                             </rect>
                                                         </xsl:when>
                                                         <xsl:when test=".[@wit[matches(., '^(#\w ){7}#\w$')]]">
-                                                            <rect id="W-8-{preceding::app => count()}" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
+                                                            <rect id="{preceding::app => count()}-8-expW-4" x="{preceding::app => count() * 20 + 10}" y="0" width="20" height="20" stroke="white">
                                                                 <title>
                                                                     <xsl:text>W App #</xsl:text>
                                                                     <xsl:value-of select="preceding::app => count() + 1"/>
@@ -20328,7 +20382,6 @@
                                             <g class="w-expand-button">
                                                 <rect x="-60" y="3" width="44" height="14" rx="5" fill="green"/>
                                                 <text x="-56" y="13" fill="white" font-size="11">expand</text>
-                                                <rect id="expW-4" x="-60" y="0" width="1410" height="20" opacity="0"/>
                                             </g>
                                         </g>
                                     </g>
@@ -20339,6 +20392,24 @@
                                             <xsl:for-each select="(descendant::rdg)[position() ge 463]">
                                                 <rect x="{preceding::app => count() * 20 + 10}" y="0" height="140" width="20" stroke="white" fill="black"/>
                                             </xsl:for-each>
+                                            <g class="additionals" fill="red" transform="translate(4020, 0)">
+                                                <g class="labels">
+                                                    <text x="-10" y="16">S</text>
+                                                    <text x="-10" y="36">J</text>
+                                                    <text x="-10" y="56">I</text>
+                                                    <text x="-10" y="76">C</text>
+                                                    <text x="-10" y="96">O</text>
+                                                    <text x="-10" y="116">R</text>
+                                                    <text x="-10" y="136">D</text>
+                                                </g>
+                                                <g class="w-collapse-button">
+                                                    <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
+                                                    <text x="-57" y="13" fill="white" font-size="11">collapse</text>
+                                                    <polygon id="colW-4" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
+                                                        <title>Collapse heat map for witness W</title>
+                                                    </polygon>
+                                                </g>
+                                            </g>
                                             <xsl:for-each select="(descendant::rdg)[position() ge 463]">
                                                 <xsl:if test=".[@wit[contains(., 'W')]]">
                                                     <xsl:choose>
@@ -20871,24 +20942,6 @@
                                                     </xsl:choose>
                                                  </xsl:if>
                                              </xsl:for-each>
-                                        </g>
-                                        <g class="additionals" fill="red" transform="translate(4020, 0)">
-                                            <g class="labels">
-                                                <text x="-10" y="16">S</text>
-                                                <text x="-10" y="36">J</text>
-                                                <text x="-10" y="56">I</text>
-                                                <text x="-10" y="76">C</text>
-                                                <text x="-10" y="96">O</text>
-                                                <text x="-10" y="116">R</text>
-                                                <text x="-10" y="136">D</text>
-                                            </g>
-                                            <g class="w-collapse-button">
-                                                <rect x="-60" y="3" width="44" height="14" rx="5" fill="red"/>
-                                                <text x="-57" y="13" fill="white" font-size="11">collapse</text>
-                                                <polygon id="colW-4" points="-60,0 1350,0 1350,140 -10,140 -10,20 -60,20" opacity="0">
-                                                    <title>Collapse heat map for witness W</title>
-                                                </polygon>
-                                            </g>
                                         </g>
                                     </g>
                                 </svg>
