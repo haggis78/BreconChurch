@@ -302,7 +302,7 @@
    </teiHeader>
    <text>
       <body>
-         <ab>
+         <ab n="1">
             <pb ed="#I" n="269"/><pb ed="#W" n="304"/><pb ed="#R" n="31"/><pb ed="#O" n="288"/><pb ed="#S" n="372"/><pb ed="#D" n="175"/><pb ed="#C" n="255"/> 
             <app>
                <rdg wit="#I #C #O #D">Henricus Octavus Dei gratia Angliae et Franciae</rdg>
@@ -310,7 +310,6 @@
             </app> Rex <app>
                <rdg wit="#I #C #O">fidei Defensor</rdg>
                <rdg wit="#D"><add>^</add><add place="above">fidei Defensor</add></rdg>
-               
                <rdg wit="#W #R #S #J"/>
             </app> <app>
                <rdg wit="#I #C #O #D">Dominus Hiberniae Et in terra Supremum Ecclesiæ Anglicanæ Caput</rdg> 
@@ -320,7 +319,8 @@
                <rdg wit="#R">et c'</rdg>
             </app> salutem.
          </ab>
-         <ab>Cum Collegium de <app>
+         
+         <ab n="2">Cum Collegium de <app>
                <rdg wit="#W #S #I #C #J #O #D">Abergwilly</rdg>
                <rdg wit="#R">Aberguylly</rdg>
             </app> in loco inidoneo existit, ubi nulla occasio hospitalitatis aliis per viros dicti Collegii administrandæ datur ad commodum et utilitatem subditorum
@@ -330,7 +330,8 @@
                <rdg wit="#I">legiorum</rdg>
             </app> nostrorum.
          </ab>
-         <ab>Cumque etiam domus sive Prioratus Fratrum prædicatorum in oppido nostro de <app>
+         
+         <ab n="3">Cumque etiam domus sive Prioratus Fratrum prædicatorum in oppido nostro de <app>
                <rdg wit="#W #S #J">Brecknock</rdg>
                <rdg wit="#R">Brechnok</rdg>
                <rdg wit="#C #I #O #D">Brechnock</rdg>
@@ -377,7 +378,7 @@
                <rdg wit="#S #J">in feodo.</rdg>
             </app>
          </ab>
-         <ab>Cumque etiam subditi et ligei nostri in dictis partibus australibus Walliæ commorantes, summa 
+         <ab n="4">Cumque etiam subditi et ligei nostri in dictis partibus australibus Walliæ commorantes, summa 
                egestate oppressi filios suos in bonis literis educare non <app>
                <rdg wit="#R #W #I #J #C #O #D">possunt:</rdg>
                <rdg wit="#S">possint:</rdg>
@@ -403,7 +404,7 @@
                <rdg wit="#S">possint</rdg>
                            </app> propter ignorantiam dictæ linguæ Anglicanæ.
          </ab>
-         <ab>Cumque etiam in dicto <app>
+         <ab n="5">Cumque etiam in dicto <app>
                <rdg wit="#W #S #J #R #I #C #O">Collegio</rdg>
                <rdg wit="#D">Collegis</rdg>
             </app> de <app>
