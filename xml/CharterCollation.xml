@@ -501,7 +501,12 @@
             </app> generis vel speciei fuerint, ac in tam amplis modo et forma prout dictus <app>
                <rdg wit="#W #C #D">Richardus</rdg>
                <rdg wit="#S #R #J #O #I">Ricardus</rdg>
-                           </app> David ultimus Prior dictæ nuper domus fratrum prædicatorum, vel aliquis prædecessorum prædicti <app>
+                           </app> David ultimus Prior 
+            <app><!-- WHC added 11-Dec-2020 -->
+               <rdg wit="#W #S #I #J #C #O #D">dictæ</rdg>
+               <rdg wit="#R">dicti</rdg>
+            </app>
+                         nuper domus fratrum prædicatorum, vel aliquis prædecessorum prædicti <app>
                <rdg wit="#W #S #R #J #I #O">Ricardi</rdg>
                <!-- WHC check wit W, which gave Richardus a few lines up: does it really give Ricardi here?-->
                <rdg wit="#C #D">Richardi</rdg> 
@@ -527,10 +532,28 @@
             </app> implementa <app>
                <rdg wit="#W #S #I #J #C #O #D"/>
                <rdg wit="#R">et</rdg>
-            </app> necessaria, dicto nuper Prioratui spectantia vel aliquo modo <pb ed="#C" n="258"/>pertinentia, <app>
+            </app> necessaria, 
+            
+            <app>
+               <rdg wit="#W #S #I #J #C #O #D">dicto</rdg>
+               <rdg wit="#R">dicti</rdg>
+            </app>
+            
+            nuper 
+           
+            
+            <app>
+               <rdg wit="#W #S #I #J #C #O #D">Prioratui</rdg>
+               <rdg wit="#R">Prioratus</rdg>
+            </app>
+            
+            spectantia vel aliquo modo <pb ed="#C" n="258"/>pertinentia, <app>
                <rdg wit="#W #R #I #C #O #D">ac</rdg>
                <rdg wit="#S #J">ad</rdg>
-            </app> reversionem dicti nuper Prioratus et cæterorum præmissorum <app>
+            </app> reversionem dicti 
+            
+            
+            nuper Prioratus et cæterorum præmissorum <app>
                <rdg wit="#W #S #J #C #O #I">quorumcunque</rdg>
                <rdg wit="#R #D">quorumcumque</rdg>
             </app><app>
