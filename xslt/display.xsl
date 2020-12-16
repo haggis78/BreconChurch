@@ -22,15 +22,15 @@
                         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
                         <link rel="stylesheet" type="text/css" href="../../../css/brecon.css" />
                         <link rel="icon" href="../../../img/background/brecon-favicon.png"/>
-                        <script src="../../../javascript/variance-checkbox.js" type="text/javascript"></script>
+                        <script src="../../../js/variance-checkbox.js" type="text/javascript"></script>
                         <title>Brecon | Transcript <xsl:value-of select="current()"/></title>
                     </head>
                     <body>
                         <xsl:comment> SSI line below </xsl:comment>
-                        <xsl:comment>#include virtual="../../ssi/collation-ssi.html" </xsl:comment>
+                        <xsl:comment>#include virtual="../ssi/collation-ssi.html" </xsl:comment>
                         <div class="content">
                             <h1><xsl:value-of select="(root()/descendant::title)[1]"/></h1>
-                            <h2>Manuscript Edition <xsl:value-of select="current()"/></h2>
+                            <h2>Witness <xsl:value-of select="current()"/></h2>
                             <div class="transcript-about">
                                 <xsl:if test="current()/ancestor::bibl">
                                     <xsl:value-of select="current()/ancestor::bibl/text()"/>

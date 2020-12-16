@@ -322,7 +322,7 @@
          
          <ab n="2">Cum Collegium de <app>
                <rdg wit="#W #S #I #C #J #O #D">Abergwilly</rdg>
-               <rdg wit="#R">Aberguylly</rdg>
+               <rdg wit="#R">Alberguylly</rdg>
             </app> in loco inidoneo existit, ubi nulla occasio hospitalitatis aliis per viros dicti Collegii administrandæ datur ad commodum et utilitatem subditorum
             nostrorum, in locis dicto Collegio adjacentibus ad grave dampnum dictorum <app>
                <rdg wit="#W #S #C #J #O #D">ligiorum</rdg>
@@ -411,7 +411,8 @@
                <rdg wit="#W #I #J #O">Abergwilly</rdg>
                <rdg wit="#S">Abergwilli</rdg>
                <rdg wit="#C">Abergwylly</rdg>
-               <rdg wit="#R #D">Aberguylly</rdg>
+               <rdg wit="#D">Aberguylly</rdg>
+               <rdg wit="#R">Alberguylly</rdg>
             </app> pro Cantatoribus in eodem Collegio stipendia atque <app>
                <rdg wit="#W #S #J">sallaria</rdg>
                <rdg wit="#R #I #C #O #D">salaria</rdg>
@@ -603,11 +604,9 @@
             </app> dicto nuper Prioratui terris <app>
                <rdg wit="#W #S #J">vel</rdg>
                <rdg wit="#R #I #C #O #D">et</rdg>
-            </app> <app>
-               <rdg wit="#W #S #J #R #I #O #D">tenementis,</rdg>
-               <rdg wit="#C">tementis,</rdg>
-               <!-- WHC: NB it's really Te/-mentis (missing letters at line break): collapse and treat as abbreviation? -->
-            </app> vel cæteris hæreditamentis <app>
+            </app> tenementis,
+               <!-- WHC: C has Te/-mentis (missing letters at line break): treating here as abbreviation; even D correctly expanded -->
+             vel cæteris hæreditamentis <app>
                <rdg wit="#W #S #I #J #C #O #D">quibuscunque</rdg>
                <rdg wit="#R">quibuscumque</rdg>
             </app>, <pb ed="#R" n="32"/>sive alicui <app>
@@ -769,7 +768,7 @@
             nostris, præfato Willielmo nunc Episcopo <app>
                <rdg wit="#W #S #J">Menevensi</rdg><!-- WHC again why Menevensi instead of Menevensis?-->
                <rdg wit="#R #I #C #O #D">Meneven'</rdg>
-            </app>et successoribus suis dictum Collegium de <app>
+            </app> et successoribus suis dictum Collegium de <app>
                <rdg wit="#W #S #I #J #O">Abergwilly,</rdg>
                <rdg wit="#D">Aberguylly,</rdg>
                <rdg wit="#C">Abergwylly,</rdg>
@@ -814,6 +813,7 @@
                <rdg wit="#W #S #J">reddendo solvendo vel faciendo.</rdg>
                <rdg wit="#R">reddend' solvend' vel faciend'.</rdg>
                <rdg wit="#I #C #O #D">reddendum solvendum <pb ed="#O" n="294"/> vel faciendum.</rdg>
+               <!-- WHC: this is expanded in two different ways by the different witness families, implying that it was NOT expanded in the original Letters (as it also is not in R). -->
             </app> </ab>
          <ab>
             Eo quod expressa mentio de certitudine aut valore præmissorum, aut de aliis donis <app>
@@ -878,7 +878,7 @@
                <rdg wit="#I #C #D #O"/>
             </app> discretiones <app>
                <rdg wit="#W #S #J">convertendas.</rdg>
-               <rdg wit="#R">commitendas.</rdg> <!-- WHC confirm this in R: is it abbreviated with uncertain ending? -->
+               <rdg wit="#R">commitend'.</rdg> 
                <rdg wit="#C #D #O">commitendum.</rdg>
                <rdg wit="#I">commitend<hi rend="underline">um</hi>.<add place="margin">as</add></rdg>
             </app> </ab>
@@ -907,7 +907,8 @@
                <rdg wit="#I #C #O">videlt'</rdg>
                <rdg wit="#D">videlicet</rdg>
            </app> eruditi <app>
-               <rdg wit="#W #R #S #J #D">ludimagistri</rdg>
+               <rdg wit="#W #S #J #D">ludimagistri</rdg>
+              <rdg wit="#R">ludi magistri</rdg>
                <rdg wit="#I #C #O">ludi Magistri</rdg>
             </app> et pædagogi, lectoris theologiæ <pb ed="#I" n="275"/>concionatoris, qui apud <app>
                <rdg wit="#W #S #J">Brecknock</rdg>
@@ -928,7 +929,11 @@
                   <rdg wit="#W #S #J #R #I #C #O">elucidabunt,</rdg>
                   <rdg wit="#D"><del rend="overwritten">A</del><add>E</add>lucidabunt</rdg>
                </app>
-               secundum ordinationes et statuta in ea parte per dictum diocesanum et loci illius ordinarium et fundatorem Collegii prædicti de tempore in tempus edenda et
+               secundum ordinationes et statuta in ea parte per dictum diocesanum et loci illius ordinarium 
+                              <app>
+                  <rdg wit="#W #S #J #D #I #C #O">et</rdg>
+                  <rdg wit="#R">ac</rdg></app> 
+               fundatorem Collegii prædicti de tempore in tempus edenda et
             constituenda, libere et impune absque impetitione nostri hæredum <app>
                <rdg wit="#W #S #I #J #R #D">aut</rdg>
                <rdg wit="#C #O">et</rdg>
@@ -980,8 +985,8 @@
                <rdg wit="#W #R #I #C #O #D">nostris,</rdg>
                <rdg wit="#S #J">nostro,</rdg>
             </app> <app>
-               <rdg wit="#W #S #R">et </rdg>
-               <rdg wit="#I #C #O #D #J"/>
+               <rdg wit="#W #S">et </rdg>
+               <rdg wit="#R #I #C #O #D #J"/><!-- WHC: check W S and J  -->
             </app>volumus et concedimus per præsentes, quod dictus nuper Prioratus 
             <app>
                <rdg wit="#W #S #J #R #I #C #O">fratrum prædicatorum </rdg>
@@ -1029,7 +1034,7 @@
                <app>
                   <rdg wit="#W #S #J #R #I #C #O">concionatores</rdg>
                   <rdg wit="#D">concionator<del rend="overwritten">i</del><add place="superimposed">e</add>s</rdg>
-               </app><app>
+               </app> <app>
                <rdg wit="#W #R #S #I #J #C #D">ac</rdg>
                <rdg wit="#O"><del rend="strikethrough">et</del><add place="above">ac</add></rdg>
                <!-- CRC: in O, "et" was written here, struck out and replaced with "ac"-->
@@ -1059,7 +1064,7 @@
             </app> dicto nuper <pb ed="#O" n="296"/>Prioratui <app>
                <rdg wit="#W #S #R #J">spectantibus,</rdg>
                <rdg wit="#I #C #O #D">spectantia,</rdg>
-            </app>et infra ambitum et præcinctum <!-- CRC: in O, large empty space between words here, filled in with three decorative punctuation.-->
+            </app> et infra ambitum et præcinctum <!-- CRC: in O, large empty space between words here, filled in with three decorative punctuation.-->
             ejusdem nuper Prioratus <app>
                <rdg wit="#W #S #I #R #C #O #D"/>
                <rdg wit="#J">spectantibus et infra ambitum et præcinctum ejusdem nuper Prioratus </rdg>
@@ -1153,7 +1158,8 @@
                <rdg wit="#O"><add place="above">commoditates et hæreditamenta,</add></rdg>
                
             </app> libertates franchesias <app>
-               <rdg wit="#W #S #R">præheminentias</rdg>
+               <rdg wit="#R">præeminentias</rdg>
+               <rdg wit="#W #S">præheminentias</rdg>
                <rdg wit="#I #C #O #D">præeminentias</rdg>
                <rdg wit="#J">præhementias</rdg>
             </app> et jura <pb ed="#I" n="277"/><app>
@@ -1167,7 +1173,7 @@
                <rdg wit="#R">Alberguylly,</rdg>
                <rdg wit="#C">Abergwylly,</rdg>
                <rdg wit="#D">Aberguylly,</rdg>
-            </app><pb ed="#O" n="297"/>vel fabricæ dicti Collegii. </ab>
+            </app><pb ed="#O" n="297"/> vel fabricæ dicti Collegii. </ab>
             
             
          <ab>Et quod <app>
@@ -1194,7 +1200,12 @@
                <rdg wit="#W #S #J #R #I #C #O">et omnimodis</rdg>
                <rdg wit="#D"><add>^</add><add place="above">et omnimodis</add></rdg>
             </app>
-            privilegiis libertatibus franchesiis præheminentiis et juribus, <app>
+            privilegiis libertatibus franchesiis 
+            <app>
+               <rdg wit="#W #S #J #D #I #C #O">præheminentiis</rdg>
+               <rdg wit="#R">præeminentiis</rdg>
+            </app>
+                        et juribus, <app>
                <rdg wit="#W #S #J">quibuscunque </rdg>
                <rdg wit="#R">quibuscumque </rdg>
                <rdg wit="#I #C #O #D"/>
