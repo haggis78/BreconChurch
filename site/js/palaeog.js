@@ -1,8 +1,7 @@
 window.addEventListener('DOMContentLoaded',showHide,true);
 
 function showHide() {
-    alert ('Hi there! Looks like the page loaded! Yay!');
-    var buttons = document.getElementsByClassName("transcr")
+        var buttons = document.getElementsByClassName("transcr")
 buttons[0].addEventListener('click', showHideN1, false)
 buttons[1].addEventListener('click', showHideN2, false)
 buttons[2].addEventListener('click', showHideN3, false)
