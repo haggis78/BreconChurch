@@ -447,7 +447,7 @@
          </ab>
          <!-- CRC: in #O, as below, "Barlow" is written in left margin next to this last line. This one is in the same hand as the text-->
          <!-- WHC: That's a good thing to know: it may indicate that #O is copied from #C! -->
-         <ab>Nos igitur volentes ex intima charitate nostra <app>
+         <ab n="6">Nos igitur volentes ex intima charitate nostra <app>
                <rdg wit="#W #R #I #S #C #O #D">qua</rdg>
                <rdg wit="#J">quam</rdg>
             </app> erga Deum et <app>
@@ -485,7 +485,7 @@
             </app> spectantia sive pertinentia. </ab> 
                
                
-         <ab><app> <rdg wit="#W #S #I #J #C #O #D">Ac etiam</rdg>
+         <ab n="7"><app> <rdg wit="#W #S #I #J #C #O #D">Ac etiam</rdg>
                <rdg wit="#R">Acetiam</rdg></app>
              omnia catalla res <app>
                <rdg wit="#W #R #I #O #D #C">hustilmenta</rdg>
@@ -563,7 +563,7 @@
                   to grammar as well as the sense, are omitted by Stephens, and added <emph rend="italics">meo periculo</emph> by T.J.']</rdg>
             </app>
          </ab>
-         <ab><app>
+         <ab n="8"><app>
                <rdg wit="#W #S #I #J #C #D #O">Ac etiam</rdg>
                <rdg wit="#R">Acetiam</rdg>
             </app> dedimus et concessimus et <app>
@@ -668,7 +668,7 @@
                <rdg wit="#R #I #C #O #D">vel</rdg>
             </app>deberent.
          </ab>
-         <ab><app>
+         <ab n="9"><app>
                <rdg wit="#W #R #S #J">Habendum,</rdg>
                <rdg wit="#I #C #O #D">Habendum et</rdg>
             </app> tenendum et gaudendum prædictam domum sive <app>
@@ -719,7 +719,7 @@
                <rdg wit="#R">quacumque.</rdg>
             </app>
          </ab>
-         <ab>Et ulterius ex speciali gratia nostra, certa scientia et mero motu nostris, damus et per præsentes
+         <ab n="10">Et ulterius ex speciali gratia nostra, certa scientia et mero motu nostris, damus et per præsentes
             concedimus præfato nunc Episcopo <app>
                <rdg wit="#W #S #J">Menevensi</rdg>
                <!-- This is interesting because grammatically it ought to be Menevensis; the MSS abbreviate as usual; W, S and J give an incorrect expansion. -->
@@ -753,7 +753,7 @@
                <rdg wit="#I #C #O">quoquomodo</rdg>
             </app> reddendo solvendo vel faciendo.
          </ab>
-         <ab>Et ulterius ex speciali gratia nostra, certa scientia et mero <app>
+         <ab n="11">Et ulterius ex speciali gratia nostra, certa scientia et mero <app>
                <rdg wit="#W #S #J #R #I #C #O">motu</rdg>
                <rdg wit="#D"><del rend="overwritten">modu</del><add>motu</add></rdg>
             </app> nostris, volumus et concedimus 
@@ -815,7 +815,7 @@
                <rdg wit="#I #C #O #D">reddendum solvendum <pb ed="#O" n="294"/> vel faciendum.</rdg>
                <!-- WHC: this is expanded in two different ways by the different witness families, implying that it was NOT expanded in the original Letters (as it also is not in R). -->
             </app> </ab>
-         <ab>
+         <ab n="12">
             Eo quod expressa mentio de certitudine aut valore præmissorum, aut de aliis donis <app>
                <rdg wit="#W #R #S #J #I #O">sive</rdg>
                <rdg wit="#C #D">seu</rdg>
@@ -833,7 +833,7 @@
             </app> in aliquo non obstante.
          </ab>
          
-         <ab>Insuper noveritis quod nos de gratia nostra speciali certa scientia et mero motu <pb ed="#C" n="261"/> nostris, volumus et concedimus ac per præsentes licentiam <app>
+         <ab n="13">Insuper noveritis quod nos de gratia nostra speciali certa scientia et mero motu <pb ed="#C" n="261"/> nostris, volumus et concedimus ac per præsentes licentiam <app>
                <rdg wit="#W #S #I #R #C #D #O">facultatem </rdg>
                <rdg wit="#J"/>
             </app>potestatem <app>
@@ -884,7 +884,7 @@
             </app> </ab>
             
              
-            <ab>Et quod ipsi <pb ed="#D" n="179"/>libere et impune valeant quendam ludum <app>
+            <ab n="14">Et quod ipsi <pb ed="#D" n="179"/>libere et impune valeant quendam ludum <app>
                <rdg wit="#W #R #S #J #C #D">literarium</rdg>
                <rdg wit="#I">literarum</rdg><!-- WHC check this -->
                <rdg wit="#O">literar<add>^</add><add place="above">i</add>um</rdg>
@@ -975,7 +975,7 @@
          </ab>
          
         
-         <ab><app>
+         <ab n="15"><app>
                <rdg wit="#W #S #I #J #C #O #D">Ac etiam</rdg>
                <rdg wit="#R">Acetiam</rdg>
             </app> de gratia nostra speciali<pb ed="#C" n="262"/> certa scientia<app>
@@ -1011,7 +1011,7 @@
              volumus. </ab>
                         
             
-            <ab>Et quod antedictus nunc Episcopus <app>
+            <ab n="16">Et quod antedictus nunc Episcopus <app>
                <rdg wit="#W #S #R #J">Menevensis</rdg>
                <rdg wit="#I #C #O #D">Meneven'</rdg>
             </app> ac omnes et singuli præbendarii canonici choristæ vicarii, <app>
@@ -1082,7 +1082,7 @@
                CRC: it really does! "residere possint et manere possint". No idea why.-->
             </app></ab>
          
-         <ab>Et quod idem nunc Episcopus <app>
+         <ab n="17">Et quod idem nunc Episcopus <app>
                <rdg wit="#W #S #J">Menevensis</rdg>
             <rdg wit="#R">Meneven'</rdg>
                <rdg wit="#I #C #O #D">Menev'</rdg>
@@ -1136,7 +1136,7 @@
                <rdg wit="#I #C #O #D">facere.</rdg>
             </app>
          </ab>
-         <ab>Et <app>
+         <ab n="18">Et <app>
                <rdg wit="#W #S #R #J #I #O #D">ulterius</rdg>
                <rdg wit="#C">ulteius</rdg> <!-- WHC: I confirmed this reading. It's in the large bold letters and the start of a section, no mistaking it. -->
             </app> volumus et concedimus per præsentes de speciali gratia nostra certa scientia et mero motu nostris, quod idem nunc Episcopus <app>
@@ -1176,7 +1176,7 @@
             </app><pb ed="#O" n="297"/> vel fabricæ dicti Collegii. </ab>
             
             
-         <ab>Et quod <app>
+         <ab n="19">Et quod <app>
                <rdg wit="#W #S #J">ipse</rdg>
                <rdg wit="#R #I #C #O #D">ipsi</rdg>
             </app> nunc Episcopus <app>
@@ -1238,7 +1238,7 @@
                <rdg wit="#C">Brechnocke.</rdg>
             </app></ab>
         
-         <ab> Ac ea omnia et singula præmissa <pb ed="#C" n="264"/>Prioratum Collegium <pb ed="#D" n="181"/> 
+         <ab n="20"> Ac ea omnia et singula præmissa <pb ed="#C" n="264"/>Prioratum Collegium <pb ed="#D" n="181"/> 
             maneria <app>
                <rdg wit="#W #S #I #J #C #O #D">messuagia</rdg>
                <rdg wit="#R">mesuagia</rdg>
@@ -1319,7 +1319,7 @@
                <rdg wit="#I #C #O">excogitare.</rdg> <!-- WHC I confirmed these: excogitari (passive infinitive) should be correct but they have the active infinitive. -->
             </app>
          </ab>
-         <ab>Eo quod expressa mentio <app>
+         <ab n="21">Eo quod expressa mentio <app>
                <rdg wit="#W #S #R #J"/>
                <rdg wit="#I #C #O #D">de Certitudine <pb ed="#C" n="265"/>præmissorum aut de aliis donis sive Concessionibus per nos vel per aliquem progenitorum nostrorum præfato
                Episcopo Meneven' aut alicui Prædecessorum suorum ante hec tempora facta in præsentibus minime</rdg></app><app>
@@ -1336,7 +1336,7 @@
                   <rdg wit="#C #O #D #I"/>
             </app>
          </ab> 
-         <ab>In cujus rei <app>
+         <ab n="22">In cujus rei <app>
                <rdg wit="#W #S #I #J #C #O #D">Testimonium has literas nostras fieri fecimus Patentes.</rdg>
                <rdg wit="#R">etc'.</rdg>
             </app> <app>
@@ -1355,12 +1355,12 @@
                <rdg wit="#R"/>
             </app>
          </ab>
-         <ab><app>
+         <ab n="23"><app>
                <rdg wit="#W #S #R #J"/>
                <rdg wit="#I #C #O #D">S: Petre</rdg>
             </app>
          </ab>
-         <ab>Per breve de privato Sigillo et de dat’ <app>
+         <ab n="24">Per breve de privato Sigillo et de dat’ <app>
                <rdg wit="#W #S #R #J"/>
                <rdg wit="#I">præd' </rdg>
                <rdg wit="#C #O #D">prædict' </rdg>
@@ -1370,7 +1370,7 @@
                <rdg wit="#R #I #O #D #C"/> 
             </app>
          </ab>
-         <ab><app>
+         <ab n="25"><app>
                <rdg wit="#W #S">Thomas Bevens.</rdg>
                <rdg wit="#J">Thomas Bevens. Per me Humfredum Harris.</rdg>
                <!-- WHC: check various layouts of this ending to see in what sequence the names should appear. -->
