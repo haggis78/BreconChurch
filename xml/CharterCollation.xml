@@ -312,7 +312,7 @@
                <rdg wit="#D"><add>^</add><add place="above">fidei Defensor</add></rdg>
                <rdg wit="#W #R #S #J"/>
             </app> <app>
-               <rdg wit="#I #C #O #D">Dominus Hiberniae Et in terra Supremum Ecclesiæ Anglicanæ Caput</rdg> 
+               <rdg wit="#I #C #O #D">Dominus Hiberniæ Et in terra Supremum Ecclesiæ Anglicanæ Caput</rdg> 
                <rdg wit="#W #R #S #J"/>
             </app> omnibus ad quos <app>
                <rdg wit="#W #S #I #C #J #O #D">præsentes literæ pervenerint </rdg>
@@ -323,7 +323,8 @@
          <ab n="2">Cum Collegium de <app>
                <rdg wit="#W #S #I #C #J #O #D">Abergwilly</rdg>
                <rdg wit="#R">Alberguylly</rdg>
-            </app> in loco inidoneo existit, ubi nulla occasio hospitalitatis aliis per viros dicti Collegii administrandæ datur ad commodum et utilitatem subditorum
+            </app> in loco inidoneo existit, ubi nulla occasio hospitalitatis aliis per 
+            viros dicti Collegii administrandæ datur ad commodum et utilitatem subditorum
             nostrorum, in locis dicto Collegio adjacentibus ad grave dampnum dictorum <app>
                <rdg wit="#W #S #C #J #O #D">ligiorum</rdg>
                <rdg wit="#R">ligeorum</rdg>
