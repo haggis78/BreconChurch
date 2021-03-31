@@ -1,0 +1,455 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <link rel="stylesheet" type="text/css" href="../../../css/brecon.css" />
+      <link rel="icon" href="../../../img/background/brecon-favicon.png" /><script src="../../../js/variance-checkbox.js" type="text/javascript"></script><title>Brecon | Transcript C</title>
+   </head>
+   <body><!-- SSI line below --><!--#include virtual="../ssi/collation-ssi.html" -->
+      <div class="content">
+         <h1>Letters Patent of Henry VIII Establishing Christ College and Church, Brecon,
+            Wales</h1>
+         <h2>Witness C</h2>
+         <div class="transcript-about"></div>
+         <div class="transcript-body">
+            
+              </n>
+              </n>  
+               Henricus Octavus 
+               Dei gratia Angliæ et Franciæ Rex fidei -
+               Defensor Dominus Hiberniae Et in terra Su-
+               premum Ecclesiæ Anglicanæ Caput. Om-
+               nibus Ad quos præsentes Literæ pervene-
+               rint Salutem.
+               </n> 
+               </n>
+               Cum Collegium de Abergwilly in loco 
+               inidoneo existit ubi nulla Occasio hospitalitatis
+               aliis per viros dicti Collegii administrandæ Datur
+               ad Commodum et utilitatem Subditorum nostrorum <!---Abbrev---> 
+               in locis dicto Collegio adjacentibus ad grave -
+               dampnum dictorum Ligiorum nostrorum.
+               </n> 
+               </n>
+               Cumque etiam Domus sive Prioratus 
+               fratrum Prædicatorum in Oppido nostro de 
+               Brechnock in Australibus partibus Walliæ </pb> 
+               cum omnibus et omnimodis Messuagiis terris et 
+               tenementis bonis rebus necessariis et implementis 
+               ad dictum nuper Prioratum spectantibus in --
+               manibus et possessione nostris jam existunt --
+               vel existere deberent prætextu Doni Concessionis 
+               ac Sursum  redditionis Rici David nuper Prio-
+               ris et Conventus ejusdem nuper Prioratus --
+               Nobis inde factæ. Virtute Cujus Nos in Jure 
+               Coronæ nostræ Angliæ de dicto nuper Prioriatu 
+               Messuagiis terris et tenementis ac cæteris - 
+               Omnibus et singulis præmissis <!---Abbrev---> Seisiti Sumus in 
+               Dominico nostro ut de feodo.
+               </n> 
+               </n>
+               Cumque etiam subditi et ligei nostri 
+               in dictis partibus Australibus Walliæ commoran-
+               tes summa egestate oppressi filios suos in bonis 
+               literis educare non possunt. Et in dictis parti-
+               bus Australibus Walliæ Nullus Ludus Literarius 
+               habetur per quod non Solum et Clerici et Laici 
+               omnis ætatis et Conditionis rudes et ignari red-
+               duntur tam sui officii erga Deum quam debitæ
+               suæ obedientiæ erga nos Sed etiam Linguæ --
+               vulgaris ^Angliæ minime periti, Sic quod Statuta nostra 
+               in hujusmodi casu edita et provisa observare -
+               nequeunt. Et quod debuerunt et tenentur fa-
+               cere secundum formam et Effectum dictorum --
+               statutorum intelligere non possunt propter -
+               ignorantiam dictæ Linguæ Anglicanæ.
+               </n> 
+               </n>
+               Cumque etiam in dicto Collegio de Aber
+               gwylly pro Cantatoribus in eodem Collegio Sti-
+               pendia atque Salaria ad Summam quinquaginta 
+               trium Librarum Sterlingorum annuarum attin-
+               gentia providentur. Quæ quidem Summa quin-
+               quaginta trium Librarum in meliores usus potest 
+               disponi utpote in adolescentibus et aliis juvenibus 
+               in bonis literis instruendis et quotidiana Lectura 
+               per aliquem virum pium et eruditum dictanda 
+               unde possint veritatem callere Et quid Deo et 
+               Regi faciendum foret satius possint intelligere
+               in maximum Commodum totius populi nostri - </pb> 
+               ibidem Commoraturi sicut per relationem --
+               Dilecti Nobis in Christo Willielmi Episcopi -
+               Menevensis plenius ac planius accepimus./
+               </n> 
+               </n>
+               Nos igitur volentes ex intima chari-
+               tate nostra qua erga Deum et cunctum populum 
+               nostrum gerimus congruum remedium in hac parte 
+               providere et in multos meliores usus quam nunc 
+               disponuntur convertere clare percipientes quod 
+               præmissa <!---Abbrev---> omnia et singula melius disponi possunt 
+               Volentesque multum Statum subditorum nos-
+               trorum melius consulere de Gratia nostra spec-
+               iali ac ex certa scientia et mero motu nostris 
+               Dedimus concessimus et confirmavimus Ac 
+               per præsentes <!---Abbrev---> Deimus Concedimus et Confirma-
+               mus præfato Willielmo nunc Episcopo totam 
+               illam Domum sive Prioratum fratrum præ
+               dicatorum ac totum solum et fundum præcinctum <!---Abbrev--->
+               et ambitum dicti nuper Prioratus ac omnia 
+               ædificia Rerras et tenementa redditus rever-
+               siones et Servitia Messuagia sola funda pro-
+               ficua Commoditates advantagia et hæredita-
+               menta quæcunque dicto nuper Prioratui quo-
+               quomodo spectantia sive pertinentia./
+               </n> 
+               </n>
+               Ac etiam Omnia Catalla Res hustil
+               -menta necessaria et implementa in dicto --
+               nuper Prioratu tempore dissolutionis ejusdem <!---Abbrev?--->
+               vel unquam postea existentia vel ad eundem 
+               nuper Prioratum aliqualiter spectantia vel 
+               pertinentia cujuscunque generis vel speciei --
+               fuerint Ac in tam amplis modo et forma prout 
+               Dictus Richardus David ultimus Prior dictæ 
+               nuper Domus fratrum prædicatorum vel 
+               aliquis prædecessorum prædicti Richardi David 
+               nuper Prioris ejusdem nuper Domus sive --
+               Prioratus dicti nuper Prior~ ac terras et 
+               tenementa solum fundum ædificia ac cætera -
+               hæreditamenta quæcunque <!---Abbrev---> Bona Catalla Res 
+               hustilmenta implementa necessaria dicto -
+               nuper Prioratui spectantia vel aliquo modo </pb> 
+               pertinentia ac Reversionem dicti nuper -
+               Prioratus et cæterorum præmissorum quorumcunque.
+               </n>
+               </n>
+               Ac etiam Dedimus et Concessimus et de 
+               Gratia nostra speciali certa scientia et mero -
+               motu nostris Damus et Concedimus eidem nunc 
+               Episcopo et successoribus suis totum jus nostrum
+               Statum titulum clameum possessionem interesse 
+               et demand' quæ Nos in prædicto nuper Prioratu 
+               sive domo fratrum Prædicatorum ac cæteris 
+               præmissis <!---Abbrev---> cum pertinentiis ac in Reversione dicti 
+               nuper Prioratus sive Domus fratrum prædi-
+               catorum ac cæterorum præmissorum cum -
+               Omnibus et singulis suis pertinentiis universis 
+               ac in manibus et possessione nostris jam --
+               existentibus habemus seu quovismodo in 
+               futurum habere poterimus aut hæredes vel 
+               successores nostri habere seu clamare debent 
+               aut poterunt quovismodo in futurum Jure -
+               Titulo materia vel causa quibuscunque <!---Abbrev---> juxta 
+               omnem Juris Effectum ac omnia et omnimodas 
+               Libertates et franchesias Jura et Jurisdictiones 
+               quæcunque dicto nuper Prioratui terris et Te-
+               nementis vel cæteris hæreditamentis quibuscunque <!---Abbrev---> 
+               sive alicui inde parcellæ quoquomodo spectantia 
+               vel pertinentia adeo plaene <!---Crossed out letter---> et integre prout 
+               antedictus Richardus David nuper Prior -
+               Prioratus prædicti aut aliquis Prædecessorum 
+               suorum nuper Priorum dicti nuper Priora
+               =tus sive Domus Prædicatorum in Jure illius 
+               Prioratus dictam nuper Domum sive Priora
+               tum fratrum Predicatorum Ea vel prædicta <!---Abbrev---> 
+               Bona et Catalla Res necessaria vel imple
+               -menta prædicta <!---Abbrev---> vel aliquam partem inde --
+               unquam habuerunt tenuerunt vel  gavisi fuerunt 
+               habuit tenuit aut gavisus fuit aut habere 
+               tenere seu gaudere debuerunt vel deberent 
+               debuit  sive deberet et adeo plene et integre 
+               prout ea omnia et Singula ad manus nostras 
+               ratione et prætextu dissolutionis dicti nuper </pb> 
+               Prioratus sive Domus devenerunt seu devenire 
+               debuerunt vel deberent ac alio modo quocunque in 
+               manibus nostris <!---Abbrev---> jam existunt seu existere debent veldeberent./
+               </n> 
+               </n>
+               Habendum et Tenendum et 
+               Gaudendum prædictam Domum sive prædictum. 
+               nuper Prioratum solum fundum et præcinctum 
+               ejusdem ac omnia et singula ædificia dicti nuper 
+               Prioratus ac omnia Messuagia terras et te
+               nementa redditus reversiones et servitia - 
+               Commoditates et proficua ac cætera hæredita-
+               menta. Quæcunque <!---Abbrev--->. Bona Catalla Res hustil-
+               menta implementa et necessaria quæcunque 
+               ac cætera omnia et singula præmissa superius 
+               expressa et specificata cum suis Juribus et 
+               pertinentiis universis una cum omnibus et 
+               omnimodis proficuis emolumentis et Commo-
+               ditatibus quibuscunque ad dictum nuper Priora-
+               tum spectantibus vel pertinentibus præfato <!---Abbrev---> - 
+               Willielmo nunc Episcopo Meneven' et suc-
+               cessoribus suis imperpetuum tenendum de -
+               nobis hæredibus et successoribus nostris per 
+               fidelitatem tantum pro omni servitio et --
+               exactione quacunque./
+               </n> 
+               </n>
+               Et ulterius ex speciali Gratia nostra <!---Abbrev---> 
+               certa Scientia et mero <!---Word crossed out---> motu nostris -  
+               Damus et per præsentes <!---Abbrev---> Concedimus præfato 
+               nunc Episcopo Meneven' et successoribus suis 
+               Omnes et omnimodas exitus reventiones -
+               et proficua prædicti <!---Abbrev---> nuper Prioratus sive -
+               Domus fratrum prædicatorum <!---Abbrev---> ac cæterorum 
+               Omnium et singulorum præmissorum <!---Abbrev---> a tempore 
+               dissolutionis dicti nuper Prioratus sive Domus 
+               hucusque et semper postea emergentia et pro-
+               venientia. Habendum et percipiendum -
+               dictum nuper Prioratum terras et tenementa 
+               ac cætera hæreditamenta redditus reversiones -
+               et servitia reventiones et proficua ac omnia et 
+               Singula præmissa cum pertinentiis eidem nunc 
+               Episcopo et successoribus suis ex dono nostro - </pb> 
+               absque compoto seu aliquo alio proinde Nobis 
+               hæredibus vel successoribus nostris quoquomodo 
+               reddendo solvendo vel faciendo./
+               </n> 
+               </n>
+               Et ulterius ex speciali gratia nostra <!---Abbrev--->
+               certa scientia et mero motu nostris Volumus 
+               et Concedimus pro nobis heredibus et successo
+               ribus nostris <!---Abbrev---> <line-through>quoquomodo reddendo solvendo 
+               ac per præsentes</line-through> Damus et Concedimus pro Nobis 
+               hæredibus et successoribus nostris præfato 
+               Willielmo nunc Episcopo Meneven' et succes-
+               soribus suis dictum Collegium de Abergwylly
+               ac dictum nuper Prioratum ac unam clausuram 
+               terræ quæ dicitur Le Close y maen dyg ac omnia 
+               terras et tenementa redditus reversiones -
+               et servitia messuagia sola funda proficua -
+               commoditates advantagia et hæreditamenta 
+               quæcunque <!---Abbrev---> dicto Collegio atque <!---Abbrev---> dicto nuper Pri
+               -oratui et eorum cuilibet aliquo tempore 
+               quoquomodo Spectantia sive pertinentia 
+               Ac etiam volumus et per præsentes <!---Abbrev---> Concedimus 
+               præfato nunc Episcopo Quod habeat has Li-
+               teras nostras <!---Abbrev---> patentes sub magno Sigillo nostro <!---Abbrev--->
+               Angliæ debito modo factas et sigillatas -
+               absque <!---Abbrev---> fine vel feodo magno vel parvo in -
+               Hanaperio nostro seu alibi ad usum nostrum <!---Abbrev--->
+               quoquomodo reddendum solvendum vel 
+               faciendum./ 
+               </n> 
+               </n>
+               Eo quod expressa mentio de cer
+               -titudine aut valore præmissorum <!---Abbrev---> aut de aliis 
+               Donis seu concessionibus per Nos vel aliquem <!---Abbrev--->
+               progenitorum nostrorum præfato <!---Abbrev---> nunc Episcopo <!---Abbrev---> -
+               ante hæc tempora factis in præsentibus 
+               minime facta existit aut aliquibus statutis 
+               actu ordinatione provisione sive restric-
+               tione in Contrarium factis editis ordinatis 
+               sive provisis aut aliqua alia re causa vel 
+               materia quacunque in aliquo non obstante./
+               </n> 
+               </n>
+               Insuper Noveritis Quod Nos de gratia 
+               nostra speciali certa scientia et mero motu </pb> 
+               nostris volumus et concedimus ac per præsentes 
+               Licentiam facultatem potestatem auctoritatem 
+               Ordinario ac loci illius Diocesano et Patrono 
+               fundatori ac Decano Dicti Collegii de Aber-
+               gwylly Damus quod ipsi possunt absque <!---Abbrev---> ali-
+               quibus impetitione vel perturbatione nostri 
+               hæredum aut successorum nostrorum viceco-
+               -mitum Justitiariorum Eschaetorum offici
+               -ariorum aut Ministrorum nostrorum quorum
+               cunque libere et impune dictas annuas quin
+               -quaginta tres Libras pro Stipendio dictorum 
+               Cantatorum ut præmittitur<!---Abbrev---> assignatas expen
+               -dendum in meliorem usum secundum eorum 
+               discretiones commitendum./ 
+               </n> 
+               </n>
+               Et quod ipsi libere et impune -
+               valeant quendam Ludum Literarium erigere 
+               et fundare apud Brechnocke prædict' ac ipsas 
+               quinquaginta tres libras annuas ad sustenta
+               tionem quorundam proborum hominum -
+               videlt' eruditi Ludi Magistri et Pædagogi Lec
+               toris Theologiæ Concionatoris qui apud Brech
+               -nock praedict' <!---Abbrev---> omnibus personis doceri volentibus 
+               in bonis literis erudient ac sanctum Evange-
+               lium cunctis ligeis et fidelibus nostris ibidem 
+               pure et sincere gratis et libere <!---Word crossed out---> elu-
+               cidabunt secundum ordinationes et statuta 
+               in ea parte per dictum Diocesanum et loci 
+               illius Ordinarium et fundatorem Collegii prædicti <!---Abbrev---> 
+               de tempore in tempus edenda et Constituenda 
+               libere et impune absque <!---Abbrev---> impetitione nostri 
+               hæredum et successorum nostrorum Justicia-
+               -riorum ministrorum et Officiariorum quo-
+               rumcunque aliquibus Statuto actu Ordinatione 
+               vel provisione in contrarium factis editis -
+               aut provisis non obstantibus. Et absque aliquo 
+               ab ipsis pueris vel eorum parentibus pro -
+               eruditione prædictorum <!---Abbrev---> adolescentium capiendo 
+               vel clamando./
+               </n> 
+               </n>
+               Ac etiam de gratia nostra speciali </pb> 
+               certa scientia et mero motu nostris volumus 
+               et concedimus per præsentes Quod dictus nuper 
+               Prioratus fratrum prædicatorum <!---Abbrev---> Colle-
+               gium Christi de Brechnocke de 
+               cætero nuncupetur et ab omnibus appelletur ac 
+               pro tali Collegio acceptamus et reputamus -
+               per præsentes et non alio modo neque <!---Abbrev---> aliter -
+               imposterum vocari appellari vel nuncupari 
+               volumus./
+               </n>
+               </n>
+               Et quod antedictus nunc Episcopus 
+               Meneven' ac omnes et singuli præbendarii -
+               Canonici Choristæ vicarii Aliive ministri 
+               dicti Collegii de Abergwylly ac omnes Ludi Ma-
+               gistri Pædagogi Lectores Concionatores ac aliæ 
+               personæ quæcunque illic pro tempore existentes 
+               et successores sui libere et impune apud -
+               prædictum <!---Abbrev---> oppidum de Brechnock et in Ecclesia 
+               prædicti <!---Abbrev---> nuper Prioratus ac aliis possessionibus 
+               terris et tenementis ac aliis hæreditamentis 
+               quibuscunque <!---Abbrev---> dicto nuper Prioratui spectan
+               tia et infra ambitum et præcinctum ejusdem 
+               nuper Prioratus cohabitare residere possint 
+               et manere./
+               </n> 
+               </n>
+               Et Quod Idem nunc Episcopus Menev' 
+               et successores sui ad ejus et eorum cujuslibet 
+               beneplacitum libere transferre possunt -
+               dictos residentiarios præbendarios Canonicos 
+               Choristas aliosque <!---Abbrev---> Ministros dicti Collegii de -
+               Abergwylly ad dictum Collegium = =
+               Christi de Brecknock prædictum atque <!---Abbrev---> eos et 
+               eorum quemlibet sub pœna Statutorum dicti 
+               Collegii de Abergwylly aliquo tempore ante 
+               hac usitatis consuetis specificatis et decla
+               ratis absque impetitione molestatione vel 
+               perturbatione nostri hæredum vel successorum 
+               nostrorum Justiciarorum vicecomitum -
+               Ballivorum Servientium Officiariorum -
+               vel ministrorum nostrorum hæredum et - 
+               successorum nostrorum vel eorum alicujus - </pb> 
+               cohabitare facere./
+               </n> 
+               </n>
+               Et ulteius volumus et Concedimus 
+               per præsentes <!---Abbrev---> de Speciali gratia nostra certa 
+               Scientia et mero motu nostris Quod idem nunc 
+               Episcopus Meneven' et successores sui ac -
+               omnes alii residentiarii præbendarii Cano-
+               -nici vicarii Choristæ aliique <!---Abbrev---> ministri dicti -
+               Collegii de Abergwylly et successores sui pure 
+               libere quiete et hæreditarie habeant et 
+               teneant sibi et successoribus suis imperpetuum 
+               omnia et omnimoda Maneria Messuagia terras 
+               et tenementa redditus reversiones et servitia <!---Edited word---> 
+               advocationes Ecclesiarum vicariarum et -
+               Capellarum proficua emolumenta Commodita-
+               tes et hæreditamenta Libertates franchesias 
+               Præeminentias et Jura quæcunque <!---Abbrev---> aliquo 
+               modo ante hac data Concessa debita vel 
+               spectantia dicto Collegio de Abergwylly vel 
+               fabricæ dicti Collegii./ 
+               </n>
+               </n>
+               Et Quod ipsi nunc Episcopus --
+               Meneven' Residentiarii Præbendarii vicarii 
+               Choristæ vel Collegiati aliive ministri qui-
+               cunque <!---Abbrev---> dicti Collegii de Abergwylly et succes-
+               sores sui habeant gaudeant et utantur -
+               Omnibus et omnimodis Privilegiis liberta-
+               tibus franchesiis Præheminentiis et -
+               Juribus adeo plene et integre et in tam -
+               amplis modo et forma prout ipsi et Rræde-
+               cessores sui in Collegio de Abergwylly antea 
+               habuerunt tenuerunt vel gavisi fuerunt 
+               aut habere tenere gaudere vel uti sole-
+               bant vel debuerunt vel eorum aliquis in dicto 
+               Collegio de Abergwylly aliquo tempore -
+               præantea habuit tenuit vel gavisus fuit 
+               aut habere tenere gaudere vel uti sole-
+               bat vel debuit ad opus et usum sustentatio
+               nis et manutentionis prædicti Collegii -
+               Christi de Brechnocke.
+               </n>
+               </n>
+               Ac ea omnia et Singula præmissa </pb>
+               Prioratum Collegium Maneria Messuagia 
+               terras tenementa ac omnia alia Jura -
+               Commoditates proficua et hæreditamenta -
+               quæcunque <!---Abbrev---> quæ aliquo tempore habita cognita 
+               acceptata reputata vel capta fuerunt -
+               ut partes parcelles sive membra dicti -
+               nuper Prioratus Collegii Maneriorum -
+               messuagiorum terrarum et tenementorum 
+               Reddituum reversionum vel servitiorum 
+               aut cæterorum Præmissorum sive alicujus 
+               inde parcellæ vel præmissa aut alicui -
+               Præmissorum aliquo modo appendentia -
+               pertinentia sive spectantia ex speciali 
+               gratia nostra certa scientia et mero motu 
+               nostris Damus Concedimus et Confirmamus 
+               per præsentes dicto nunc Episcopo -
+               Meneven' et successoribus suis tam libere 
+               et effectualiter bene sufficienter et in-
+               tegraliter ac si omnia et singula præmissa<!---Abbrev---> 
+               cum suis pertinentiis universis realiter 
+               distincte nominatim specialiter ac certi
+               -tudinaliter melioribus modis viis et mediis 
+               ac clarioribus et efficacioribus terminis 
+               verbis atque <!---Abbrev---> sententiis juxta omnem -
+               Juris effectum et juxta omnes meliores 
+               et maxime Sufficientes intelligentias in 
+               Lege Dictus nuper Prioratus Collegium -
+               Maneria Messuagia terras et tenementa 
+               Redditus Reversiones et Servitia ac cætera 
+               hæreditamenta quæcunque <!---Abbrev---> cum omnibus 
+               et singulis suis pertinentiis et Commodi-
+               -tatibus universis declarata data expla-
+               nata pronunciata et puplicata fuissent 
+               et essent aptissimis verbis atque <!---Abbrev---> senten
+               -tiis in Lege ad præmissa et quamlibet -
+               inde parcellam Clarissimis accommoda-
+               -tissimis et specialissimis quæ possunt 
+               excogitare.
+               </n> 
+               </n>
+               Eo quod expressa mentio de </pb>
+               Certitudine præmissorum aut de aliis Donis 
+               sive Concessionibus per Nos vel per aliquem 
+               progenitorum nostrorum præfato Episcopo -
+               Meneven' aut alicui Prædecessorum <!---Abbrev---> suorum -
+               ante hec tempora facta in præsentibus mi-
+               nime facta existit aut aliquo statuto actu 
+               ordinatione Provisione sive restrictione in -
+               Contrarium factis editis ordinatis sive provisis 
+               aut aliqua alia re causa vel materia -
+               quacunque <!---Abbrev---> in aliquo non obstante.
+               </n> 
+               </n>
+               In Cujus Rei Testimoni-
+               -um has literas nostras fieri fecimus 
+               patentes Teste meipso apud West-
+               monasterium Decimo Nono Die Januarii -
+               Anno Regni nostri Tricesimo secundo./
+               </n> 
+               </n>
+               S: Petre
+               </n> 
+               </n>
+               Per breve de privato Sigillo et de 
+               dat’ prædict' etc.
+               </n>
+               </n>
+         </div>
+      </div>
+   </body>
+</html>
